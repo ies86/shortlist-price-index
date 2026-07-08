@@ -1,0 +1,176 @@
+{
+  "source": "BackupShortlist",
+  "report": "https://backupshortlist.com/data/price-index",
+  "niche": "cloud storage and backup services",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to BackupShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-02",
+  "providersTracked": 17,
+  "averagePrice": 8.25,
+  "medianPrice": 8.99,
+  "cheapest": {
+    "provider": "pCloud",
+    "price": 4.17
+  },
+  "mostExpensive": {
+    "provider": "Tresorit",
+    "price": 11.99
+  },
+  "providers": [
+    {
+      "provider": "pCloud",
+      "slug": "pcloud",
+      "price": 4.17,
+      "rating": 4.6,
+      "bestFor": "Long-term storage, pay once",
+      "url": "https://backupshortlist.com/tools/pcloud"
+    },
+    {
+      "provider": "Icedrive",
+      "slug": "icedrive",
+      "price": 4.99,
+      "rating": 4,
+      "bestFor": "Style-conscious switchers",
+      "url": "https://backupshortlist.com/tools/icedrive"
+    },
+    {
+      "provider": "Carbonite Safe",
+      "slug": "carbonite",
+      "price": 4.99,
+      "rating": 3.9,
+      "bestFor": "Non-technical households",
+      "url": "https://backupshortlist.com/tools/carbonite"
+    },
+    {
+      "provider": "IDrive",
+      "slug": "idrive",
+      "price": 5.8,
+      "rating": 4.5,
+      "bestFor": "Backing up everything you own",
+      "url": "https://backupshortlist.com/tools/idrive"
+    },
+    {
+      "provider": "Acronis True Image",
+      "slug": "acronis",
+      "price": 6.08,
+      "rating": 4.2,
+      "bestFor": "Power users, disk images",
+      "url": "https://backupshortlist.com/tools/acronis"
+    },
+    {
+      "provider": "NordLocker",
+      "slug": "nordlocker",
+      "price": 6.99,
+      "rating": 4,
+      "bestFor": "Vaulting sensitive files",
+      "url": "https://backupshortlist.com/tools/nordlocker"
+    },
+    {
+      "provider": "Sync.com",
+      "slug": "sync-com",
+      "price": 8,
+      "rating": 4.5,
+      "bestFor": "Private storage without friction",
+      "url": "https://backupshortlist.com/tools/sync-com"
+    },
+    {
+      "provider": "Backblaze Personal Backup",
+      "slug": "backblaze",
+      "price": 8.25,
+      "rating": 4.5,
+      "bestFor": "One-computer households",
+      "url": "https://backupshortlist.com/tools/backblaze"
+    },
+    {
+      "provider": "Filen",
+      "slug": "filen",
+      "price": 8.99,
+      "rating": 4,
+      "bestFor": "EU privacy enthusiasts",
+      "url": "https://backupshortlist.com/tools/filen"
+    },
+    {
+      "provider": "Proton Drive",
+      "slug": "proton-drive",
+      "price": 9.99,
+      "rating": 4.4,
+      "bestFor": "Privacy-first users",
+      "url": "https://backupshortlist.com/tools/proton-drive"
+    },
+    {
+      "provider": "Microsoft OneDrive",
+      "slug": "onedrive",
+      "price": 9.99,
+      "rating": 4.3,
+      "bestFor": "Windows + Office users",
+      "url": "https://backupshortlist.com/tools/onedrive"
+    },
+    {
+      "provider": "Dropbox",
+      "slug": "dropbox",
+      "price": 9.99,
+      "rating": 4.2,
+      "bestFor": "Integration-heavy workflows",
+      "url": "https://backupshortlist.com/tools/dropbox"
+    },
+    {
+      "provider": "Google One",
+      "slug": "google-one",
+      "price": 9.99,
+      "rating": 4.2,
+      "bestFor": "Android and Gmail households",
+      "url": "https://backupshortlist.com/tools/google-one"
+    },
+    {
+      "provider": "Apple iCloud+",
+      "slug": "icloud",
+      "price": 9.99,
+      "rating": 4.2,
+      "bestFor": "iPhone and Mac households",
+      "url": "https://backupshortlist.com/tools/icloud"
+    },
+    {
+      "provider": "MEGA",
+      "slug": "mega",
+      "price": 9.99,
+      "rating": 4.1,
+      "bestFor": "Free encrypted storage",
+      "url": "https://backupshortlist.com/tools/mega"
+    },
+    {
+      "provider": "Koofr",
+      "slug": "koofr",
+      "price": 9.99,
+      "rating": 4,
+      "bestFor": "Multi-cloud jugglers",
+      "url": "https://backupshortlist.com/tools/koofr"
+    },
+    {
+      "provider": "Tresorit",
+      "slug": "tresorit",
+      "price": 11.99,
+      "rating": 4.3,
+      "bestFor": "Professionals with sensitive files",
+      "url": "https://backupshortlist.com/tools/tresorit"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 8.25,
+      "median": 8.99,
+      "cheapest": 4.17,
+      "count": 17
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 8.25,
+      "median": 8.99,
+      "cheapest": 4.17,
+      "count": 17
+    }
+  ]
+}

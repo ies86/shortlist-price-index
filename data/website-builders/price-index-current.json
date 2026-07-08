@@ -1,0 +1,184 @@
+{
+  "source": "WebsiteShortlist",
+  "report": "https://websiteshortlist.com/data/price-index",
+  "niche": "website builders",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to WebsiteShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-02",
+  "providersTracked": 18,
+  "averagePrice": 13.13,
+  "medianPrice": 12.4,
+  "cheapest": {
+    "provider": "Carrd",
+    "price": 1.58
+  },
+  "mostExpensive": {
+    "provider": "Square Online",
+    "price": 29
+  },
+  "providers": [
+    {
+      "provider": "Carrd",
+      "slug": "carrd",
+      "price": 1.58,
+      "rating": 4.4,
+      "bestFor": "Landing pages and one-pagers",
+      "url": "https://websiteshortlist.com/tools/carrd"
+    },
+    {
+      "provider": "Hostinger Website Builder",
+      "slug": "hostinger-builder",
+      "price": 2.99,
+      "rating": 4.2,
+      "bestFor": "Tight budgets, simple sites",
+      "url": "https://websiteshortlist.com/tools/hostinger-builder"
+    },
+    {
+      "provider": "WordPress.com",
+      "slug": "wordpress-com",
+      "price": 4,
+      "rating": 4.1,
+      "bestFor": "Bloggers and writers",
+      "url": "https://websiteshortlist.com/tools/wordpress-com"
+    },
+    {
+      "provider": "Shopify",
+      "slug": "shopify",
+      "price": 5,
+      "rating": 4.5,
+      "bestFor": "Serious online stores",
+      "url": "https://websiteshortlist.com/tools/shopify"
+    },
+    {
+      "provider": "Strikingly",
+      "slug": "strikingly",
+      "price": 8,
+      "rating": 3.8,
+      "bestFor": "Personal brands and launches",
+      "url": "https://websiteshortlist.com/tools/strikingly"
+    },
+    {
+      "provider": "Jimdo",
+      "slug": "jimdo",
+      "price": 9,
+      "rating": 3.8,
+      "bestFor": "European small businesses",
+      "url": "https://websiteshortlist.com/tools/jimdo"
+    },
+    {
+      "provider": "IONOS Website Builder",
+      "slug": "ionos",
+      "price": 9,
+      "rating": 3.7,
+      "bestFor": "Support-first small businesses",
+      "url": "https://websiteshortlist.com/tools/ionos"
+    },
+    {
+      "provider": "10Web",
+      "slug": "10web",
+      "price": 10,
+      "rating": 3.9,
+      "bestFor": "AI speed + WordPress ownership",
+      "url": "https://websiteshortlist.com/tools/10web"
+    },
+    {
+      "provider": "GoDaddy Website Builder",
+      "slug": "godaddy",
+      "price": 11.99,
+      "rating": 3.7,
+      "bestFor": "Existing GoDaddy customers",
+      "url": "https://websiteshortlist.com/tools/godaddy"
+    },
+    {
+      "provider": "SITE123",
+      "slug": "site123",
+      "price": 12.8,
+      "rating": 3.6,
+      "bestFor": "Minimum-effort sites",
+      "url": "https://websiteshortlist.com/tools/site123"
+    },
+    {
+      "provider": "Webflow",
+      "slug": "webflow",
+      "price": 14,
+      "rating": 4.3,
+      "bestFor": "Agencies and ambitious DIYers",
+      "url": "https://websiteshortlist.com/tools/webflow"
+    },
+    {
+      "provider": "Framer",
+      "slug": "framer",
+      "price": 15,
+      "rating": 4.5,
+      "bestFor": "Startups and design-led sites",
+      "url": "https://websiteshortlist.com/tools/framer"
+    },
+    {
+      "provider": "Squarespace",
+      "slug": "squarespace",
+      "price": 16,
+      "rating": 4.4,
+      "bestFor": "Creatives and brand-conscious businesses",
+      "url": "https://websiteshortlist.com/tools/squarespace"
+    },
+    {
+      "provider": "Wix",
+      "slug": "wix",
+      "price": 17,
+      "rating": 4.5,
+      "bestFor": "Most people, most sites",
+      "url": "https://websiteshortlist.com/tools/wix"
+    },
+    {
+      "provider": "Ecwid by Lightspeed",
+      "slug": "ecwid",
+      "price": 21,
+      "rating": 3.9,
+      "bestFor": "Adding a store to an existing site",
+      "url": "https://websiteshortlist.com/tools/ecwid"
+    },
+    {
+      "provider": "Duda",
+      "slug": "duda",
+      "price": 25,
+      "rating": 4.1,
+      "bestFor": "Freelancers and agencies",
+      "url": "https://websiteshortlist.com/tools/duda"
+    },
+    {
+      "provider": "Lovable",
+      "slug": "lovable",
+      "price": 25,
+      "rating": 4.1,
+      "bestFor": "MVPs and internal tools",
+      "url": "https://websiteshortlist.com/tools/lovable"
+    },
+    {
+      "provider": "Square Online",
+      "slug": "square-online",
+      "price": 29,
+      "rating": 4,
+      "bestFor": "Local businesses starting online",
+      "url": "https://websiteshortlist.com/tools/square-online"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 13.13,
+      "median": 12.4,
+      "cheapest": 1.58,
+      "count": 18
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 13.13,
+      "median": 12.4,
+      "cheapest": 1.58,
+      "count": 18
+    }
+  ]
+}

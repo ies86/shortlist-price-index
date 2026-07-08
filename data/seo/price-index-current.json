@@ -1,0 +1,160 @@
+{
+  "source": "SEOShortlist",
+  "report": "https://seoshortlist.com/data/price-index",
+  "niche": "SEO tools",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to SEOShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-02",
+  "providersTracked": 15,
+  "averagePrice": 65.69,
+  "medianPrice": 52,
+  "cheapest": {
+    "provider": "Keywords Everywhere",
+    "price": 2.25
+  },
+  "mostExpensive": {
+    "provider": "Clearscope",
+    "price": 189
+  },
+  "providers": [
+    {
+      "provider": "Keywords Everywhere",
+      "slug": "keywords-everywhere",
+      "price": 2.25,
+      "rating": 4.1,
+      "bestFor": "Quick research while browsing",
+      "url": "https://seoshortlist.com/tools/keywords-everywhere"
+    },
+    {
+      "provider": "Sitebulb",
+      "slug": "sitebulb",
+      "price": 13.5,
+      "rating": 4.2,
+      "bestFor": "Consultants presenting audits",
+      "url": "https://seoshortlist.com/tools/sitebulb"
+    },
+    {
+      "provider": "Screaming Frog SEO Spider",
+      "slug": "screaming-frog",
+      "price": 21.58,
+      "rating": 4.5,
+      "bestFor": "Technical audits, any size",
+      "url": "https://seoshortlist.com/tools/screaming-frog"
+    },
+    {
+      "provider": "KeySearch",
+      "slug": "keysearch",
+      "price": 24,
+      "rating": 4,
+      "bestFor": "Niche-site builders",
+      "url": "https://seoshortlist.com/tools/keysearch"
+    },
+    {
+      "provider": "Mangools",
+      "slug": "mangools",
+      "price": 29,
+      "rating": 4.3,
+      "bestFor": "Beginners and bloggers",
+      "url": "https://seoshortlist.com/tools/mangools"
+    },
+    {
+      "provider": "Ubersuggest",
+      "slug": "ubersuggest",
+      "price": 29,
+      "rating": 3.8,
+      "bestFor": "Hobby sites, tightest budgets",
+      "url": "https://seoshortlist.com/tools/ubersuggest"
+    },
+    {
+      "provider": "Frase",
+      "slug": "frase",
+      "price": 45,
+      "rating": 4,
+      "bestFor": "Solo creators, small teams",
+      "url": "https://seoshortlist.com/tools/frase"
+    },
+    {
+      "provider": "SE Ranking",
+      "slug": "se-ranking",
+      "price": 52,
+      "rating": 4.4,
+      "bestFor": "Value-focused professionals",
+      "url": "https://seoshortlist.com/tools/se-ranking"
+    },
+    {
+      "provider": "Serpstat",
+      "slug": "serpstat",
+      "price": 59,
+      "rating": 4,
+      "bestFor": "International SEO teams",
+      "url": "https://seoshortlist.com/tools/serpstat"
+    },
+    {
+      "provider": "Surfer",
+      "slug": "surfer",
+      "price": 79,
+      "rating": 4.2,
+      "bestFor": "Content teams publishing weekly",
+      "url": "https://seoshortlist.com/tools/surfer"
+    },
+    {
+      "provider": "Peec AI",
+      "slug": "peec-ai",
+      "price": 95,
+      "rating": 4,
+      "bestFor": "Brands tracking AI answers",
+      "url": "https://seoshortlist.com/tools/peec-ai"
+    },
+    {
+      "provider": "Moz Pro",
+      "slug": "moz",
+      "price": 99,
+      "rating": 3.9,
+      "bestFor": "DA-focused reporting workflows",
+      "url": "https://seoshortlist.com/tools/moz"
+    },
+    {
+      "provider": "Ahrefs",
+      "slug": "ahrefs",
+      "price": 108,
+      "rating": 4.6,
+      "bestFor": "Link building and competitor research",
+      "url": "https://seoshortlist.com/tools/ahrefs"
+    },
+    {
+      "provider": "Semrush",
+      "slug": "semrush",
+      "price": 139.95,
+      "rating": 4.6,
+      "bestFor": "Agencies and serious businesses",
+      "url": "https://seoshortlist.com/tools/semrush"
+    },
+    {
+      "provider": "Clearscope",
+      "slug": "clearscope",
+      "price": 189,
+      "rating": 4.1,
+      "bestFor": "Agencies and content ops",
+      "url": "https://seoshortlist.com/tools/clearscope"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 65.69,
+      "median": 52,
+      "cheapest": 2.25,
+      "count": 15
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 65.69,
+      "median": 52,
+      "cheapest": 2.25,
+      "count": 15
+    }
+  ]
+}

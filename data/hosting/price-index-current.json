@@ -1,0 +1,144 @@
+{
+  "source": "HostingShortlist",
+  "report": "https://hostingshortlist.com/data/price-index",
+  "niche": "hosting providers",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-02",
+  "providersTracked": 13,
+  "averagePrice": 7.19,
+  "medianPrice": 2.99,
+  "cheapest": {
+    "provider": "IONOS",
+    "price": 1
+  },
+  "mostExpensive": {
+    "provider": "Kinsta",
+    "price": 30
+  },
+  "providers": [
+    {
+      "provider": "IONOS",
+      "slug": "ionos",
+      "price": 1,
+      "rating": 4,
+      "bestFor": "First-year value",
+      "url": "https://hostingshortlist.com/tools/ionos"
+    },
+    {
+      "provider": "Namecheap",
+      "slug": "namecheap",
+      "price": 1.98,
+      "rating": 4.2,
+      "bestFor": "Tight budgets",
+      "url": "https://hostingshortlist.com/tools/namecheap"
+    },
+    {
+      "provider": "DreamHost",
+      "slug": "dreamhost",
+      "price": 2.95,
+      "rating": 4.1,
+      "bestFor": "Fair pricing",
+      "url": "https://hostingshortlist.com/tools/dreamhost"
+    },
+    {
+      "provider": "Bluehost",
+      "slug": "bluehost",
+      "price": 2.95,
+      "rating": 3.8,
+      "bestFor": "Basic WordPress sites",
+      "url": "https://hostingshortlist.com/tools/bluehost"
+    },
+    {
+      "provider": "Hostinger",
+      "slug": "hostinger",
+      "price": 2.99,
+      "rating": 4.4,
+      "bestFor": "First website",
+      "url": "https://hostingshortlist.com/tools/hostinger"
+    },
+    {
+      "provider": "SiteGround",
+      "slug": "siteground",
+      "price": 2.99,
+      "rating": 4.3,
+      "bestFor": "Serious WordPress sites",
+      "url": "https://hostingshortlist.com/tools/siteground"
+    },
+    {
+      "provider": "A2 Hosting",
+      "slug": "a2-hosting",
+      "price": 2.99,
+      "rating": 4.1,
+      "bestFor": "Fast WordPress on a budget",
+      "url": "https://hostingshortlist.com/tools/a2-hosting"
+    },
+    {
+      "provider": "DigitalOcean",
+      "slug": "digitalocean",
+      "price": 4,
+      "rating": 4.4,
+      "bestFor": "Developers",
+      "url": "https://hostingshortlist.com/tools/digitalocean"
+    },
+    {
+      "provider": "Hetzner",
+      "slug": "hetzner",
+      "price": 4.59,
+      "rating": 4.5,
+      "bestFor": "Price-to-performance",
+      "url": "https://hostingshortlist.com/tools/hetzner"
+    },
+    {
+      "provider": "GoDaddy",
+      "slug": "godaddy",
+      "price": 5.99,
+      "rating": 3.7,
+      "bestFor": "Domain-first convenience",
+      "url": "https://hostingshortlist.com/tools/godaddy"
+    },
+    {
+      "provider": "Cloudways",
+      "slug": "cloudways",
+      "price": 11,
+      "rating": 4.2,
+      "bestFor": "Multiple sites",
+      "url": "https://hostingshortlist.com/tools/cloudways"
+    },
+    {
+      "provider": "WP Engine",
+      "slug": "wp-engine",
+      "price": 20,
+      "rating": 4.4,
+      "bestFor": "Managed WordPress",
+      "url": "https://hostingshortlist.com/tools/wp-engine"
+    },
+    {
+      "provider": "Kinsta",
+      "slug": "kinsta",
+      "price": 30,
+      "rating": 4.6,
+      "bestFor": "Managed WordPress",
+      "url": "https://hostingshortlist.com/tools/kinsta"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 7.19,
+      "median": 2.99,
+      "cheapest": 1,
+      "count": 13
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 7.19,
+      "median": 2.99,
+      "cheapest": 1,
+      "count": 13
+    }
+  ]
+}
