@@ -1,0 +1,128 @@
+{
+  "source": "MailShortlist",
+  "report": "https://mailshortlist.com/data/price-index",
+  "niche": "newsletter tools",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to MailShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-08",
+  "providersTracked": 11,
+  "averagePrice": 17.41,
+  "medianPrice": 15,
+  "cheapest": {
+    "provider": "Brevo",
+    "price": 9
+  },
+  "mostExpensive": {
+    "provider": "beehiiv",
+    "price": 39
+  },
+  "providers": [
+    {
+      "provider": "Brevo",
+      "slug": "brevo",
+      "price": 9,
+      "rating": 4.5,
+      "bestFor": "Big list, low volume",
+      "url": "https://mailshortlist.com/tools/brevo"
+    },
+    {
+      "provider": "Ghost",
+      "slug": "ghost",
+      "price": 9,
+      "rating": 4.4,
+      "bestFor": "Independent publishers",
+      "url": "https://mailshortlist.com/tools/ghost"
+    },
+    {
+      "provider": "MailerLite",
+      "slug": "mailerlite",
+      "price": 10,
+      "rating": 4.6,
+      "bestFor": "Beginners",
+      "url": "https://mailshortlist.com/tools/mailerlite"
+    },
+    {
+      "provider": "AWeber",
+      "slug": "aweber",
+      "price": 12.5,
+      "rating": 4,
+      "bestFor": "Reliability seekers",
+      "url": "https://mailshortlist.com/tools/aweber"
+    },
+    {
+      "provider": "Mailchimp",
+      "slug": "mailchimp",
+      "price": 13,
+      "rating": 3.9,
+      "bestFor": "Existing Mailchimp users",
+      "url": "https://mailshortlist.com/tools/mailchimp"
+    },
+    {
+      "provider": "ActiveCampaign",
+      "slug": "activecampaign",
+      "price": 15,
+      "rating": 4.4,
+      "bestFor": "Growing businesses",
+      "url": "https://mailshortlist.com/tools/activecampaign"
+    },
+    {
+      "provider": "Omnisend",
+      "slug": "omnisend",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Small online stores",
+      "url": "https://mailshortlist.com/tools/omnisend"
+    },
+    {
+      "provider": "GetResponse",
+      "slug": "getresponse",
+      "price": 19,
+      "rating": 4.3,
+      "bestFor": "Funnels and webinars",
+      "url": "https://mailshortlist.com/tools/getresponse"
+    },
+    {
+      "provider": "Klaviyo",
+      "slug": "klaviyo",
+      "price": 20,
+      "rating": 4.5,
+      "bestFor": "Online stores",
+      "url": "https://mailshortlist.com/tools/klaviyo"
+    },
+    {
+      "provider": "Kit (ConvertKit)",
+      "slug": "kit",
+      "price": 29,
+      "rating": 4.5,
+      "bestFor": "Writers and creators",
+      "url": "https://mailshortlist.com/tools/kit"
+    },
+    {
+      "provider": "beehiiv",
+      "slug": "beehiiv",
+      "price": 39,
+      "rating": 4.6,
+      "bestFor": "Newsletter-first creators",
+      "url": "https://mailshortlist.com/tools/beehiiv"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 17.41,
+      "median": 15,
+      "cheapest": 9,
+      "count": 11
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 17.41,
+      "median": 15,
+      "cheapest": 9,
+      "count": 11
+    }
+  ]
+}

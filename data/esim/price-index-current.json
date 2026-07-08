@@ -1,0 +1,105 @@
+{
+  "source": "eSIMShortlist",
+  "report": "https://esimshortlist.com/data/esim-price-index",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to eSIMShortlist",
+  "methodology": "USD per GB = price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans and free tiers excluded. Guide prices, updated monthly.",
+  "updated": "2026-07-07",
+  "basisGb": 5,
+  "providersTracked": 11,
+  "averagePricePerGB": 3.83,
+  "medianPricePerGB": 3.8,
+  "cheapest": {
+    "provider": "Roamless",
+    "pricePerGB": 1.8
+  },
+  "mostExpensive": {
+    "provider": "GigSky",
+    "pricePerGB": 5.8
+  },
+  "providers": [
+    {
+      "provider": "Roamless",
+      "slug": "roamless",
+      "referencePlanUSD": 9,
+      "pricePerGB": 1.8
+    },
+    {
+      "provider": "Instabridge",
+      "slug": "instabridge",
+      "referencePlanUSD": 15,
+      "pricePerGB": 3
+    },
+    {
+      "provider": "Saily",
+      "slug": "saily",
+      "referencePlanUSD": 15.99,
+      "pricePerGB": 3.2
+    },
+    {
+      "provider": "Nomad",
+      "slug": "nomad",
+      "referencePlanUSD": 17,
+      "pricePerGB": 3.4
+    },
+    {
+      "provider": "aloSIM",
+      "slug": "alosim",
+      "referencePlanUSD": 18,
+      "pricePerGB": 3.6
+    },
+    {
+      "provider": "Ubigi",
+      "slug": "ubigi",
+      "referencePlanUSD": 19,
+      "pricePerGB": 3.8
+    },
+    {
+      "provider": "Yesim",
+      "slug": "yesim",
+      "referencePlanUSD": 19,
+      "pricePerGB": 3.8
+    },
+    {
+      "provider": "Airalo",
+      "slug": "airalo",
+      "referencePlanUSD": 19.5,
+      "pricePerGB": 3.9
+    },
+    {
+      "provider": "Flexiroam",
+      "slug": "flexiroam",
+      "referencePlanUSD": 24,
+      "pricePerGB": 4.8
+    },
+    {
+      "provider": "BNESIM",
+      "slug": "bnesim",
+      "referencePlanUSD": 25,
+      "pricePerGB": 5
+    },
+    {
+      "provider": "GigSky",
+      "slug": "gigsky",
+      "referencePlanUSD": 29,
+      "pricePerGB": 5.8
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avgPerGB": 3.83,
+      "medianPerGB": 3.8,
+      "cheapestPerGB": 1.8,
+      "count": 11
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avgPerGB": 3.83,
+      "medianPerGB": 3.8,
+      "cheapestPerGB": 1.8,
+      "count": 11
+    }
+  ]
+}

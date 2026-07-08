@@ -1,0 +1,128 @@
+{
+  "source": "CourseShortlist",
+  "report": "https://courseshortlist.com/data/price-index",
+  "niche": "learning platforms",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to CourseShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-08",
+  "providersTracked": 11,
+  "averagePrice": 38.22,
+  "medianPrice": 19,
+  "cheapest": {
+    "provider": "Domestika",
+    "price": 7.99
+  },
+  "mostExpensive": {
+    "provider": "Udacity",
+    "price": 249
+  },
+  "providers": [
+    {
+      "provider": "Domestika",
+      "slug": "domestika",
+      "price": 7.99,
+      "rating": 4.2,
+      "bestFor": "Creative hobbyists",
+      "url": "https://courseshortlist.com/tools/domestika"
+    },
+    {
+      "provider": "MasterClass",
+      "slug": "masterclass",
+      "price": 10,
+      "rating": 4,
+      "bestFor": "Inspiration from the greats",
+      "url": "https://courseshortlist.com/tools/masterclass"
+    },
+    {
+      "provider": "DataCamp",
+      "slug": "datacamp",
+      "price": 13.25,
+      "rating": 4.4,
+      "bestFor": "Learning data and AI",
+      "url": "https://courseshortlist.com/tools/datacamp"
+    },
+    {
+      "provider": "Skillshare",
+      "slug": "skillshare",
+      "price": 13.99,
+      "rating": 4.3,
+      "bestFor": "Creative projects",
+      "url": "https://courseshortlist.com/tools/skillshare"
+    },
+    {
+      "provider": "Brilliant",
+      "slug": "brilliant",
+      "price": 13.99,
+      "rating": 4.3,
+      "bestFor": "Daily brain training",
+      "url": "https://courseshortlist.com/tools/brilliant"
+    },
+    {
+      "provider": "Pluralsight",
+      "slug": "pluralsight",
+      "price": 19,
+      "rating": 4.1,
+      "bestFor": "IT professionals",
+      "url": "https://courseshortlist.com/tools/pluralsight"
+    },
+    {
+      "provider": "LinkedIn Learning",
+      "slug": "linkedin-learning",
+      "price": 19.99,
+      "rating": 4.2,
+      "bestFor": "Business skills",
+      "url": "https://courseshortlist.com/tools/linkedin-learning"
+    },
+    {
+      "provider": "Codecademy",
+      "slug": "codecademy",
+      "price": 19.99,
+      "rating": 4.2,
+      "bestFor": "Learning to code",
+      "url": "https://courseshortlist.com/tools/codecademy"
+    },
+    {
+      "provider": "Udemy",
+      "slug": "udemy",
+      "price": 20,
+      "rating": 4.3,
+      "bestFor": "Buying single courses",
+      "url": "https://courseshortlist.com/tools/udemy"
+    },
+    {
+      "provider": "Coursera",
+      "slug": "coursera",
+      "price": 33.25,
+      "rating": 4.6,
+      "bestFor": "Recognized certificates",
+      "url": "https://courseshortlist.com/tools/coursera"
+    },
+    {
+      "provider": "Udacity",
+      "slug": "udacity",
+      "price": 249,
+      "rating": 3.9,
+      "bestFor": "Career switchers in tech",
+      "url": "https://courseshortlist.com/tools/udacity"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 38.22,
+      "median": 19,
+      "cheapest": 7.99,
+      "count": 11
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 38.22,
+      "median": 19,
+      "cheapest": 7.99,
+      "count": 11
+    }
+  ]
+}

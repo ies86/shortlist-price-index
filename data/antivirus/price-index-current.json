@@ -1,0 +1,184 @@
+{
+  "source": "AntivirusShortlist",
+  "report": "https://antivirusshortlist.com/data/price-index",
+  "niche": "antivirus software",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-08",
+  "providersTracked": 18,
+  "averagePrice": 4.44,
+  "medianPrice": 4.17,
+  "cheapest": {
+    "provider": "TotalAV",
+    "price": 2.42
+  },
+  "mostExpensive": {
+    "provider": "Aura",
+    "price": 9
+  },
+  "providers": [
+    {
+      "provider": "TotalAV",
+      "slug": "totalav",
+      "price": 2.42,
+      "rating": 3.8,
+      "bestFor": "Bargain hunters who set reminders",
+      "url": "https://antivirusshortlist.com/tools/totalav"
+    },
+    {
+      "provider": "Webroot Essentials",
+      "slug": "webroot",
+      "price": 2.5,
+      "rating": 3.9,
+      "bestFor": "Old or low-power PCs",
+      "url": "https://antivirusshortlist.com/tools/webroot"
+    },
+    {
+      "provider": "Intego Mac Internet Security",
+      "slug": "intego",
+      "price": 3.33,
+      "rating": 4.1,
+      "bestFor": "Mac-only households",
+      "url": "https://antivirusshortlist.com/tools/intego"
+    },
+    {
+      "provider": "Surfshark One",
+      "slug": "surfshark-one",
+      "price": 3.49,
+      "rating": 4.2,
+      "bestFor": "VPN-first users",
+      "url": "https://antivirusshortlist.com/tools/surfshark-one"
+    },
+    {
+      "provider": "Malwarebytes Premium",
+      "slug": "malwarebytes",
+      "price": 3.75,
+      "rating": 4.3,
+      "bestFor": "Cleanups and second layer",
+      "url": "https://antivirusshortlist.com/tools/malwarebytes"
+    },
+    {
+      "provider": "Kaspersky Premium",
+      "slug": "kaspersky",
+      "price": 3.75,
+      "rating": 4,
+      "bestFor": "Not available/updated in the US",
+      "url": "https://antivirusshortlist.com/tools/kaspersky"
+    },
+    {
+      "provider": "G Data Total Security",
+      "slug": "g-data",
+      "price": 4.16,
+      "rating": 4.2,
+      "bestFor": "Buyers who hate pricing tricks",
+      "url": "https://antivirusshortlist.com/tools/g-data"
+    },
+    {
+      "provider": "Trend Micro Maximum Security",
+      "slug": "trend-micro",
+      "price": 4.16,
+      "rating": 4.1,
+      "bestFor": "Heavy online shoppers and bankers",
+      "url": "https://antivirusshortlist.com/tools/trend-micro"
+    },
+    {
+      "provider": "Bitdefender Total Security",
+      "slug": "bitdefender",
+      "price": 4.17,
+      "rating": 4.7,
+      "bestFor": "Most people, most devices",
+      "url": "https://antivirusshortlist.com/tools/bitdefender"
+    },
+    {
+      "provider": "Norton 360 Deluxe",
+      "slug": "norton",
+      "price": 4.17,
+      "rating": 4.5,
+      "bestFor": "Families wanting one subscription",
+      "url": "https://antivirusshortlist.com/tools/norton"
+    },
+    {
+      "provider": "ESET HOME Security",
+      "slug": "eset",
+      "price": 4.17,
+      "rating": 4.5,
+      "bestFor": "Power users and tinkerers",
+      "url": "https://antivirusshortlist.com/tools/eset"
+    },
+    {
+      "provider": "McAfee+",
+      "slug": "mcafee",
+      "price": 4.17,
+      "rating": 4,
+      "bestFor": "Big households, many devices",
+      "url": "https://antivirusshortlist.com/tools/mcafee"
+    },
+    {
+      "provider": "Avast One",
+      "slug": "avast",
+      "price": 4.19,
+      "rating": 4.3,
+      "bestFor": "Free users wanting extras",
+      "url": "https://antivirusshortlist.com/tools/avast"
+    },
+    {
+      "provider": "AVG Internet Security",
+      "slug": "avg",
+      "price": 4.99,
+      "rating": 4.1,
+      "bestFor": "Free users, simple needs",
+      "url": "https://antivirusshortlist.com/tools/avg"
+    },
+    {
+      "provider": "F-Secure Total",
+      "slug": "f-secure",
+      "price": 5,
+      "rating": 4.3,
+      "bestFor": "Privacy-minded households",
+      "url": "https://antivirusshortlist.com/tools/f-secure"
+    },
+    {
+      "provider": "Avira Free Security",
+      "slug": "avira",
+      "price": 5,
+      "rating": 4,
+      "bestFor": "Older or slower PCs",
+      "url": "https://antivirusshortlist.com/tools/avira"
+    },
+    {
+      "provider": "LifeLock",
+      "slug": "lifelock",
+      "price": 7.5,
+      "rating": 4,
+      "bestFor": "Norton users adding identity cover",
+      "url": "https://antivirusshortlist.com/tools/lifelock"
+    },
+    {
+      "provider": "Aura",
+      "slug": "aura",
+      "price": 9,
+      "rating": 4.4,
+      "bestFor": "US users worried about fraud",
+      "url": "https://antivirusshortlist.com/tools/aura"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 4.44,
+      "median": 4.17,
+      "cheapest": 2.42,
+      "count": 18
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 4.44,
+      "median": 4.17,
+      "cheapest": 2.42,
+      "count": 18
+    }
+  ]
+}

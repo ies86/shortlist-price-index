@@ -1,0 +1,112 @@
+{
+  "source": "PasswordShortlist",
+  "report": "https://passwordshortlist.com/data/price-index",
+  "niche": "password managers",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to PasswordShortlist",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-08",
+  "providersTracked": 9,
+  "averagePrice": 2.58,
+  "medianPrice": 1.99,
+  "cheapest": {
+    "provider": "Bitwarden",
+    "price": 0.83
+  },
+  "mostExpensive": {
+    "provider": "Dashlane",
+    "price": 4.99
+  },
+  "providers": [
+    {
+      "provider": "Bitwarden",
+      "slug": "bitwarden",
+      "price": 0.83,
+      "rating": 4.7,
+      "bestFor": "Almost everyone",
+      "url": "https://passwordshortlist.com/tools/bitwarden"
+    },
+    {
+      "provider": "NordPass",
+      "slug": "nordpass",
+      "price": 1.49,
+      "rating": 4.4,
+      "bestFor": "Budget-conscious users",
+      "url": "https://passwordshortlist.com/tools/nordpass"
+    },
+    {
+      "provider": "Proton Pass",
+      "slug": "proton-pass",
+      "price": 1.99,
+      "rating": 4.4,
+      "bestFor": "Privacy-focused users",
+      "url": "https://passwordshortlist.com/tools/proton-pass"
+    },
+    {
+      "provider": "Enpass",
+      "slug": "enpass",
+      "price": 1.99,
+      "rating": 4.1,
+      "bestFor": "Own-storage advocates",
+      "url": "https://passwordshortlist.com/tools/enpass"
+    },
+    {
+      "provider": "RoboForm",
+      "slug": "roboform",
+      "price": 1.99,
+      "rating": 4,
+      "bestFor": "Form-heavy users",
+      "url": "https://passwordshortlist.com/tools/roboform"
+    },
+    {
+      "provider": "Keeper",
+      "slug": "keeper",
+      "price": 2.92,
+      "rating": 4.3,
+      "bestFor": "Security-first users",
+      "url": "https://passwordshortlist.com/tools/keeper"
+    },
+    {
+      "provider": "LastPass",
+      "slug": "lastpass",
+      "price": 3,
+      "rating": 3.6,
+      "bestFor": "Existing LastPass users",
+      "url": "https://passwordshortlist.com/tools/lastpass"
+    },
+    {
+      "provider": "1Password",
+      "slug": "1password",
+      "price": 3.99,
+      "rating": 4.7,
+      "bestFor": "Families and power users",
+      "url": "https://passwordshortlist.com/tools/1password"
+    },
+    {
+      "provider": "Dashlane",
+      "slug": "dashlane",
+      "price": 4.99,
+      "rating": 4.3,
+      "bestFor": "All-in-one security",
+      "url": "https://passwordshortlist.com/tools/dashlane"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 2.58,
+      "median": 1.99,
+      "cheapest": 0.83,
+      "count": 9
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 2.58,
+      "median": 1.99,
+      "cheapest": 0.83,
+      "count": 9
+    }
+  ]
+}
