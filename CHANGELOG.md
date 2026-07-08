@@ -2,6 +2,11 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-07-08 (later the same day): recruitment software + Dutch mirror
+
+- Added an eleventh category: **recruitment software (ATS)**, maintained directly in this repository. July 2026 baseline: $109.54 average / $87 median / $15 cheapest entry price across 8 vendors with public USD pricing (Manatal, Jobsoid, JazzHR, Crelate, CATS, VivaHR, Breezy HR, Workable). Extra columns record pricing basis (flat vs per user) and billing (monthly vs annual). Vendors without public USD pricing are excluded by methodology.
+- Added a **Dutch mirror** (`data-nl/`, EUR): VPN-diensten (15), webhosting (13), leerplatformen (11), wachtwoordmanagers (9) and nieuwsbrieftools (10), sourced from the Dutch Kies sites, history back to June 2026.
+
 ## 2026-07-08: dataset expanded from four to ten categories
 
 - Added six categories, each with full history back to June 2026: antivirus software, newsletter tools, password managers, VPN services, learning platforms and travel eSIMs.

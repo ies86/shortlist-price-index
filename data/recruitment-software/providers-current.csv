@@ -1,0 +1,9 @@
+provider,entry_price_usd_per_month,pricing_basis,billing,source_url
+Manatal,15,per_user,annual,https://www.manatal.com/pricing
+Jobsoid,49,flat,annual,https://www.jobsoid.com/pricing/
+JazzHR,83.33,flat,annual,https://www.jazzhr.com/pricing/
+Crelate,85,per_user,annual,https://www.crelate.com/pricing
+CATS,89,per_user,annual,https://www.catsone.com/pricing
+VivaHR,99,flat,monthly,https://vivahr.com/pricing/
+Breezy HR,157,flat,annual,https://breezy.hr/pricing
+Workable,299,flat,monthly,https://www.workable.com/pricing

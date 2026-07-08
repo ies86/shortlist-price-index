@@ -1,0 +1,121 @@
+{
+  "source": "Nieuwsbriefkiezer",
+  "report": "https://nieuwsbriefkiezer.nl/data/price-index",
+  "niche": "nieuwsbrieftools",
+  "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Nieuwsbriefkiezer",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "currency": "EUR",
+  "unit": "/mnd",
+  "updated": "2026-07-08",
+  "providersTracked": 10,
+  "averagePrice": 15.55,
+  "medianPrice": 14,
+  "cheapest": {
+    "provider": "Brevo",
+    "price": 9
+  },
+  "mostExpensive": {
+    "provider": "Kit (ConvertKit)",
+    "price": 33
+  },
+  "providers": [
+    {
+      "provider": "Brevo",
+      "slug": "brevo",
+      "price": 9,
+      "rating": 4.5,
+      "bestFor": "Grote lijst, weinig mailen",
+      "url": "https://nieuwsbriefkiezer.nl/tools/brevo"
+    },
+    {
+      "provider": "MailerLite",
+      "slug": "mailerlite",
+      "price": 10,
+      "rating": 4.6,
+      "bestFor": "Beginners",
+      "url": "https://nieuwsbriefkiezer.nl/tools/mailerlite"
+    },
+    {
+      "provider": "Laposta",
+      "slug": "laposta",
+      "price": 11,
+      "rating": 4.3,
+      "bestFor": "Nederlandse organisaties",
+      "url": "https://nieuwsbriefkiezer.nl/tools/laposta"
+    },
+    {
+      "provider": "AWeber",
+      "slug": "aweber",
+      "price": 12.5,
+      "rating": 4,
+      "bestFor": "Betrouwbaarheid voorop",
+      "url": "https://nieuwsbriefkiezer.nl/tools/aweber"
+    },
+    {
+      "provider": "Mailchimp",
+      "slug": "mailchimp",
+      "price": 13,
+      "rating": 3.9,
+      "bestFor": "Bestaande Mailchimp-gebruikers",
+      "url": "https://nieuwsbriefkiezer.nl/tools/mailchimp"
+    },
+    {
+      "provider": "ActiveCampaign",
+      "slug": "activecampaign",
+      "price": 15,
+      "rating": 4.4,
+      "bestFor": "Groeiende bedrijven",
+      "url": "https://nieuwsbriefkiezer.nl/tools/activecampaign"
+    },
+    {
+      "provider": "GetResponse",
+      "slug": "getresponse",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Ondernemers met funnels",
+      "url": "https://nieuwsbriefkiezer.nl/tools/getresponse"
+    },
+    {
+      "provider": "Omnisend",
+      "slug": "omnisend",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Kleine webshops",
+      "url": "https://nieuwsbriefkiezer.nl/tools/omnisend"
+    },
+    {
+      "provider": "Klaviyo",
+      "slug": "klaviyo",
+      "price": 20,
+      "rating": 4.5,
+      "bestFor": "Webshops",
+      "url": "https://nieuwsbriefkiezer.nl/tools/klaviyo"
+    },
+    {
+      "provider": "Kit (ConvertKit)",
+      "slug": "kit",
+      "price": 33,
+      "rating": 4.5,
+      "bestFor": "Schrijvers en creators",
+      "url": "https://nieuwsbriefkiezer.nl/tools/kit"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 15.55,
+      "median": 14,
+      "cheapest": 9,
+      "count": 10
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 15.55,
+      "median": 14,
+      "cheapest": 9,
+      "count": 10
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "Orai Media",
+  "report": "https://github.com/ies86/shortlist-price-index/tree/main/data/recruitment-software",
+  "niche": "recruitment software (ATS)",
+  "license": "CC BY 4.0 - free to reuse with attribution and a link to this repository",
+  "methodology": "Entry price for a single user or smallest team, per month, USD list price as published on the provider's pricing page. Annual prices are divided by 12 where no monthly figure is published (billing column records the basis). Free tiers excluded. Vendors without public USD pricing (custom quotes or region-localized pricing only) are excluded. Verified monthly.",
+  "unit": "/mo",
+  "updated": "2026-07-08",
+  "providersTracked": 8,
+  "averagePrice": 109.54,
+  "medianPrice": 87,
+  "cheapest": { "provider": "Manatal", "price": 15 },
+  "mostExpensive": { "provider": "Workable", "price": 299 },
+  "providers": [
+    { "provider": "Manatal", "price": 15, "basis": "per_user", "billing": "annual", "url": "https://www.manatal.com/pricing" },
+    { "provider": "Jobsoid", "price": 49, "basis": "flat", "billing": "annual", "url": "https://www.jobsoid.com/pricing/" },
+    { "provider": "JazzHR", "price": 83.33, "basis": "flat", "billing": "annual", "url": "https://www.jazzhr.com/pricing/" },
+    { "provider": "Crelate", "price": 85, "basis": "per_user", "billing": "annual", "url": "https://www.crelate.com/pricing" },
+    { "provider": "CATS", "price": 89, "basis": "per_user", "billing": "annual", "url": "https://www.catsone.com/pricing" },
+    { "provider": "VivaHR", "price": 99, "basis": "flat", "billing": "monthly", "url": "https://vivahr.com/pricing/" },
+    { "provider": "Breezy HR", "price": 157, "basis": "flat", "billing": "annual", "url": "https://breezy.hr/pricing" },
+    { "provider": "Workable", "price": 299, "basis": "flat", "billing": "monthly", "url": "https://www.workable.com/pricing" }
+  ],
+  "history": [
+    { "date": "2026-07-08", "month": "2026-07", "avg": 109.54, "median": 87, "cheapest": 15, "count": 8 }
+  ]
+}

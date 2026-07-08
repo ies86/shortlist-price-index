@@ -1,0 +1,113 @@
+{
+  "source": "Wachtwoordkiezer",
+  "report": "https://wachtwoordkiezer.nl/data/price-index",
+  "niche": "wachtwoordmanagers",
+  "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Wachtwoordkiezer",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "currency": "EUR",
+  "unit": "/mnd",
+  "updated": "2026-07-08",
+  "providersTracked": 9,
+  "averagePrice": 2.67,
+  "medianPrice": 1.99,
+  "cheapest": {
+    "provider": "NordPass",
+    "price": 1.49
+  },
+  "mostExpensive": {
+    "provider": "Dashlane",
+    "price": 4.99
+  },
+  "providers": [
+    {
+      "provider": "NordPass",
+      "slug": "nordpass",
+      "price": 1.49,
+      "rating": 4.4,
+      "bestFor": "Prijsbewuste gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/nordpass"
+    },
+    {
+      "provider": "Bitwarden",
+      "slug": "bitwarden",
+      "price": 1.65,
+      "rating": 4.7,
+      "bestFor": "Vrijwel iedereen",
+      "url": "https://wachtwoordkiezer.nl/tools/bitwarden"
+    },
+    {
+      "provider": "Proton Pass",
+      "slug": "proton-pass",
+      "price": 1.99,
+      "rating": 4.4,
+      "bestFor": "Privacybewuste gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/proton-pass"
+    },
+    {
+      "provider": "Enpass",
+      "slug": "enpass",
+      "price": 1.99,
+      "rating": 4.1,
+      "bestFor": "Eigen opslag voorop",
+      "url": "https://wachtwoordkiezer.nl/tools/enpass"
+    },
+    {
+      "provider": "RoboForm",
+      "slug": "roboform",
+      "price": 1.99,
+      "rating": 4,
+      "bestFor": "Veel formulieren invullen",
+      "url": "https://wachtwoordkiezer.nl/tools/roboform"
+    },
+    {
+      "provider": "Keeper",
+      "slug": "keeper",
+      "price": 2.92,
+      "rating": 4.3,
+      "bestFor": "Beveiliging voorop",
+      "url": "https://wachtwoordkiezer.nl/tools/keeper"
+    },
+    {
+      "provider": "LastPass",
+      "slug": "lastpass",
+      "price": 3,
+      "rating": 3.6,
+      "bestFor": "Bestaande LastPass-gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/lastpass"
+    },
+    {
+      "provider": "1Password",
+      "slug": "1password",
+      "price": 3.99,
+      "rating": 4.7,
+      "bestFor": "Gezinnen en veeleisende gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/1password"
+    },
+    {
+      "provider": "Dashlane",
+      "slug": "dashlane",
+      "price": 4.99,
+      "rating": 4.3,
+      "bestFor": "Alles-in-een beveiliging",
+      "url": "https://wachtwoordkiezer.nl/tools/dashlane"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 2.67,
+      "median": 1.99,
+      "cheapest": 1.49,
+      "count": 9
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 2.67,
+      "median": 1.99,
+      "cheapest": 1.49,
+      "count": 9
+    }
+  ]
+}

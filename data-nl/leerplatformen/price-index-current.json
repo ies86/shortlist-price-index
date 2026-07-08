@@ -1,0 +1,129 @@
+{
+  "source": "Leerplatformkiezer",
+  "report": "https://leerplatformkiezer.nl/data/price-index",
+  "niche": "leerplatformen",
+  "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Leerplatformkiezer",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "currency": "EUR",
+  "unit": "/mnd",
+  "updated": "2026-07-08",
+  "providersTracked": 11,
+  "averagePrice": 20.13,
+  "medianPrice": 13.99,
+  "cheapest": {
+    "provider": "Domestika",
+    "price": 7.99
+  },
+  "mostExpensive": {
+    "provider": "LOI",
+    "price": 59
+  },
+  "providers": [
+    {
+      "provider": "Domestika",
+      "slug": "domestika",
+      "price": 7.99,
+      "rating": 4.2,
+      "bestFor": "Creatieve hobbyisten",
+      "url": "https://leerplatformkiezer.nl/tools/domestika"
+    },
+    {
+      "provider": "MasterClass",
+      "slug": "masterclass",
+      "price": 10,
+      "rating": 4,
+      "bestFor": "Inspiratie van toppers",
+      "url": "https://leerplatformkiezer.nl/tools/masterclass"
+    },
+    {
+      "provider": "Udemy",
+      "slug": "udemy",
+      "price": 11,
+      "rating": 4.3,
+      "bestFor": "Losse cursussen kopen",
+      "url": "https://leerplatformkiezer.nl/tools/udemy"
+    },
+    {
+      "provider": "DataCamp",
+      "slug": "datacamp",
+      "price": 13.25,
+      "rating": 4.4,
+      "bestFor": "Data en AI leren",
+      "url": "https://leerplatformkiezer.nl/tools/datacamp"
+    },
+    {
+      "provider": "Skillshare",
+      "slug": "skillshare",
+      "price": 13.99,
+      "rating": 4.3,
+      "bestFor": "Creatieve projecten",
+      "url": "https://leerplatformkiezer.nl/tools/skillshare"
+    },
+    {
+      "provider": "Brilliant",
+      "slug": "brilliant",
+      "price": 13.99,
+      "rating": 4.3,
+      "bestFor": "Dagelijkse hersentraining",
+      "url": "https://leerplatformkiezer.nl/tools/brilliant"
+    },
+    {
+      "provider": "Pluralsight",
+      "slug": "pluralsight",
+      "price": 19,
+      "rating": 4.1,
+      "bestFor": "IT-professionals",
+      "url": "https://leerplatformkiezer.nl/tools/pluralsight"
+    },
+    {
+      "provider": "LinkedIn Learning",
+      "slug": "linkedin-learning",
+      "price": 19.99,
+      "rating": 4.2,
+      "bestFor": "Zakelijke vaardigheden",
+      "url": "https://leerplatformkiezer.nl/tools/linkedin-learning"
+    },
+    {
+      "provider": "Codecademy",
+      "slug": "codecademy",
+      "price": 19.99,
+      "rating": 4.2,
+      "bestFor": "Leren programmeren",
+      "url": "https://leerplatformkiezer.nl/tools/codecademy"
+    },
+    {
+      "provider": "Coursera",
+      "slug": "coursera",
+      "price": 33.25,
+      "rating": 4.6,
+      "bestFor": "Erkende certificaten",
+      "url": "https://leerplatformkiezer.nl/tools/coursera"
+    },
+    {
+      "provider": "LOI",
+      "slug": "loi",
+      "price": 59,
+      "rating": 4.1,
+      "bestFor": "Erkende diploma's",
+      "url": "https://leerplatformkiezer.nl/tools/loi"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 20.13,
+      "median": 13.99,
+      "cheapest": 7.99,
+      "count": 11
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 20.13,
+      "median": 13.99,
+      "cheapest": 7.99,
+      "count": 11
+    }
+  ]
+}

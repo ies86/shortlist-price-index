@@ -1,0 +1,161 @@
+{
+  "source": "KiesVPN",
+  "report": "https://kiesvpn.nl/data/price-index",
+  "niche": "VPN-diensten",
+  "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar KiesVPN",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "currency": "EUR",
+  "unit": "/mnd",
+  "updated": "2026-07-08",
+  "providersTracked": 15,
+  "averagePrice": 3.51,
+  "medianPrice": 2.99,
+  "cheapest": {
+    "provider": "Private Internet Access",
+    "price": 1.99
+  },
+  "mostExpensive": {
+    "provider": "ExpressVPN",
+    "price": 6.67
+  },
+  "providers": [
+    {
+      "provider": "Private Internet Access",
+      "slug": "private-internet-access",
+      "price": 1.99,
+      "rating": 4.2,
+      "bestFor": "Onbeperkt aantal apparaten",
+      "url": "https://kiesvpn.nl/tools/private-internet-access"
+    },
+    {
+      "provider": "PrivadoVPN",
+      "slug": "privadovpn",
+      "price": 1.99,
+      "rating": 3.9,
+      "bestFor": "10 apparaten tegelijk (Premium)",
+      "url": "https://kiesvpn.nl/tools/privadovpn"
+    },
+    {
+      "provider": "PrivateVPN",
+      "slug": "privatevpn",
+      "price": 2,
+      "rating": 4,
+      "bestFor": "Voordelig streamen",
+      "url": "https://kiesvpn.nl/tools/privatevpn"
+    },
+    {
+      "provider": "PureVPN",
+      "slug": "purevpn",
+      "price": 2.14,
+      "rating": 3.9,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/purevpn"
+    },
+    {
+      "provider": "CyberGhost",
+      "slug": "cyberghost",
+      "price": 2.19,
+      "rating": 4.3,
+      "bestFor": "7 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/cyberghost"
+    },
+    {
+      "provider": "Surfshark",
+      "slug": "surfshark",
+      "price": 2.49,
+      "rating": 4.6,
+      "bestFor": "Onbeperkt aantal apparaten",
+      "url": "https://kiesvpn.nl/tools/surfshark"
+    },
+    {
+      "provider": "hide.me",
+      "slug": "hide-me",
+      "price": 2.69,
+      "rating": 4.1,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/hide-me"
+    },
+    {
+      "provider": "IPVanish",
+      "slug": "ipvanish",
+      "price": 2.99,
+      "rating": 4,
+      "bestFor": "Onbeperkt aantal apparaten",
+      "url": "https://kiesvpn.nl/tools/ipvanish"
+    },
+    {
+      "provider": "TunnelBear",
+      "slug": "tunnelbear",
+      "price": 3.33,
+      "rating": 3.9,
+      "bestFor": "Beginners",
+      "url": "https://kiesvpn.nl/tools/tunnelbear"
+    },
+    {
+      "provider": "NordVPN",
+      "slug": "nordvpn",
+      "price": 3.99,
+      "rating": 4.7,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/nordvpn"
+    },
+    {
+      "provider": "Proton VPN",
+      "slug": "proton-vpn",
+      "price": 4.49,
+      "rating": 4.5,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/proton-vpn"
+    },
+    {
+      "provider": "Mozilla VPN",
+      "slug": "mozilla-vpn",
+      "price": 4.99,
+      "rating": 4.2,
+      "bestFor": "5 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/mozilla-vpn"
+    },
+    {
+      "provider": "Mullvad VPN",
+      "slug": "mullvad",
+      "price": 5,
+      "rating": 4.6,
+      "bestFor": "5 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/mullvad"
+    },
+    {
+      "provider": "Windscribe",
+      "slug": "windscribe",
+      "price": 5.75,
+      "rating": 4.2,
+      "bestFor": "Onbeperkt aantal apparaten (Pro)",
+      "url": "https://kiesvpn.nl/tools/windscribe"
+    },
+    {
+      "provider": "ExpressVPN",
+      "slug": "expressvpn",
+      "price": 6.67,
+      "rating": 4.4,
+      "bestFor": "8 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/expressvpn"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "avg": 3.51,
+      "median": 2.99,
+      "cheapest": 1.99,
+      "count": 15
+    },
+    {
+      "date": "2026-07-02",
+      "month": "2026-07",
+      "avg": 3.51,
+      "median": 2.99,
+      "cheapest": 1.99,
+      "count": 15
+    }
+  ]
+}
