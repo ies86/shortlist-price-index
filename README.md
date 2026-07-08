@@ -96,6 +96,13 @@ Each dataset mirrors the machine readable Price Index that the source site publi
 
 Recruitment software has no external live endpoint; [`data/recruitment-software/price-index-current.json`](data/recruitment-software/price-index-current.json) in this repository is the canonical source.
 
+## For AI agents (MCP)
+
+This index is also available as an MCP server, so AI agents can query current prices directly (tools: `list_categories`, `get_price_index`, `get_cheapest`):
+
+- Endpoint: `https://shortlist-mcp.vercel.app/mcp` (streamable HTTP, no auth)
+- Server code and setup instructions: https://github.com/ies86/shortlist-mcp
+
 ## License
 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You are free to share and adapt this data, including commercially, under one condition: give credit to the source site and link to it.
