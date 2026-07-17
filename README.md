@@ -1,8 +1,8 @@
 # Shortlist Price Index (open data)
 
-Monthly tracked entry prices for software and services in eleven categories: cloud backup, web hosting, SEO tools, website builders, antivirus software, newsletter tools, password managers, VPN services, learning platforms, travel eSIMs and recruitment software. A Dutch mirror covers five categories in EUR. Published as open data by [Orai Media](https://www.linkedin.com/company/orai-media), the independent publisher behind the Shortlist comparison guides.
+Curated entry prices for software and services in eleven categories: cloud backup, web hosting, SEO tools, website builders, antivirus software, newsletter tools, password managers, VPN services, learning platforms, travel eSIMs and recruitment software. A Dutch mirror covers five categories in EUR. Published as open data by [Orai Media](https://www.linkedin.com/company/orai-media), the independent publisher behind the Shortlist comparison guides.
 
-The index answers one simple question per category, every month: what does the cheapest paid plan of each provider cost right now? That makes it a longitudinal record of software entry pricing, starting June 2026 and updated monthly. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
+The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. The figures are currently hand-curated guide prices, taken from each provider's public pricing page at compile time. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
 
 ## What is in this repository
 
@@ -35,7 +35,7 @@ Five categories are also tracked for the Dutch market, in euros, sourced from th
 Each category folder contains:
 
 - `monthly-index.csv`: one row per monthly snapshot with the average, median and cheapest entry price and the number of providers tracked.
-- `providers-current.csv`: the current entry price per provider, with a source URL per provider (eSIM: reference plan price and price per GB).
+- `providers-current.csv`: the current entry price per provider, with a source URL per provider (eSIM: reference plan price and price per GB). Note: the `source_url` currently links to our own comparison page for that provider; a migration to link the provider's own pricing page (with an archived copy) is part of the automated measurement rollout.
 - `price-index-current.json`: the full current payload as published live by the source site, including methodology and per-provider detail.
 
 ### Columns in `monthly-index.csv`
@@ -55,11 +55,11 @@ The travel eSIM category replaces the three price columns with `average_price_pe
 
 ## Spotlight: recruitment software entry prices span a factor of 20
 
-The July 2026 baseline for recruitment software (applicant tracking systems) shows the widest entry-price spread of any category in this index: getting started costs anywhere from $15 per user per month (Manatal) to $299 per month (Workable), a 20x difference for the same starting point of "one recruiter, first paid plan". The category average is $109.54, the median $87. Half the tracked vendors price per user, half per account, which is exactly why entry-level comparisons are rarely published; this index records both the price and the pricing basis. Vendors that only quote custom or region-localized prices (Greenhouse, Lever, SmartRecruiters, Teamtailor, Zoho Recruit, Recruitee and others) are excluded by methodology, so the real market spread is wider still. This category is maintained directly in this repository and verified monthly against the providers' public pricing pages.
+The July 2026 baseline for recruitment software (applicant tracking systems) shows the widest entry-price spread of any category in this index: getting started costs anywhere from $15 per user per month (Manatal) to $299 per month (Workable), a 20x difference for the same starting point of "one recruiter, first paid plan". The category average is $109.54, the median $87. Half the tracked vendors price per user, half per account, which is exactly why entry-level comparisons are rarely published; this index records both the price and the pricing basis. Vendors that only quote custom or region-localized prices (Greenhouse, Lever, SmartRecruiters, Teamtailor, Zoho Recruit, Recruitee and others) are excluded by methodology, so the real market spread is wider still. This category is maintained directly in this repository and compiled from the providers' public pricing pages at the dates shown.
 
 ## Methodology
 
-Lowest paid monthly price per provider. Free tiers are excluded. Prices are guide prices in USD per month, verified and updated monthly. For travel eSIMs: USD per GB based on each provider's 5 GB / 30-day reference plan, unlimited plans excluded. Full methodology per category:
+Lowest paid monthly price per provider. Free tiers are excluded. Prices are guide prices in USD per month, hand-curated from each provider's public pricing page at compile time. An automated monthly measurement pipeline, which reads each vendor's live pricing page and archives the source, is being introduced category by category; see the per-category status. For travel eSIMs: USD per GB based on each provider's 5 GB / 30-day reference plan, unlimited plans excluded. Full methodology per category:
 
 - Cloud backup: https://backupshortlist.com/methodology
 - Web hosting: https://hostingshortlist.com/methodology
@@ -76,7 +76,7 @@ Lowest paid monthly price per provider. Free tiers are excluded. Prices are guid
 
 ## Live data sources
 
-Each dataset mirrors the machine readable Price Index that the source site publishes and refreshes monthly:
+Each dataset mirrors the machine readable Price Index that the source site publishes. Figures are updated when the catalogue is revised; a fixed monthly measurement cadence applies only once a category's automated pipeline is live.
 
 - https://backupshortlist.com/data/price-index.json
 - https://hostingshortlist.com/data/price-index.json
