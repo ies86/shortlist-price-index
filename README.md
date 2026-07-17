@@ -2,7 +2,7 @@
 
 Curated entry prices for software and services in eleven categories: cloud backup, web hosting, SEO tools, website builders, antivirus software, newsletter tools, password managers, VPN services, learning platforms, travel eSIMs and recruitment software. A Dutch mirror covers five categories in EUR. Published as open data by [Orai Media](https://www.linkedin.com/company/orai-media), the independent publisher behind the Shortlist comparison guides.
 
-The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. The figures are currently hand-curated guide prices, taken from each provider's public pricing page at compile time. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
+The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. The figures are currently hand-curated guide prices, taken from each provider's public pricing page at compile time. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. **Web hosting is the first measured category (from July 2026):** its prices are read automatically from each provider's live pricing page, and its `monthly-index.csv` reports how many providers were actually observed versus missing that month, so the coverage is transparent. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
 
 ## What is in this repository
 
@@ -50,6 +50,8 @@ Each category folder contains:
 | `median_price_usd` | Median entry price, USD per month |
 | `cheapest_price_usd` | Cheapest entry price in the category, USD per month |
 | `providers_tracked` | Number of providers in the index that month |
+
+**Measured categories (currently web hosting) use an extended, more transparent schema** in `monthly-index.csv`: `month, run_id, n_observed, n_missing, n_under_review, avg_usd_mo, median_usd_mo, cheapest_provider, cheapest_value, avg_renewal_usd_mo, avg_renewal_multiplier, n_renewal, matched_count_vs_prev, flags`. `n_observed` is how many providers were successfully read that month, `n_missing` how many could not be read (reported as gaps, never guessed), and `n_under_review` how many were held back for a manual check. The averages are computed only over the observed set. The renewal columns record the published renewal price where a provider states it on the page, and how many did (`n_renewal`).
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns. The recruitment software category adds `pricing_basis` (flat or per_user) and `billing` (monthly or annual) columns to `providers-current.csv`.
 

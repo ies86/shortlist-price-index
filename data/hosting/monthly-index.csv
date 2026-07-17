@@ -1,3 +1,2 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked
-HostingShortlist,hosting,2026-06,2026-06-16,7.19,2.99,1,13
-HostingShortlist,hosting,2026-07,2026-07-02,7.19,2.99,1,13
+month,run_id,n_observed,n_missing,n_under_review,avg_usd_mo,median_usd_mo,cheapest_provider,cheapest_value,avg_renewal_usd_mo,avg_renewal_multiplier,n_renewal,matched_count_vs_prev,flags
+2026-07,2026-07_r1,10,2,1,8.32,3.15,ionos,1,27.52,3.06,3,0,
