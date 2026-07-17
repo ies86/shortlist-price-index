@@ -1,1 +1,7 @@
 KLAARZETTEN.md
+
+# Prijsmeter-pijplijn werkbestanden (nog niet vrijgegeven voor publicatie).
+# Voorkomt dat de maandelijkse 'git add -A' half-afgebouwde metingen publiceert.
+# Un-ignore per niche zodra die ECHT gemeten en gevalideerd is.
+data/*/observations/
+data/*/vendors.csv
