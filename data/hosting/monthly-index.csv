@@ -1,2 +1,2 @@
 month,run_id,n_observed,n_missing,n_under_review,avg_usd_mo,median_usd_mo,cheapest_provider,cheapest_value,avg_renewal_usd_mo,avg_renewal_multiplier,n_renewal,matched_count_vs_prev,flags
-2026-07,2026-07_r1,10,2,1,8.32,3.15,ionos,1,27.52,3.06,3,0,
+2026-07,2026-07_r1,10,2,1,8.32,3.15,ionos,1,24.14,5.79,4,0,

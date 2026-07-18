@@ -1,7 +1,7 @@
 KLAARZETTEN.md
 
-# Prijsmeter-pijplijn werkbestanden (nog niet vrijgegeven voor publicatie).
-# Voorkomt dat de maandelijkse 'git add -A' half-afgebouwde metingen publiceert.
-# Un-ignore per niche zodra die ECHT gemeten en gevalideerd is.
-data/*/observations/
+# Prijsmeter: vendor-config blijft intern (bevat interne notities/verwachtingen).
 data/*/vendors.csv
+# Observations van niches die nog NIET rijp zijn voor publicatie blijven intern.
+# Gemeten + gevalideerde niches (hosting, vpn, backup) publiceren hun observations wel.
+data/antivirus/observations/
