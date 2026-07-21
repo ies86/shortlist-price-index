@@ -1,0 +1,19 @@
+provider_slug,plan_id,vendor_url,expected_amount,expected_currency,note
+totalav,totalav-plus,https://www.totalav.com/pricing,99,EUR,laagste jaarplan EUR-standaardtarief; intro-korting in JS
+webroot,webroot-essentials-1dev,https://www.webroot.com/us/en/pricing,49.99,USD,list-prijs 1 device op /us/en/pricing
+intego,intego-one-essential,https://www.intego.com/buynow,,EUR,JS-rendered plan-cards; verwacht gat
+surfshark-one,surfshark-one-24m,https://surfshark.com/pricing,2.79,EUR,bundel VPN+antivirus; promo 24-mnd
+malwarebytes,malwarebytes-standard,https://www.malwarebytes.com/pricing,,USD,JS-placeholders; verwacht gat
+kaspersky,kaspersky-premium,https://www.kaspersky.com/premium,,USD,JS store-widget; verwacht gat
+g-data,gdata-total-security-1dev,https://www.gdata.de/total-security,49.95,EUR,.de rendert bedrag; .nl toont --,--
+trend-micro,trendmicro-maximum-security,https://shop.trendmicro.com/en_us/products/maximum-security.asp,74.95,USD,intro 5 devices; promo
+bitdefender,bitdefender-total-security,https://www.bitdefender.com/en-us/consumer/total-security,59.99,USD,intro eerste jaar; hoog vertrouwen
+norton,norton-360-deluxe,https://us.norton.com/products/norton-360-deluxe,119.99,USD,eerste jaar; promo/geo
+eset,eset-home-essential,https://www.eset.com/us/home-store/,,USD,JS store; verwacht gat
+mcafee,mcafee-total-protection-basic,https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html,,USD,bot-block/JS; verwacht gat
+avast,avast-one-premium,https://www.avast.com/en-us/store,49.08,USD,intro eerste jaar
+avg,avg-internet-security,https://www.avg.com/en-us/store,,USD,JS store; verwacht gat
+f-secure,f-secure-total-1dev,https://www.f-secure.com/en/total,69.99,EUR,geen intro-korting; intro=renewal
+avira,avira-prime-5dev,https://www.avira.com/en/prime,,USD,JS loading-placeholders; verwacht gat
+lifelock,lifelock-core,https://lifelock.norton.com/products,124.99,USD,goedkoopste puur-LifeLock plan
+aura,aura-antivirus,https://buy.aura.com/antivirus-intro,3,USD,alleen hero $3/mo statisch

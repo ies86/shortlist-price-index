@@ -1,0 +1,28 @@
+{
+  "maand": "2026-07",
+  "niche": "seo",
+  "items": [
+    {
+      "provider_slug": "mangools",
+      "oud": null,
+      "nieuw": 516.55,
+      "vendor_url": "https://mangools.com/plans-and-pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "moz",
+      "oud": null,
+      "nieuw": 179,
+      "vendor_url": "https://moz.com/products/pro/pricing",
+      "archive_url": "",
+      "alt": 49,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    }
+  ]
+}
