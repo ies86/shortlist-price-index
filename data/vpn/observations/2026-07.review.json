@@ -1,0 +1,39 @@
+{
+  "maand": "2026-07",
+  "niche": "vpn",
+  "items": [
+    {
+      "provider_slug": "privadovpn",
+      "oud": null,
+      "nieuw": 1.11,
+      "vendor_url": "https://privadovpn.com/pricing/",
+      "archive_url": "",
+      "alt": 1.99,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "purevpn",
+      "oud": null,
+      "nieuw": 2.15,
+      "vendor_url": "https://www.purevpn.com/order",
+      "archive_url": "",
+      "alt": 1.49,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "proton-vpn",
+      "oud": null,
+      "nieuw": 100,
+      "vendor_url": "https://protonvpn.com/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    }
+  ]
+}

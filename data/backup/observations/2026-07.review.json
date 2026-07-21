@@ -1,0 +1,28 @@
+{
+  "maand": "2026-07",
+  "niche": "backup",
+  "items": [
+    {
+      "provider_slug": "icedrive",
+      "oud": null,
+      "nieuw": 67.47,
+      "vendor_url": "https://icedrive.net/plans",
+      "archive_url": "http://web.archive.org/web/20260715220224/https://icedrive.net/plans",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "acronis",
+      "oud": null,
+      "nieuw": 4.76,
+      "vendor_url": "https://www.acronis.com/en/products/true-image/purchasing/",
+      "archive_url": "",
+      "alt": 83.25,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    }
+  ]
+}
