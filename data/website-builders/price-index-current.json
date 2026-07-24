@@ -3,12 +3,12 @@
   "report": "https://websiteshortlist.com/data/price-index",
   "niche": "website builders",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to WebsiteShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
-  "providersTracked": 18,
-  "averagePrice": 13.13,
-  "medianPrice": 12.4,
+  "updated": "2026-07-21",
+  "providersTracked": 21,
+  "averagePrice": 13.85,
+  "medianPrice": 12.8,
   "cheapest": {
     "provider": "Carrd",
     "price": 1.58
@@ -83,6 +83,14 @@
       "url": "https://websiteshortlist.com/tools/10web"
     },
     {
+      "provider": "Mobirise",
+      "slug": "mobirise",
+      "price": 10,
+      "rating": 3.8,
+      "bestFor": "Offline building, host it yourself",
+      "url": "https://websiteshortlist.com/tools/mobirise"
+    },
+    {
       "provider": "GoDaddy Website Builder",
       "slug": "godaddy",
       "price": 11.99,
@@ -139,6 +147,22 @@
       "url": "https://websiteshortlist.com/tools/ecwid"
     },
     {
+      "provider": "Showit",
+      "slug": "showit",
+      "price": 21.58,
+      "rating": 4.2,
+      "bestFor": "Photographers and creative studios",
+      "url": "https://websiteshortlist.com/tools/showit"
+    },
+    {
+      "provider": "GemPages",
+      "slug": "gempages",
+      "price": 23,
+      "rating": 4.1,
+      "bestFor": "Shopify stores running campaign pages",
+      "url": "https://websiteshortlist.com/tools/gempages"
+    },
+    {
       "provider": "Duda",
       "slug": "duda",
       "price": 25,
@@ -167,14 +191,6 @@
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 13.13,
-      "median": 12.4,
-      "cheapest": 1.58,
-      "count": 18
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 13.13,
       "median": 12.4,
       "cheapest": 1.58,

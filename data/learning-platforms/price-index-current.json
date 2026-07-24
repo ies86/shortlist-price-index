@@ -3,12 +3,12 @@
   "report": "https://courseshortlist.com/data/price-index",
   "niche": "learning platforms",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to CourseShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
-  "providersTracked": 11,
-  "averagePrice": 38.22,
-  "medianPrice": 19,
+  "updated": "2026-07-21",
+  "providersTracked": 12,
+  "averagePrice": 39.2,
+  "medianPrice": 19.49,
   "cheapest": {
     "provider": "Domestika",
     "price": 7.99
@@ -99,6 +99,14 @@
       "url": "https://courseshortlist.com/tools/coursera"
     },
     {
+      "provider": "Upskillist",
+      "slug": "upskillist",
+      "price": 49.99,
+      "rating": 3.8,
+      "bestFor": "Hobby-level breadth",
+      "url": "https://courseshortlist.com/tools/upskillist"
+    },
+    {
       "provider": "Udacity",
       "slug": "udacity",
       "price": 249,
@@ -111,14 +119,6 @@
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 38.22,
-      "median": 19,
-      "cheapest": 7.99,
-      "count": 11
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 38.22,
       "median": 19,
       "cheapest": 7.99,

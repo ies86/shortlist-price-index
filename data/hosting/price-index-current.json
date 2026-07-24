@@ -3,12 +3,12 @@
   "report": "https://hostingshortlist.com/data/price-index",
   "niche": "hosting providers",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 13,
-  "averagePrice": 7.19,
-  "medianPrice": 2.99,
+  "averagePrice": 7.73,
+  "medianPrice": 4,
   "cheapest": {
     "provider": "IONOS",
     "price": 1
@@ -41,14 +41,6 @@
       "rating": 4.1,
       "bestFor": "Fair pricing",
       "url": "https://hostingshortlist.com/tools/dreamhost"
-    },
-    {
-      "provider": "Bluehost",
-      "slug": "bluehost",
-      "price": 2.95,
-      "rating": 3.8,
-      "bestFor": "Basic WordPress sites",
-      "url": "https://hostingshortlist.com/tools/bluehost"
     },
     {
       "provider": "Hostinger",
@@ -91,6 +83,14 @@
       "url": "https://hostingshortlist.com/tools/hetzner"
     },
     {
+      "provider": "Bluehost",
+      "slug": "bluehost",
+      "price": 4.99,
+      "rating": 3.8,
+      "bestFor": "Basic WordPress sites",
+      "url": "https://hostingshortlist.com/tools/bluehost"
+    },
+    {
       "provider": "GoDaddy",
       "slug": "godaddy",
       "price": 5.99,
@@ -109,7 +109,7 @@
     {
       "provider": "WP Engine",
       "slug": "wp-engine",
-      "price": 20,
+      "price": 25,
       "rating": 4.4,
       "bestFor": "Managed WordPress",
       "url": "https://hostingshortlist.com/tools/wp-engine"
@@ -123,6 +123,76 @@
       "url": "https://hostingshortlist.com/tools/kinsta"
     }
   ],
+  "trueCost": {
+    "unit": "USD per month; threeYearTotal = total USD over 36 months",
+    "avgRenewalMultiplier": 3.9,
+    "providers": [
+      {
+        "provider": "Namecheap",
+        "slug": "namecheap",
+        "intro": 1.98,
+        "renewal": 4.48,
+        "multiplier": 2.3,
+        "threeYearTotal": 131.28
+      },
+      {
+        "provider": "IONOS",
+        "slug": "ionos",
+        "intro": 1,
+        "renewal": 8,
+        "multiplier": 8,
+        "threeYearTotal": 204
+      },
+      {
+        "provider": "DreamHost",
+        "slug": "dreamhost",
+        "intro": 2.95,
+        "renewal": 7.99,
+        "multiplier": 2.7,
+        "threeYearTotal": 227.16
+      },
+      {
+        "provider": "Hostinger",
+        "slug": "hostinger",
+        "intro": 2.99,
+        "renewal": 10.99,
+        "multiplier": 3.7,
+        "threeYearTotal": 299.64
+      },
+      {
+        "provider": "A2 Hosting",
+        "slug": "a2-hosting",
+        "intro": 2.99,
+        "renewal": 12.99,
+        "multiplier": 4.3,
+        "threeYearTotal": 347.64
+      },
+      {
+        "provider": "Bluehost",
+        "slug": "bluehost",
+        "intro": 4.99,
+        "renewal": 11.99,
+        "multiplier": 2.4,
+        "threeYearTotal": 347.64
+      },
+      {
+        "provider": "GoDaddy",
+        "slug": "godaddy",
+        "intro": 5.99,
+        "renewal": 11.99,
+        "multiplier": 2,
+        "threeYearTotal": 359.64
+      },
+      {
+        "provider": "SiteGround",
+        "slug": "siteground",
+        "intro": 2.99,
+        "renewal": 17.99,
+        "multiplier": 6,
+        "threeYearTotal": 467.64
+      }
+    ]
+  },
   "history": [
     {
       "date": "2026-06-16",
@@ -133,12 +203,16 @@
       "count": 13
     },
     {
-      "date": "2026-07-02",
+      "date": "2026-07-17",
       "month": "2026-07",
-      "avg": 7.19,
-      "median": 2.99,
+      "measured": true,
+      "run_id": "2026-07_r1",
+      "avg": 8.32,
+      "median": 3.15,
       "cheapest": 1,
-      "count": 13
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 1
     }
   ]
 }

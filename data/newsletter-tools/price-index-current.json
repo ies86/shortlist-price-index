@@ -3,9 +3,9 @@
   "report": "https://mailshortlist.com/data/price-index",
   "niche": "newsletter tools",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to MailShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 11,
   "averagePrice": 17.41,
   "medianPrice": 15,
@@ -111,14 +111,6 @@
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 17.41,
-      "median": 15,
-      "cheapest": 9,
-      "count": 11
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 17.41,
       "median": 15,
       "cheapest": 9,

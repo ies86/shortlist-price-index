@@ -3,10 +3,10 @@
   "report": "https://nieuwsbriefkiezer.nl/data/price-index",
   "niche": "nieuwsbrieftools",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Nieuwsbriefkiezer",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 10,
   "averagePrice": 15.55,
   "medianPrice": 14,
@@ -104,14 +104,6 @@
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 15.55,
-      "median": 14,
-      "cheapest": 9,
-      "count": 10
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 15.55,
       "median": 14,
       "cheapest": 9,

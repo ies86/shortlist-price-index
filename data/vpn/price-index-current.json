@@ -3,9 +3,9 @@
   "report": "https://vpnshortlist.com/data/price-index",
   "niche": "VPN services",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 15,
   "averagePrice": 3.55,
   "medianPrice": 2.99,
@@ -149,12 +149,16 @@
       "count": 15
     },
     {
-      "date": "2026-07-02",
+      "date": "2026-07-17",
       "month": "2026-07",
-      "avg": 3.55,
-      "median": 2.99,
-      "cheapest": 1.99,
-      "count": 15
+      "measured": true,
+      "run_id": "2026-07_r1",
+      "avg": 3.86,
+      "median": 3.38,
+      "cheapest": 2.19,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3
     }
   ]
 }

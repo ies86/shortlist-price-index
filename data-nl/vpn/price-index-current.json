@@ -3,10 +3,10 @@
   "report": "https://kiesvpn.nl/data/price-index",
   "niche": "VPN-diensten",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar KiesVPN",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 15,
   "averagePrice": 3.51,
   "medianPrice": 2.99,
@@ -150,12 +150,16 @@
       "count": 15
     },
     {
-      "date": "2026-07-02",
+      "date": "2026-07-17",
       "month": "2026-07",
-      "avg": 3.51,
-      "median": 2.99,
-      "cheapest": 1.99,
-      "count": 15
+      "measured": true,
+      "run_id": "2026-07_r1",
+      "avg": 3.86,
+      "median": 3.38,
+      "cheapest": 2.19,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3
     }
   ]
 }

@@ -3,11 +3,11 @@
   "report": "https://seoshortlist.com/data/price-index",
   "niche": "SEO tools",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to SEOShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
-  "providersTracked": 15,
-  "averagePrice": 65.69,
+  "updated": "2026-07-21",
+  "providersTracked": 17,
+  "averagePrice": 68.64,
   "medianPrice": 52,
   "cheapest": {
     "provider": "Keywords Everywhere",
@@ -75,6 +75,14 @@
       "url": "https://seoshortlist.com/tools/frase"
     },
     {
+      "provider": "Seobility",
+      "slug": "seobility",
+      "price": 45.6,
+      "rating": 4.1,
+      "bestFor": "Budget site audits and monitoring",
+      "url": "https://seoshortlist.com/tools/seobility"
+    },
+    {
       "provider": "SE Ranking",
       "slug": "se-ranking",
       "price": 52,
@@ -123,6 +131,14 @@
       "url": "https://seoshortlist.com/tools/ahrefs"
     },
     {
+      "provider": "Sistrix",
+      "slug": "sistrix",
+      "price": 136,
+      "rating": 4.2,
+      "bestFor": "European agencies and professionals",
+      "url": "https://seoshortlist.com/tools/sistrix"
+    },
+    {
       "provider": "Semrush",
       "slug": "semrush",
       "price": 139.95,
@@ -149,12 +165,16 @@
       "count": 15
     },
     {
-      "date": "2026-07-02",
+      "date": "2026-07-21",
       "month": "2026-07",
-      "avg": 65.69,
-      "median": 52,
-      "cheapest": 2.25,
-      "count": 15
+      "measured": true,
+      "run_id": "2026-07_r1",
+      "avg": 68.35,
+      "median": 50,
+      "cheapest": 7,
+      "count": 13,
+      "n_missing": 0,
+      "n_under_review": 2
     }
   ]
 }

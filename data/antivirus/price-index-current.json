@@ -3,15 +3,15 @@
   "report": "https://antivirusshortlist.com/data/price-index",
   "niche": "antivirus software",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
+  "updated": "2026-07-22",
   "providersTracked": 18,
-  "averagePrice": 4.44,
+  "averagePrice": 4.39,
   "medianPrice": 4.17,
   "cheapest": {
     "provider": "TotalAV",
-    "price": 2.42
+    "price": 1.58
   },
   "mostExpensive": {
     "provider": "Aura",
@@ -21,7 +21,7 @@
     {
       "provider": "TotalAV",
       "slug": "totalav",
-      "price": 2.42,
+      "price": 1.58,
       "rating": 3.8,
       "bestFor": "Bargain hunters who set reminders",
       "url": "https://antivirusshortlist.com/tools/totalav"
@@ -163,18 +163,136 @@
       "url": "https://antivirusshortlist.com/tools/aura"
     }
   ],
+  "trueCost": {
+    "unit": "USD per year; threeYearTotal = total USD over 3 years",
+    "avgRenewalMultiplier": 2.2,
+    "providers": [
+      {
+        "provider": "Webroot Essentials",
+        "slug": "webroot",
+        "intro": 29.99,
+        "renewal": 59.99,
+        "multiplier": 2,
+        "threeYearTotal": 149.97
+      },
+      {
+        "provider": "Malwarebytes Premium",
+        "slug": "malwarebytes",
+        "intro": 44.99,
+        "renewal": 59.99,
+        "multiplier": 1.3,
+        "threeYearTotal": 164.97
+      },
+      {
+        "provider": "Intego Mac Internet Security",
+        "slug": "intego",
+        "intro": 39.99,
+        "renewal": 79.99,
+        "multiplier": 2,
+        "threeYearTotal": 199.97
+      },
+      {
+        "provider": "Kaspersky Premium",
+        "slug": "kaspersky",
+        "intro": 44.99,
+        "renewal": 89.99,
+        "multiplier": 2,
+        "threeYearTotal": 224.97
+      },
+      {
+        "provider": "Trend Micro Maximum Security",
+        "slug": "trend-micro",
+        "intro": 49.95,
+        "renewal": 89.95,
+        "multiplier": 1.8,
+        "threeYearTotal": 229.85
+      },
+      {
+        "provider": "Bitdefender Total Security",
+        "slug": "bitdefender",
+        "intro": 49.99,
+        "renewal": 99.99,
+        "multiplier": 2,
+        "threeYearTotal": 249.97
+      },
+      {
+        "provider": "TotalAV",
+        "slug": "totalav",
+        "intro": 19,
+        "renewal": 119,
+        "multiplier": 6.3,
+        "threeYearTotal": 257
+      },
+      {
+        "provider": "Avira Free Security",
+        "slug": "avira",
+        "intro": 59.99,
+        "renewal": 104.99,
+        "multiplier": 1.8,
+        "threeYearTotal": 269.97
+      },
+      {
+        "provider": "F-Secure Total",
+        "slug": "f-secure",
+        "intro": 59.99,
+        "renewal": 109.99,
+        "multiplier": 1.8,
+        "threeYearTotal": 279.97
+      },
+      {
+        "provider": "Norton 360 Deluxe",
+        "slug": "norton",
+        "intro": 49.99,
+        "renewal": 119.99,
+        "multiplier": 2.4,
+        "threeYearTotal": 289.97
+      },
+      {
+        "provider": "Avast One",
+        "slug": "avast",
+        "intro": 50.28,
+        "renewal": 119.88,
+        "multiplier": 2.4,
+        "threeYearTotal": 290.04
+      },
+      {
+        "provider": "AVG Internet Security",
+        "slug": "avg",
+        "intro": 59.88,
+        "renewal": 119.99,
+        "multiplier": 2,
+        "threeYearTotal": 299.86
+      },
+      {
+        "provider": "LifeLock",
+        "slug": "lifelock",
+        "intro": 89.99,
+        "renewal": 124.99,
+        "multiplier": 1.4,
+        "threeYearTotal": 339.97
+      },
+      {
+        "provider": "McAfee+",
+        "slug": "mcafee",
+        "intro": 49.99,
+        "renewal": 149.99,
+        "multiplier": 3,
+        "threeYearTotal": 349.97
+      },
+      {
+        "provider": "Aura",
+        "slug": "aura",
+        "intro": 108,
+        "renewal": 144,
+        "multiplier": 1.3,
+        "threeYearTotal": 396
+      }
+    ]
+  },
   "history": [
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 4.44,
-      "median": 4.17,
-      "cheapest": 2.42,
-      "count": 18
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 4.44,
       "median": 4.17,
       "cheapest": 2.42,

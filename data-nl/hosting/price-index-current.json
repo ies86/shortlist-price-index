@@ -3,10 +3,10 @@
   "report": "https://kieshosting.nl/data/price-index",
   "niche": "hostingproviders",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar KiesHosting",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, maandelijks bijgewerkt.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 13,
   "averagePrice": 7.5,
   "medianPrice": 4,
@@ -134,12 +134,16 @@
       "count": 13
     },
     {
-      "date": "2026-07-02",
+      "date": "2026-07-17",
       "month": "2026-07",
-      "avg": 7.5,
-      "median": 4,
-      "cheapest": 0.45,
-      "count": 13
+      "measured": true,
+      "run_id": "2026-07_r1",
+      "avg": 8.32,
+      "median": 3.15,
+      "cheapest": 1,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 1
     }
   ]
 }

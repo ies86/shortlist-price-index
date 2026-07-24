@@ -3,9 +3,9 @@
   "report": "https://passwordshortlist.com/data/price-index",
   "niche": "password managers",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to PasswordShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Guide prices, updated monthly.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-08",
+  "updated": "2026-07-21",
   "providersTracked": 9,
   "averagePrice": 2.58,
   "medianPrice": 1.99,
@@ -95,14 +95,6 @@
     {
       "date": "2026-06-16",
       "month": "2026-06",
-      "avg": 2.58,
-      "median": 1.99,
-      "cheapest": 0.83,
-      "count": 9
-    },
-    {
-      "date": "2026-07-02",
-      "month": "2026-07",
       "avg": 2.58,
       "median": 1.99,
       "cheapest": 0.83,
