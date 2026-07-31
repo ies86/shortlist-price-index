@@ -1,0 +1,29 @@
+{
+  "title": "Shortlist Price Index: monthly entry prices for software and online services",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "description": "<p>An open, monthly index of entry prices for software and online services across eleven categories: cloud backup, web hosting, SEO tools, website builders, antivirus software, newsletter tools, password managers, VPN services, learning platforms, travel eSIMs and recruitment software. A Dutch mirror covers five categories in euros.</p><p>Each category records, per provider, the cost of the cheapest paid plan, together with a source URL and the month of observation. The series began in June 2026 and a new snapshot is added every month, so the value of the dataset is the price history rather than any single month.</p><p><strong>Method and its limits.</strong> Figures are either hand-curated guide prices, taken from each provider's public pricing page at compile time, or automatically measured, in which case the provider's live pricing page is read and an archived copy of the source is kept. Web hosting, VPN services and cloud backup have been automatically measured since July 2026; for those categories the monthly index also reports how many providers were actually observed versus missing, so coverage is transparent. The remaining categories are still hand-curated and are being migrated one at a time. Categories are not comparable across this boundary without reading the per-category notes.</p><p>Published by Orai Media, the independent publisher behind the Shortlist comparison guides. The publisher earns affiliate commission on some of the providers listed; the ranking and the recorded prices are not affected by that, and prices are recorded as published by the provider.</p>",
+  "creators": [
+    {
+      "name": "Goudriaan, Ries",
+      "affiliation": "Orai Media"
+    }
+  ],
+  "keywords": [
+    "price index",
+    "software pricing",
+    "subscription pricing",
+    "SaaS",
+    "web hosting",
+    "cloud backup",
+    "VPN",
+    "antivirus",
+    "password managers",
+    "open data",
+    "time series",
+    "price history"
+  ],
+  "language": "eng",
+  "version": "2026.08"
+}
