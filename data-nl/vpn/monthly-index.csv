@@ -1,4 +1,4 @@
-site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked
-KiesVPN,vpn,2026-06,2026-06-16,3.51,2.99,1.99,15
-KiesVPN,vpn,2026-07,2026-07-17,3.86,3.38,2.19,10
-KiesVPN,vpn,2026-08,2026-08-01,4.01,3.67,2.19,10
+site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked,basis,n_missing,n_under_review
+KiesVPN,vpn,2026-06,2026-06-16,3.51,2.99,1.99,15,curated,,
+KiesVPN,vpn,2026-07,2026-07-17,3.86,3.38,2.19,10,measured,2,3
+KiesVPN,vpn,2026-08,2026-08-01,4.01,3.67,2.19,10,measured,2,3

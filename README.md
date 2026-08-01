@@ -77,9 +77,15 @@ Each category folder contains:
 | `cheapest_price_usd` | Cheapest entry price in the category, USD per month |
 | `providers_tracked` | Number of providers in the index that month |
 
-**Important caveat on `providers_tracked` (corrected 1 August 2026).** This column does not mean the same thing in every row. For a curated month it is the number of providers in the index. For a measured month it is the number of providers whose price was actually *observed* that month, which is lower, because providers that could not be read are reported as gaps rather than guessed. Web hosting, for example, shows 13 for June (curated), then 10 and 9 for July and August (observed). A drop in this column is therefore not evidence that a category shrank, and the difference between two months' averages is not a price movement unless both months are measured and cover the same set of plans.
+**Three columns were added on 1 August 2026: `basis`, `n_missing` and `n_under_review`.**
 
-An extended per-month schema (`n_observed`, `n_missing`, `n_under_review`, renewal columns and a comparability flag) is designed and is what the per-month `observations/<month>.validation.json` files already record; it has not yet been written into `monthly-index.csv` for any category. Until it is, use the validation files for coverage detail. An earlier version of this README stated that web hosting already used that extended schema in `monthly-index.csv`. That was not the case for any category, and the sentence has been removed.
+`basis` is `curated` or `measured` and it is the most important column in the file. Every category's first row (June 2026) is a hand-compiled baseline; later rows for measured categories come from the automated pipeline. Those two are not comparable, and until now nothing in the file said so. **Do not read a difference between a `curated` row and a `measured` row as a price movement.** It is a change of method.
+
+`basis` also disambiguates `providers_tracked`, which does not mean the same thing in every row. For a `curated` month it is the number of providers in the index. For a `measured` month it is the number whose price was actually observed, which is lower, because providers that could not be read are reported as gaps rather than guessed. Web hosting shows 13 for June (curated), then 10 and 9 for July and August (measured). A drop in that column is therefore not evidence that a category shrank.
+
+`n_missing` and `n_under_review` are filled for measured rows only: how many providers could not be read that month, and how many were held back for a manual check. The averages are computed over the observed set alone.
+
+The figures in a `measured` row come from `observations/`, not from the comparison site: this was verified on 1 August 2026 by recomputing all ten published measured rows from the raw observations, and every one matched. An earlier version of this README described an extended column set (`n_observed`, renewal columns) that no category actually used; that claim has been removed and replaced by the three columns above, which are really there.
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns. The recruitment software category adds `pricing_basis` (flat or per_user) and `billing` (monthly or annual) columns to `providers-current.csv`.
 

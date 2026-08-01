@@ -1,3 +1,3 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked
-BackupShortlist,backup,2026-06,2026-06-16,8.25,8.99,4.17,17
-BackupShortlist,backup,2026-07,2026-07-17,6.63,4.56,1.13,13
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
+BackupShortlist,backup,2026-06,2026-06-16,8.25,8.99,4.17,17,curated,,
+BackupShortlist,backup,2026-07,2026-07-17,6.63,4.56,1.13,13,measured,2,2

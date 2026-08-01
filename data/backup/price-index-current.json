@@ -7,17 +7,41 @@
   "unit": "/mo",
   "updated": "2026-08-01",
   "providersTracked": 18,
-  "averagePrice": 7.97,
-  "medianPrice": 8.62,
+  "averagePrice": 6.58,
+  "medianPrice": 6.54,
   "cheapest": {
-    "provider": "CloudsLinker",
-    "price": 3.33
+    "provider": "Apple iCloud+",
+    "price": 0.99
   },
   "mostExpensive": {
     "provider": "Tresorit",
     "price": 11.99
   },
   "providers": [
+    {
+      "provider": "Apple iCloud+",
+      "slug": "icloud",
+      "price": 0.99,
+      "rating": 4.2,
+      "bestFor": "iPhone and Mac households",
+      "url": "https://backupshortlist.com/tools/icloud"
+    },
+    {
+      "provider": "Microsoft OneDrive",
+      "slug": "onedrive",
+      "price": 1.99,
+      "rating": 4.3,
+      "bestFor": "Windows + Office users",
+      "url": "https://backupshortlist.com/tools/onedrive"
+    },
+    {
+      "provider": "Google One",
+      "slug": "google-one",
+      "price": 1.99,
+      "rating": 4.2,
+      "bestFor": "Android and Gmail households",
+      "url": "https://backupshortlist.com/tools/google-one"
+    },
     {
       "provider": "CloudsLinker",
       "slug": "cloudslinker",
@@ -107,36 +131,12 @@
       "url": "https://backupshortlist.com/tools/proton-drive"
     },
     {
-      "provider": "Microsoft OneDrive",
-      "slug": "onedrive",
-      "price": 9.99,
-      "rating": 4.3,
-      "bestFor": "Windows + Office users",
-      "url": "https://backupshortlist.com/tools/onedrive"
-    },
-    {
       "provider": "Dropbox",
       "slug": "dropbox",
       "price": 9.99,
       "rating": 4.2,
       "bestFor": "Integration-heavy workflows",
       "url": "https://backupshortlist.com/tools/dropbox"
-    },
-    {
-      "provider": "Google One",
-      "slug": "google-one",
-      "price": 9.99,
-      "rating": 4.2,
-      "bestFor": "Android and Gmail households",
-      "url": "https://backupshortlist.com/tools/google-one"
-    },
-    {
-      "provider": "Apple iCloud+",
-      "slug": "icloud",
-      "price": 9.99,
-      "rating": 4.2,
-      "bestFor": "iPhone and Mac households",
-      "url": "https://backupshortlist.com/tools/icloud"
     },
     {
       "provider": "MEGA",
@@ -183,18 +183,6 @@
       "count": 13,
       "n_missing": 2,
       "n_under_review": 2
-    },
-    {
-      "date": "2026-08-01",
-      "month": "2026-08",
-      "measured": true,
-      "run_id": "2026-08_r1",
-      "avg": 5.95,
-      "median": 4.02,
-      "cheapest": 1.14,
-      "count": 13,
-      "n_missing": 1,
-      "n_under_review": 3
     }
   ]
 }

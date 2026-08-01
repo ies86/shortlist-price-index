@@ -1,2 +1,2 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked
-CourseShortlist,learning-platforms,2026-06,2026-06-16,38.22,19,7.99,11
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
+CourseShortlist,learning-platforms,2026-06,2026-06-16,38.22,19,7.99,11,curated,,

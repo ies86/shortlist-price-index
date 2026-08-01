@@ -1,4 +1,4 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked
-SEOShortlist,seo,2026-06,2026-06-16,65.69,52,2.25,15
-SEOShortlist,seo,2026-07,2026-07-21,68.35,50,7,13
-SEOShortlist,seo,2026-08,2026-08-01,68.61,50,7,13
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
+SEOShortlist,seo,2026-06,2026-06-16,65.69,52,2.25,15,curated,,
+SEOShortlist,seo,2026-07,2026-07-21,68.35,50,7,13,measured,0,2
+SEOShortlist,seo,2026-08,2026-08-01,68.61,50,7,13,measured,0,2

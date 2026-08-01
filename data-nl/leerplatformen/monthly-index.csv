@@ -1,2 +1,2 @@
-site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked
-Leerplatformkiezer,leerplatformen,2026-06,2026-06-16,20.13,13.99,7.99,11
+site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked,basis,n_missing,n_under_review
+Leerplatformkiezer,leerplatformen,2026-06,2026-06-16,20.13,13.99,7.99,11,curated,,
