@@ -5,10 +5,10 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to CourseShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 12,
-  "averagePrice": 39.2,
-  "medianPrice": 19.49,
+  "averagePrice": 41.04,
+  "medianPrice": 19.99,
   "cheapest": {
     "provider": "Domestika",
     "price": 7.99
@@ -59,14 +59,6 @@
       "url": "https://courseshortlist.com/tools/brilliant"
     },
     {
-      "provider": "Pluralsight",
-      "slug": "pluralsight",
-      "price": 19,
-      "rating": 4.1,
-      "bestFor": "IT professionals",
-      "url": "https://courseshortlist.com/tools/pluralsight"
-    },
-    {
       "provider": "LinkedIn Learning",
       "slug": "linkedin-learning",
       "price": 19.99,
@@ -83,9 +75,17 @@
       "url": "https://courseshortlist.com/tools/codecademy"
     },
     {
+      "provider": "Pluralsight",
+      "slug": "pluralsight",
+      "price": 29,
+      "rating": 4.1,
+      "bestFor": "IT professionals",
+      "url": "https://courseshortlist.com/tools/pluralsight"
+    },
+    {
       "provider": "Udemy",
       "slug": "udemy",
-      "price": 20,
+      "price": 32,
       "rating": 4.3,
       "bestFor": "Buying single courses",
       "url": "https://courseshortlist.com/tools/udemy"

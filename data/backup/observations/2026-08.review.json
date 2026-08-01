@@ -1,0 +1,39 @@
+{
+  "maand": "2026-08",
+  "niche": "backup",
+  "items": [
+    {
+      "provider_slug": "icedrive",
+      "oud": null,
+      "nieuw": 67.76,
+      "vendor_url": "https://icedrive.net/plans",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "acronis",
+      "oud": null,
+      "nieuw": 4.78,
+      "vendor_url": "https://www.acronis.com/en/products/true-image/purchasing/",
+      "archive_url": "",
+      "alt": 83.25,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "proton-drive",
+      "oud": 11.42,
+      "nieuw": 4.58,
+      "vendor_url": "https://proton.me/drive/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ]
+    }
+  ]
+}

@@ -6,16 +6,16 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 13,
-  "averagePrice": 7.5,
+  "averagePrice": 8.19,
   "medianPrice": 4,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45
   },
   "mostExpensive": {
-    "provider": "Kinsta",
+    "provider": "WP Engine",
     "price": 30
   },
   "providers": [
@@ -46,7 +46,7 @@
     {
       "provider": "mijn.host",
       "slug": "mijn-host",
-      "price": 2.49,
+      "price": 1.99,
       "rating": 4.5,
       "bestFor": "Prijs-kwaliteit in Nederland",
       "url": "https://kieshosting.nl/tools/mijn-host"
@@ -76,12 +76,12 @@
       "url": "https://kieshosting.nl/tools/digitalocean"
     },
     {
-      "provider": "TransIP",
-      "slug": "transip",
-      "price": 4.99,
-      "rating": 4.3,
-      "bestFor": "Zakelijk en gevorderd",
-      "url": "https://kieshosting.nl/tools/transip"
+      "provider": "Hetzner",
+      "slug": "hetzner",
+      "price": 4.35,
+      "rating": 4.5,
+      "bestFor": "Prijs per prestatie",
+      "url": "https://kieshosting.nl/tools/hetzner"
     },
     {
       "provider": "Antagonist",
@@ -92,28 +92,20 @@
       "url": "https://kieshosting.nl/tools/antagonist"
     },
     {
-      "provider": "Hetzner",
-      "slug": "hetzner",
-      "price": 7.99,
-      "rating": 4.5,
-      "bestFor": "Prijs per prestatie",
-      "url": "https://kieshosting.nl/tools/hetzner"
+      "provider": "TransIP",
+      "slug": "transip",
+      "price": 9.99,
+      "rating": 4.3,
+      "bestFor": "Zakelijk en gevorderd",
+      "url": "https://kieshosting.nl/tools/transip"
     },
     {
       "provider": "Cloudways",
       "slug": "cloudways",
-      "price": 14,
+      "price": 12,
       "rating": 4.2,
       "bestFor": "Meerdere sites hosten",
       "url": "https://kieshosting.nl/tools/cloudways"
-    },
-    {
-      "provider": "WP Engine",
-      "slug": "wp-engine",
-      "price": 20,
-      "rating": 4.4,
-      "bestFor": "Managed WordPress",
-      "url": "https://kieshosting.nl/tools/wp-engine"
     },
     {
       "provider": "Kinsta",
@@ -122,6 +114,14 @@
       "rating": 4.6,
       "bestFor": "Managed WordPress",
       "url": "https://kieshosting.nl/tools/kinsta"
+    },
+    {
+      "provider": "WP Engine",
+      "slug": "wp-engine",
+      "price": 30,
+      "rating": 4.4,
+      "bestFor": "Managed WordPress",
+      "url": "https://kieshosting.nl/tools/wp-engine"
     }
   ],
   "history": [
@@ -143,6 +143,18 @@
       "cheapest": 1,
       "count": 10,
       "n_missing": 2,
+      "n_under_review": 1
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 8.92,
+      "median": 3.32,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 3,
       "n_under_review": 1
     }
   ]

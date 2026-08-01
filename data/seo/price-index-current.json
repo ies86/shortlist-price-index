@@ -5,10 +5,10 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to SEOShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 17,
-  "averagePrice": 68.64,
-  "medianPrice": 52,
+  "averagePrice": 67,
+  "medianPrice": 45.6,
   "cheapest": {
     "provider": "Keywords Everywhere",
     "price": 2.25
@@ -51,6 +51,14 @@
       "url": "https://seoshortlist.com/tools/keysearch"
     },
     {
+      "provider": "Ahrefs",
+      "slug": "ahrefs",
+      "price": 29,
+      "rating": 4.6,
+      "bestFor": "Link building and competitor research",
+      "url": "https://seoshortlist.com/tools/ahrefs"
+    },
+    {
       "provider": "Mangools",
       "slug": "mangools",
       "price": 29,
@@ -81,14 +89,6 @@
       "rating": 4.1,
       "bestFor": "Budget site audits and monitoring",
       "url": "https://seoshortlist.com/tools/seobility"
-    },
-    {
-      "provider": "SE Ranking",
-      "slug": "se-ranking",
-      "price": 52,
-      "rating": 4.4,
-      "bestFor": "Value-focused professionals",
-      "url": "https://seoshortlist.com/tools/se-ranking"
     },
     {
       "provider": "Serpstat",
@@ -123,12 +123,12 @@
       "url": "https://seoshortlist.com/tools/moz"
     },
     {
-      "provider": "Ahrefs",
-      "slug": "ahrefs",
-      "price": 108,
-      "rating": 4.6,
-      "bestFor": "Link building and competitor research",
-      "url": "https://seoshortlist.com/tools/ahrefs"
+      "provider": "SE Ranking",
+      "slug": "se-ranking",
+      "price": 103.2,
+      "rating": 4.4,
+      "bestFor": "Value-focused professionals",
+      "url": "https://seoshortlist.com/tools/se-ranking"
     },
     {
       "provider": "Sistrix",
@@ -170,6 +170,18 @@
       "measured": true,
       "run_id": "2026-07_r1",
       "avg": 68.35,
+      "median": 50,
+      "cheapest": 7,
+      "count": 13,
+      "n_missing": 0,
+      "n_under_review": 2
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 68.61,
       "median": 50,
       "cheapest": 7,
       "count": 13,

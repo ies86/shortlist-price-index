@@ -1,0 +1,13 @@
+{
+  "niche": "newsletter-tools",
+  "maand": "2026-08",
+  "n_total": 11,
+  "n_observed_new": 7,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 0,
+  "n_under_review": 4,
+  "n_missing": 0,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

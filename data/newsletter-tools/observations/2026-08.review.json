@@ -1,0 +1,50 @@
+{
+  "maand": "2026-08",
+  "niche": "newsletter-tools",
+  "items": [
+    {
+      "provider_slug": "brevo",
+      "oud": null,
+      "nieuw": 0.67,
+      "vendor_url": "https://www.brevo.com/pricing/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "aweber",
+      "oud": null,
+      "nieuw": 15,
+      "vendor_url": "https://www.aweber.com/pricing.htm",
+      "archive_url": "",
+      "alt": 12.49,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "kit",
+      "oud": null,
+      "nieuw": 390,
+      "vendor_url": "https://kit.com/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "beehiiv",
+      "oud": null,
+      "nieuw": 517,
+      "vendor_url": "https://www.beehiiv.com/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    }
+  ]
+}

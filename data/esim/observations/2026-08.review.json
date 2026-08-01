@@ -1,0 +1,86 @@
+{
+  "maand": "2026-08",
+  "niche": "esim",
+  "items": [
+    {
+      "provider_slug": "roamless",
+      "oud": null,
+      "nieuw": 8.45,
+      "vendor_url": "https://roamless.com/esim-region/global-esim",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "period_unknown"
+      ]
+    },
+    {
+      "provider_slug": "saily",
+      "oud": null,
+      "nieuw": 9.18,
+      "vendor_url": "https://saily.com/esim-global/",
+      "archive_url": "",
+      "alt": 2.29,
+      "flags": [
+        "period_unknown",
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "nomad",
+      "oud": null,
+      "nieuw": 12,
+      "vendor_url": "https://www.nomadesim.com/global-eSIM",
+      "archive_url": "",
+      "alt": 10.55,
+      "flags": [
+        "period_unknown",
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "alosim",
+      "oud": null,
+      "nieuw": 10,
+      "vendor_url": "https://alosim.com/global-esim/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "period_unknown"
+      ]
+    },
+    {
+      "provider_slug": "ubigi",
+      "oud": null,
+      "nieuw": 199,
+      "vendor_url": "https://cellulardata.ubigi.com/rates-and-coverage/world-data-plans/world-5gb-month-x12/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "flexiroam",
+      "oud": null,
+      "nieuw": 58,
+      "vendor_url": "https://www.flexiroam.com/en-us/shop/esim-global-data-plans",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band",
+        "period_unknown"
+      ]
+    },
+    {
+      "provider_slug": "bnesim",
+      "oud": null,
+      "nieuw": 17.22,
+      "vendor_url": "https://www.bnesim.com/plans/global/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "period_unknown"
+      ]
+    }
+  ]
+}

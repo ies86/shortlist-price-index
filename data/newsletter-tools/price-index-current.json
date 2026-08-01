@@ -5,10 +5,10 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to MailShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 11,
-  "averagePrice": 17.41,
-  "medianPrice": 15,
+  "averagePrice": 18.32,
+  "medianPrice": 16,
   "cheapest": {
     "provider": "Brevo",
     "price": 9
@@ -25,14 +25,6 @@
       "rating": 4.5,
       "bestFor": "Big list, low volume",
       "url": "https://mailshortlist.com/tools/brevo"
-    },
-    {
-      "provider": "Ghost",
-      "slug": "ghost",
-      "price": 9,
-      "rating": 4.4,
-      "bestFor": "Independent publishers",
-      "url": "https://mailshortlist.com/tools/ghost"
     },
     {
       "provider": "MailerLite",
@@ -67,6 +59,14 @@
       "url": "https://mailshortlist.com/tools/activecampaign"
     },
     {
+      "provider": "GetResponse",
+      "slug": "getresponse",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Funnels and webinars",
+      "url": "https://mailshortlist.com/tools/getresponse"
+    },
+    {
       "provider": "Omnisend",
       "slug": "omnisend",
       "price": 16,
@@ -75,12 +75,12 @@
       "url": "https://mailshortlist.com/tools/omnisend"
     },
     {
-      "provider": "GetResponse",
-      "slug": "getresponse",
-      "price": 19,
-      "rating": 4.3,
-      "bestFor": "Funnels and webinars",
-      "url": "https://mailshortlist.com/tools/getresponse"
+      "provider": "Ghost",
+      "slug": "ghost",
+      "price": 18,
+      "rating": 4.4,
+      "bestFor": "Independent publishers",
+      "url": "https://mailshortlist.com/tools/ghost"
     },
     {
       "provider": "Klaviyo",
@@ -93,7 +93,7 @@
     {
       "provider": "Kit (ConvertKit)",
       "slug": "kit",
-      "price": 29,
+      "price": 33,
       "rating": 4.5,
       "bestFor": "Writers and creators",
       "url": "https://mailshortlist.com/tools/kit"
@@ -115,6 +115,18 @@
       "median": 15,
       "cheapest": 9,
       "count": 11
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 12.68,
+      "median": 12.63,
+      "cheapest": 5,
+      "count": 7,
+      "n_missing": 0,
+      "n_under_review": 4
     }
   ]
 }

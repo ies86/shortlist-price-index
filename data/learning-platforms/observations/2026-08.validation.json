@@ -1,0 +1,23 @@
+{
+  "niche": "learning-platforms",
+  "maand": "2026-08",
+  "n_total": 11,
+  "n_observed_new": 4,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 0,
+  "n_under_review": 5,
+  "n_missing": 2,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 4,
+        "tracked": 11,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    }
+  ],
+  "publishable": false
+}

@@ -1,0 +1,13 @@
+{
+  "niche": "backup",
+  "maand": "2026-08",
+  "n_total": 17,
+  "n_observed_new": 1,
+  "n_observed_changed": 5,
+  "n_observed_unchanged": 7,
+  "n_under_review": 3,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

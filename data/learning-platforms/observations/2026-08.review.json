@@ -1,0 +1,61 @@
+{
+  "maand": "2026-08",
+  "niche": "learning-platforms",
+  "items": [
+    {
+      "provider_slug": "domestika",
+      "oud": null,
+      "nieuw": 14.31,
+      "vendor_url": "https://www.domestika.org/en/plus",
+      "archive_url": "",
+      "alt": 114.85,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "skillshare",
+      "oud": null,
+      "nieuw": 167.88,
+      "vendor_url": "https://www.skillshare.com/en/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "pluralsight",
+      "oud": null,
+      "nieuw": 21,
+      "vendor_url": "https://www.pluralsight.com/individuals/pricing",
+      "archive_url": "",
+      "alt": 29,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    },
+    {
+      "provider_slug": "udemy",
+      "oud": null,
+      "nieuw": 17.22,
+      "vendor_url": "https://www.udemy.com/personal-plan/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "period_unknown"
+      ]
+    },
+    {
+      "provider_slug": "udacity",
+      "oud": null,
+      "nieuw": 199,
+      "vendor_url": "https://www.udacity.com/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    }
+  ]
+}

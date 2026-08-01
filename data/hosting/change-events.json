@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "niche": "hosting",
+      "provider_slug": "dreamhost",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.3,
+      "new_usd_mo": 3.32,
+      "delta_pct": 0.6,
+      "vendor_url": "https://www.dreamhost.com/hosting/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:04:50.807Z",
+      "pitched": false
+    },
+    {
+      "niche": "hosting",
+      "provider_slug": "siteground",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.42,
+      "new_usd_mo": 3.43,
+      "delta_pct": 0.3,
+      "vendor_url": "https://www.siteground.com/web-hosting.htm",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:04:50.807Z",
+      "pitched": false
+    }
+  ]
+}

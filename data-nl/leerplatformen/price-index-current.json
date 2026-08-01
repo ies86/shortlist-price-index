@@ -6,9 +6,9 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 11,
-  "averagePrice": 22.32,
+  "averagePrice": 22.85,
   "medianPrice": 18.33,
   "cheapest": {
     "provider": "Brilliant",
@@ -70,7 +70,7 @@
     {
       "provider": "Pluralsight",
       "slug": "pluralsight",
-      "price": 19.08,
+      "price": 24.91,
       "rating": 4.1,
       "bestFor": "IT-professionals",
       "url": "https://leerplatformkiezer.nl/tools/pluralsight"

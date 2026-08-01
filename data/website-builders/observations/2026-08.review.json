@@ -1,0 +1,39 @@
+{
+  "maand": "2026-08",
+  "niche": "website-builders",
+  "items": [
+    {
+      "provider_slug": "carrd",
+      "oud": null,
+      "nieuw": 0.75,
+      "vendor_url": "https://carrd.co/pro",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "hostinger-builder",
+      "oud": null,
+      "nieuw": 2.99,
+      "vendor_url": "https://www.hostinger.com/website-builder",
+      "archive_url": "",
+      "alt": 2.99,
+      "flags": [
+        "period_unknown"
+      ]
+    },
+    {
+      "provider_slug": "10web",
+      "oud": null,
+      "nieuw": 120,
+      "vendor_url": "https://10web.io/pricing/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    }
+  ]
+}

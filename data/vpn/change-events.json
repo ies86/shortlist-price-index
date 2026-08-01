@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "niche": "vpn",
+      "provider_slug": "cyberghost",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.14,
+      "new_usd_mo": 3.16,
+      "delta_pct": 0.6,
+      "vendor_url": "https://www.cyberghostvpn.com/en_US/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "surfshark",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 2.62,
+      "new_usd_mo": 2.86,
+      "delta_pct": 9.2,
+      "vendor_url": "https://surfshark.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "nordvpn",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.99,
+      "new_usd_mo": 4.01,
+      "delta_pct": 0.5,
+      "vendor_url": "https://nordvpn.com/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "mozilla-vpn",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 5.71,
+      "new_usd_mo": 5.73,
+      "delta_pct": 0.4,
+      "vendor_url": "https://www.mozilla.org/products/vpn/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "mullvad",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 5.72,
+      "new_usd_mo": 5.74,
+      "delta_pct": 0.3,
+      "vendor_url": "https://mullvad.net/en/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "expressvpn",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.42,
+      "new_usd_mo": 4.58,
+      "delta_pct": 33.9,
+      "vendor_url": "https://www.expressvpn.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false
+    }
+  ]
+}

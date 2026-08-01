@@ -5,17 +5,17 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 15,
-  "averagePrice": 3.55,
+  "averagePrice": 3.17,
   "medianPrice": 2.99,
   "cheapest": {
     "provider": "Private Internet Access",
     "price": 1.99
   },
   "mostExpensive": {
-    "provider": "ExpressVPN",
-    "price": 6.67
+    "provider": "Windscribe",
+    "price": 5.75
   },
   "providers": [
     {
@@ -75,12 +75,28 @@
       "url": "https://vpnshortlist.com/tools/hide-me"
     },
     {
+      "provider": "Proton VPN",
+      "slug": "proton-vpn",
+      "price": 2.99,
+      "rating": 4.5,
+      "bestFor": "10 devices at once",
+      "url": "https://vpnshortlist.com/tools/proton-vpn"
+    },
+    {
       "provider": "IPVanish",
       "slug": "ipvanish",
       "price": 2.99,
       "rating": 4,
       "bestFor": "Unlimited devices",
       "url": "https://vpnshortlist.com/tools/ipvanish"
+    },
+    {
+      "provider": "NordVPN",
+      "slug": "nordvpn",
+      "price": 3.09,
+      "rating": 4.7,
+      "bestFor": "10 devices at once",
+      "url": "https://vpnshortlist.com/tools/nordvpn"
     },
     {
       "provider": "TunnelBear",
@@ -91,20 +107,12 @@
       "url": "https://vpnshortlist.com/tools/tunnelbear"
     },
     {
-      "provider": "NordVPN",
-      "slug": "nordvpn",
-      "price": 3.99,
-      "rating": 4.7,
-      "bestFor": "10 devices at once",
-      "url": "https://vpnshortlist.com/tools/nordvpn"
-    },
-    {
-      "provider": "Proton VPN",
-      "slug": "proton-vpn",
-      "price": 4.49,
-      "rating": 4.5,
-      "bestFor": "10 devices at once",
-      "url": "https://vpnshortlist.com/tools/proton-vpn"
+      "provider": "ExpressVPN",
+      "slug": "expressvpn",
+      "price": 3.49,
+      "rating": 4.4,
+      "bestFor": "8 devices at once",
+      "url": "https://vpnshortlist.com/tools/expressvpn"
     },
     {
       "provider": "Mozilla VPN",
@@ -129,14 +137,6 @@
       "rating": 4.2,
       "bestFor": "Unlimited devices (Pro)",
       "url": "https://vpnshortlist.com/tools/windscribe"
-    },
-    {
-      "provider": "ExpressVPN",
-      "slug": "expressvpn",
-      "price": 6.67,
-      "rating": 4.4,
-      "bestFor": "8 devices at once",
-      "url": "https://vpnshortlist.com/tools/expressvpn"
     }
   ],
   "history": [
@@ -155,6 +155,18 @@
       "run_id": "2026-07_r1",
       "avg": 3.86,
       "median": 3.38,
+      "cheapest": 2.19,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 4.01,
+      "median": 3.67,
       "cheapest": 2.19,
       "count": 10,
       "n_missing": 2,

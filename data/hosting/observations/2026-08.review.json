@@ -1,0 +1,17 @@
+{
+  "maand": "2026-08",
+  "niche": "hosting",
+  "items": [
+    {
+      "provider_slug": "cloudways",
+      "oud": null,
+      "nieuw": 14,
+      "vendor_url": "https://www.cloudways.com/en/pricing.php",
+      "archive_url": "",
+      "alt": 11,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    }
+  ]
+}

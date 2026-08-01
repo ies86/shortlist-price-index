@@ -5,7 +5,7 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to BackupShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 18,
   "averagePrice": 7.97,
   "medianPrice": 8.62,
@@ -183,6 +183,18 @@
       "count": 13,
       "n_missing": 2,
       "n_under_review": 2
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 5.95,
+      "median": 4.02,
+      "cheapest": 1.14,
+      "count": 13,
+      "n_missing": 1,
+      "n_under_review": 3
     }
   ]
 }

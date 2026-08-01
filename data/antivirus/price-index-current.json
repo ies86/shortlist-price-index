@@ -5,9 +5,9 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-22",
+  "updated": "2026-08-01",
   "providersTracked": 18,
-  "averagePrice": 4.39,
+  "averagePrice": 4.68,
   "medianPrice": 4.17,
   "cheapest": {
     "provider": "TotalAV",
@@ -15,7 +15,7 @@
   },
   "mostExpensive": {
     "provider": "Aura",
-    "price": 9
+    "price": 12
   },
   "providers": [
     {
@@ -131,20 +131,20 @@
       "url": "https://antivirusshortlist.com/tools/avg"
     },
     {
-      "provider": "F-Secure Total",
-      "slug": "f-secure",
-      "price": 5,
-      "rating": 4.3,
-      "bestFor": "Privacy-minded households",
-      "url": "https://antivirusshortlist.com/tools/f-secure"
-    },
-    {
       "provider": "Avira Free Security",
       "slug": "avira",
       "price": 5,
       "rating": 4,
       "bestFor": "Older or slower PCs",
       "url": "https://antivirusshortlist.com/tools/avira"
+    },
+    {
+      "provider": "F-Secure Total",
+      "slug": "f-secure",
+      "price": 7.08,
+      "rating": 4.3,
+      "bestFor": "Privacy-minded households",
+      "url": "https://antivirusshortlist.com/tools/f-secure"
     },
     {
       "provider": "LifeLock",
@@ -157,7 +157,7 @@
     {
       "provider": "Aura",
       "slug": "aura",
-      "price": 9,
+      "price": 12,
       "rating": 4.4,
       "bestFor": "US users worried about fraud",
       "url": "https://antivirusshortlist.com/tools/aura"
@@ -165,7 +165,7 @@
   ],
   "trueCost": {
     "unit": "USD per year; threeYearTotal = total USD over 3 years",
-    "avgRenewalMultiplier": 2.2,
+    "avgRenewalMultiplier": 2.1,
     "providers": [
       {
         "provider": "Webroot Essentials",
@@ -192,6 +192,14 @@
         "threeYearTotal": 199.97
       },
       {
+        "provider": "TotalAV",
+        "slug": "totalav",
+        "intro": 19,
+        "renewal": 99,
+        "multiplier": 5.2,
+        "threeYearTotal": 217
+      },
+      {
         "provider": "Kaspersky Premium",
         "slug": "kaspersky",
         "intro": 44.99,
@@ -216,28 +224,12 @@
         "threeYearTotal": 249.97
       },
       {
-        "provider": "TotalAV",
-        "slug": "totalav",
-        "intro": 19,
-        "renewal": 119,
-        "multiplier": 6.3,
-        "threeYearTotal": 257
-      },
-      {
         "provider": "Avira Free Security",
         "slug": "avira",
         "intro": 59.99,
         "renewal": 104.99,
         "multiplier": 1.8,
         "threeYearTotal": 269.97
-      },
-      {
-        "provider": "F-Secure Total",
-        "slug": "f-secure",
-        "intro": 59.99,
-        "renewal": 109.99,
-        "multiplier": 1.8,
-        "threeYearTotal": 279.97
       },
       {
         "provider": "Norton 360 Deluxe",
@@ -264,6 +256,14 @@
         "threeYearTotal": 299.86
       },
       {
+        "provider": "F-Secure Total",
+        "slug": "f-secure",
+        "intro": 84.99,
+        "renewal": 109.99,
+        "multiplier": 1.3,
+        "threeYearTotal": 304.97
+      },
+      {
         "provider": "LifeLock",
         "slug": "lifelock",
         "intro": 89.99,
@@ -282,10 +282,10 @@
       {
         "provider": "Aura",
         "slug": "aura",
-        "intro": 108,
+        "intro": 144,
         "renewal": 144,
-        "multiplier": 1.3,
-        "threeYearTotal": 396
+        "multiplier": 1,
+        "threeYearTotal": 432
       }
     ]
   },

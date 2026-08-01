@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "niche": "seo",
+      "provider_slug": "sitebulb",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 127.31,
+      "new_usd_mo": 127.5,
+      "delta_pct": 0.1,
+      "vendor_url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    },
+    {
+      "niche": "seo",
+      "provider_slug": "screaming-frog",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 18.93,
+      "new_usd_mo": 20,
+      "delta_pct": 5.7,
+      "vendor_url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    },
+    {
+      "niche": "seo",
+      "provider_slug": "se-ranking",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 99.56,
+      "new_usd_mo": 100.15,
+      "delta_pct": 0.6,
+      "vendor_url": "https://seranking.com/subscription.html",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    },
+    {
+      "niche": "seo",
+      "provider_slug": "surfer",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 137.02,
+      "new_usd_mo": 137.82,
+      "delta_pct": 0.6,
+      "vendor_url": "https://surferseo.com/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    },
+    {
+      "niche": "seo",
+      "provider_slug": "peec-ai",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 79.93,
+      "new_usd_mo": 80.4,
+      "delta_pct": 0.6,
+      "vendor_url": "https://peec.ai/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    },
+    {
+      "niche": "seo",
+      "provider_slug": "ahrefs",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 30.83,
+      "new_usd_mo": 31.01,
+      "delta_pct": 0.6,
+      "vendor_url": "https://ahrefs.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false
+    }
+  ]
+}

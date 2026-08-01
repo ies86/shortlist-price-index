@@ -1,0 +1,13 @@
+{
+  "niche": "hosting",
+  "maand": "2026-08",
+  "n_total": 13,
+  "n_observed_new": 0,
+  "n_observed_changed": 2,
+  "n_observed_unchanged": 7,
+  "n_under_review": 1,
+  "n_missing": 3,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

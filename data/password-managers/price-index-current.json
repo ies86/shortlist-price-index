@@ -5,13 +5,13 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to PasswordShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 9,
-  "averagePrice": 2.58,
-  "medianPrice": 1.99,
+  "averagePrice": 2.72,
+  "medianPrice": 2.49,
   "cheapest": {
-    "provider": "Bitwarden",
-    "price": 0.83
+    "provider": "NordPass",
+    "price": 1.49
   },
   "mostExpensive": {
     "provider": "Dashlane",
@@ -19,20 +19,20 @@
   },
   "providers": [
     {
-      "provider": "Bitwarden",
-      "slug": "bitwarden",
-      "price": 0.83,
-      "rating": 4.7,
-      "bestFor": "Almost everyone",
-      "url": "https://passwordshortlist.com/tools/bitwarden"
-    },
-    {
       "provider": "NordPass",
       "slug": "nordpass",
       "price": 1.49,
       "rating": 4.4,
       "bestFor": "Budget-conscious users",
       "url": "https://passwordshortlist.com/tools/nordpass"
+    },
+    {
+      "provider": "Bitwarden",
+      "slug": "bitwarden",
+      "price": 1.65,
+      "rating": 4.7,
+      "bestFor": "Almost everyone",
+      "url": "https://passwordshortlist.com/tools/bitwarden"
     },
     {
       "provider": "Proton Pass",
@@ -53,7 +53,7 @@
     {
       "provider": "RoboForm",
       "slug": "roboform",
-      "price": 1.99,
+      "price": 2.49,
       "rating": 4,
       "bestFor": "Form-heavy users",
       "url": "https://passwordshortlist.com/tools/roboform"
@@ -99,6 +99,18 @@
       "median": 1.99,
       "cheapest": 0.83,
       "count": 9
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 7.08,
+      "median": 3.99,
+      "cheapest": 2.49,
+      "count": 6,
+      "n_missing": 1,
+      "n_under_review": 2
     }
   ]
 }

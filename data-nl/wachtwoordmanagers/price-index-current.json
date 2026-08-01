@@ -6,10 +6,10 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 9,
-  "averagePrice": 2.67,
-  "medianPrice": 1.99,
+  "averagePrice": 2.72,
+  "medianPrice": 2.49,
   "cheapest": {
     "provider": "NordPass",
     "price": 1.49
@@ -54,7 +54,7 @@
     {
       "provider": "RoboForm",
       "slug": "roboform",
-      "price": 1.99,
+      "price": 2.49,
       "rating": 4,
       "bestFor": "Wie veel formulieren invult",
       "url": "https://wachtwoordkiezer.nl/tools/roboform"
@@ -100,6 +100,18 @@
       "median": 1.99,
       "cheapest": 1.49,
       "count": 9
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 7.08,
+      "median": 3.99,
+      "cheapest": 2.49,
+      "count": 6,
+      "n_missing": 1,
+      "n_under_review": 2
     }
   ]
 }

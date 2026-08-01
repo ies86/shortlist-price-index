@@ -5,10 +5,10 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to WebsiteShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 21,
-  "averagePrice": 13.85,
-  "medianPrice": 12.8,
+  "averagePrice": 13.62,
+  "medianPrice": 11.99,
   "cheapest": {
     "provider": "Carrd",
     "price": 1.58
@@ -75,6 +75,14 @@
       "url": "https://websiteshortlist.com/tools/ionos"
     },
     {
+      "provider": "Framer",
+      "slug": "framer",
+      "price": 10,
+      "rating": 4.5,
+      "bestFor": "Startups and design-led sites",
+      "url": "https://websiteshortlist.com/tools/framer"
+    },
+    {
       "provider": "10Web",
       "slug": "10web",
       "price": 10,
@@ -113,14 +121,6 @@
       "rating": 4.3,
       "bestFor": "Agencies and ambitious DIYers",
       "url": "https://websiteshortlist.com/tools/webflow"
-    },
-    {
-      "provider": "Framer",
-      "slug": "framer",
-      "price": 15,
-      "rating": 4.5,
-      "bestFor": "Startups and design-led sites",
-      "url": "https://websiteshortlist.com/tools/framer"
     },
     {
       "provider": "Squarespace",
@@ -195,6 +195,18 @@
       "median": 12.4,
       "cheapest": 1.58,
       "count": 18
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 14.51,
+      "median": 13.78,
+      "cheapest": 1.15,
+      "count": 13,
+      "n_missing": 2,
+      "n_under_review": 3
     }
   ]
 }

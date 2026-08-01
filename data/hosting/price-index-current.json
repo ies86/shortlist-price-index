@@ -5,16 +5,16 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-07-21",
+  "updated": "2026-08-01",
   "providersTracked": 13,
-  "averagePrice": 7.73,
-  "medianPrice": 4,
+  "averagePrice": 8.04,
+  "medianPrice": 3.99,
   "cheapest": {
     "provider": "IONOS",
     "price": 1
   },
   "mostExpensive": {
-    "provider": "Kinsta",
+    "provider": "WP Engine",
     "price": 30
   },
   "providers": [
@@ -67,6 +67,14 @@
       "url": "https://hostingshortlist.com/tools/a2-hosting"
     },
     {
+      "provider": "Bluehost",
+      "slug": "bluehost",
+      "price": 3.99,
+      "rating": 3.8,
+      "bestFor": "Basic WordPress sites",
+      "url": "https://hostingshortlist.com/tools/bluehost"
+    },
+    {
       "provider": "DigitalOcean",
       "slug": "digitalocean",
       "price": 4,
@@ -81,14 +89,6 @@
       "rating": 4.5,
       "bestFor": "Price-to-performance",
       "url": "https://hostingshortlist.com/tools/hetzner"
-    },
-    {
-      "provider": "Bluehost",
-      "slug": "bluehost",
-      "price": 4.99,
-      "rating": 3.8,
-      "bestFor": "Basic WordPress sites",
-      "url": "https://hostingshortlist.com/tools/bluehost"
     },
     {
       "provider": "GoDaddy",
@@ -107,33 +107,33 @@
       "url": "https://hostingshortlist.com/tools/cloudways"
     },
     {
-      "provider": "WP Engine",
-      "slug": "wp-engine",
-      "price": 25,
-      "rating": 4.4,
-      "bestFor": "Managed WordPress",
-      "url": "https://hostingshortlist.com/tools/wp-engine"
-    },
-    {
       "provider": "Kinsta",
       "slug": "kinsta",
       "price": 30,
       "rating": 4.6,
       "bestFor": "Managed WordPress",
       "url": "https://hostingshortlist.com/tools/kinsta"
+    },
+    {
+      "provider": "WP Engine",
+      "slug": "wp-engine",
+      "price": 30,
+      "rating": 4.4,
+      "bestFor": "Managed WordPress",
+      "url": "https://hostingshortlist.com/tools/wp-engine"
     }
   ],
   "trueCost": {
     "unit": "USD per month; threeYearTotal = total USD over 36 months",
-    "avgRenewalMultiplier": 3.9,
+    "avgRenewalMultiplier": 4,
     "providers": [
       {
         "provider": "Namecheap",
         "slug": "namecheap",
         "intro": 1.98,
-        "renewal": 4.48,
-        "multiplier": 2.3,
-        "threeYearTotal": 131.28
+        "renewal": 5.88,
+        "multiplier": 3,
+        "threeYearTotal": 164.88
       },
       {
         "provider": "IONOS",
@@ -152,6 +152,14 @@
         "threeYearTotal": 227.16
       },
       {
+        "provider": "Bluehost",
+        "slug": "bluehost",
+        "intro": 3.99,
+        "renewal": 9.99,
+        "multiplier": 2.5,
+        "threeYearTotal": 287.64
+      },
+      {
         "provider": "Hostinger",
         "slug": "hostinger",
         "intro": 2.99,
@@ -165,14 +173,6 @@
         "intro": 2.99,
         "renewal": 12.99,
         "multiplier": 4.3,
-        "threeYearTotal": 347.64
-      },
-      {
-        "provider": "Bluehost",
-        "slug": "bluehost",
-        "intro": 4.99,
-        "renewal": 11.99,
-        "multiplier": 2.4,
         "threeYearTotal": 347.64
       },
       {
@@ -212,6 +212,18 @@
       "cheapest": 1,
       "count": 10,
       "n_missing": 2,
+      "n_under_review": 1
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "measured": true,
+      "run_id": "2026-08_r1",
+      "avg": 8.92,
+      "median": 3.32,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 3,
       "n_under_review": 1
     }
   ]

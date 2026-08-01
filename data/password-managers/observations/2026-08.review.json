@@ -1,0 +1,28 @@
+{
+  "maand": "2026-08",
+  "niche": "password-managers",
+  "items": [
+    {
+      "provider_slug": "nordpass",
+      "oud": null,
+      "nieuw": 27.43,
+      "vendor_url": "https://nordpass.com/plans/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ]
+    },
+    {
+      "provider_slug": "keeper",
+      "oud": null,
+      "nieuw": 0.36,
+      "vendor_url": "https://www.keepersecurity.com/pricing/personal-and-family.html",
+      "archive_url": "",
+      "alt": 4.34,
+      "flags": [
+        "extractor_disagreement"
+      ]
+    }
+  ]
+}
