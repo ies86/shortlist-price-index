@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "id": "seo|screaming-frog|paid|2026-08",
+    "datum": "2026-08",
+    "categorie": "SEO tools",
+    "provider": "screaming-frog",
+    "plan_id": "paid",
+    "oud": 18.93,
+    "nieuw": 20,
+    "deltaPct": 5.7,
+    "valuta": "USD",
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-07",
+      "2026-08"
+    ],
+    "run_ids": [
+      "2026-07_r1",
+      "2026-08_r1"
+    ],
+    "bron_url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+    "archief_url": "http://web.archive.org/web/20260801092936/https://www.screamingfrog.co.uk/seo-spider/pricing/",
+    "onafhankelijk_na_te_lopen": true,
+    "citeer": "screaming-frog raised the price of its paid plan from $18.93 to $20 per month (+5.7%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "vpn|surfshark|surfshark-starter|2026-08",
+    "datum": "2026-08",
+    "categorie": "VPN services",
+    "provider": "surfshark",
+    "plan_id": "surfshark-starter",
+    "oud": 2.62,
+    "nieuw": 2.86,
+    "deltaPct": 9.2,
+    "valuta": "USD",
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-07",
+      "2026-08"
+    ],
+    "run_ids": [
+      "2026-07_r1",
+      "2026-08_r1"
+    ],
+    "bron_url": "https://surfshark.com/pricing",
+    "archief_url": null,
+    "onafhankelijk_na_te_lopen": false,
+    "citeer": "surfshark raised the price of its surfshark-starter plan from $2.62 to $2.86 per month (+9.2%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "vpn|expressvpn|expressvpn-12m|2026-08",
+    "datum": "2026-08",
+    "categorie": "VPN services",
+    "provider": "expressvpn",
+    "plan_id": "expressvpn-12m",
+    "oud": 3.42,
+    "nieuw": 4.58,
+    "deltaPct": 33.9,
+    "valuta": "USD",
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-07",
+      "2026-08"
+    ],
+    "run_ids": [
+      "2026-07_r1",
+      "2026-08_r1"
+    ],
+    "bron_url": "https://www.expressvpn.com/pricing",
+    "archief_url": null,
+    "onafhankelijk_na_te_lopen": false,
+    "citeer": "expressvpn raised the price of its expressvpn-12m plan from $3.42 to $4.58 per month (+33.9%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  }
+]

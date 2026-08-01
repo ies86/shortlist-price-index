@@ -2,7 +2,29 @@
 
 Curated entry prices for software and services in eleven categories: cloud backup, web hosting, SEO tools, website builders, antivirus software, newsletter tools, password managers, VPN services, learning platforms, travel eSIMs and recruitment software. A Dutch mirror covers five categories in EUR. Published as open data by [Orai Media](https://www.linkedin.com/company/orai-media), the independent publisher behind the Shortlist comparison guides.
 
-The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. The figures are currently hand-curated guide prices, taken from each provider's public pricing page at compile time. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. **Web hosting, VPN services and cloud backup are the first measured categories (from July 2026):** their prices are read automatically from each provider's live pricing page, and their `monthly-index.csv` reports how many providers were actually observed versus missing that month, so the coverage is transparent. The other categories are still hand-curated and are being migrated to automated measurement one at a time. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
+The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
+
+## Which categories are measured (status on 1 August 2026)
+
+A category is listed as measured only when its monthly run passed the validation gate for that month (enough providers actually observed to publish a citable aggregate). The gate is recorded per month in `data/<category>/observations/<month>.validation.json`, so this table can be checked against the data rather than taken on trust.
+
+| Category | Measured months | Status |
+|---|---|---|
+| Web hosting | 2026-07, 2026-08 | measured |
+| VPN services | 2026-07, 2026-08 | measured |
+| Cloud backup | 2026-07, 2026-08 | measured |
+| SEO tools | 2026-07, 2026-08 | measured |
+| Newsletter tools | 2026-08 | measured |
+| Password managers | 2026-08 | measured |
+| Website builders | 2026-08 | measured |
+| Antivirus software | 2026-07, 2026-08 | measured, **aggregate withheld** (too few providers verified; see note below) |
+| Learning platforms | 2026-08 | measured, **aggregate withheld** (too few providers verified) |
+| Travel eSIMs | 2026-08 | measured, **aggregate withheld** (too few providers verified) |
+| Recruitment software | none | curated guide prices |
+
+For a measured category, `monthly-index.csv` reports how many providers were actually observed versus missing that month, so the coverage is transparent. Where the aggregate is withheld, the raw observations are still published: they are the honest record of what could and could not be read, and withholding the average is the point of the gate rather than a gap in the data.
+
+**Note on antivirus software.** The set of plans tracked in this category changed between the July and August runs. Until 21 July the list pointed at each vendor's premium suite (for example Bitdefender Total Security, Norton 360 Deluxe, Kaspersky Premium); it was then corrected to the entry-level plan, because the measurand for this index is the lowest paid individual plan. The correction was necessary, but it means the July and August observations for this category describe different products and must not be compared with each other as a price movement. Comparable series for antivirus start with the September 2026 run.
 
 ## What is in this repository
 
@@ -51,7 +73,9 @@ Each category folder contains:
 | `cheapest_price_usd` | Cheapest entry price in the category, USD per month |
 | `providers_tracked` | Number of providers in the index that month |
 
-**Measured categories (currently web hosting) use an extended, more transparent schema** in `monthly-index.csv`: `month, run_id, n_observed, n_missing, n_under_review, avg_usd_mo, median_usd_mo, cheapest_provider, cheapest_value, avg_renewal_usd_mo, avg_renewal_multiplier, n_renewal, matched_count_vs_prev, flags`. `n_observed` is how many providers were successfully read that month, `n_missing` how many could not be read (reported as gaps, never guessed), and `n_under_review` how many were held back for a manual check. The averages are computed only over the observed set. The renewal columns record the published renewal price where a provider states it on the page, and how many did (`n_renewal`).
+**Important caveat on `providers_tracked` (corrected 1 August 2026).** This column does not mean the same thing in every row. For a curated month it is the number of providers in the index. For a measured month it is the number of providers whose price was actually *observed* that month, which is lower, because providers that could not be read are reported as gaps rather than guessed. Web hosting, for example, shows 13 for June (curated), then 10 and 9 for July and August (observed). A drop in this column is therefore not evidence that a category shrank, and the difference between two months' averages is not a price movement unless both months are measured and cover the same set of plans.
+
+An extended per-month schema (`n_observed`, `n_missing`, `n_under_review`, renewal columns and a comparability flag) is designed and is what the per-month `observations/<month>.validation.json` files already record; it has not yet been written into `monthly-index.csv` for any category. Until it is, use the validation files for coverage detail. An earlier version of this README stated that web hosting already used that extended schema in `monthly-index.csv`. That was not the case for any category, and the sentence has been removed.
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns. The recruitment software category adds `pricing_basis` (flat or per_user) and `billing` (monthly or annual) columns to `providers-current.csv`.
 

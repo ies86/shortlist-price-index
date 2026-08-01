@@ -2,6 +2,38 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-08-01 (later the same day): event feed REBUILT on measurement, plus two README corrections
+
+- **The event feed is back, rebuilt on the basis promised in the withdrawal note above.** An event
+  is now generated only from `data/<category>/observations/`, and only when all of the following
+  hold: both months are measured for that category, the months are consecutive, the record is for
+  the *same* `provider_slug` **and** `plan_id`, and both observations have an `observed_*` status.
+  A basket change can therefore no longer become an event, because a different plan simply does not
+  join. Each event carries both run IDs and the vendor source URL.
+- **Currency gate added.** A vendor that prices in euros and left its euro figure untouched has not
+  changed its price, even though the USD value moves with the exchange rate. Events are now dropped
+  when the amount in the original currency is unchanged. This removed two of five candidates for
+  August: SE Ranking (EUR 87.20 in both months) and Surfer (EUR 120.00 in both months), where the
+  only thing that moved was the rate, from 1.1418 to 1.1485.
+- Three events survived for August 2026, each verifiable on the vendor's own pricing page for the
+  same plan: Screaming Frog SEO Spider (EUR 199 to EUR 209 per year), Surfshark Starter (EUR 2.29 to
+  EUR 2.49 per month) and ExpressVPN Advanced (EUR 2.99 to EUR 3.99 per month).
+- **README correction 1.** The README described web hosting, VPN services and cloud backup as the
+  measured categories. Seven categories are measured and pass the validation gate: those three plus
+  SEO tools, newsletter tools, password managers and website builders. Three further categories
+  (antivirus software, learning platforms, travel eSIMs) are measured but have their aggregate
+  withheld because too few providers were verified. A status table has been added, and
+  `scripts/price-index-statuscheck.mjs` now fails if that table drifts from the validation files.
+- **README correction 2.** The README stated that measured categories use an extended, more
+  transparent schema in `monthly-index.csv` (`n_observed`, `n_missing`, `n_under_review` and
+  renewal columns). No category used that schema; the column headers were and are the simple set.
+  The claim has been removed, and the differing meaning of `providers_tracked` between curated and
+  measured months is now documented explicitly, because that column silently changes definition.
+- **Antivirus comparability note.** Until 21 July 2026 this category tracked each vendor's premium
+  suite; it was then corrected to the entry-level plan to match the measurand (lowest paid
+  individual plan). July and August therefore describe different products and must not be compared.
+  Comparable antivirus series begin with the September 2026 run.
+
 ## 2026-08-01: price-change event feed WITHDRAWN
 
 - **`data/wire-events.json` and `data/change-ledger.json` have been emptied and are withdrawn.**
