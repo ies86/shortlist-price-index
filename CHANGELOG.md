@@ -2,6 +2,35 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-08-01: price-change event feed WITHDRAWN
+
+- **`data/wire-events.json` and `data/change-ledger.json` have been emptied and are withdrawn.**
+  Any price-change figure published in those two files before this date should not be cited.
+  Full explanation in `data/WITHDRAWN-price-change-events.md`.
+- Reason: the generator did not measure vendors. It compared this project's own published index
+  between two months, read from our own site endpoints, so a correction to our own data was
+  recorded and quoted as a price change by the vendor. For the same plan in the same two months,
+  the independent measurements are flat where the feed claimed moves of -73% (Ahrefs), +98.5%
+  (SE Ranking), +50% (WP Engine) and -45.6% (Hetzner).
+- A second defect compounded it: in six of the ten categories the comparison month had never been
+  measured, so the delta compared a hand-compiled estimate against a measured value. That is a
+  change of method, not of price.
+- **The monthly snapshots are unaffected and remain valid.** `monthly-index.csv`,
+  `price-index-current.json` and `providers-current.csv` are unchanged. They are documented as
+  compiled from public vendor pricing pages, with four categories additionally verified by direct
+  measurement; this withdrawal concerns only the derived claim that a vendor *changed* its price.
+- The feed returns only when an event is generated from `data/<category>/observations/` for the
+  same `provider_slug` and the same `plan_id` in both months, carrying both source URLs.
+
+## 2026-08 (snapshot taken 2026-08-01)
+
+- Monthly snapshot for all categories. Ten categories were measured directly this month
+  (median of three runs per vendor): hosting, VPN, backup, SEO, password managers, website
+  builders, newsletter tools, eSIM, learning platforms and antivirus. Six of those are measured
+  here for the first time, so they have no comparable prior month.
+- Out-of-band and disputed readings were held back by the validation gate rather than published
+  (for example Mangools $519.58 and Keeper $0.36, both flagged and excluded).
+
 ## 2026-07-08 (later the same day): recruitment software + Dutch mirror
 
 - Added an eleventh category: **recruitment software (ATS)**, maintained directly in this repository. July 2026 baseline: $109.54 average / $87 median / $15 cheapest entry price across 8 vendors with public USD pricing (Manatal, Jobsoid, JazzHR, Crelate, CATS, VivaHR, Breezy HR, Workable). Extra columns record pricing basis (flat vs per user) and billing (monthly vs annual). Vendors without public USD pricing are excluded by methodology.
