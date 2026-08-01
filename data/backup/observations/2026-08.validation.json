@@ -3,11 +3,29 @@
   "maand": "2026-08",
   "n_total": 17,
   "n_observed_new": 1,
-  "n_observed_changed": 5,
-  "n_observed_unchanged": 7,
-  "n_under_review": 3,
+  "n_observed_changed": 3,
+  "n_observed_unchanged": 6,
+  "n_under_review": 6,
   "n_missing": 1,
   "canary_ok": true,
-  "alarms": [],
-  "publishable": true
+  "alarms": [
+    {
+      "type": "dekking_gedaald",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "schoon": 10,
+        "rollingMedian": 13
+      }
+    },
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 10,
+        "tracked": 17,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    }
+  ],
+  "publishable": false
 }

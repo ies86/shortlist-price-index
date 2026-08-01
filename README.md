@@ -12,7 +12,7 @@ A category is listed as measured only when its monthly run passed the validation
 |---|---|---|
 | Web hosting | 2026-07, 2026-08 | measured |
 | VPN services | 2026-07, 2026-08 | measured |
-| Cloud backup | 2026-07, 2026-08 | measured |
+| Cloud backup | 2026-07, 2026-08 | measured; **August aggregate withheld** (three readings rejected on review, see note below) |
 | SEO tools | 2026-07, 2026-08 | measured |
 | Newsletter tools | 2026-08 | measured |
 | Password managers | 2026-08 | measured |
@@ -25,6 +25,8 @@ A category is listed as measured only when its monthly run passed the validation
 For a measured category, `monthly-index.csv` reports how many providers were actually observed versus missing that month, so the coverage is transparent. Where the aggregate is withheld, the raw observations are still published: they are the honest record of what could and could not be read, and withholding the average is the point of the gate rather than a gap in the data.
 
 **Archived copies are partial, and the `archive_url` column says which.** The pipeline submits each vendor pricing page to the Wayback Machine so a reader can check the figure against the page as it stood on the measurement date. Not every vendor allows this: some block the archiving crawler outright, and the archive itself rate-limits. For August 2026 the coverage is 39 of 71 published observations. It is lowest for VPN services (2 of 10), where most vendors refuse the crawler. An observation without an `archive_url` is still a real measurement, with its `source_url` and timestamp recorded, but it cannot be independently re-checked once the vendor changes the page. Price-change events in `data/wire-events.json` carry an explicit flag for this.
+
+**Note on cloud backup, August 2026.** Three of the thirteen readings that month were rejected on review because the amount did not come from a subscription price at all: pCloud returned a one-off lifetime payment, MEGA an excess-storage charge per TB, and Filen a fragment of page furniture rather than a price. Removing them left coverage below the floor required to publish a citable average, so the August aggregate is withheld. The raw observations, including the rejected rows and the reason for each, remain published. July is unaffected.
 
 **Note on antivirus software.** The set of plans tracked in this category changed between the July and August runs. Until 21 July the list pointed at each vendor's premium suite (for example Bitdefender Total Security, Norton 360 Deluxe, Kaspersky Premium); it was then corrected to the entry-level plan, because the measurand for this index is the lowest paid individual plan. The correction was necessary, but it means the July and August observations for this category describe different products and must not be compared with each other as a price movement. Comparable series for antivirus start with the September 2026 run.
 
