@@ -1,0 +1,14 @@
+provider_slug,plan_id,quarter,currency,median_amount,n_snapshots,spread,confidence,archive_example
+frase,starter,2019,USD,15,1,0,"enkele opname",https://web.archive.org/web/20190719103430/https://www.frase.io/pricing/
+frase,starter,2021,USD,25,2,0,"mediaan van 2",https://web.archive.org/web/20210108214037/https://www.frase.io/pricing/
+frase,starter,2022,USD,25,3,20.01,"mediaan van 3+",https://web.archive.org/web/20220110200717/https://www.frase.io/pricing/
+frase,starter,2023,USD,14.99,1,0,"enkele opname",https://web.archive.org/web/20230928202707/https://www.frase.io/pricing/
+frase,starter,2024,USD,15,2,0,"mediaan van 2",https://web.archive.org/web/20240407034713/https://www.frase.io/pricing/
+frase,starter,2026,USD,39,1,0,"enkele opname",https://web.archive.org/web/20260203103221/https://www.frase.io/pricing/
+peec-ai,starter,2025,USD,29,2,0,"TEGENSPRAAK: meerdere munten in dezelfde periode, niet als reeks gebruiken",https://web.archive.org/web/20250718173827/https://peec.ai/pricing
+peec-ai,starter,2025,EUR,89,3,0,"TEGENSPRAAK: meerdere munten in dezelfde periode, niet als reeks gebruiken",https://web.archive.org/web/20251004052345/https://peec.ai/pricing
+peec-ai,starter,2026,EUR,89,1,0,"enkele opname",https://web.archive.org/web/20260203162754/https://peec.ai/pricing
+semrush,seo,2019,USD,99.95,3,0,"mediaan van 3+",https://web.archive.org/web/20190119215225/https://www.semrush.com/prices/
+semrush,seo,2020,USD,99.95,2,0,"mediaan van 2",https://web.archive.org/web/20200204121449/https://www.semrush.com/prices/
+serpstat,individual,2025,USD,50,7,0,"mediaan van 3+",https://web.archive.org/web/20250211024349/https://serpstat.com/page/pricing-plans/
+serpstat,individual,2026,USD,50,5,0,"mediaan van 3+",https://web.archive.org/web/20260208022705/https://serpstat.com/page/pricing-plans/

@@ -2,6 +2,33 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-08-02: archive-based price history for SEO tools, published as a separate series
+
+- **New file: `data/seo/history-archive.csv`.** Thirteen rows covering the calendar years 2019 to
+  2026 for four SEO vendors (Frase, Peec AI, Semrush, Serpstat), reconstructed from the Internet
+  Archive. Every row carries a public `web.archive.org` link to a snapshot it rests on, so any figure
+  in it can be re-checked by anyone without our cooperation.
+- **It is a separate series and must not be merged with `monthly-index.csv`.** Different method,
+  different reliability. The monthly index reads live vendor pages with a versioned scraper; this
+  file reads whatever the archive happened to save. A difference between the two is not a price
+  movement.
+- **Coverage is 4 of the 15 tracked SEO vendors, which is 27 percent**, and the README states that as
+  a number rather than as an impression. The other eleven were dropped by a calibration gate: the
+  harvester is asked to reproduce each vendor's known current price from that vendor's most recent
+  readable archived snapshot, within 25 percent, and a vendor whose own current price it cannot
+  reproduce does not get to supply its historical prices. The whole vendor is dropped, not just the
+  failing snapshot. Re-checked on 2 August 2026 the eleven split into six that read a wrong amount,
+  three where no snapshot yielded any amount, two whose own current measurement is under review, and
+  one with no archived snapshots at all.
+- **Two contradictory rows are published on purpose and flagged, not removed.** For 2025 Peec AI
+  appears both at USD 29 and at EUR 89, and no exchange rate reconciles those, so both rows carry a
+  `TEGENSPRAAK` (contradiction) label in `confidence` instead of one being quietly chosen.
+- Two measured limits of the calibration gate are documented in the README as well: the comparison is
+  made in the archived page's own currency against a current measurement in USD, which is how Peec AI
+  passed at a nominal 11 percent where the converted gap is 27 percent; and which snapshot counts as
+  the most recent readable one varies by the day, which puts Frase at the edge of the tolerance on a
+  re-check even though the snapshot it was calibrated on matches the measured price exactly.
+
 ## 2026-08-01 (later the same day): event feed REBUILT on measurement, plus two README corrections
 
 - **The event feed is back, rebuilt on the basis promised in the withdrawal note above.** An event

@@ -64,6 +64,8 @@ Each category folder contains:
 - `providers-current.csv`: the current entry price per provider, with a source URL per provider (eSIM: reference plan price and price per GB). Note: the `source_url` currently links to our own comparison page for that provider; a migration to link the provider's own pricing page (with an archived copy) is part of the automated measurement rollout.
 - `price-index-current.json`: the full current payload as published live by the source site, including methodology and per-provider detail.
 
+`data/seo/` holds one file more: `history-archive.csv`, a separate archive-based series that is not part of the monthly index. See the section on it below before using it.
+
 ### Columns in `monthly-index.csv`
 
 | Column | Meaning |
@@ -88,6 +90,123 @@ Each category folder contains:
 The figures in a `measured` row come from `observations/`, not from the comparison site: this was verified on 1 August 2026 by recomputing all ten published measured rows from the raw observations, and every one matched. An earlier version of this README described an extended column set (`n_observed`, renewal columns) that no category actually used; that claim has been removed and replaced by the three columns above, which are really there.
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns. The recruitment software category adds `pricing_basis` (flat or per_user) and `billing` (monthly or annual) columns to `providers-current.csv`.
+
+## A separate archive-based price history (SEO tools only)
+
+`data/seo/history-archive.csv` holds a second, older price series for SEO tools, reconstructed from
+the Internet Archive. It is **a separate series and it must never be merged with the monthly
+index.**
+
+The monthly index reads each vendor's own live pricing page on a fixed date with a versioned
+scraper and records what could and could not be read. This file reads pages that the Wayback
+Machine happened to save, years after the fact, with a reader that has no vendor-specific
+configuration to fall back on. Different method, different reliability. A figure from this file and
+a figure from `monthly-index.csv` are not two points on one line: do not compute a change between
+them, do not append these rows to that file, and do not average them together. The monthly series
+for SEO tools starts in June 2026; this one covers the calendar years 2019 to 2026, in 13 rows, for
+four vendors.
+
+### Where the values come from, and how to check them
+
+Every value here comes from the Internet Archive. For each vendor the archived snapshots from 2019
+onward are listed through the Wayback CDX API and spread evenly over the whole period, then fetched
+with the `id_` form of the archive URL so the reader sees the page's original bytes rather than the
+archive's own rendering of it. Readings are aggregated per calendar year with a median, because a
+single snapshot captures whatever promotion happened to run on the day the crawler visited.
+
+Every row carries an `archive_example` URL. It is an ordinary `web.archive.org` link, and opening it
+shows the vendor's pricing page as it stood on that date. That is why this file is worth publishing
+at all: unlike a live measurement, which is gone the moment the vendor edits the page, every figure
+here can be re-checked by anyone at any time, without our cooperation. All 13 rows carry such a
+link.
+
+Amounts are stated in the currency the archived page showed, in the `currency` column, and are not
+converted. The archive stores whatever the crawler was served, which for some vendors was a
+localized page, so a change of currency between rows is not by itself a price change.
+
+### Coverage: 4 of 15 vendors, 27 percent
+
+This index tracks 15 SEO vendors. **Four of them appear in this file** (Frase, Peec AI, Semrush and
+Serpstat), so the archive series covers 4 of 15, which is 27 percent. It is not a picture of the SEO
+tool market and must not be read as one.
+
+The other eleven were dropped by a calibration gate, and the reasoning behind that gate is the most
+important thing on this page. We already measure every month what each of these vendors charges
+today. So the harvester is pointed at the most recent archived snapshot it can read for that vendor
+and asked to reproduce that known current price, within 25 percent. Where it cannot, it is reading
+that vendor's pages wrongly, and there is then no reason to trust its readings from 2019 either.
+
+**A vendor whose own current price the harvester cannot reproduce does not get to supply its
+historical prices.** The whole vendor is dropped, not just the snapshot that failed.
+
+Re-checked on 2 August 2026, the eleven absent vendors break down as follows.
+
+| Why the vendor is absent | Count |
+|---|---|
+| The harvester read an amount, but not the current one, so its readings of that vendor are not trusted | 6 |
+| No archived snapshot yielded any amount at all, out of 40 tried per vendor | 3 |
+| Our own current measurement for that vendor is itself under review, so there is nothing to calibrate against | 2 |
+| The vendor's pricing page has no archived snapshots at all | 1 |
+
+That gate is not a formality; it is the difference between a usable file and a harmful one. Without
+it the harvester produced $16.50 for Ahrefs in 2019 and $0.01 in 2026, where the real figures were
+roughly $99 and $31. Numbers like that sit comfortably inside any plausible price range for the
+category, which is exactly what makes them dangerous. A price history full of credible wrong numbers
+is worse than no price history at all. The usual cause is mundane: JavaScript builds the pricing
+table, and the archive saved the page before it was filled in, so the stored HTML holds no price.
+
+### What the `confidence` column means
+
+The `confidence` column is written by the harvester and its values are in Dutch. It says how a row
+was aggregated, and whether the row may be used in a series at all.
+
+| Value | Meaning |
+|---|---|
+| `mediaan van 3+` | Median over three or more archived snapshots in that year. The strongest rows in this file. |
+| `mediaan van 2` | Median over two snapshots, so the midpoint of two readings. |
+| `enkele opname` | A single snapshot. One reading is an observation, not a median: it carries whatever promotion ran on that one day. |
+| `TEGENSPRAAK: ...` | Contradiction. Another row exists for the same vendor and the same year in a different currency, so the two cannot both be the entry price. **Not to be used as a series.** |
+
+`n_snapshots` gives the number of readings behind the median and `spread` the difference between the
+highest and the lowest of them, so the weight of a row can be judged from the data and not from the
+label alone.
+
+**Two rows are marked `TEGENSPRAAK`, and they stay published.** For 2025, Peec AI appears twice: once
+at USD 29 over two snapshots, and once at EUR 89 over three. No 2025 exchange rate turns EUR 89 into
+USD 29, so these are not the same price in two currencies. One of the two is wrong and the archive
+alone cannot say which. Both rows are therefore kept and both are flagged, rather than quietly
+picking the one that draws a nicer line. Anyone building a series from this file should skip every
+row whose `confidence` begins with `TEGENSPRAAK`.
+
+### Two limits of the calibration gate, measured
+
+Both were found by re-running the gate on 2 August 2026 and are stated here because they affect how
+much weight the four surviving vendors carry.
+
+- **The comparison is not currency-safe.** The gate compares the archived amount in its original
+  currency against the current measurement expressed in USD. Peec AI passed on that basis, at EUR 89
+  against USD 80.40, a gap of 11 percent. Converted at the same rate the index itself uses, EUR 89 is
+  about USD 102, a gap of 27 percent, which is outside the tolerance. Peec AI's rows should be read
+  with that in mind.
+- **Which snapshot counts as "the most recent readable one" varies by the day.** The gate calibrated
+  Frase on a snapshot from 3 February 2026 that reads $39, exactly the measured current price. A
+  re-check on 2 August 2026 reached a newer snapshot showing $49, the month-to-month price of the
+  same plan, which is 26 percent away and would have failed. The published rows are unaffected, but
+  the gate's verdict is not perfectly reproducible for a vendor that prices two ways on one page.
+
+### Columns in `history-archive.csv`
+
+| Column | Meaning |
+|---|---|
+| `provider_slug` | Vendor, using the same slug as everywhere else in this repository |
+| `plan_id` | Plan the price refers to, the same identifier as in the monthly index |
+| `quarter` | Period of the row. Aggregation is annual by default, so this holds a year (`2019`) rather than a quarter, despite the column name |
+| `currency` | Currency as shown on the archived page. Not converted |
+| `median_amount` | Median of the readings for that vendor, plan, year and currency |
+| `n_snapshots` | Number of archived snapshots behind that median |
+| `spread` | Difference between the highest and the lowest reading in that group |
+| `confidence` | How the row was aggregated, and whether it may be used in a series. See above |
+| `archive_example` | Public `web.archive.org` link to one of the snapshots the row rests on |
 
 ## Spotlight: recruitment software entry prices span a factor of 20
 
