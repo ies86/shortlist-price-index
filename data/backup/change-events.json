@@ -1,5 +1,6 @@
 {
-  "events": [
+  "events": [],
+  "ingetrokken": [
     {
       "niche": "backup",
       "provider_slug": "pcloud",
@@ -11,7 +12,9 @@
       "vendor_url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
       "archive_url": "",
       "detected_at": "2026-08-01T07:59:40.316Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 199 en veranderde niet; de 0.5% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "backup",
@@ -24,7 +27,9 @@
       "vendor_url": "https://www.dropbox.com/plans",
       "archive_url": "",
       "detected_at": "2026-08-01T07:59:40.316Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 9.99 en veranderde niet; de 0.4% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "backup",
@@ -37,7 +42,9 @@
       "vendor_url": "https://www.apple.com/nl/icloud/",
       "archive_url": "",
       "detected_at": "2026-08-01T07:59:40.316Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 0.99 en veranderde niet; de 0.9% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "backup",
@@ -50,7 +57,9 @@
       "vendor_url": "https://mega.io/pricing",
       "archive_url": "",
       "detected_at": "2026-08-01T07:59:40.316Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 3.5 en veranderde niet; de 0.5% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "backup",
@@ -63,7 +72,9 @@
       "vendor_url": "https://tresorit.com/pricing/personal",
       "archive_url": "",
       "detected_at": "2026-08-01T07:59:40.316Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 3.99 en veranderde niet; de 0.4% was de EUR/USD-koers, niet de leverancier"
     }
   ]
 }

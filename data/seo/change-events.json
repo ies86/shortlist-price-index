@@ -2,6 +2,26 @@
   "events": [
     {
       "niche": "seo",
+      "provider_slug": "screaming-frog",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 18.93,
+      "new_usd_mo": 20,
+      "delta_pct": 5.03,
+      "vendor_url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-08-01T08:30:49.478Z",
+      "pitched": false,
+      "currency": "EUR",
+      "old_own": 199,
+      "new_own": 209,
+      "delta_pct_own": 5.03,
+      "delta_pct_usd": 5.7
+    }
+  ],
+  "ingetrokken": [
+    {
+      "niche": "seo",
       "provider_slug": "sitebulb",
       "month": "2026-08",
       "run_id": "2026-08_r1",
@@ -11,20 +31,9 @@
       "vendor_url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true",
       "archive_url": "",
       "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
-    },
-    {
-      "niche": "seo",
-      "provider_slug": "screaming-frog",
-      "month": "2026-08",
-      "run_id": "2026-08_r1",
-      "old_usd_mo": 18.93,
-      "new_usd_mo": 20,
-      "delta_pct": 5.7,
-      "vendor_url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
-      "archive_url": "",
-      "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in GBP bleef 95 en veranderde niet; de 0.1% was de GBP/USD-koers, niet de leverancier"
     },
     {
       "niche": "seo",
@@ -37,7 +46,9 @@
       "vendor_url": "https://seranking.com/subscription.html",
       "archive_url": "",
       "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 87.2 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "seo",
@@ -50,7 +61,9 @@
       "vendor_url": "https://surferseo.com/pricing/",
       "archive_url": "",
       "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 120 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "seo",
@@ -63,7 +76,9 @@
       "vendor_url": "https://peec.ai/pricing",
       "archive_url": "",
       "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 70 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "seo",
@@ -76,7 +91,9 @@
       "vendor_url": "https://ahrefs.com/pricing",
       "archive_url": "",
       "detected_at": "2026-08-01T08:30:49.478Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 27 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     }
   ]
 }

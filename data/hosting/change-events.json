@@ -1,5 +1,6 @@
 {
-  "events": [
+  "events": [],
+  "ingetrokken": [
     {
       "niche": "hosting",
       "provider_slug": "dreamhost",
@@ -11,7 +12,9 @@
       "vendor_url": "https://www.dreamhost.com/hosting/",
       "archive_url": "",
       "detected_at": "2026-08-01T07:04:50.807Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 2.89 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "hosting",
@@ -24,7 +27,9 @@
       "vendor_url": "https://www.siteground.com/web-hosting.htm",
       "archive_url": "",
       "detected_at": "2026-08-01T07:04:50.807Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 2.99 en veranderde niet; de 0.3% was de EUR/USD-koers, niet de leverancier"
     }
   ]
 }

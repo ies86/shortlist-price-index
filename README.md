@@ -10,7 +10,7 @@ A category is listed as measured only when its monthly run passed the validation
 
 | Category | Measured months | Status |
 |---|---|---|
-| Web hosting | 2026-07, 2026-08 | measured |
+| Web hosting | 2026-07, 2026-08 | measured; **August aggregate withheld** (one reading was not a plan price, see note below) |
 | VPN services | 2026-07, 2026-08 | measured |
 | Cloud backup | 2026-07, 2026-08 | measured; **August aggregate withheld** (three readings rejected on review, see note below) |
 | SEO tools | 2026-07, 2026-08 | measured |
@@ -27,6 +27,37 @@ For a measured category, `monthly-index.csv` reports how many providers were act
 **Archived copies are partial, and the `archive_url` column says which.** The pipeline submits each vendor pricing page to the Wayback Machine so a reader can check the figure against the page as it stood on the measurement date. Not every vendor allows this: some block the archiving crawler outright, and the archive itself rate-limits. For August 2026 the coverage is 39 of 71 published observations. It is lowest for VPN services (2 of 10), where most vendors refuse the crawler. An observation without an `archive_url` is still a real measurement, with its `source_url` and timestamp recorded, but it cannot be independently re-checked once the vendor changes the page. Price-change events in `data/wire-events.json` carry an explicit flag for this.
 
 **Note on cloud backup, August 2026.** Three of the thirteen readings that month were rejected on review because the amount did not come from a subscription price at all: pCloud returned a one-off lifetime payment, MEGA an excess-storage charge per TB, and Filen a fragment of page furniture rather than a price. Removing them left coverage below the floor required to publish a citable average, so the August aggregate is withheld. The raw observations, including the rejected rows and the reason for each, remain published. July is unaffected.
+
+**Note on web hosting, August 2026.** One of the readings that month was not a plan price: Hetzner
+returned €1.09, which the page describes as the charge per GB per month for storage above the plan
+allowance. It is the same class of error as the three cloud backup readings withdrawn on 1 August,
+and the rule that catches it had simply never been re-applied to this category. Removing it left
+coverage below the floor required to publish a citable average, so the August aggregate is withheld.
+The raw observations, including the rejected row and its reason, remain published. July is
+unaffected.
+
+**Correction, 2 August 2026: price changes are now stated in the vendor's own currency.** Until this
+date, whether a price had changed was decided on the USD figure. Of the amounts measured for this
+index, 40 percent are not quoted in USD, so that figure moved every month with the exchange rate. The
+consequence was concrete: of the 19 price-change events published across the category feeds, **16
+were vendors that had not touched their own price at all**, with reported "changes" of 0.1 to 0.9
+percent that were entirely EUR/USD or GBP/USD movement. The remaining three were real increases, but
+each was overstated by roughly half a percentage point for the same reason.
+
+What changed:
+
+- Whether a price changed is now decided on the amount **in the currency the vendor prints**, and the
+  basis is written into the `reason` column of every observation, so it can be checked per row.
+- The 16 exchange-rate-only events have been withdrawn. They are not deleted: each stays in an
+  `ingetrokken` list in its category's `change-events.json` with the reason, so the record of what
+  was published and taken back stays intact.
+- The three real events now carry `currency`, the amounts as the vendor lists them, and a percentage
+  computed in that currency. `data/wire-events.json` keeps the USD figures alongside, labelled as
+  derived, with the exchange rate used for each month. The quotable sentence for Screaming Frog, for
+  example, used to read "$18.93 to $20 per month"; the vendor charges €199 and €209 per year, and
+  that is what it now says.
+- A gate (`geld-poort`) recomputes all of this from the raw observations and fails if a published
+  percentage does not match the vendor's own currency. It is run before publication and weekly.
 
 **Note on antivirus software.** The set of plans tracked in this category changed between the July and August runs. Until 21 July the list pointed at each vendor's premium suite (for example Bitdefender Total Security, Norton 360 Deluxe, Kaspersky Premium); it was then corrected to the entry-level plan, because the measurand for this index is the lowest paid individual plan. The correction was necessary, but it means the July and August observations for this category describe different products and must not be compared with each other as a price movement. Comparable series for antivirus start with the September 2026 run.
 
@@ -103,8 +134,8 @@ Machine happened to save, years after the fact, with a reader that has no vendor
 configuration to fall back on. Different method, different reliability. A figure from this file and
 a figure from `monthly-index.csv` are not two points on one line: do not compute a change between
 them, do not append these rows to that file, and do not average them together. The monthly series
-for SEO tools starts in June 2026; this one covers the calendar years 2019 to 2026, in 13 rows, for
-four vendors.
+for SEO tools starts in June 2026; this one covers the calendar years 2019 to 2026, in 13 rows, of
+which 10 are published for three vendors and 3 are withdrawn but kept visible.
 
 ### Where the values come from, and how to check them
 
@@ -124,11 +155,15 @@ Amounts are stated in the currency the archived page showed, in the `currency` c
 converted. The archive stores whatever the crawler was served, which for some vendors was a
 localized page, so a change of currency between rows is not by itself a price change.
 
-### Coverage: 4 of 15 vendors, 27 percent
+### Coverage: 3 of 15 vendors, 20 percent
 
-This index tracks 15 SEO vendors. **Four of them appear in this file** (Frase, Peec AI, Semrush and
-Serpstat), so the archive series covers 4 of 15, which is 27 percent. It is not a picture of the SEO
+This index tracks 15 SEO vendors. **Three of them are published in this file** (Frase, Semrush and
+Serpstat), so the archive series covers 3 of 15, which is 20 percent. It is not a picture of the SEO
 tool market and must not be read as one.
+
+A fourth vendor, Peec AI, was published on 2 August 2026 and **withdrawn the same day**; its three
+rows are still in the file, carrying `withdrawn` in the `status` column with the reason. See the
+correction note below.
 
 The other eleven were dropped by a calibration gate, and the reasoning behind that gate is the most
 important thing on this page. We already measure every month what each of these vendors charges
@@ -178,21 +213,31 @@ alone cannot say which. Both rows are therefore kept and both are flagged, rathe
 picking the one that draws a nicer line. Anyone building a series from this file should skip every
 row whose `confidence` begins with `TEGENSPRAAK`.
 
-### Two limits of the calibration gate, measured
+### Correction, 2 August 2026: Peec AI withdrawn after the gate was fixed
 
-Both were found by re-running the gate on 2 August 2026 and are stated here because they affect how
-much weight the four surviving vendors carry.
+The calibration gate compared the archived amount **in the currency printed on the archived page**
+against our current measurement **expressed in USD**. For a vendor that prices in euros those are
+two different units, and the comparison came out far too forgiving. Peec AI passed at EUR 89 against
+USD 80.40, an apparent gap of 11 percent. Compared properly, in the vendor's own currency, it is EUR
+89 against a measured EUR 70, a gap of 27 percent, which is outside the 25 percent tolerance.
 
-- **The comparison is not currency-safe.** The gate compares the archived amount in its original
-  currency against the current measurement expressed in USD. Peec AI passed on that basis, at EUR 89
-  against USD 80.40, a gap of 11 percent. Converted at the same rate the index itself uses, EUR 89 is
-  about USD 102, a gap of 27 percent, which is outside the tolerance. Peec AI's rows should be read
-  with that in mind.
-- **Which snapshot counts as "the most recent readable one" varies by the day.** The gate calibrated
-  Frase on a snapshot from 3 February 2026 that reads $39, exactly the measured current price. A
-  re-check on 2 August 2026 reached a newer snapshot showing $49, the month-to-month price of the
-  same plan, which is 26 percent away and would have failed. The published rows are unaffected, but
-  the gate's verdict is not perfectly reproducible for a vendor that prices two ways on one page.
+The gate now compares like with like: when both amounts are in the same currency it uses that
+currency directly and no exchange rate is involved at all; otherwise both are converted to USD per
+month at the European Central Bank reference rate **for the date each amount belongs to**, and if
+that rate is not known the answer is "undetermined" rather than a number. Peec AI fails on the
+corrected comparison, so its three rows are marked `withdrawn` and are not part of the series.
+
+The rows stay in the file on purpose. Deleting them would make this file look cleaner while hiding
+the evidence, and the Peec AI rows are also the clearest example of the contradiction described
+above.
+
+### A second, unfixed limit: which snapshot counts as "the most recent one"
+
+The gate calibrated Frase on a snapshot from 3 February 2026 that reads $39, exactly the measured
+current price. A re-check on 2 August 2026 reached a newer snapshot showing $49, the month-to-month
+price of the same plan, which is 26 percent away and would have failed. The published rows are
+unaffected, but the gate's verdict is not perfectly reproducible for a vendor that prints two prices
+for one plan. This one is documented, not solved.
 
 ### Columns in `history-archive.csv`
 
@@ -206,6 +251,7 @@ much weight the four surviving vendors carry.
 | `n_snapshots` | Number of archived snapshots behind that median |
 | `spread` | Difference between the highest and the lowest reading in that group |
 | `confidence` | How the row was aggregated, and whether it may be used in a series. See above |
+| `status` | `published`, or `withdrawn` with the reason. A withdrawn row is kept visible but is not part of the series and must not be cited |
 | `archive_example` | Public `web.archive.org` link to one of the snapshots the row rests on |
 
 ## Spotlight: recruitment software entry prices span a factor of 20

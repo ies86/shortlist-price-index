@@ -3,11 +3,22 @@
   "niche": "hosting",
   "items": [
     {
+      "provider_slug": "hetzner",
+      "oud": 1.25,
+      "nieuw": 1.25,
+      "vendor_url": "https://www.hetzner.com/webhosting/",
+      "archive_url": "http://web.archive.org/web/20260727031224/https://www.hetzner.com/webhosting/",
+      "alt": null,
+      "flags": [
+        "naheffing_per_eenheid"
+      ]
+    },
+    {
       "provider_slug": "cloudways",
       "oud": null,
       "nieuw": 14,
       "vendor_url": "https://www.cloudways.com/en/pricing.php",
-      "archive_url": "",
+      "archive_url": "http://web.archive.org/web/20260801084419/https://www.cloudways.com/en/pricing.php",
       "alt": 11,
       "flags": [
         "extractor_disagreement"

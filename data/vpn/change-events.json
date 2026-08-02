@@ -2,6 +2,44 @@
   "events": [
     {
       "niche": "vpn",
+      "provider_slug": "surfshark",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 2.62,
+      "new_usd_mo": 2.86,
+      "delta_pct": 8.73,
+      "vendor_url": "https://surfshark.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false,
+      "currency": "EUR",
+      "old_own": 2.29,
+      "new_own": 2.49,
+      "delta_pct_own": 8.73,
+      "delta_pct_usd": 9.2
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "expressvpn",
+      "month": "2026-08",
+      "run_id": "2026-08_r1",
+      "old_usd_mo": 3.42,
+      "new_usd_mo": 4.58,
+      "delta_pct": 33.44,
+      "vendor_url": "https://www.expressvpn.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-08-01T07:30:25.922Z",
+      "pitched": false,
+      "currency": "EUR",
+      "old_own": 2.99,
+      "new_own": 3.99,
+      "delta_pct_own": 33.44,
+      "delta_pct_usd": 33.9
+    }
+  ],
+  "ingetrokken": [
+    {
+      "niche": "vpn",
       "provider_slug": "cyberghost",
       "month": "2026-08",
       "run_id": "2026-08_r1",
@@ -11,20 +49,9 @@
       "vendor_url": "https://www.cyberghostvpn.com/en_US/pricing",
       "archive_url": "",
       "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
-    },
-    {
-      "niche": "vpn",
-      "provider_slug": "surfshark",
-      "month": "2026-08",
-      "run_id": "2026-08_r1",
-      "old_usd_mo": 2.62,
-      "new_usd_mo": 2.86,
-      "delta_pct": 9.2,
-      "vendor_url": "https://surfshark.com/pricing",
-      "archive_url": "",
-      "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 2.75 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "vpn",
@@ -37,7 +64,9 @@
       "vendor_url": "https://nordvpn.com/pricing/",
       "archive_url": "",
       "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 3.49 en veranderde niet; de 0.5% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "vpn",
@@ -50,7 +79,9 @@
       "vendor_url": "https://www.mozilla.org/products/vpn/pricing/",
       "archive_url": "",
       "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 4.99 en veranderde niet; de 0.4% was de EUR/USD-koers, niet de leverancier"
     },
     {
       "niche": "vpn",
@@ -63,20 +94,9 @@
       "vendor_url": "https://mullvad.net/en/pricing",
       "archive_url": "",
       "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
-    },
-    {
-      "niche": "vpn",
-      "provider_slug": "expressvpn",
-      "month": "2026-08",
-      "run_id": "2026-08_r1",
-      "old_usd_mo": 3.42,
-      "new_usd_mo": 4.58,
-      "delta_pct": 33.9,
-      "vendor_url": "https://www.expressvpn.com/pricing",
-      "archive_url": "",
-      "detected_at": "2026-08-01T07:30:25.922Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-08-02",
+      "reden": "de prijs in EUR bleef 5 en veranderde niet; de 0.3% was de EUR/USD-koers, niet de leverancier"
     }
   ]
 }

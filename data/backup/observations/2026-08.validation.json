@@ -3,8 +3,8 @@
   "maand": "2026-08",
   "n_total": 17,
   "n_observed_new": 1,
-  "n_observed_changed": 3,
-  "n_observed_unchanged": 6,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 9,
   "n_under_review": 6,
   "n_missing": 1,
   "canary_ok": true,
@@ -24,6 +24,14 @@
         "verified": 10,
         "tracked": 17,
         "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    },
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 9,
+        "veranderbaar": 9
       }
     }
   ],

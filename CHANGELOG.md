@@ -2,6 +2,52 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-08-02 (later the same day): price changes are stated in the vendor's own currency
+
+- **16 of the 19 published price-change events have been WITHDRAWN.** They were not price changes.
+  Whether a price had changed was decided on the USD figure, and 40 percent of the amounts in this
+  index are not quoted in USD, so that figure moved with the exchange rate every month. The withdrawn
+  events reported "changes" of 0.1 to 0.9 percent for vendors whose own price card was untouched:
+  pCloud, Dropbox, iCloud, MEGA and Tresorit (cloud backup), DreamHost and SiteGround (web hosting),
+  Sitebulb, SE Ranking, Surfer, Peec AI and Ahrefs (SEO tools), CyberGhost, NordVPN, Mozilla VPN and
+  Mullvad (VPN). **Any of those figures published or quoted before this date should not be cited.**
+- They are not deleted. Each sits in an `ingetrokken` list in its category's `change-events.json`
+  with the reason and the amount that did not move, so the record of what was published and taken
+  back stays intact.
+- **The three real events have been recomputed in the vendor's own currency** and were each
+  overstated by roughly half a percentage point: Screaming Frog 5.7 to 5.03 percent, Surfshark 9.2 to
+  8.73, ExpressVPN 33.9 to 33.44. The citation lines changed with them. Screaming Frog's used to read
+  "$18.93 to $20 per month"; the vendor charges €199 and €209 per year, and that is what it now says.
+- New fields in the event files: `currency`, `old_own`, `new_own`, `delta_pct_own` and
+  `delta_pct_usd`. `data/wire-events.json` also carries `lijstprijs` (the amount and term as the
+  vendor lists them) and `fx_naar_usd` (the rate used per month), so the USD figures can be checked
+  rather than trusted.
+- **The `reason` column of every observation now records the basis of the comparison**, for example
+  `vergeleken in EUR: 87.2 -> 87.2 per maand; de dollarwaarde ging wel 99.56 -> 100.15 en dat is
+  wisselkoers, geen prijs`. Where the vendor's own currency could not be established for both months,
+  the row says so and falls back to USD, rather than leaving that difference invisible.
+- **Peec AI is withdrawn from `data/seo/history-archive.csv`** for the same root cause. The
+  calibration gate compared the archived amount in the page's currency against a measurement in USD:
+  EUR 89 against USD 80.40 looked like 11 percent, while EUR 89 against a measured EUR 70 is 27
+  percent, outside the tolerance. Its three rows stay in the file with `withdrawn` in the new `status`
+  column and the reason, so the contradiction they document remains visible. Archive coverage for SEO
+  tools is therefore 3 of 15 vendors, 20 percent, not 4 of 15.
+- **Enforcement.** A gate (`geld-poort`) recomputes every published percentage from the raw
+  observations in the vendor's own currency, recomputes the archive calibration, and refuses any
+  comparison where the currency, the period or the exchange-rate date is not established: the answer
+  is then "undetermined" rather than a number. It runs before publication and weekly. Exchange rates
+  come from the European Central Bank and are stored per date, because converting a 2019 euro price
+  at a 2026 rate is a second error on top of the first.
+
+## 2026-08-02: web hosting, August aggregate withheld
+
+- One of the thirteen readings that month was not a plan price: Hetzner returned €1.09, which its
+  page describes as the charge per GB per month for storage above the plan allowance. Same class of
+  error as the three cloud backup readings withdrawn on 1 August; the rule that catches it had never
+  been re-applied to this category. Removing it left coverage below the floor required to publish a
+  citable average, so the August aggregate is withheld. The raw observations, including the rejected
+  row and its reason, remain published. July is unaffected.
+
 ## 2026-08-02: archive-based price history for SEO tools, published as a separate series
 
 - **New file: `data/seo/history-archive.csv`.** Thirteen rows covering the calendar years 2019 to

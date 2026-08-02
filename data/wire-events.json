@@ -5,10 +5,22 @@
     "categorie": "SEO tools",
     "provider": "screaming-frog",
     "plan_id": "paid",
-    "oud": 18.93,
-    "nieuw": 20,
-    "deltaPct": 5.7,
-    "valuta": "USD",
+    "oud": 16.58,
+    "nieuw": 17.42,
+    "deltaPct": 5,
+    "valuta": "EUR",
+    "oud_usd": 18.93,
+    "nieuw_usd": 20,
+    "usd_delta_pct": 5.7,
+    "fx_naar_usd": {
+      "2026-07": 1.1418,
+      "2026-08": 1.1485
+    },
+    "lijstprijs": {
+      "oud": 199,
+      "nieuw": 209,
+      "per": "year"
+    },
     "richting": "verhoging",
     "basis": "meting-op-meting",
     "gemeten_maanden": [
@@ -22,7 +34,7 @@
     "bron_url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
     "archief_url": "http://web.archive.org/web/20260801092936/https://www.screamingfrog.co.uk/seo-spider/pricing/",
     "onafhankelijk_na_te_lopen": true,
-    "citeer": "screaming-frog raised the price of its paid plan from $18.93 to $20 per month (+5.7%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+    "citeer": "screaming-frog raised the price of its paid plan from €199 to €209 per year (+5.0%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page; screaming-frog prices in EUR, so the change is stated in EUR and carries no exchange-rate movement; billed annually)."
   },
   {
     "id": "vpn|surfshark|surfshark-starter|2026-08",
@@ -30,10 +42,22 @@
     "categorie": "VPN services",
     "provider": "surfshark",
     "plan_id": "surfshark-starter",
-    "oud": 2.62,
-    "nieuw": 2.86,
-    "deltaPct": 9.2,
-    "valuta": "USD",
+    "oud": 2.29,
+    "nieuw": 2.49,
+    "deltaPct": 8.7,
+    "valuta": "EUR",
+    "oud_usd": 2.62,
+    "nieuw_usd": 2.86,
+    "usd_delta_pct": 9.2,
+    "fx_naar_usd": {
+      "2026-07": 1.1435,
+      "2026-08": 1.1485
+    },
+    "lijstprijs": {
+      "oud": 2.29,
+      "nieuw": 2.49,
+      "per": "month"
+    },
     "richting": "verhoging",
     "basis": "meting-op-meting",
     "gemeten_maanden": [
@@ -47,7 +71,7 @@
     "bron_url": "https://surfshark.com/pricing",
     "archief_url": null,
     "onafhankelijk_na_te_lopen": false,
-    "citeer": "surfshark raised the price of its surfshark-starter plan from $2.62 to $2.86 per month (+9.2%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+    "citeer": "surfshark raised the price of its surfshark-starter plan from €2.29 to €2.49 per month (+8.7%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page; surfshark prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
   },
   {
     "id": "vpn|expressvpn|expressvpn-12m|2026-08",
@@ -55,10 +79,22 @@
     "categorie": "VPN services",
     "provider": "expressvpn",
     "plan_id": "expressvpn-12m",
-    "oud": 3.42,
-    "nieuw": 4.58,
-    "deltaPct": 33.9,
-    "valuta": "USD",
+    "oud": 2.99,
+    "nieuw": 3.99,
+    "deltaPct": 33.4,
+    "valuta": "EUR",
+    "oud_usd": 3.42,
+    "nieuw_usd": 4.58,
+    "usd_delta_pct": 33.9,
+    "fx_naar_usd": {
+      "2026-07": 1.1435,
+      "2026-08": 1.1485
+    },
+    "lijstprijs": {
+      "oud": 2.99,
+      "nieuw": 3.99,
+      "per": "month"
+    },
     "richting": "verhoging",
     "basis": "meting-op-meting",
     "gemeten_maanden": [
@@ -72,6 +108,6 @@
     "bron_url": "https://www.expressvpn.com/pricing",
     "archief_url": null,
     "onafhankelijk_na_te_lopen": false,
-    "citeer": "expressvpn raised the price of its expressvpn-12m plan from $3.42 to $4.58 per month (+33.9%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page)."
+    "citeer": "expressvpn raised the price of its expressvpn-12m plan from €2.99 to €3.99 per month (+33.4%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page; expressvpn prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
   }
 ]

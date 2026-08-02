@@ -3,11 +3,20 @@
   "maand": "2026-08",
   "n_total": 15,
   "n_observed_new": 0,
-  "n_observed_changed": 6,
-  "n_observed_unchanged": 7,
+  "n_observed_changed": 1,
+  "n_observed_unchanged": 12,
   "n_under_review": 2,
   "n_missing": 0,
   "canary_ok": true,
-  "alarms": [],
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 12,
+        "veranderbaar": 13
+      }
+    }
+  ],
   "publishable": true
 }
