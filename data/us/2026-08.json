@@ -1,6 +1,6 @@
 {
  "maand": "2026-08",
- "gemeten_op": "2026-08-22T13:24:31.768Z",
+ "gemeten_op": "2026-08-22T13:30:42.132Z",
  "geo": {
   "land": "US",
   "as": "AS8075 Microsoft Corporation"
@@ -17,6 +17,18 @@
    "methode": "tekst_bij_plannaam",
    "snippet": "able hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visit",
    "plan_regio": "nsultation Pricing Knowledge Base News Support Login Get Started Choose Your Hosting Plan Length of Subscription Yearly Web Hosting Launch Reliable hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visits 25 GB NVMe SSD storage Unmetered Bandwidth Daily Automated Backups On-Demand Performance Scans "
+  },
+  {
+   "vendor": "siteground",
+   "niche": "hosting",
+   "url": "https://www.siteground.com/web-hosting.htm",
+   "http": 200,
+   "intro": 2.99,
+   "renewal": 17.99,
+   "valuta": "USD",
+   "methode": "json_ld",
+   "snippet": "\"price\": \"2.99\",\n                        \"priceCurrency\": \"USD\"",
+   "plan_regio": "the right hosting plan All Plans include: Free domain name Free website transfer Free daily Backups 24/7 Expert Support StartUp For personal projects & small sites $17.99 SAVE 83% $2.99/mo. SELECT PLAN Renews at $17.99/mo. Prepaid for 12 months. Host 1 website with unlimited traffic 10 GB Premium Google storage Core Features Free domain Free SSL, CDN, Backups Free email Free AI tokens NEW Multilev"
   },
   {
    "vendor": "sitebulb",
@@ -91,11 +103,5 @@
    "plan_regio": "ms Based Authentication Segmentation Looker Studio Crawl Report Free Technical Support &#036; &#036; &pound; &euro; 279 Per Year Purchase licence * The maximum number of URLs you can crawl is dependent on allocated memory and storage. Please see our FAQ. Multiple Licences USD &#036; &pound; &euro; Licences are per user. 2 users will require 2 individual licences. We offer discounts on bulk purchas"
   }
  ],
- "fouten": [
-  {
-   "vendor": "siteground",
-   "http": 202,
-   "reden": "pagina niet leesbaar (178 tekens)"
-  }
- ]
+ "fouten": []
 }
