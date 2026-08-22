@@ -99,18 +99,23 @@ function extraheer(vendor, html, tekst) {
   // Ook EUR/GBP-bedragen REGISTREREN (met hun symbool): op de US-runner hoort hier een
   // dollarteken te staan; staat er toch een euroteken, dan is dat zelf een bevinding
   // (aanbieder toont ook Amerikanen EUR). De lokale validatie accepteert alleen USD.
+  // Centen kunnen door de opmaak gespatieerd zijn ("$ 37 .70", "$ 2 . 99"); die spaties
+  // wegknippen, anders leest de meter $37 waar $37,70 staat (gevonden in run 1, 22-8).
+  // (?!\d) voorkomt dat een duizendtal-komma als centen telt: "$1,000" leest anders als 1,00.
+  const BEDRAG = /([$€£])\s?([\d]{1,4})(?:\s?[.,]\s?(\d{1,2})(?!\d))?/
+  const naarGetal = m => Number(m[2] + (m[3] ? '.' + m[3] : ''))
   if (record.intro == null && regio) {
-    const m = regio.match(/([$€£])\s?([\d]{1,4}(?:[.,]\d{1,2})?)/)
+    const m = regio.match(BEDRAG)
     if (m) {
-      record.intro = Number(m[2].replace(',', '.'))
+      record.intro = naarGetal(m)
       record.valuta = { $: 'USD', '€': 'EUR', '£': 'GBP' }[m[1]]
       record.methode = 'tekst_bij_plannaam'
       record.snippet = regio.slice(Math.max(0, regio.indexOf(m[0]) - 60), regio.indexOf(m[0]) + 100)
     }
   }
   if (regio) {
-    const r = regio.match(/renew(?:s|al|ed)?[^$€£]{0,80}[$€£]\s?([\d]{1,4}(?:[.,]\d{1,2})?)/i)
-    if (r) record.renewal = Number(r[1].replace(',', '.'))
+    const r = regio.match(new RegExp('renew(?:s|al|ed)?[^$€£]{0,80}' + BEDRAG.source, 'i'))
+    if (r) record.renewal = naarGetal(r)
   }
   return record
 }

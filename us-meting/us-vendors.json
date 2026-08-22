@@ -3,9 +3,9 @@
  "vendors": [
   { "slug": "dreamhost", "niche": "hosting", "url": "https://www.dreamhost.com/hosting/", "render": false, "plan_tekst": "Web Hosting Launch", "regio_lengte": 500, "verwacht_usd": 2.89 },
   { "slug": "siteground", "niche": "hosting", "url": "https://www.siteground.com/web-hosting.htm", "render": true, "plan_tekst": "StartUp", "regio_lengte": 500, "verwacht_usd": 2.99 },
-  { "slug": "sitebulb", "niche": "seo", "url": "https://sitebulb.com/subscriptions/pricing/index/", "render": true, "plan_tekst": "Lite", "regio_lengte": 400, "verwacht_usd": 18 },
+  { "slug": "sitebulb", "niche": "seo", "url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true", "render": true, "plan_tekst": "Lite", "regio_lengte": 400, "verwacht_usd": 15 },
   { "slug": "se-ranking", "niche": "seo", "url": "https://seranking.com/subscription.html", "render": true, "plan_tekst": "Core", "regio_lengte": 400, "verwacht_usd": 103.2 },
-  { "slug": "ahrefs", "niche": "seo", "url": "https://ahrefs.com/pricing", "render": true, "plan_tekst": "Lite", "regio_lengte": 500, "verwacht_usd": 108 },
+  { "slug": "ahrefs", "niche": "seo", "url": "https://ahrefs.com/pricing", "render": true, "plan_tekst": "Lite", "regio_lengte": 500, "verwacht_usd": null, "notitie": "eerste US-run las $129 = maandbetaling; jaarbetalingstarief nog vaststellen voor er een verwachting komt" },
   { "slug": "mangools", "niche": "seo", "url": "https://mangools.com/plans-and-pricing", "render": true, "plan_tekst": "Basic", "regio_lengte": 500, "verwacht_usd": null },
   { "slug": "surfer", "niche": "seo", "url": "https://surferseo.com/pricing/", "render": true, "plan_tekst": "Discovery", "regio_lengte": 400, "verwacht_usd": null },
   { "slug": "screaming-frog", "niche": "seo", "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/", "render": false, "plan_tekst": "Per Year", "regio_lengte": 400, "verwacht_usd": null }
