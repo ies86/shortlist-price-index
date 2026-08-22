@@ -1,0 +1,101 @@
+{
+ "maand": "2026-08",
+ "gemeten_op": "2026-08-22T13:24:31.768Z",
+ "geo": {
+  "land": "US",
+  "as": "AS8075 Microsoft Corporation"
+ },
+ "gemeten": [
+  {
+   "vendor": "dreamhost",
+   "niche": "hosting",
+   "url": "https://www.dreamhost.com/hosting/",
+   "http": 200,
+   "intro": 2.89,
+   "renewal": 10.99,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "able hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visit",
+   "plan_regio": "nsultation Pricing Knowledge Base News Support Login Get Started Choose Your Hosting Plan Length of Subscription Yearly Web Hosting Launch Reliable hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visits 25 GB NVMe SSD storage Unmetered Bandwidth Daily Automated Backups On-Demand Performance Scans "
+  },
+  {
+   "vendor": "sitebulb",
+   "niche": "seo",
+   "url": "https://sitebulb.com/subscriptions/pricing/index/",
+   "http": 200,
+   "intro": 18,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "$ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $18 /month Users 1 10,000 URLs per audit Get small & simple SEO audits All plans get: 100+ Hints Jav",
+   "plan_regio": "depth insights, and prioritized recommendations across 300+ SEO issues. $ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $18 /month Users 1 10,000 URLs per audit Get small & simple SEO audits All plans get: 100+ Hints JavaScript Crawling GA/GSC/Sheets Integration Duplicate Content Crawl Maps Start now Pro 1 User $42 /month Total price for 1 user Users 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+  },
+  {
+   "vendor": "se-ranking",
+   "niche": "seo",
+   "url": "https://seranking.com/subscription.html",
+   "http": 200,
+   "intro": 103.2,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "Core SEO + GEO for marketing teams with repeatable delivery $103.20 $129.00 /mo Start free 14-day trial No credit card required 10 projects & 1 manager seat 2k ",
+   "plan_regio": "iscovered across traditional search and AI answers Monthly Annually Save 20% Free migration with an annual subscription Core SEO + GEO for marketing teams with repeatable delivery $103.20 $129.00 /mo Start free 14-day trial No credit card required 10 projects & 1 manager seat 2k keywords & 100 prompts to track daily 5 domains in GEO research 250k pages per month in audit 25K API credits & MCP acce"
+  },
+  {
+   "vendor": "ahrefs",
+   "niche": "seo",
+   "url": "https://ahrefs.com/pricing",
+   "http": 200,
+   "intro": 129,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "ls and data for lean in-house marketing teams. Why upgrade? $ 129 /mo $ 249 /mo $ 449 /mo Get started Get started Get started 5 projects 6 months of historical ",
+   "plan_regio": " beyond—powered by the world’s second-most active crawler and 10+ years of web-scale data. Pay annually, save up to 17% Lite Essential data for small businesses and personal projects. Standard Perfect for freelance SEOs and marketing consultants. Advanced More tools and data for lean in-house marketing teams. Why upgrade? $ 129 /mo $ 249 /mo $ 449 /mo Get started Get started Get started 5 projects"
+  },
+  {
+   "vendor": "mangools",
+   "niche": "seo",
+   "url": "https://mangools.com/plans-and-pricing",
+   "http": 200,
+   "intro": 37,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "gools Basic For solopreneurs, freelance SEOs and marketers. $ 37 70 / mo Save $279.60 $732.00 $452.40 / yr Included in bundle + AI Search Watcher PRO Prompts mo",
+   "plan_regio": "Pricing Sign in Create a FREE account The best AIO + SEO bundle. Annually Save ~35% Monthly API & MCP included Mangools Basic For solopreneurs, freelance SEOs and marketers. $ 37 70 / mo Save $279.60 $732.00 $452.40 / yr Included in bundle + AI Search Watcher PRO Prompts monitored 500 Monitors Unlimited Multiple checks / prompt 2× LLMs +5 more ⛔ No extra seats available Keyword research 100 req. /"
+  },
+  {
+   "vendor": "surfer",
+   "niche": "seo",
+   "url": "https://surferseo.com/pricing/",
+   "http": 200,
+   "intro": 120,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "nd security Discovery 49 USD per month Billed yearly Saving $120 Draft and optimize content to establish a baseline presence in Google and AI search results. St",
+   "plan_regio": "nalysis Personalized Onboarding Dedicated Success Manager API Access Not sure yet? Start smaller — or go bigger. Choose Discovery to test Surfer, or Enterprise if you need custom scale and security Discovery 49 USD per month Billed yearly Saving $120 Draft and optimize content to establish a baseline presence in Google and AI search results. Start for Free Create or Optimize 120 Documents Track 10"
+  },
+  {
+   "vendor": "screaming-frog",
+   "niche": "seo",
+   "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": "ONBEKEND",
+   "methode": null,
+   "snippet": "",
+   "plan_regio": "ms Based Authentication Segmentation Looker Studio Crawl Report Free Technical Support &#036; &#036; &pound; &euro; 279 Per Year Purchase licence * The maximum number of URLs you can crawl is dependent on allocated memory and storage. Please see our FAQ. Multiple Licences USD &#036; &pound; &euro; Licences are per user. 2 users will require 2 individual licences. We offer discounts on bulk purchas"
+  }
+ ],
+ "fouten": [
+  {
+   "vendor": "siteground",
+   "http": 202,
+   "reden": "pagina niet leesbaar (178 tekens)"
+  }
+ ]
+}
