@@ -1,0 +1,37 @@
+# US-meting: maandelijkse prijsmeting vanaf een Amerikaanse GitHub-runner.
+# Waarom: een deel van de aanbieders toont vanaf Europa alleen EUR/GBP-prijzen, en de
+# Amerikaanse prijs is daar een ANDER getal (prijsdiscriminatie), niet een omrekening.
+# De uitvoer (data/us/<maand>.json) draagt geo-bewijs; de lokale pijplijn weigert elke
+# run waarvan het land niet US is. Draait op de 1e om 05:00 UTC, ruim voor de lokale
+# maandroutine van 09:00 Amsterdamse tijd, en is handmatig te starten via workflow_dispatch.
+name: US-meting
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 1 * *'
+permissions:
+  contents: write
+jobs:
+  meet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Playwright installeren
+        working-directory: us-meting
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Meten
+        working-directory: us-meting
+        run: node meet.mjs
+      - name: Resultaat committen
+        run: |
+          git config user.name 'us-meting-runner'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/us/
+          git commit -m "US-meting $(date -u +%Y-%m-%d)" || echo 'niets te committen'
+          git push

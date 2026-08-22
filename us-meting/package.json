@@ -1,0 +1,9 @@
+{
+  "name": "us-meting",
+  "private": true,
+  "type": "module",
+  "description": "US price measurement for geo-priced vendors, run on a GitHub Actions runner (US datacenter) with geo evidence in the output.",
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
