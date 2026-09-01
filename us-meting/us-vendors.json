@@ -1,13 +1,219 @@
 {
  "_uitleg": "Aanbieders die vanaf een Europees IP alleen EUR/GBP-prijzen tonen, gemeten vanaf de Amerikaanse GitHub-runner. plan_tekst = de letterlijke tekst waarop de plan-regio wordt gezocht; verwacht_usd = ijkwaarde voor de lokale validatie (null = nog geen bekende US-prijs, eerste run levert die). render = pagina heeft JavaScript nodig.",
  "vendors": [
-  { "slug": "dreamhost", "niche": "hosting", "url": "https://www.dreamhost.com/hosting/", "render": false, "plan_tekst": "Web Hosting Launch", "regio_lengte": 500, "verwacht_usd": 2.89 },
-  { "slug": "siteground", "niche": "hosting", "url": "https://www.siteground.com/web-hosting.htm", "render": true, "plan_tekst": "StartUp", "regio_lengte": 500, "verwacht_usd": 2.99 },
-  { "slug": "sitebulb", "niche": "seo", "url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true", "render": true, "plan_tekst": "Lite", "regio_lengte": 400, "verwacht_usd": 15, "periode": "year" },
-  { "slug": "se-ranking", "niche": "seo", "url": "https://seranking.com/subscription.html", "render": true, "plan_tekst": "Core", "regio_lengte": 400, "verwacht_usd": 103.2 },
-  { "slug": "ahrefs", "niche": "seo", "url": "https://ahrefs.com/pricing", "render": true, "plan_tekst": "Lite", "regio_lengte": 500, "verwacht_usd": null, "notitie": "eerste US-run las $129 = maandbetaling; jaarbetalingstarief nog vaststellen voor er een verwachting komt" },
-  { "slug": "mangools", "niche": "seo", "url": "https://mangools.com/plans-and-pricing", "render": true, "plan_tekst": "Basic", "regio_lengte": 500, "verwacht_usd": null },
-  { "slug": "surfer", "niche": "seo", "url": "https://surferseo.com/pricing/", "render": true, "plan_tekst": "Discovery", "regio_lengte": 400, "verwacht_usd": null },
-  { "slug": "screaming-frog", "niche": "seo", "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/", "render": false, "plan_tekst": "Per Year", "regio_lengte": 400, "verwacht_usd": null }
+  {
+   "slug": "dreamhost",
+   "niche": "hosting",
+   "url": "https://www.dreamhost.com/hosting/",
+   "render": false,
+   "plan_tekst": "Web Hosting Launch",
+   "regio_lengte": 500,
+   "verwacht_usd": 2.89
+  },
+  {
+   "slug": "siteground",
+   "niche": "hosting",
+   "url": "https://www.siteground.com/web-hosting.htm",
+   "render": true,
+   "plan_tekst": "StartUp",
+   "regio_lengte": 500,
+   "verwacht_usd": 2.99
+  },
+  {
+   "slug": "sitebulb",
+   "niche": "seo",
+   "url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true",
+   "render": true,
+   "plan_tekst": "Lite",
+   "regio_lengte": 400,
+   "verwacht_usd": 15,
+   "periode": "year"
+  },
+  {
+   "slug": "se-ranking",
+   "niche": "seo",
+   "url": "https://seranking.com/subscription.html",
+   "render": true,
+   "plan_tekst": "Core",
+   "regio_lengte": 400,
+   "verwacht_usd": 103.2
+  },
+  {
+   "slug": "ahrefs",
+   "niche": "seo",
+   "url": "https://ahrefs.com/pricing",
+   "render": true,
+   "plan_tekst": "Lite",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "eerste US-run las $129 = maandbetaling; jaarbetalingstarief nog vaststellen voor er een verwachting komt"
+  },
+  {
+   "slug": "mangools",
+   "niche": "seo",
+   "url": "https://mangools.com/plans-and-pricing",
+   "render": true,
+   "plan_tekst": "Basic",
+   "regio_lengte": 500,
+   "verwacht_usd": null
+  },
+  {
+   "slug": "surfer",
+   "niche": "seo",
+   "url": "https://surferseo.com/pricing/",
+   "render": true,
+   "plan_tekst": "Discovery",
+   "regio_lengte": 400,
+   "verwacht_usd": null
+  },
+  {
+   "slug": "screaming-frog",
+   "niche": "seo",
+   "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+   "render": false,
+   "plan_tekst": "Per Year",
+   "regio_lengte": 400,
+   "verwacht_usd": null
+  },
+  {
+   "slug": "proton-pass",
+   "niche": "password-managers",
+   "url": "https://proton.me/pass/pricing",
+   "render": true,
+   "plan_tekst": "Pass Plus",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "dashlane",
+   "niche": "password-managers",
+   "url": "https://www.dashlane.com/pricing-personal",
+   "render": true,
+   "plan_tekst": "Premium",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "wordpress-com",
+   "niche": "website-builders",
+   "url": "https://wordpress.com/pricing/",
+   "render": true,
+   "plan_tekst": "Personal",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "shopify",
+   "niche": "website-builders",
+   "url": "https://www.shopify.com/pricing",
+   "render": true,
+   "plan_tekst": "Basic",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "jimdo",
+   "niche": "website-builders",
+   "url": "https://www.jimdo.com/pricing/website/",
+   "render": true,
+   "plan_tekst": "Start",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "squarespace",
+   "niche": "website-builders",
+   "url": "https://www.squarespace.com/pricing",
+   "render": true,
+   "plan_tekst": "Basic",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "mailchimp",
+   "niche": "newsletter-tools",
+   "url": "https://mailchimp.com/pricing/",
+   "render": true,
+   "plan_tekst": "Essentials",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "getresponse",
+   "niche": "newsletter-tools",
+   "url": "https://www.getresponse.com/pricing",
+   "render": true,
+   "plan_tekst": "Starter",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "saily",
+   "niche": "esim",
+   "url": "https://saily.com/esim-europe/",
+   "render": true,
+   "plan_tekst": "5 GB",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "nomad",
+   "niche": "esim",
+   "url": "https://www.nomadesim.com/europe-eSIM",
+   "render": true,
+   "plan_tekst": "5 GB",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "bnesim",
+   "niche": "esim",
+   "url": "https://www.bnesim.com/plans/europe/",
+   "render": true,
+   "plan_tekst": "5 GB",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "dropbox",
+   "niche": "backup",
+   "url": "https://www.dropbox.com/plans",
+   "render": true,
+   "plan_tekst": "Plus",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "icloud",
+   "niche": "backup",
+   "url": "https://www.apple.com/icloud/",
+   "render": true,
+   "plan_tekst": "50 GB",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  },
+  {
+   "slug": "peec-ai",
+   "niche": "seo",
+   "url": "https://peec.ai/pricing",
+   "render": true,
+   "plan_tekst": "Starter",
+   "regio_lengte": 500,
+   "verwacht_usd": null,
+   "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt."
+  }
  ]
 }
