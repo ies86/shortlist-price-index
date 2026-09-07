@@ -5,10 +5,39 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to CourseShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
+  "updated": "2026-08-22",
+  "generated": "2026-09-07",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-22",
+    "month": "2026-08",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 7,
+    "averagePrice": 21.25,
+    "medianPrice": 17.54,
+    "cheapestPrice": 13.99,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1699,
+      "rateDate": "2026-08-21",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 18.16,
+      "medianPrice": 14.99,
+      "cheapestPrice": 11.96
+    },
+    "notMeasured": 2,
+    "underReview": 2
+  },
   "providersTracked": 12,
-  "averagePrice": 41.04,
-  "medianPrice": 19.99,
+  "averagePrice": 40.65,
+  "medianPrice": 20.49,
   "cheapest": {
     "provider": "Domestika",
     "price": 7.99
@@ -35,20 +64,20 @@
       "url": "https://courseshortlist.com/tools/masterclass"
     },
     {
-      "provider": "DataCamp",
-      "slug": "datacamp",
-      "price": 13.25,
-      "rating": 4.4,
-      "bestFor": "Learning data and AI",
-      "url": "https://courseshortlist.com/tools/datacamp"
-    },
-    {
       "provider": "Skillshare",
       "slug": "skillshare",
       "price": 13.99,
       "rating": 4.3,
       "bestFor": "Creative projects",
       "url": "https://courseshortlist.com/tools/skillshare"
+    },
+    {
+      "provider": "DataCamp",
+      "slug": "datacamp",
+      "price": 13.25,
+      "rating": 4.4,
+      "bestFor": "Learning data and AI",
+      "url": "https://courseshortlist.com/tools/datacamp"
     },
     {
       "provider": "Brilliant",
@@ -67,17 +96,9 @@
       "url": "https://courseshortlist.com/tools/linkedin-learning"
     },
     {
-      "provider": "Codecademy",
-      "slug": "codecademy",
-      "price": 19.99,
-      "rating": 4.2,
-      "bestFor": "Learning to code",
-      "url": "https://courseshortlist.com/tools/codecademy"
-    },
-    {
       "provider": "Pluralsight",
       "slug": "pluralsight",
-      "price": 29,
+      "price": 21,
       "rating": 4.1,
       "bestFor": "IT professionals",
       "url": "https://courseshortlist.com/tools/pluralsight"
@@ -85,10 +106,18 @@
     {
       "provider": "Udemy",
       "slug": "udemy",
-      "price": 32,
+      "price": 18.33,
       "rating": 4.3,
       "bestFor": "Buying single courses",
       "url": "https://courseshortlist.com/tools/udemy"
+    },
+    {
+      "provider": "Codecademy",
+      "slug": "codecademy",
+      "price": 19.99,
+      "rating": 4.2,
+      "bestFor": "Learning to code",
+      "url": "https://courseshortlist.com/tools/codecademy"
     },
     {
       "provider": "Coursera",
@@ -122,7 +151,34 @@
       "avg": 38.22,
       "median": 19,
       "cheapest": 7.99,
-      "count": 11
+      "count": 11,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "month": "2026-08",
+      "measured": true,
+      "avg": 21.25,
+      "median": 17.54,
+      "cheapest": 13.99,
+      "count": 7,
+      "n_missing": 2,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1699,
+        "koersdatum": "2026-08-21",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "maand": "2026-09",
+  "niche": "seo",
+  "items": [
+    {
+      "provider_slug": "moz",
+      "oud": null,
+      "nieuw": 179,
+      "vendor_url": "https://moz.com/products/pro/pricing",
+      "archive_url": "",
+      "alt": 49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

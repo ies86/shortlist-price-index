@@ -1,0 +1,75 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "acronis",
+   "oordeel": "goedgekeurd",
+   "flags": [
+    "extractor_disagreement"
+   ],
+   "beoordeelde_waarde": 4.87,
+   "band": 0.1,
+   "datum": "2026-08-21",
+   "door": "Claude-sessie 21-8-2026, op basis van twee onafhankelijke bronverificaties",
+   "bron_url": "https://www.acronis.com/en/products/true-image/purchasing/",
+   "reden": "De meting leest ruw 'EUR 49.99' van de eigen prijspagina en normaliseert dat naar 4,87 USD per maand (49,99 / 12 = 4,166 EUR, maal koers 1,1699). Dat komt exact overeen met wat vendors.csv voor acronis-essentials voorschrijft: 49,99 EUR per jaar. De vlag extractor_disagreement ontstaat doordat de tweede extractiemethode een ander bedrag op dezelfde pagina vindt (Acronis toont meerdere plannen en looptijden naast elkaar), maar de primaire waarde is de juiste. Twee onafhankelijk werkende controles bevestigden op 21-8-2026 bij de bron dat het instapplan 49,99 EUR per jaar kost; beide noemden 4,17 als maandbedrag, en dat is hetzelfde getal in EURO's terwijl de pijplijn in dollars rekent. Die ogenschijnlijke afwijking is dus een valutakwestie en geen meetfout.",
+   "geldig_tot": "2027-02-21",
+   "hertoets_bij": "Een andere vlag dan extractor_disagreement, of een waarde buiten 4,38 tot 5,36 USD per maand. Let bij hertoets specifiek op of Acronis is overgestapt op een ander instapplan; de naam 'Essentials' is eerder gewijzigd."
+  },
+  {
+   "provider_slug": "idrive",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 6.99,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.idrive.com/pricing",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 6.99 staat vandaag nog als \"$6.99\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "sync-com",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 3.5,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.sync.com/pricing-individual/",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 3.5 staat vandaag nog als \"$3.50\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "backblaze",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 8.25,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.backblaze.com/cloud-backup/pricing",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 99 staat vandaag nog als \"$99\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "google-one",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 1.99,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://one.google.com/about/plans",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 1.99 staat vandaag nog als \"1.99\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  }
+ ]
+}

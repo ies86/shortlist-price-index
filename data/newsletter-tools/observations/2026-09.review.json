@@ -1,0 +1,18 @@
+{
+  "maand": "2026-09",
+  "niche": "newsletter-tools",
+  "items": [
+    {
+      "provider_slug": "aweber",
+      "oud": null,
+      "nieuw": 15,
+      "vendor_url": "https://www.aweber.com/pricing.htm",
+      "archive_url": "",
+      "alt": 12.49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

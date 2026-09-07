@@ -4,25 +4,27 @@
   "items": [
     {
       "provider_slug": "hetzner",
-      "oud": 1.25,
-      "nieuw": 1.25,
+      "oud": null,
+      "nieuw": 1.28,
       "vendor_url": "https://www.hetzner.com/webhosting/",
-      "archive_url": "http://web.archive.org/web/20260727031224/https://www.hetzner.com/webhosting/",
+      "archive_url": "",
       "alt": null,
       "flags": [
         "naheffing_per_eenheid"
-      ]
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
     },
     {
       "provider_slug": "cloudways",
       "oud": null,
       "nieuw": 14,
       "vendor_url": "https://www.cloudways.com/en/pricing.php",
-      "archive_url": "http://web.archive.org/web/20260801084419/https://www.cloudways.com/en/pricing.php",
+      "archive_url": "",
       "alt": 11,
       "flags": [
         "extractor_disagreement"
-      ]
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
     }
   ]
 }

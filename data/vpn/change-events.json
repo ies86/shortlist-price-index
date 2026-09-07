@@ -35,6 +35,24 @@
       "new_own": 3.99,
       "delta_pct_own": 33.44,
       "delta_pct_usd": 33.9
+    },
+    {
+      "niche": "vpn",
+      "provider_slug": "ipvanish",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 2.19,
+      "new_usd_mo": 2.49,
+      "delta_pct": 13.7,
+      "currency": "USD",
+      "old_own": 2.19,
+      "new_own": 2.49,
+      "delta_pct_own": 13.7,
+      "delta_pct_usd": 13.7,
+      "vendor_url": "https://www.ipvanish.com/pricing/",
+      "archive_url": "",
+      "detected_at": "2026-09-07T07:51:16.295Z",
+      "pitched": false
     }
   ],
   "ingetrokken": [

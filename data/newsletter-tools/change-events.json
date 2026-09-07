@@ -1,0 +1,26 @@
+{
+  "events": [],
+  "ingetrokken": [
+    {
+      "niche": "newsletter-tools",
+      "provider_slug": "getresponse",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 14.93,
+      "new_usd_mo": 15.21,
+      "delta_pct": 0.92,
+      "currency": "EUR",
+      "old_own": 13,
+      "new_own": 13.12,
+      "delta_pct_own": 0.92,
+      "delta_pct_usd": 1.9,
+      "vendor_url": "https://www.getresponse.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-09-01T10:27:37.874Z",
+      "pitched": false,
+      "ingetrokken_op": "2026-09-01",
+      "ingetrokken_reden": "augustus las \"€ 13 .12 /mo\" als 13,00 door het split-decimaal-defect (gerepareerd 27-8-2026); september las 13,12. De prijs stond stil, de lezing veranderde.",
+      "poort": "methodepoort - gesplitste decimaal (scripts/prijsmeter/methodepoort.mjs)"
+    }
+  ]
+}

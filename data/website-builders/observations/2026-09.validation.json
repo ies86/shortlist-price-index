@@ -1,0 +1,22 @@
+{
+  "niche": "website-builders",
+  "maand": "2026-09",
+  "n_total": 18,
+  "n_observed_new": 3,
+  "n_observed_changed": 1,
+  "n_observed_unchanged": 11,
+  "n_under_review": 0,
+  "n_missing": 3,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 11,
+        "veranderbaar": 12
+      }
+    }
+  ],
+  "publishable": true
+}

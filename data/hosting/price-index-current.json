@@ -5,9 +5,38 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
+  "updated": "2026-08-21",
+  "generated": "2026-09-04",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-21",
+    "month": "2026-08",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 8,
+    "averagePrice": 10.11,
+    "medianPrice": 3.75,
+    "cheapestPrice": 1,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1699,
+      "rateDate": "2026-08-21",
+      "exactOnMeasurementDate": true,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 8.64,
+      "medianPrice": 3.21,
+      "cheapestPrice": 0.85
+    },
+    "notMeasured": 3,
+    "underReview": 2
+  },
   "providersTracked": 13,
-  "averagePrice": 8.04,
+  "averagePrice": 8.03,
   "medianPrice": 3.99,
   "cheapest": {
     "provider": "IONOS",
@@ -37,9 +66,9 @@
     {
       "provider": "DreamHost",
       "slug": "dreamhost",
-      "price": 2.95,
+      "price": 2.89,
       "rating": 4.1,
-      "bestFor": "Fair pricing",
+      "bestFor": "First-year value",
       "url": "https://hostingshortlist.com/tools/dreamhost"
     },
     {
@@ -125,7 +154,7 @@
   ],
   "trueCost": {
     "unit": "USD per month; threeYearTotal = total USD over 36 months",
-    "avgRenewalMultiplier": 4,
+    "avgRenewalMultiplier": 4.2,
     "providers": [
       {
         "provider": "Namecheap",
@@ -144,20 +173,20 @@
         "threeYearTotal": 204
       },
       {
-        "provider": "DreamHost",
-        "slug": "dreamhost",
-        "intro": 2.95,
-        "renewal": 7.99,
-        "multiplier": 2.7,
-        "threeYearTotal": 227.16
-      },
-      {
         "provider": "Bluehost",
         "slug": "bluehost",
         "intro": 3.99,
         "renewal": 9.99,
         "multiplier": 2.5,
         "threeYearTotal": 287.64
+      },
+      {
+        "provider": "DreamHost",
+        "slug": "dreamhost",
+        "intro": 2.89,
+        "renewal": 10.99,
+        "multiplier": 3.8,
+        "threeYearTotal": 298.44
       },
       {
         "provider": "Hostinger",
@@ -200,7 +229,15 @@
       "avg": 7.19,
       "median": 2.99,
       "cheapest": 1,
-      "count": 13
+      "count": 13,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-07-17",
@@ -212,19 +249,34 @@
       "cheapest": 1,
       "count": 10,
       "n_missing": 2,
-      "n_under_review": 1
+      "n_under_review": 1,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1435,
+        "koersdatum": "2026-07-17",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-21",
       "month": "2026-08",
       "measured": true,
-      "run_id": "2026-08_r1",
-      "avg": 8.92,
-      "median": 3.32,
+      "avg": 10.11,
+      "median": 3.75,
       "cheapest": 1,
-      "count": 9,
+      "count": 8,
       "n_missing": 3,
-      "n_under_review": 1
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1699,
+        "koersdatum": "2026-08-21",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

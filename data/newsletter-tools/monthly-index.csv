@@ -1,3 +1,4 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
-MailShortlist,newsletter-tools,2026-06,2026-06-16,17.41,15,9,11,curated,,
-MailShortlist,newsletter-tools,2026-08,2026-08-01,12.68,12.63,5,7,measured,0,4
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review,measured_currency,fx_usd_per_eur,fx_date
+MailShortlist,newsletter-tools,2026-06,2026-06-16,17.41,15,9,11,curated,,,USD,1.1594,2026-06-16
+MailShortlist,newsletter-tools,2026-08,2026-08-01,12.68,12.63,5,7,measured,0,4,USD,1.1485,2026-07-31
+MailShortlist,newsletter-tools,2026-09,2026-09-07,18.65,15,8.08,9,measured,1,1,USD,1.1622,2026-09-04

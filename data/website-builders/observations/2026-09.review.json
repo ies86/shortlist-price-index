@@ -1,0 +1,18 @@
+{
+  "maand": "2026-09",
+  "niche": "website-builders",
+  "items": [
+    {
+      "provider_slug": "carrd",
+      "oud": null,
+      "nieuw": 0.75,
+      "vendor_url": "https://carrd.co/pro",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

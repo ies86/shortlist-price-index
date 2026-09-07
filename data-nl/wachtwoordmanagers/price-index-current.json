@@ -7,26 +7,47 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-08-01",
+  "generated": "2026-09-04",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-01",
+    "month": "2026-08",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 6,
+    "averagePrice": 7.08,
+    "medianPrice": 3.99,
+    "cheapestPrice": 2.49,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1485,
+      "rateDate": "2026-07-31",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 6.16,
+      "medianPrice": 3.47,
+      "cheapestPrice": 2.17
+    },
+    "notMeasured": 1,
+    "underReview": 2
+  },
   "providersTracked": 9,
-  "averagePrice": 2.72,
-  "medianPrice": 2.49,
+  "averagePrice": 2.95,
+  "medianPrice": 2.99,
   "cheapest": {
-    "provider": "NordPass",
-    "price": 1.49
+    "provider": "Bitwarden",
+    "price": 1.65
   },
   "mostExpensive": {
-    "provider": "Dashlane",
-    "price": 4.99
+    "provider": "Keeper",
+    "price": 4.34
   },
   "providers": [
-    {
-      "provider": "NordPass",
-      "slug": "nordpass",
-      "price": 1.49,
-      "rating": 4.4,
-      "bestFor": "Prijsbewuste gebruikers",
-      "url": "https://wachtwoordkiezer.nl/tools/nordpass"
-    },
     {
       "provider": "Bitwarden",
       "slug": "bitwarden",
@@ -36,17 +57,9 @@
       "url": "https://wachtwoordkiezer.nl/tools/bitwarden"
     },
     {
-      "provider": "Proton Pass",
-      "slug": "proton-pass",
-      "price": 1.99,
-      "rating": 4.4,
-      "bestFor": "Privacybewuste gebruikers",
-      "url": "https://wachtwoordkiezer.nl/tools/proton-pass"
-    },
-    {
       "provider": "Enpass",
       "slug": "enpass",
-      "price": 1.99,
+      "price": 1.79,
       "rating": 4.1,
       "bestFor": "Eigen opslag voorop",
       "url": "https://wachtwoordkiezer.nl/tools/enpass"
@@ -60,25 +73,33 @@
       "url": "https://wachtwoordkiezer.nl/tools/roboform"
     },
     {
-      "provider": "Keeper",
-      "slug": "keeper",
-      "price": 2.92,
-      "rating": 4.3,
-      "bestFor": "Beveiliging voorop",
-      "url": "https://wachtwoordkiezer.nl/tools/keeper"
-    },
-    {
       "provider": "LastPass",
       "slug": "lastpass",
-      "price": 3,
+      "price": 2.9,
       "rating": 3.6,
       "bestFor": "Bestaande LastPass-gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/lastpass"
     },
     {
+      "provider": "NordPass",
+      "slug": "nordpass",
+      "price": 2.99,
+      "rating": 4.4,
+      "bestFor": "Prijsbewuste gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/nordpass"
+    },
+    {
+      "provider": "Proton Pass",
+      "slug": "proton-pass",
+      "price": 2.99,
+      "rating": 4.4,
+      "bestFor": "Privacybewuste gebruikers",
+      "url": "https://wachtwoordkiezer.nl/tools/proton-pass"
+    },
+    {
       "provider": "1Password",
       "slug": "1password",
-      "price": 3.99,
+      "price": 3.65,
       "rating": 4.7,
       "bestFor": "Gezinnen en veeleisende gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/1password"
@@ -86,10 +107,18 @@
     {
       "provider": "Dashlane",
       "slug": "dashlane",
-      "price": 4.99,
+      "price": 3.96,
       "rating": 4.3,
       "bestFor": "Wie alles in één pakket wil",
       "url": "https://wachtwoordkiezer.nl/tools/dashlane"
+    },
+    {
+      "provider": "Keeper",
+      "slug": "keeper",
+      "price": 4.34,
+      "rating": 4.3,
+      "bestFor": "Beveiliging voorop",
+      "url": "https://wachtwoordkiezer.nl/tools/keeper"
     }
   ],
   "history": [
@@ -99,7 +128,15 @@
       "avg": 2.67,
       "median": 1.99,
       "cheapest": 1.49,
-      "count": 9
+      "count": 9,
+      "currency": "EUR",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-08-01",
@@ -111,7 +148,15 @@
       "cheapest": 2.49,
       "count": 6,
       "n_missing": 1,
-      "n_under_review": 2
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1485,
+        "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

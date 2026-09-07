@@ -6,8 +6,21 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-08-01",
+  "generated": "2026-09-01",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-01",
+    "month": "2026-08",
+    "basis": "measured",
+    "providersMeasured": 13,
+    "averagePrice": 14.51,
+    "medianPrice": 13.78,
+    "cheapestPrice": 1.15,
+    "notMeasured": 2,
+    "underReview": 3
+  },
   "providersTracked": 21,
-  "averagePrice": 13.62,
+  "averagePrice": 13.24,
   "medianPrice": 11.99,
   "cheapest": {
     "provider": "Carrd",
@@ -51,6 +64,14 @@
       "url": "https://websiteshortlist.com/tools/shopify"
     },
     {
+      "provider": "IONOS Website Builder",
+      "slug": "ionos",
+      "price": 6,
+      "rating": 3.7,
+      "bestFor": "Support-first small businesses",
+      "url": "https://websiteshortlist.com/tools/ionos"
+    },
+    {
       "provider": "Strikingly",
       "slug": "strikingly",
       "price": 8,
@@ -65,14 +86,6 @@
       "rating": 3.8,
       "bestFor": "European small businesses",
       "url": "https://websiteshortlist.com/tools/jimdo"
-    },
-    {
-      "provider": "IONOS Website Builder",
-      "slug": "ionos",
-      "price": 9,
-      "rating": 3.7,
-      "bestFor": "Support-first small businesses",
-      "url": "https://websiteshortlist.com/tools/ionos"
     },
     {
       "provider": "Framer",
@@ -117,7 +130,7 @@
     {
       "provider": "Webflow",
       "slug": "webflow",
-      "price": 14,
+      "price": 15,
       "rating": 4.3,
       "bestFor": "Agencies and ambitious DIYers",
       "url": "https://websiteshortlist.com/tools/webflow"
@@ -137,6 +150,14 @@
       "rating": 4.5,
       "bestFor": "Most people, most sites",
       "url": "https://websiteshortlist.com/tools/wix"
+    },
+    {
+      "provider": "Duda",
+      "slug": "duda",
+      "price": 19,
+      "rating": 4.1,
+      "bestFor": "Freelancers and agencies",
+      "url": "https://websiteshortlist.com/tools/duda"
     },
     {
       "provider": "Ecwid by Lightspeed",
@@ -161,14 +182,6 @@
       "rating": 4.1,
       "bestFor": "Shopify stores running campaign pages",
       "url": "https://websiteshortlist.com/tools/gempages"
-    },
-    {
-      "provider": "Duda",
-      "slug": "duda",
-      "price": 25,
-      "rating": 4.1,
-      "bestFor": "Freelancers and agencies",
-      "url": "https://websiteshortlist.com/tools/duda"
     },
     {
       "provider": "Lovable",

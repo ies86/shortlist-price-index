@@ -1,0 +1,26 @@
+{
+  "events": [],
+  "ingetrokken": [
+    {
+      "niche": "password-managers",
+      "provider_slug": "lastpass",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 9.19,
+      "new_usd_mo": 11.6,
+      "delta_pct": 25,
+      "currency": "EUR",
+      "old_own": 8,
+      "new_own": 10,
+      "delta_pct_own": 25,
+      "delta_pct_usd": 26.2,
+      "vendor_url": "https://www.lastpass.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-09-01T10:36:42.850Z",
+      "pitched": false,
+      "ingetrokken_op": "2026-09-01",
+      "ingetrokken_reden": "augustus las \"€8 .50 user/month\" als 8,00 door hetzelfde split-decimaal-defect. LastPass ging wel omhoog (8,50 -> 10,00 = +17,6%), maar het gepubliceerde +25% klopt niet en de basis is niet betrouwbaar gemeten.",
+      "poort": "methodepoort - gesplitste decimaal (scripts/prijsmeter/methodepoort.mjs)"
+    }
+  ]
+}

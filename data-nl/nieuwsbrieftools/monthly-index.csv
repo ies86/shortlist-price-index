@@ -1,3 +1,4 @@
-site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked,basis,n_missing,n_under_review
-Nieuwsbriefkiezer,nieuwsbrieftools,2026-06,2026-06-16,15.55,14,9,10,curated,,
-Nieuwsbriefkiezer,nieuwsbrieftools,2026-08,2026-08-01,12.68,12.63,5,7,measured,0,4
+site,niche,month,snapshot_date,average_price_eur,median_price_eur,cheapest_price_eur,providers_tracked,basis,n_missing,n_under_review,measured_currency,fx_usd_per_eur,fx_date
+Nieuwsbriefkiezer,nieuwsbrieftools,2026-06,2026-06-16,15.55,14,9,10,curated,,,EUR,1.1594,2026-06-16
+Nieuwsbriefkiezer,nieuwsbrieftools,2026-08,2026-08-01,11.04,11,4.35,7,measured,0,4,USD,1.1485,2026-07-31
+Nieuwsbriefkiezer,nieuwsbrieftools,2026-09,2026-09-07,16.05,12.91,6.95,9,measured,1,1,USD,1.1622,2026-09-04

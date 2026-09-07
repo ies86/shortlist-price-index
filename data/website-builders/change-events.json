@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "niche": "website-builders",
+      "provider_slug": "squarespace",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 1.34,
+      "new_usd_mo": 19,
+      "delta_pct": 1317.9,
+      "currency": null,
+      "old_own": null,
+      "new_own": null,
+      "delta_pct_own": null,
+      "delta_pct_usd": 1317.9,
+      "vendor_url": "https://www.squarespace.com/pricing",
+      "archive_url": "",
+      "detected_at": "2026-09-07T10:33:32.184Z",
+      "pitched": false
+    }
+  ]
+}

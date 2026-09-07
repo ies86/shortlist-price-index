@@ -1,0 +1,20 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "bitwarden",
+   "oordeel": "goedgekeurd",
+   "flags": [
+    "out_of_band",
+    "suspect_jump"
+   ],
+   "beoordeelde_waarde": 1.65,
+   "band": 0.1,
+   "bron_url": "https://bitwarden.com/pricing/",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "spoor meetbaarheid 1-9-2026, live gelezen van de prijspagina",
+   "reden": "De vlaggen gaan af tegen een FOUTE historie, niet tegen een prijswijziging. Op de pagina staat letterlijk 'Premium $ 1.65 per month Billed annually at $19.80'. De meting van september leest $19,80 met periode 'year' en deelt door twaalf: 1,65 USD per maand, exact het bedrag dat Bitwarden er zelf naast zet. In de eerdere ronden stond het JAARbedrag 19,80 onverdeeld in de maandkolom - datzelfde defect staat in terugschrijf-koppeling.json ook als reden om bitwarden NIET te koppelen ('meterdefect: jaarbedrag $19,80 staat onverdeeld in de maandkolom'). De sprong 19,80 -> 1,65 is dus precies die correctie, factor twaalf.",
+   "geldig_tot": "2026-11-30",
+   "hertoets_bij": "Elke andere vlag, of een waarde buiten 1,49 tot 1,82 USD per maand. Vanaf de ronde van oktober is 1,65 de historische basis en horen out_of_band en suspect_jump vanzelf te verdwijnen; gaan ze dan opnieuw af, dan is er wel iets met de prijs gebeurd."
+  }
+ ]
+}

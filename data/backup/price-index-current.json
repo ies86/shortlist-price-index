@@ -5,10 +5,39 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to BackupShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
+  "updated": "2026-08-21",
+  "generated": "2026-09-04",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-21",
+    "month": "2026-08",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 11,
+    "averagePrice": 5.35,
+    "medianPrice": 4.87,
+    "cheapestPrice": 1.16,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1699,
+      "rateDate": "2026-08-21",
+      "exactOnMeasurementDate": true,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 4.57,
+      "medianPrice": 4.16,
+      "cheapestPrice": 0.99
+    },
+    "notMeasured": 2,
+    "underReview": 4
+  },
   "providersTracked": 18,
-  "averagePrice": 6.58,
-  "medianPrice": 6.54,
+  "averagePrice": 6.9,
+  "medianPrice": 7.75,
   "cheapest": {
     "provider": "Apple iCloud+",
     "price": 0.99
@@ -67,28 +96,12 @@
       "url": "https://backupshortlist.com/tools/icedrive"
     },
     {
-      "provider": "Carbonite Safe",
-      "slug": "carbonite",
-      "price": 4.99,
-      "rating": 3.9,
-      "bestFor": "Non-technical households",
-      "url": "https://backupshortlist.com/tools/carbonite"
-    },
-    {
       "provider": "IDrive",
       "slug": "idrive",
-      "price": 5.8,
+      "price": 6.99,
       "rating": 4.5,
       "bestFor": "Backing up everything you own",
       "url": "https://backupshortlist.com/tools/idrive"
-    },
-    {
-      "provider": "Acronis True Image",
-      "slug": "acronis",
-      "price": 6.08,
-      "rating": 4.2,
-      "bestFor": "Power users, disk images",
-      "url": "https://backupshortlist.com/tools/acronis"
     },
     {
       "provider": "NordLocker",
@@ -99,12 +112,28 @@
       "url": "https://backupshortlist.com/tools/nordlocker"
     },
     {
+      "provider": "Acronis True Image",
+      "slug": "acronis",
+      "price": 7.5,
+      "rating": 4.2,
+      "bestFor": "Power users, disk images",
+      "url": "https://backupshortlist.com/tools/acronis"
+    },
+    {
       "provider": "Sync.com",
       "slug": "sync-com",
       "price": 8,
       "rating": 4.5,
       "bestFor": "Private storage without friction",
       "url": "https://backupshortlist.com/tools/sync-com"
+    },
+    {
+      "provider": "Carbonite Safe",
+      "slug": "carbonite",
+      "price": 8,
+      "rating": 3.9,
+      "bestFor": "Non-technical households",
+      "url": "https://backupshortlist.com/tools/carbonite"
     },
     {
       "provider": "Backblaze Personal Backup",
@@ -170,7 +199,15 @@
       "avg": 8.25,
       "median": 8.99,
       "cheapest": 4.17,
-      "count": 17
+      "count": 17,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-07-17",
@@ -182,7 +219,34 @@
       "cheapest": 1.13,
       "count": 13,
       "n_missing": 2,
-      "n_under_review": 2
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1435,
+        "koersdatum": "2026-07-17",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "month": "2026-08",
+      "measured": true,
+      "avg": 5.35,
+      "median": 4.87,
+      "cheapest": 1.16,
+      "count": 11,
+      "n_missing": 2,
+      "n_under_review": 4,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1699,
+        "koersdatum": "2026-08-21",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

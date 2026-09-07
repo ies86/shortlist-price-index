@@ -5,7 +5,36 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
+  "updated": "2026-09-07",
+  "generated": "2026-09-07",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-09-07",
+    "month": "2026-09",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 10,
+    "averagePrice": 4.88,
+    "medianPrice": 3.99,
+    "cheapestPrice": 2.15,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1622,
+      "rateDate": "2026-09-04",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 4.2,
+      "medianPrice": 3.43,
+      "cheapestPrice": 1.85
+    },
+    "notMeasured": 2,
+    "underReview": 3
+  },
   "providersTracked": 15,
   "averagePrice": 3.17,
   "medianPrice": 2.99,
@@ -146,7 +175,15 @@
       "avg": 3.55,
       "median": 2.99,
       "cheapest": 1.99,
-      "count": 15
+      "count": 15,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-07-17",
@@ -158,7 +195,15 @@
       "cheapest": 2.19,
       "count": 10,
       "n_missing": 2,
-      "n_under_review": 3
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1435,
+        "koersdatum": "2026-07-17",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-08-01",
@@ -170,7 +215,34 @@
       "cheapest": 2.19,
       "count": 10,
       "n_missing": 2,
-      "n_under_review": 3
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1485,
+        "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 4.88,
+      "median": 3.99,
+      "cheapest": 2.15,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1622,
+        "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

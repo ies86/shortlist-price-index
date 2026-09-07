@@ -12,7 +12,7 @@ A category is listed as measured only when its monthly run passed the validation
 |---|---|---|
 | Web hosting | 2026-07, 2026-08 | measured; **August aggregate withheld** (one reading was not a plan price, see note below) |
 | VPN services | 2026-07, 2026-08 | measured |
-| Cloud backup | 2026-07, 2026-08 | measured; **August aggregate withheld** (three readings rejected on review, see note below) |
+| Cloud backup | 2026-07, 2026-08 | measured; **both aggregates withheld** (readings rejected on review, see note below) |
 | SEO tools | 2026-07, 2026-08 | measured |
 | Newsletter tools | 2026-08 | measured |
 | Password managers | 2026-08 | measured |
@@ -26,15 +26,25 @@ For a measured category, `monthly-index.csv` reports how many providers were act
 
 **Archived copies are partial, and the `archive_url` column says which.** The pipeline submits each vendor pricing page to the Wayback Machine so a reader can check the figure against the page as it stood on the measurement date. Not every vendor allows this: some block the archiving crawler outright, and the archive itself rate-limits. For August 2026 the coverage is 39 of 71 published observations. It is lowest for VPN services (2 of 10), where most vendors refuse the crawler. An observation without an `archive_url` is still a real measurement, with its `source_url` and timestamp recorded, but it cannot be independently re-checked once the vendor changes the page. Price-change events in `data/wire-events.json` carry an explicit flag for this.
 
-**Note on cloud backup, August 2026.** Three of the thirteen readings that month were rejected on review because the amount did not come from a subscription price at all: pCloud returned a one-off lifetime payment, MEGA an excess-storage charge per TB, and Filen a fragment of page furniture rather than a price. Removing them left coverage below the floor required to publish a citable average, so the August aggregate is withheld. The raw observations, including the rejected rows and the reason for each, remain published. July is unaffected.
+**Note on cloud backup, July and August 2026.** In August, three of the thirteen readings were rejected on review because the amount did not come from a subscription price at all: pCloud returned a one-off lifetime payment, MEGA an excess-storage charge per TB, and Filen a fragment of page furniture rather than a price. Removing them left coverage below the floor required to publish a citable average, so the August aggregate was withheld on 1 August.
 
-**Note on web hosting, August 2026.** One of the readings that month was not a plan price: Hetzner
-returned €1.09, which the page describes as the charge per GB per month for storage above the plan
-allowance. It is the same class of error as the three cloud backup readings withdrawn on 1 August,
-and the rule that catches it had simply never been re-applied to this category. Removing it left
-coverage below the floor required to publish a citable average, so the August aggregate is withheld.
-The raw observations, including the rejected row and its reason, remain published. July is
-unaffected.
+**On 2 August the same three readings were found in July, and that aggregate is now withheld as well.** They had been there all along. The rule that catches them was written on 1 August, but validation could only ever run over the current month, so it never looked at what was already published. Cloud backup therefore has no published measured aggregate at this time; the June row is a hand-compiled baseline. The raw observations, including the rejected rows and the reason for each, remain published. Any cloud backup average for July 2026 published before 2 August should not be cited.
+
+**Note on web hosting, July 2026.** The same retroactive check found one reading in July: Hetzner returned €1.09, which its page describes as the charge per GB per month for storage above the plan allowance. Removing it left enough coverage to publish, so this aggregate was **recomputed rather than withheld**. The average for July 2026 changes from $8.32 to $9.11, the median from $3.15 to $3.30, and the provider count from 10 to 9. The cheapest entry price is unchanged. A figure taken from this row before 2 August should be replaced with the corrected one.
+
+Hetzner is a measurement gap rather than a correction. Its plan prices are not present in the page at all, including after rendering it in a real browser; the only amounts on the page are the per-GB overage, a fee per external domain and a storage add-on. It stays in the tracked set and is reported as a gap, because inventing a plausible number is the thing this index exists to avoid.
+
+**Note on web hosting, August 2026.** The same Hetzner reading appears in August. Removing it left
+coverage below the floor there, so the August aggregate is withheld rather than recomputed. The raw
+observations, including the rejected row and its reason, remain published.
+
+**Every published month is now re-checked against the current rules.** The reason July went four
+weeks with four rejected readings in it is that validation could only run over the current month, so
+a rule added today only ever applied to tomorrow. Validation now takes the month as an argument, and
+a separate check re-applies the current rules to every published aggregate and fails if any of them
+contains a reading that would be rejected today. It runs before publication and weekly. This is the
+third time in this project that a new rule failed to reach existing data, after a README claim that
+silently aged and a hand-kept flag that fell behind the pipeline.
 
 **Correction, 2 August 2026: price changes are now stated in the vendor's own currency.** Until this
 date, whether a price had changed was decided on the USD figure. Of the amounts measured for this
@@ -121,6 +131,38 @@ Each category folder contains:
 The figures in a `measured` row come from `observations/`, not from the comparison site: this was verified on 1 August 2026 by recomputing all ten published measured rows from the raw observations, and every one matched. An earlier version of this README described an extended column set (`n_observed`, renewal columns) that no category actually used; that claim has been removed and replaced by the three columns above, which are really there.
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns. The recruitment software category adds `pricing_basis` (flat or per_user) and `billing` (monthly or annual) columns to `providers-current.csv`.
+
+### Correction, 1 September 2026: the Dutch mirror was publishing dollars in a column named `_eur`
+
+Until this date the `data-nl/` files carried the column heading `average_price_eur` while the value
+in it was the same dollar figure as the English mirror. The measurement pipeline normalises every
+observation to USD, and the export step renamed the column for Dutch categories without converting
+the number. Both mirrors were byte-identical in their price columns; only the heading differed.
+
+What this means for anyone who used those files: for a `measured` row, the Dutch euro figures were
+too high by whatever the euro was worth that month, roughly 15 percent. The `curated` June rows were
+genuinely in euros and were not affected. The English `data/` files were correct throughout.
+
+Three columns are added so this cannot be silent again, in both mirrors:
+
+| Column | Meaning |
+|---|---|
+| `measured_currency` | The currency the row was actually measured in. `USD` for pipeline rows, `EUR` for the hand-compiled Dutch baselines. |
+| `fx_usd_per_eur` | The ECB reference rate used, US dollars per euro. |
+| `fx_date` | The date that rate was published. Not always the measurement date: the ECB publishes no rate on weekends, so this is the nearest preceding trading day. |
+
+A price column now holds the amount in the currency its heading names. Where that required a
+conversion, it was done with the rate in that same row, from the measurement date, not from today.
+The source amount is recoverable from any row: multiply back by `fx_usd_per_eur`.
+
+**Do not compute a trend by subtracting two converted figures.** Each row carries its own rate, so
+the difference between two of them contains the exchange-rate movement as well as the price
+movement, and the two cannot be separated afterwards. A worked example from this dataset: VPN
+services went from 3.86 to 4.01 USD between July and August, a rise of 3.89 percent. Converting each
+endpoint at its own rate gives 3.38 to 3.49 EUR, a rise of 3.43 percent. The 0.45 point difference
+is entirely currency. Had the price been identical in both months, the euro series would still have
+shown a 0.44 percent move. To measure price development, compare within `measured_currency`, or
+convert both endpoints with a single rate and say which one.
 
 ## A separate archive-based price history (SEO tools only)
 

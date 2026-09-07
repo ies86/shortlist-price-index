@@ -1,0 +1,13 @@
+{
+  "niche": "password-managers",
+  "maand": "2026-09",
+  "n_total": 9,
+  "n_observed_new": 2,
+  "n_observed_changed": 2,
+  "n_observed_unchanged": 4,
+  "n_under_review": 0,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

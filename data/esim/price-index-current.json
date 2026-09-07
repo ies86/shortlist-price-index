@@ -3,26 +3,49 @@
   "report": "https://esimshortlist.com/data/esim-price-index",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to eSIMShortlist",
   "methodology": "USD per GB = price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans and free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
-  "updated": "2026-08-01",
+  "updated": "2026-06-16",
+  "generated": "2026-09-04",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-06-16",
+    "month": "2026-06",
+    "basis": "curated",
+    "currency": "USD",
+    "providersMeasured": 11,
+    "averagePrice": null,
+    "medianPrice": null,
+    "cheapestPrice": null,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1594,
+      "rateDate": "2026-06-16",
+      "exactOnMeasurementDate": true,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": null,
+      "medianPrice": null,
+      "cheapestPrice": null
+    },
+    "notMeasured": null,
+    "underReview": null
+  },
   "basisGb": 5,
   "providersTracked": 11,
-  "averagePricePerGB": 3.89,
-  "medianPricePerGB": 3.8,
+  "averagePricePerGB": 4.08,
+  "medianPricePerGB": 3.9,
   "cheapest": {
-    "provider": "Roamless",
-    "pricePerGB": 1.8
+    "provider": "Instabridge",
+    "pricePerGB": 3
   },
   "mostExpensive": {
     "provider": "GigSky",
     "pricePerGB": 5.8
   },
   "providers": [
-    {
-      "provider": "Roamless",
-      "slug": "roamless",
-      "referencePlanUSD": 9,
-      "pricePerGB": 1.8
-    },
     {
       "provider": "Instabridge",
       "slug": "instabridge",
@@ -36,10 +59,10 @@
       "pricePerGB": 3.4
     },
     {
-      "provider": "aloSIM",
-      "slug": "alosim",
-      "referencePlanUSD": 18,
-      "pricePerGB": 3.6
+      "provider": "Roamless",
+      "slug": "roamless",
+      "referencePlanUSD": 17.95,
+      "pricePerGB": 3.59
     },
     {
       "provider": "Ubigi",
@@ -63,6 +86,12 @@
       "provider": "Saily",
       "slug": "saily",
       "referencePlanUSD": 19.49,
+      "pricePerGB": 3.9
+    },
+    {
+      "provider": "aloSIM",
+      "slug": "alosim",
+      "referencePlanUSD": 19.5,
       "pricePerGB": 3.9
     },
     {
@@ -91,7 +120,15 @@
       "avgPerGB": 3.83,
       "medianPerGB": 3.8,
       "cheapestPerGB": 1.8,
-      "count": 11
+      "count": 11,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

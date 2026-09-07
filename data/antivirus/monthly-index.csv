@@ -1,2 +1,4 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
-AntivirusShortlist,antivirus,2026-06,2026-06-16,4.44,4.17,2.42,18,curated,,
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review,measured_currency,fx_usd_per_eur,fx_date
+AntivirusShortlist,antivirus,2026-06,2026-06-16,4.44,4.17,2.42,18,curated,,,USD,1.1594,2026-06-16
+AntivirusShortlist,antivirus,2026-08,2026-08-06,4.34,3.83,2.02,11,measured,1,6,USD,1.1485,2026-07-31
+AntivirusShortlist,antivirus,2026-09,2026-09-07,4.06,3.41,2.03,14,measured,1,3,USD,1.1622,2026-09-04

@@ -1,0 +1,89 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "keywords-everywhere",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 7,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://keywordseverywhere.com/ctl/subscriptions",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 84 staat vandaag nog als \"$84\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "keysearch",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 24,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.keysearch.co/#pricing",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 24 staat vandaag nog als \"$24\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "ubersuggest",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 29,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://app.neilpatel.com/en/pricing",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 29 staat vandaag nog als \"$29\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "frase",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 39,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.frase.io/pricing/",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 39 staat vandaag nog als \"$39\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "serpstat",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 50,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://serpstat.com/page/pricing-plans/",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 50 staat vandaag nog als \"$50\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "surfer",
+   "oordeel": "goedgekeurd",
+   "flags": [
+    "suspect_jump"
+   ],
+   "beoordeelde_waarde": 56.79,
+   "band": 0.1,
+   "bron_url": "https://surferseo.com/pricing/",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "spoor meetbaarheid 1-9-2026; A/B van de tekstuitlezer over de opgehaalde HTML van alle 127 gevolgde aanbieders (scratch/ab-extract.mjs)",
+   "reden": "De sprong is de CORRECTIE van een meetfout, niet een prijswijziging. Surfer schrijft zijn bedragen met het valutateken ACHTER het getal: op de pagina staat letterlijk 'Discovery 49 EUR per month Billed yearly Save EUR 120'. De tekstuitlezer kende tot 1-9-2026 alleen de schrijfwijze teken-eerst en zag daardoor maar een token op die plek: de 120 uit 'Save EUR 120', het KORTINGSBEDRAG. Dat is drie ronden lang gepubliceerd als de prijs: juli 137,02, augustus 137,82, september 139,15 USD per maand, elke maand netjes 'observed_unchanged' omdat het artefact stabiel was. De vendorconfig wist het al: expected_amount staat sinds de aanleg op 49 EUR per maand voor plan_id 'discovery', met de notitie 'Laagste betaalde individuele plan = Discovery'. De nieuwe meting 56,79 USD is 49 EUR maal de ECB-koers 1,159 en komt dus exact uit op wat de config voorschrijft en wat de pagina toont. De vlag suspect_jump gaat af tegen de FOUTE historie (139,15 -> 56,79 is -59%), niet tegen de winkel.",
+   "geldig_tot": "2026-10-31",
+   "hertoets_bij": "Elke andere vlag dan suspect_jump, of een waarde buiten 51,11 tot 62,47 USD per maand. Vanaf de ronde van oktober is 56,79 de historische basis en hoort suspect_jump vanzelf te verdwijnen; gaat hij dan opnieuw af, dan is er wel iets met de prijs gebeurd. Let bij hertoets ook op of Discovery nog het laagste betaalde plan is."
+  }
+ ]
+}

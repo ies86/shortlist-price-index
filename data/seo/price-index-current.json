@@ -6,22 +6,35 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-08-01",
+  "generated": "2026-09-01",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-01",
+    "month": "2026-08",
+    "basis": "measured",
+    "providersMeasured": 13,
+    "averagePrice": 68.61,
+    "medianPrice": 50,
+    "cheapestPrice": 7,
+    "notMeasured": 0,
+    "underReview": 2
+  },
   "providersTracked": 17,
-  "averagePrice": 67,
-  "medianPrice": 45.6,
+  "averagePrice": 54.55,
+  "medianPrice": 39,
   "cheapest": {
     "provider": "Keywords Everywhere",
-    "price": 2.25
+    "price": 7
   },
   "mostExpensive": {
-    "provider": "Clearscope",
-    "price": 189
+    "provider": "Semrush",
+    "price": 139
   },
   "providers": [
     {
       "provider": "Keywords Everywhere",
       "slug": "keywords-everywhere",
-      "price": 2.25,
+      "price": 7,
       "rating": 4.1,
       "bestFor": "Quick research while browsing",
       "url": "https://seoshortlist.com/tools/keywords-everywhere"
@@ -29,26 +42,34 @@
     {
       "provider": "Sitebulb",
       "slug": "sitebulb",
-      "price": 13.5,
+      "price": 15,
       "rating": 4.2,
       "bestFor": "Consultants presenting audits",
       "url": "https://seoshortlist.com/tools/sitebulb"
     },
     {
-      "provider": "Screaming Frog SEO Spider",
-      "slug": "screaming-frog",
-      "price": 21.58,
-      "rating": 4.5,
-      "bestFor": "Technical audits, any size",
-      "url": "https://seoshortlist.com/tools/screaming-frog"
+      "provider": "Ubersuggest",
+      "slug": "ubersuggest",
+      "price": 16,
+      "rating": 3.8,
+      "bestFor": "Hobby sites, tightest budgets",
+      "url": "https://seoshortlist.com/tools/ubersuggest"
     },
     {
       "provider": "KeySearch",
       "slug": "keysearch",
-      "price": 24,
+      "price": 20,
       "rating": 4,
       "bestFor": "Niche-site builders",
       "url": "https://seoshortlist.com/tools/keysearch"
+    },
+    {
+      "provider": "Screaming Frog SEO Spider",
+      "slug": "screaming-frog",
+      "price": 23.25,
+      "rating": 4.5,
+      "bestFor": "Technical audits, any size",
+      "url": "https://seoshortlist.com/tools/screaming-frog"
     },
     {
       "provider": "Ahrefs",
@@ -61,23 +82,23 @@
     {
       "provider": "Mangools",
       "slug": "mangools",
-      "price": 29,
+      "price": 29.9,
       "rating": 4.3,
       "bestFor": "Beginners and bloggers",
       "url": "https://seoshortlist.com/tools/mangools"
     },
     {
-      "provider": "Ubersuggest",
-      "slug": "ubersuggest",
-      "price": 29,
-      "rating": 3.8,
-      "bestFor": "Hobby sites, tightest budgets",
-      "url": "https://seoshortlist.com/tools/ubersuggest"
+      "provider": "Surfer",
+      "slug": "surfer",
+      "price": 39,
+      "rating": 4.2,
+      "bestFor": "Content teams publishing weekly",
+      "url": "https://seoshortlist.com/tools/surfer"
     },
     {
       "provider": "Frase",
       "slug": "frase",
-      "price": 45,
+      "price": 39,
       "rating": 4,
       "bestFor": "Solo creators, small teams",
       "url": "https://seoshortlist.com/tools/frase"
@@ -85,7 +106,7 @@
     {
       "provider": "Seobility",
       "slug": "seobility",
-      "price": 45.6,
+      "price": 39.92,
       "rating": 4.1,
       "bestFor": "Budget site audits and monitoring",
       "url": "https://seoshortlist.com/tools/seobility"
@@ -93,23 +114,15 @@
     {
       "provider": "Serpstat",
       "slug": "serpstat",
-      "price": 59,
+      "price": 50,
       "rating": 4,
       "bestFor": "International SEO teams",
       "url": "https://seoshortlist.com/tools/serpstat"
     },
     {
-      "provider": "Surfer",
-      "slug": "surfer",
-      "price": 79,
-      "rating": 4.2,
-      "bestFor": "Content teams publishing weekly",
-      "url": "https://seoshortlist.com/tools/surfer"
-    },
-    {
       "provider": "Peec AI",
       "slug": "peec-ai",
-      "price": 95,
+      "price": 70,
       "rating": 4,
       "bestFor": "Brands tracking AI answers",
       "url": "https://seoshortlist.com/tools/peec-ai"
@@ -117,10 +130,18 @@
     {
       "provider": "Moz Pro",
       "slug": "moz",
-      "price": 99,
+      "price": 79,
       "rating": 3.9,
       "bestFor": "DA-focused reporting workflows",
       "url": "https://seoshortlist.com/tools/moz"
+    },
+    {
+      "provider": "Sistrix",
+      "slug": "sistrix",
+      "price": 99,
+      "rating": 4.2,
+      "bestFor": "European agencies and professionals",
+      "url": "https://seoshortlist.com/tools/sistrix"
     },
     {
       "provider": "SE Ranking",
@@ -131,28 +152,20 @@
       "url": "https://seoshortlist.com/tools/se-ranking"
     },
     {
-      "provider": "Sistrix",
-      "slug": "sistrix",
-      "price": 136,
-      "rating": 4.2,
-      "bestFor": "European agencies and professionals",
-      "url": "https://seoshortlist.com/tools/sistrix"
+      "provider": "Clearscope",
+      "slug": "clearscope",
+      "price": 129,
+      "rating": 4.1,
+      "bestFor": "Agencies and content ops",
+      "url": "https://seoshortlist.com/tools/clearscope"
     },
     {
       "provider": "Semrush",
       "slug": "semrush",
-      "price": 139.95,
+      "price": 139,
       "rating": 4.6,
       "bestFor": "Agencies and serious businesses",
       "url": "https://seoshortlist.com/tools/semrush"
-    },
-    {
-      "provider": "Clearscope",
-      "slug": "clearscope",
-      "price": 189,
-      "rating": 4.1,
-      "bestFor": "Agencies and content ops",
-      "url": "https://seoshortlist.com/tools/clearscope"
     }
   ],
   "history": [

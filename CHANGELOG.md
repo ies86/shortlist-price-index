@@ -39,6 +39,31 @@ All notable changes to the Shortlist Price Index dataset. Snapshots are taken mo
   come from the European Central Bank and are stored per date, because converting a 2019 euro price
   at a 2026 rate is a second error on top of the first.
 
+## 2026-08-02 (evening): every published month re-checked against the current rules
+
+- **The cloud backup aggregate for JULY 2026 is withdrawn.** It contained the same three readings
+  that caused August to be withheld on 1 August: pCloud's one-off lifetime payment, MEGA's
+  excess-storage charge per TB, and Filen's fragment of page furniture. They had been there all
+  along. **Any cloud backup average for July 2026 published before this date should not be cited.**
+  Cloud backup now has no published measured aggregate; the June row is a hand-compiled baseline.
+- **The web hosting aggregate for JULY 2026 is corrected, not withdrawn.** Removing the Hetzner
+  reading left enough coverage to publish. Average $8.32 to $9.11, median $3.15 to $3.30, providers
+  10 to 9; the cheapest entry price is unchanged. Replace any figure taken from the old row.
+- **Root cause, and the reason this went unnoticed for four weeks.** Validation had the month
+  hard-coded to today. A rule added on 1 August therefore applied only from 1 August onward and could
+  not look at what was already published. Validation and promotion now take the month as an argument,
+  and a new check (`herkeuring`) re-applies the current rules to every published aggregate, failing
+  if any contains a reading that would be rejected today. It runs before publication and weekly. The
+  rules themselves moved into the shared config, so the validator and the check cannot drift apart.
+- **A second defect found while fixing this.** Promotion wrote its own field names into a file that
+  uses different column headers, which produced a row of empty values rather than an error. Measured
+  by trying it: the July web hosting row came out as `,,2026-07,,,,,,,2,2`. It now translates to the
+  file's own schema and refuses to write at all when a numeric column cannot be filled.
+- **Hetzner is a gap, not a correction.** Its plan prices are absent from its pricing page even after
+  rendering the page in a real browser; the only amounts present are the per-GB overage, a per-domain
+  fee and a storage add-on. It stays in the tracked set and is reported as a gap. Inventing a
+  plausible number is the failure this index exists to avoid.
+
 ## 2026-08-02: web hosting, August aggregate withheld
 
 - One of the thirteen readings that month was not a plan price: Hetzner returned €1.09, which its

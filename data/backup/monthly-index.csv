@@ -1,3 +1,4 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
-BackupShortlist,backup,2026-06,2026-06-16,8.25,8.99,4.17,17,curated,,
-BackupShortlist,backup,2026-07,2026-07-17,6.63,4.56,1.13,13,measured,2,2
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review,measured_currency,fx_usd_per_eur,fx_date
+BackupShortlist,backup,2026-06,2026-06-16,8.25,8.99,4.17,17,curated,,,USD,1.1594,2026-06-16
+BackupShortlist,backup,2026-07,2026-07-17,6.63,4.56,1.13,13,measured,2,2,USD,1.1435,2026-07-17
+BackupShortlist,backup,2026-08,2026-08-21,5.35,4.87,1.16,11,measured,2,4,USD,1.1699,2026-08-21

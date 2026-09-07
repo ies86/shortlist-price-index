@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "niche": "antivirus",
+      "provider_slug": "norton",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 10,
+      "new_usd_mo": 2.5,
+      "delta_pct": -50.01,
+      "currency": "USD",
+      "old_own": 5,
+      "new_own": 2.5,
+      "delta_pct_own": -50.01,
+      "delta_pct_usd": -75,
+      "vendor_url": "https://us.norton.com/products/norton-antivirus-plus",
+      "archive_url": "",
+      "detected_at": "2026-09-07T11:56:47.055Z",
+      "pitched": false
+    }
+  ]
+}

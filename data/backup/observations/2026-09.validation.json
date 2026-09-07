@@ -1,0 +1,31 @@
+{
+  "niche": "backup",
+  "maand": "2026-09",
+  "n_total": 17,
+  "n_observed_new": 2,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 7,
+  "n_under_review": 2,
+  "n_missing": 6,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 9,
+        "tracked": 17,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    },
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 7,
+        "veranderbaar": 7
+      }
+    }
+  ],
+  "publishable": false
+}

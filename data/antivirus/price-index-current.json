@@ -5,7 +5,20 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
+  "updated": "2026-08-06",
+  "generated": "2026-08-28",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-06",
+    "month": "2026-08",
+    "basis": "measured",
+    "providersMeasured": 11,
+    "averagePrice": 4.34,
+    "medianPrice": 3.83,
+    "cheapestPrice": 2.02,
+    "notMeasured": 1,
+    "underReview": 6
+  },
   "providersTracked": 18,
   "averagePrice": 4.68,
   "medianPrice": 4.17,
@@ -297,6 +310,17 @@
       "median": 4.17,
       "cheapest": 2.42,
       "count": 18
+    },
+    {
+      "date": "2026-08-06",
+      "month": "2026-08",
+      "measured": true,
+      "avg": 4.34,
+      "median": 3.83,
+      "cheapest": 2.02,
+      "count": 11,
+      "n_missing": 1,
+      "n_under_review": 6
     }
   ]
 }

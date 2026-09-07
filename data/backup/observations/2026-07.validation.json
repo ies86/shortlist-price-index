@@ -2,12 +2,30 @@
   "niche": "backup",
   "maand": "2026-07",
   "n_total": 17,
-  "n_observed_new": 13,
+  "n_observed_new": 1,
   "n_observed_changed": 0,
-  "n_observed_unchanged": 0,
-  "n_under_review": 2,
+  "n_observed_unchanged": 9,
+  "n_under_review": 5,
   "n_missing": 2,
   "canary_ok": true,
-  "alarms": [],
-  "publishable": true
+  "alarms": [
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 10,
+        "tracked": 17,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    },
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 9,
+        "veranderbaar": 9
+      }
+    }
+  ],
+  "publishable": false
 }

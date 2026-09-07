@@ -1,0 +1,74 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "alosim",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 19.5,
+   "band": 0.1,
+   "flags": [
+    "suspect_jump"
+   ],
+   "bron_url": "https://alosim.com/europe-esim/",
+   "reden": "EENHEIDSWISSEL, geen prijssprong. De esim-meeteenheid is op 1-9-2026 veranderd van 'laagste betaalde instapplan' (dat op een databundel niet past) naar de referentiebundel van 5 GB met 30 dagen geldigheid voor de regio Europa: precies de eenheid die esimshortlist.com zelf publiceert in lib/priceIndex.ts. De vorige waarde en deze waarde zijn dus twee verschillende producten, en de sprong die validate.mjs meldt is die eenheidswissel. Het bedrag hieronder is op 1-9-2026 met de hand op de bronpagina teruggelezen voordat het hier is goedgekeurd. Vervalt 30-11-2026: daarna staan er drie ronden op de nieuwe eenheid en is een sprong weer een echte sprong. live gelezen: '5 GB ... $ 19.50 30 days', tussen 3 GB $12.50 en 10 GB $36.00",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "prijsmeter-spoor structurele blokkades (Claude), handmatig teruggelezen bij de bron",
+   "geldig_tot": "2026-11-30"
+  },
+  {
+   "provider_slug": "roamless",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 17.95,
+   "band": 0.1,
+   "flags": [
+    "suspect_jump"
+   ],
+   "bron_url": "https://roamless.com/esim-region/europe-esim",
+   "reden": "EENHEIDSWISSEL, geen prijssprong. De esim-meeteenheid is op 1-9-2026 veranderd van 'laagste betaalde instapplan' (dat op een databundel niet past) naar de referentiebundel van 5 GB met 30 dagen geldigheid voor de regio Europa: precies de eenheid die esimshortlist.com zelf publiceert in lib/priceIndex.ts. De vorige waarde en deze waarde zijn dus twee verschillende producten, en de sprong die validate.mjs meldt is die eenheidswissel. Het bedrag hieronder is op 1-9-2026 met de hand op de bronpagina teruggelezen voordat het hier is goedgekeurd. Vervalt 30-11-2026: daarna staan er drie ronden op de nieuwe eenheid en is een sprong weer een echte sprong. live gelezen: 'Expires in 30 days 1 GB $4.95 3 GB $10.95 5 GB $17.95 10 GB $30.95'",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "prijsmeter-spoor structurele blokkades (Claude), handmatig teruggelezen bij de bron",
+   "geldig_tot": "2026-11-30"
+  },
+  {
+   "provider_slug": "saily",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 20.28,
+   "band": 0.1,
+   "flags": [
+    "suspect_jump"
+   ],
+   "bron_url": "https://saily.com/esim-europe/",
+   "reden": "EENHEIDSWISSEL, geen prijssprong. De esim-meeteenheid is op 1-9-2026 veranderd van 'laagste betaalde instapplan' (dat op een databundel niet past) naar de referentiebundel van 5 GB met 30 dagen geldigheid voor de regio Europa: precies de eenheid die esimshortlist.com zelf publiceert in lib/priceIndex.ts. De vorige waarde en deze waarde zijn dus twee verschillende producten, en de sprong die validate.mjs meldt is die eenheidswissel. Het bedrag hieronder is op 1-9-2026 met de hand op de bronpagina teruggelezen voordat het hier is goedgekeurd. Vervalt 30-11-2026: daarna staan er drie ronden op de nieuwe eenheid en is een sprong weer een echte sprong. live gelezen: '5 GB 30 days EUR 17.49' (EUR-bron, hier omgerekend naar USD voor de index; de valutapoort van terugschrijf blokkeert koppeling aan de USD-site)",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "prijsmeter-spoor structurele blokkades (Claude), handmatig teruggelezen bij de bron",
+   "geldig_tot": "2026-11-30"
+  },
+  {
+   "provider_slug": "nomad",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 17.48,
+   "band": 0.1,
+   "flags": [
+    "suspect_jump"
+   ],
+   "bron_url": "https://www.nomadesim.com/europe-eSIM",
+   "reden": "EENHEIDSWISSEL, geen prijssprong. De esim-meeteenheid is op 1-9-2026 veranderd van 'laagste betaalde instapplan' (dat op een databundel niet past) naar de referentiebundel van 5 GB met 30 dagen geldigheid voor de regio Europa: precies de eenheid die esimshortlist.com zelf publiceert in lib/priceIndex.ts. De vorige waarde en deze waarde zijn dus twee verschillende producten, en de sprong die validate.mjs meldt is die eenheidswissel. Het bedrag hieronder is op 1-9-2026 met de hand op de bronpagina teruggelezen voordat het hier is goedgekeurd. Vervalt 30-11-2026: daarna staan er drie ronden op de nieuwe eenheid en is een sprong weer een echte sprong. live gelezen: '5 GB For 30 DAYS EUR 15.07' (EUR-bron)",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "prijsmeter-spoor structurele blokkades (Claude), handmatig teruggelezen bij de bron",
+   "geldig_tot": "2026-11-30"
+  },
+  {
+   "provider_slug": "bnesim",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 5.21,
+   "band": 0.1,
+   "flags": [
+    "suspect_jump"
+   ],
+   "bron_url": "https://www.bnesim.com/plans/europe/",
+   "reden": "EENHEIDSWISSEL, geen prijssprong. De esim-meeteenheid is op 1-9-2026 veranderd van 'laagste betaalde instapplan' (dat op een databundel niet past) naar de referentiebundel van 5 GB met 30 dagen geldigheid voor de regio Europa: precies de eenheid die esimshortlist.com zelf publiceert in lib/priceIndex.ts. De vorige waarde en deze waarde zijn dus twee verschillende producten, en de sprong die validate.mjs meldt is die eenheidswissel. Het bedrag hieronder is op 1-9-2026 met de hand op de bronpagina teruggelezen voordat het hier is goedgekeurd. Vervalt 30-11-2026: daarna staan er drie ronden op de nieuwe eenheid en is een sprong weer een echte sprong. live gelezen: '4.49 EUR Price 5 GB Size 30 days Duration', tussen 3 GB 2.49 EUR en 10 GB 5.99 EUR (EUR-bron). Opvallend goedkoop tegenover de rest; dat is bij BNESIM bekend maar deze rij is de eerste kandidaat voor een hercontrole",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "prijsmeter-spoor structurele blokkades (Claude), handmatig teruggelezen bij de bron",
+   "geldig_tot": "2026-11-30"
+  }
+ ]
+}

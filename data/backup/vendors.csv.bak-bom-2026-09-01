@@ -1,0 +1,18 @@
+﻿provider_slug,plan_id,vendor_url,expected_amount,expected_currency,expected_period,expected_renewal,note
+pcloud,pcloud-premium,https://www.pcloud.com/cloud-storage-pricing-plans.html,49.99,EUR,year,,jaarplan; pagina opent standaard op Lifetime-tab (199 EUR eenmalig); jaarprijs pas zichtbaar na JS-klik op de annual-toggle
+icedrive,icedrive-lite,https://icedrive.net/plans,59,EUR,year,8.25,jaarplan; 59 EUR is promo eerste jaar (regulier 99; verlenging 8.25/mnd); toggle-label staat VOOR de prijs en /year staat NA het bedrag
+carbonite,carbonite-safe,https://www.carbonite.com/personal/pricing/,95.99,USD,year,,jaarplan
+idrive,idrive-personal,https://www.idrive.com/pricing,6.99,USD,month,9.99,renewal $9.99
+acronis,acronis-essentials,https://www.acronis.com/en/products/true-image/purchasing/,49.99,EUR,year,,bot-block verwacht; pagina levert EUR vanaf EU-IP; alt-extractor niet op het TeamUp-partnerblok ($999 annual value) laten ankeren
+nordlocker,nordlocker-500gb,https://nordlocker.com/plans/,2.99,USD,month,7.99,renewal $7.99
+sync-com,sync-solo,https://www.sync.com/pricing-individual/,3.5,USD,month,,"PERIODE GECORRIGEERD 21-8-2026: stond op year. De aanbieder schrijft op zijn eigen pagina letterlijk '$3.50 per month, billed annually' voor Personal 150GB, dus 3,50 is een MAANDprijs. Met year deelde scrape.mjs door 12 en kwam op 0,29; die viel buiten de band, belandde op under_review, en daardoor haalde de hele backup-niche de dekkingsvloer niet meer. Twee onafhankelijke controles bevestigden 3,50/maand op 21-8-2026. De doorgestreepte prijzen op die pagina horen bij coupon 50Off1YearPromo en zijn dus een eerstejaarsactie, geen normaal tarief."
+backblaze,backblaze-personal,https://www.backblaze.com/cloud-backup/pricing,9,USD,month,,
+filen,filen-pro,https://filen.io/pricing,1.99,EUR,month,,prijs staat als 1.99 EUR met het bedrag VOOR het euroteken; pagina bevat een decoratief DOM-toetsenbord met losse $-toets; niet op $ ankeren
+proton-drive,proton-drive-plus,https://proton.me/drive/pricing,3.99,EUR,month,,
+onedrive,onedrive-standalone,https://www.microsoft.com/nl-nl/microsoft-365/onedrive/onedrive-plans-and-pricing,2,EUR,month,,
+dropbox,dropbox-plus,https://www.dropbox.com/plans,9.99,EUR,month,,
+google-one,google-one-basic,https://one.google.com/about/plans,1.99,USD,month,,
+icloud,icloud-50gb,https://www.apple.com/nl/icloud/,0.99,EUR,month,,
+mega,mega-pro-lite,https://mega.io/pricing,4.99,EUR,month,,bot-block verwacht; planprijzen alleen na JS-render; statische HTML bevat enkel placeholders plus Pro Flexi 15 EUR/mnd en 3.50 EUR/TB naheffing
+koofr,koofr-10gb,https://koofr.eu/pricing/,0.5,EUR,month,,
+tresorit,tresorit-personal,https://tresorit.com/pricing/personal,3.99,EUR,month,,

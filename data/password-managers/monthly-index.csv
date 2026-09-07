@@ -1,3 +1,4 @@
-site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review
-PasswordShortlist,password-managers,2026-06,2026-06-16,2.58,1.99,0.83,9,curated,,
-PasswordShortlist,password-managers,2026-08,2026-08-01,7.08,3.99,2.49,6,measured,1,2
+site,niche,month,snapshot_date,average_price_usd,median_price_usd,cheapest_price_usd,providers_tracked,basis,n_missing,n_under_review,measured_currency,fx_usd_per_eur,fx_date
+PasswordShortlist,password-managers,2026-06,2026-06-16,2.58,1.99,0.83,9,curated,,,USD,1.1594,2026-06-16
+PasswordShortlist,password-managers,2026-08,2026-08-01,7.08,3.99,2.49,6,measured,1,2,USD,1.1485,2026-07-31
+PasswordShortlist,password-managers,2026-09,2026-09-07,4.18,3.23,1.65,8,measured,1,0,USD,1.1622,2026-09-04

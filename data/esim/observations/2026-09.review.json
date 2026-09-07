@@ -1,0 +1,66 @@
+{
+  "maand": "2026-09",
+  "niche": "esim",
+  "items": [
+    {
+      "provider_slug": "alosim",
+      "oud": 10,
+      "nieuw": 19.5,
+      "vendor_url": "https://alosim.com/europe-esim/",
+      "archive_url": "",
+      "alt": 19.5,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "roamless",
+      "oud": 8.45,
+      "nieuw": 17.95,
+      "vendor_url": "https://roamless.com/esim-region/europe-esim",
+      "archive_url": "",
+      "alt": 17.95,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "saily",
+      "oud": 9.35,
+      "nieuw": 20.28,
+      "vendor_url": "https://saily.com/esim-europe/",
+      "archive_url": "",
+      "alt": 20.28,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "nomad",
+      "oud": 12,
+      "nieuw": 17.48,
+      "vendor_url": "https://www.nomadesim.com/europe-eSIM",
+      "archive_url": "",
+      "alt": 17.48,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "bnesim",
+      "oud": 9.35,
+      "nieuw": 5.21,
+      "vendor_url": "https://www.bnesim.com/plans/europe/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

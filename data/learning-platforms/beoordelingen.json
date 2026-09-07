@@ -1,0 +1,32 @@
+[
+ {
+  "provider_slug": "domestika",
+  "oordeel": "goedgekeurd",
+  "flags": [
+   "extractor_disagreement"
+  ],
+  "beoordeelde_waarde": 14.58,
+  "band": 0.1,
+  "datum": "2026-08-25",
+  "door": "Claude-sessie 25-8-2026, nagerekend op de JSON-LD van de bronpagina zelf",
+  "bron_url": "https://www.domestika.org/en/plus",
+  "reden": "De prijspagina draagt in zijn eigen JSON-LD \"price\": 149.50 met \"priceCurrency\": \"EUR\". Dat is het jaarbedrag van Domestika Plus, en de measurand van deze pijplijn is het laagste betaalde individuele plan op jaarfacturering, uitgedrukt per maand. 149,50 gedeeld door 12 is 12,458 EUR per maand, maal de koers 1,1699 die in deze meetronde is gebruikt geeft 14,575, en dat is de gemeten 14,58. De waarde is dus niet alleen plausibel maar exact reproduceerbaar uit de bron. De vlag extractor_disagreement ontstaat doordat de tweede extractiemethode 9,75 vindt; op dezelfde pagina staat namelijk ook een actieprijs, en de zichtbare tekst noemt daarnaast \"after one year renewal price will the full amount 299 EUR\". De pagina toont dus drie bedragen naast elkaar (actie, eerste jaar, verlenging) en de primaire meting pakt de juiste. De waarde zelf komt onverkort uit de meting.",
+  "geldig_tot": "2027-02-25",
+  "hertoets_bij": "Een andere vlag dan extractor_disagreement, of een waarde buiten 13,12 tot 16,04 USD per maand. Let bij hertoets op of Domestika het jaarbedrag van 149,50 EUR heeft gewijzigd, en of de verlengprijs van 299 EUR nog steeds apart wordt genoemd; die twee liepen in augustus 2026 sterk uiteen en dat is precies het soort verschil dat de extractors doet botsen."
+ },
+ {
+  "provider_slug": "pluralsight",
+  "oordeel": "goedgekeurd",
+  "flags": [
+   "extractor_disagreement"
+  ],
+  "beoordeelde_waarde": 21,
+  "band": 0.1,
+  "datum": "2026-08-28",
+  "door": "Claude-sessie 28-8-2026, bron opnieuw opgehaald en gerenderd vanaf een Nederlands IP",
+  "bron_url": "https://www.pluralsight.com/individuals/pricing",
+  "reden": "De primaire meting van 21 USD per maand komt letterlijk uit de eigen JSON-LD van de prijspagina: \"name\":\"Pluralsight Core Tech Plan\" met \"description\":\"$21 per month, billed annually at $252 total.\" en \"price\":\"21.00\". Core Tech is het laagste betaalde individuele plan, precies de measurand van deze pijplijn; er is geen gratis plan, alleen een proef van tien dagen. De vlag extractor_disagreement ontstaat doordat de tweede lezer 29 vindt, maar dat is GEEN concurrerende meting van hetzelfde plan. Onder de zichtbare prijsvakjes, die door JavaScript uit een prijs-API worden gevuld, staan in de statische HTML verouderde fallback-bedragen met attributen als data-product-price=\"EVERY-M-IND\" (29 en 299) en data-product-price=\"CORE-M-TECH\" (49 en 449). EVERY-M-IND is de kaart van het Complete-plan, dus de 29 hoort bij een ANDER plan dan de 21. Dat die reeks dood is, is aan de reeks zelf te zien: hij zet Core Tech op 49 en Complete op 29, terwijl Complete juist de bredere bibliotheek is en de plus-plannen het label \"Includes Core Tech\" dragen. Onmogelijk dus. De live gerenderde pagina bevestigt de JSON-LD langs een tweede weg: een NL-bezoeker ziet 19 EUR voor Core Tech, 22 voor de plus-plannen en 35 voor Complete, en de verhouding tot de dollarbedragen is over alle drie de tredes gelijk (0,905, 0,898, 0,897). Ook de \"Save 30%\"-belofte klopt in beide valuta (21 tegen 30 dollar, 19 tegen 27 euro). De fallback-reeks past in geen van die verhoudingen.",
+  "geldig_tot": "2027-02-28",
+  "hertoets_bij": "Een andere vlag dan extractor_disagreement, of een waarde buiten 18,90 tot 23,10 USD per maand. Let bij hertoets op twee dingen: of Pluralsight de fallback-HTML eindelijk heeft bijgewerkt (dan verdwijnt de vlag vanzelf en is deze beoordeling overbodig), en of Core Tech nog steeds het laagste betaalde plan is. De planstructuur is in 2026 hernoemd; een volgende hernoeming verplaatst de measurand."
+ }
+]

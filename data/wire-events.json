@@ -109,5 +109,82 @@
     "archief_url": null,
     "onafhankelijk_na_te_lopen": false,
     "citeer": "expressvpn raised the price of its expressvpn-12m plan from €2.99 to €3.99 per month (+33.4%) between 2026-07 and 2026-08 (Shortlist Price Index, measured on the vendor's own pricing page; expressvpn prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
+  },
+  {
+    "id": "vpn|ipvanish|ipvanish-2yr|2026-09",
+    "datum": "2026-09",
+    "categorie": "VPN services",
+    "provider": "ipvanish",
+    "plan_id": "ipvanish-2yr",
+    "oud": 2.19,
+    "nieuw": 2.49,
+    "deltaPct": 13.7,
+    "valuta": "USD",
+    "oud_usd": 2.19,
+    "nieuw_usd": 2.49,
+    "usd_delta_pct": 13.7,
+    "fx_naar_usd": {
+      "2026-08": 1,
+      "2026-09": 1
+    },
+    "lijstprijs": {
+      "oud": 2.19,
+      "nieuw": 2.49,
+      "per": "month"
+    },
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-08",
+      "2026-09"
+    ],
+    "run_ids": [
+      "2026-08_r1",
+      "2026-09_r1"
+    ],
+    "bron_url": "https://www.ipvanish.com/pricing/",
+    "archief_url": "https://web.archive.org/web/20260907075811/https://www.ipvanish.com/pricing/",
+    "onafhankelijk_na_te_lopen": false,
+    "archief_urls": {
+      "2026-08": null,
+      "2026-09": "https://web.archive.org/web/20260907075811/https://www.ipvanish.com/pricing/"
+    },
+    "archief_getoetst": false,
+    "citeer": "ipvanish raised the price of its ipvanish-2yr plan from $2.19 to $2.49 per month (+13.7%) between 2026-08 and 2026-09 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "website-builders|squarespace|basic|2026-09",
+    "datum": "2026-09",
+    "categorie": "Website builders",
+    "provider": "squarespace",
+    "plan_id": "basic",
+    "oud": 1.34,
+    "nieuw": 19,
+    "deltaPct": 1317.9,
+    "valuta": "USD",
+    "oud_usd": 1.34,
+    "nieuw_usd": 19,
+    "usd_delta_pct": 1317.9,
+    "fx_naar_usd": null,
+    "lijstprijs": null,
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-08",
+      "2026-09"
+    ],
+    "run_ids": [
+      "2026-08_r1",
+      "2026-09_r1"
+    ],
+    "bron_url": "https://www.squarespace.com/pricing",
+    "archief_url": "https://web.archive.org/web/20260907104143/https://www.squarespace.com/pricing",
+    "onafhankelijk_na_te_lopen": false,
+    "archief_urls": {
+      "2026-08": null,
+      "2026-09": "https://web.archive.org/web/20260907104143/https://www.squarespace.com/pricing"
+    },
+    "archief_getoetst": false,
+    "citeer": "squarespace raised the price of its basic plan from $1.34 to $19 per month (+1317.9%) between 2026-08 and 2026-09 (Shortlist Price Index, measured on the vendor's own pricing page)."
   }
 ]

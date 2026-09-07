@@ -1,0 +1,46 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "ionos",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 1,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.ionos.com/hosting/web-hosting",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 1 staat vandaag nog als \"$1\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "digitalocean",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 4,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://www.digitalocean.com/pricing/droplets",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 4 staat vandaag nog als \"$4.00\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  },
+  {
+   "provider_slug": "kinsta",
+   "oordeel": "goedgekeurd",
+   "beoordeelde_waarde": 35,
+   "band": 0.1,
+   "flags": [
+    "stuck_suspect"
+   ],
+   "bron_url": "https://kinsta.com/pricing/",
+   "reden": "stuck-toets 2026-09-01: de pagina is onafhankelijk opnieuw opgehaald en USD 35 staat vandaag nog als \"$35\" op de pagina. De prijs staat dus stil omdat hij stil staat, niet omdat de meting vastzit. Deze goedkeuring vervalt bewust snel; een stilstaande prijs hoort opnieuw bekeken te worden.",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "scripts/prijsmeter/stuck-toets.mjs (onafhankelijke herophaling)",
+   "geldig_tot": "2026-10-31"
+  }
+ ]
+}

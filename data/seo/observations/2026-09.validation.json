@@ -1,0 +1,22 @@
+{
+  "niche": "seo",
+  "maand": "2026-09",
+  "n_total": 15,
+  "n_observed_new": 1,
+  "n_observed_changed": 1,
+  "n_observed_unchanged": 11,
+  "n_under_review": 1,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 11,
+        "veranderbaar": 12
+      }
+    }
+  ],
+  "publishable": true
+}

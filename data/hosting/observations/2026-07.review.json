@@ -3,6 +3,17 @@
   "niche": "hosting",
   "items": [
     {
+      "provider_slug": "hetzner",
+      "oud": null,
+      "nieuw": 1.25,
+      "vendor_url": "https://www.hetzner.com/webhosting/",
+      "archive_url": "https://web.archive.org/web/20260717212948/https://www.hetzner.com/webhosting/",
+      "alt": null,
+      "flags": [
+        "naheffing_per_eenheid"
+      ]
+    },
+    {
       "provider_slug": "cloudways",
       "oud": null,
       "nieuw": 14,

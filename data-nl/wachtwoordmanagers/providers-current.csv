@@ -1,10 +1,10 @@
 provider,entry_price_eur_per_month,source_url
-NordPass,1.49,https://wachtwoordkiezer.nl/tools/nordpass
 Bitwarden,1.65,https://wachtwoordkiezer.nl/tools/bitwarden
-Proton Pass,1.99,https://wachtwoordkiezer.nl/tools/proton-pass
-Enpass,1.99,https://wachtwoordkiezer.nl/tools/enpass
+Enpass,1.79,https://wachtwoordkiezer.nl/tools/enpass
 RoboForm,2.49,https://wachtwoordkiezer.nl/tools/roboform
-Keeper,2.92,https://wachtwoordkiezer.nl/tools/keeper
-LastPass,3,https://wachtwoordkiezer.nl/tools/lastpass
-1Password,3.99,https://wachtwoordkiezer.nl/tools/1password
-Dashlane,4.99,https://wachtwoordkiezer.nl/tools/dashlane
+LastPass,2.9,https://wachtwoordkiezer.nl/tools/lastpass
+NordPass,2.99,https://wachtwoordkiezer.nl/tools/nordpass
+Proton Pass,2.99,https://wachtwoordkiezer.nl/tools/proton-pass
+1Password,3.65,https://wachtwoordkiezer.nl/tools/1password
+Dashlane,3.96,https://wachtwoordkiezer.nl/tools/dashlane
+Keeper,4.34,https://wachtwoordkiezer.nl/tools/keeper

@@ -6,27 +6,48 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-08-01",
+  "updated": "2026-08-22",
+  "generated": "2026-09-04",
+  "figuresFrom": "editorial catalogue",
+  "verifiedMeasurement": {
+    "date": "2026-08-22",
+    "month": "2026-08",
+    "basis": "measured",
+    "currency": "USD",
+    "providersMeasured": 7,
+    "averagePrice": 21.25,
+    "medianPrice": 17.54,
+    "cheapestPrice": 13.99,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1699,
+      "rateDate": "2026-08-21",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 18.16,
+      "medianPrice": 14.99,
+      "cheapestPrice": 11.96
+    },
+    "notMeasured": 2,
+    "underReview": 2
+  },
   "providersTracked": 11,
-  "averagePrice": 22.85,
+  "averagePrice": 22.65,
   "medianPrice": 18.33,
   "cheapest": {
-    "provider": "Brilliant",
-    "price": 9.99
+    "provider": "MasterClass",
+    "price": 10
   },
   "mostExpensive": {
     "provider": "LOI",
     "price": 59
   },
   "providers": [
-    {
-      "provider": "Brilliant",
-      "slug": "brilliant",
-      "price": 9.99,
-      "rating": 4.3,
-      "bestFor": "Dagelijkse hersentraining",
-      "url": "https://leerplatformkiezer.nl/tools/brilliant"
-    },
     {
       "provider": "MasterClass",
       "slug": "masterclass",
@@ -42,6 +63,14 @@
       "rating": 4.2,
       "bestFor": "Creatieve hobbyisten",
       "url": "https://leerplatformkiezer.nl/tools/domestika"
+    },
+    {
+      "provider": "Brilliant",
+      "slug": "brilliant",
+      "price": 13.75,
+      "rating": 4.3,
+      "bestFor": "Dagelijkse hersentraining",
+      "url": "https://leerplatformkiezer.nl/tools/brilliant"
     },
     {
       "provider": "Skillshare",
@@ -70,7 +99,7 @@
     {
       "provider": "Pluralsight",
       "slug": "pluralsight",
-      "price": 24.91,
+      "price": 19,
       "rating": 4.1,
       "bestFor": "IT-professionals",
       "url": "https://leerplatformkiezer.nl/tools/pluralsight"
@@ -115,7 +144,34 @@
       "avg": 20.13,
       "median": 13.99,
       "cheapest": 7.99,
-      "count": 11
+      "count": 11,
+      "currency": "EUR",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "month": "2026-08",
+      "measured": true,
+      "avg": 21.25,
+      "median": 17.54,
+      "cheapest": 13.99,
+      "count": 7,
+      "n_missing": 2,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1699,
+        "koersdatum": "2026-08-21",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

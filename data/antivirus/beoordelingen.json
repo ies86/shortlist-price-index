@@ -1,0 +1,20 @@
+{
+ "beoordelingen": [
+  {
+   "provider_slug": "norton",
+   "oordeel": "goedgekeurd",
+   "flags": [
+    "out_of_band",
+    "suspect_jump"
+   ],
+   "beoordeelde_waarde": 2.5,
+   "band": 0.1,
+   "bron_url": "https://us.norton.com/products/norton-antivirus-plus",
+   "beoordeeld_op": "2026-09-01",
+   "beoordeeld_door": "spoor meetbaarheid 1-9-2026, live gelezen van de productpagina",
+   "reden": "De sprong komt van de CORRECTIE van de meting en van een foute historie, niet van de winkel. De measurand is het laagste betaalde individuele plan in de EERSTE factuurperiode. Norton AntiVirus Plus staat vandaag op de pagina als '50% OFF* $59.99 $29.99 first yr. It works out as $2.50 /month': $29,99 voor het eerste jaar, en Norton rekent zelf 2,50 per maand voor. De vendorconfig ankerde tot vandaag op 59,99, het DOORGESTREEPTE lijsttarief, waardoor er 5,00 USD per maand werd gemeten. De vergelijkingsbasis is bovendien fout: de laatst bevestigde meting is die van juli en die las $119.99 van NORTON 360 DELUXE, een ander product; daarvan komt de out_of_band. De nieuwe waarde 2,50 wordt door twee onafhankelijke plekken op dezelfde pagina bevestigd (het bedrag 29,99 per jaar en de zin 'It works out as $2.50 /month').",
+   "geldig_tot": "2026-10-15",
+   "hertoets_bij": "Elke andere vlag, of een waarde buiten 2,25 tot 2,75 USD per maand. Deze goedkeuring loopt BEWUST kort af: 2,50 hangt aan een 50%-actie. Loopt die af, dan is het eerstejaarstarief weer 59,99 en moet expected_amount in vendors.csv mee terug naar 59,99."
+  }
+ ]
+}

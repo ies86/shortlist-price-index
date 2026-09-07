@@ -1,0 +1,31 @@
+{
+  "niche": "learning-platforms",
+  "maand": "2026-09",
+  "n_total": 11,
+  "n_observed_new": 0,
+  "n_observed_changed": 1,
+  "n_observed_unchanged": 4,
+  "n_under_review": 3,
+  "n_missing": 3,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "dekking_gedaald",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "schoon": 5,
+        "rollingMedian": 7
+      }
+    },
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 5,
+        "tracked": 11,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    }
+  ],
+  "publishable": false
+}

@@ -1,0 +1,43 @@
+{
+  "maand": "2026-09",
+  "niche": "learning-platforms",
+  "items": [
+    {
+      "provider_slug": "datacamp",
+      "oud": 31.59,
+      "nieuw": 16.27,
+      "vendor_url": "https://www.datacamp.com/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "udemy",
+      "oud": null,
+      "nieuw": 17.42,
+      "vendor_url": "https://www.udemy.com/personal-plan/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "period_unknown",
+        "eenmalig_bedrag"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "udacity",
+      "oud": null,
+      "nieuw": 199,
+      "vendor_url": "https://www.udacity.com/experience",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

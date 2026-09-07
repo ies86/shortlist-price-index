@@ -1,0 +1,31 @@
+{
+  "niche": "esim",
+  "maand": "2026-09",
+  "n_total": 15,
+  "n_observed_new": 0,
+  "n_observed_changed": 5,
+  "n_observed_unchanged": 0,
+  "n_under_review": 0,
+  "n_missing": 10,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "dekking_gedaald",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "schoon": 5,
+        "rollingMedian": 7
+      }
+    },
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 5,
+        "tracked": 15,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    }
+  ],
+  "publishable": false
+}
