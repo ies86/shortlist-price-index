@@ -1,0 +1,39 @@
+{
+  "ingetrokken_op": "2026-09-08",
+  "reden": "geen prijswijziging maar een gerepareerde LEZING. De augustusmeting las uit de JSON-LD van de pagina \"EUR 14\", een MAANDprijs uit de eurozone-markt, en de vendorconfig zegt periode \"year\", dus werd dat bedrag ook nog door twaalf gedeeld: 1,34 USD per maand. De septembermeting leest USD 228 per JAAR voor hetzelfde plan (Basic - Annually) = 19,00 USD per maand, en dat bedrag stond al als expected_renewal in vendors.csv. Squarespace heeft zijn prijs niet aangeraakt; wij hebben hem eerst fout en toen goed gelezen. Het event droeg dan ook geen lijstprijs en geen koers (lijstprijs: null, fx_naar_usd: null), omdat de munt tussen de twee metingen van EUR naar USD ging. De meting van september zelf is goed en blijft staan; alleen de CLAIM dat de prijs veranderde wordt ingetrokken.",
+  "event": {
+    "id": "website-builders|squarespace|basic|2026-09",
+    "datum": "2026-09",
+    "categorie": "Website builders",
+    "provider": "squarespace",
+    "plan_id": "basic",
+    "oud": 1.34,
+    "nieuw": 19,
+    "deltaPct": 1317.9,
+    "valuta": "USD",
+    "oud_usd": 1.34,
+    "nieuw_usd": 19,
+    "usd_delta_pct": 1317.9,
+    "fx_naar_usd": null,
+    "lijstprijs": null,
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-08",
+      "2026-09"
+    ],
+    "run_ids": [
+      "2026-08_r1",
+      "2026-09_r1"
+    ],
+    "bron_url": "https://www.squarespace.com/pricing",
+    "archief_url": "https://web.archive.org/web/20260907104143/https://www.squarespace.com/pricing",
+    "onafhankelijk_na_te_lopen": false,
+    "archief_urls": {
+      "2026-08": null,
+      "2026-09": "https://web.archive.org/web/20260907104143/https://www.squarespace.com/pricing"
+    },
+    "archief_getoetst": false,
+    "citeer": "squarespace raised the price of its basic plan from $1.34 to $19 per month (+1317.9%) between 2026-08 and 2026-09 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  }
+}

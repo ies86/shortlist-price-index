@@ -2,6 +2,73 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-09-09: a withdrawn claim is now actually removed, not just blocked
+
+- **The Squarespace event was still published.** The publication gate added on 2026-09-08 stopped
+  the claim from being made *again*, but the merge that writes `data/wire-events.json` only ever
+  added and overwrote entries; it never removed one. So
+  `website-builders|squarespace|basic|2026-09` (`$1.34 -> $19`, +1317.9%) remained in the
+  published file for another day. A dataset other people cite must not leave a retracted claim
+  standing.
+- **What changed.** `scripts/price-wire.mjs` now withdraws an already published event when the
+  gate rejects it on a later run. The gate's reason for this one is more precise than "implausible
+  jump": `muntwissel` — the August reading was in EUR and the September reading in USD, and two
+  readings of the same plan in different currencies are two readings, not a price movement.
+- **Where the record lives.** Every withdrawal is appended to `data/ingetrokken-events.json` with
+  the original event, the date, and the reason, so a reader who meets the old claim elsewhere can
+  find out why it was pulled. Nothing is deleted silently.
+- **Guardrail on the guardrail.** The withdrawal matches on `niche|provider|month` because the
+  gate's records carry no plan id. That prefix was verified to be unambiguous across all 358
+  provider-month combinations in the dataset (none has more than one plan), and the code still
+  refuses to act unless exactly one event matches. Ambiguity leaves the event in place and logs it.
+- **Also corrected in this commit.** Eighteen fields across the September observations read the
+  literal string `undefined` where the review date and reviewer belong (for example *"beoordeeld op
+  undefined door undefined"*). They now carry the real date and source. One `undefined` remains in
+  `data/learning-platforms/beoordelingen.json` and is deliberate: it quotes what the archived
+  Udacity page literally rendered, as evidence of what could not be verified from that snapshot.
+
+## 2026-09-08: two price-change events withdrawn; a change of reading is not a change of price
+
+- **`website-builders|squarespace|basic|2026-09` is WITHDRAWN.** It claimed *"squarespace raised
+  the price of its basic plan from $1.34 to $19 per month (+1317.9%)"*. Squarespace did not touch
+  its price. The August reading took `EUR 14` from the page's JSON-LD, which is a **monthly** price
+  from the eurozone market, and the vendor config says the page quotes **yearly**, so that amount
+  was divided by twelve a second time: $1.34 per month. The September reading takes `USD 228` per
+  year for the same plan (`Basic - Annually`), which is $19.00 per month and matches the
+  `expected_renewal` already recorded for that vendor row. The difference is entirely in our
+  reading. **Do not cite that figure.** The event is kept, with the reason, in
+  `data/INGETROKKEN-2026-09-08-squarespace.json` and in the `ingetrokken` list of
+  `data/website-builders/change-events.json`; it has been removed from `data/wire-events.json` and
+  `data/change-ledger.json`.
+- **`antivirus / norton / 2026-09` is WITHDRAWN** for the same class of defect. It reported
+  10 → 2.50 USD per month, that is -50.01 percent in the vendor's own currency next to -75 percent
+  in USD, two numbers that are not about the same thing. The anchor amount was 59.99, the
+  **struck-through** list price shown next to the actual 29.99 for the first year, and the
+  comparison base did not come from August at all but from July and from a different product
+  (Norton 360 Deluxe at 119.99 per year). The measurement itself is right: the page reads
+  *"50% OFF* $59.99 $29.99 first yr. It works out as $2.50 /month"*.
+- **What is NOT affected.** Both September measurements stand: Squarespace Basic is $19.00 per
+  month and Norton AntiVirus Plus is $2.50 per month, and both were reviewed and approved on their
+  own merits. What is withdrawn is only the derived claim that the vendor *changed* its price. The
+  monthly aggregates are unchanged.
+- **Enforcement (`scripts/prijsmeter/publicatiepoort.mjs`).** Two rules now stand between a
+  measurement and a published price-change claim, and both writers of claims pass through them
+  (`price-wire.mjs` for `wire-events.json` and `change-ledger.json`, `promote.mjs` for the
+  per-category `change-events.json`):
+  1. **No list price with a period, no event.** Both months must name the same currency, both must
+     yield a readable amount in that currency, both must state a period of `month` or `year` and the
+     same one, and both must carry a usable exchange rate. A currency that changes between two
+     measurements of the same plan is a change of reading, not a movement of price; that is exactly
+     what happened here, and it was previously the reason the currency check was *skipped*.
+  2. **A jump of 50 percent or more is undetermined, not a fact.** The largest movement this index
+     has ever confirmed as real is +33.4 percent (ExpressVPN). Everything it has ever seen above 50
+     percent was an artefact of its own reading. Such a case is reported for a human to read back
+     rather than published. The validator's own `suspect_jump` flag sits at 40 percent: measuring is
+     allowed there, asserting is not.
+  The gate has its own test (`node scripts/prijsmeter/publicatiepoort.mjs --zelftoets`), which runs
+  it against both withdrawn events (must be refused) and against the four events that are real
+  (must stay).
+
 ## 2026-08-02 (later the same day): price changes are stated in the vendor's own currency
 
 - **16 of the 19 published price-change events have been WITHDRAWN.** They were not price changes.

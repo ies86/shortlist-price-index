@@ -4,23 +4,36 @@ Curated entry prices for software and services in eleven categories: cloud backu
 
 The index answers one simple question per category: what does the cheapest paid plan of each provider cost? It was first compiled in June 2026. An automated measurement pipeline (which reads each vendor's live pricing page and keeps an archived copy of the source) is being rolled out category by category; until a category is explicitly marked as measured, treat its figures as curated guide prices, not automated observations. The travel eSIM category uses price per gigabyte instead of a monthly plan price, because that is how eSIM data plans are actually compared.
 
-## Which categories are measured (status on 1 August 2026)
+## Which categories are measured
 
-A category is listed as measured only when its monthly run passed the validation gate for that month (enough providers actually observed to publish a citable aggregate). The gate is recorded per month in `data/<category>/observations/<month>.validation.json`, so this table can be checked against the data rather than taken on trust.
+A category is listed as measured only when its monthly run passed the validation gate for that month (enough providers actually observed to publish a citable aggregate). The gate is recorded per month in `data/<category>/observations/<month>.validation.json`. The table below is generated from those files, so it can be checked against the data rather than taken on trust, and it cannot fall behind the monthly measurement.
+
+<!-- STATUSTABEL-BEGIN
+     Generated from data/<category>/observations/<month>.validation.json by
+     scripts/price-index-readme.mjs, on every monthly refresh. Do not edit by hand:
+     a hand-kept row falls behind the moment the monthly measurement moves on, and
+     on 7 September 2026 it had, in ten of the eleven categories at once. -->
+
+Most recent measured month in this repository: **2026-09**.
 
 | Category | Measured months | Status |
 |---|---|---|
-| Web hosting | 2026-07, 2026-08 | measured; **August aggregate withheld** (one reading was not a plan price, see note below) |
-| VPN services | 2026-07, 2026-08 | measured |
-| Cloud backup | 2026-07, 2026-08 | measured; **both aggregates withheld** (readings rejected on review, see note below) |
-| SEO tools | 2026-07, 2026-08 | measured |
-| Newsletter tools | 2026-08 | measured |
-| Password managers | 2026-08 | measured |
-| Website builders | 2026-08 | measured |
-| Antivirus software | 2026-07, 2026-08 | measured, **aggregate withheld** (too few providers verified; see note below) |
-| Learning platforms | 2026-08 | measured, **aggregate withheld** (too few providers verified) |
-| Travel eSIMs | 2026-08 | measured, **aggregate withheld** (too few providers verified) |
+| Cloud backup | 2026-07, 2026-08, 2026-09 | measured; **aggregate withheld for 2026-07, 2026-09** (too few providers verified) |
+| Web hosting | 2026-07, 2026-08, 2026-09 | measured |
+| SEO tools | 2026-07, 2026-08, 2026-09 | measured |
+| Website builders | 2026-08, 2026-09 | measured |
+| Antivirus software | 2026-07, 2026-08, 2026-09 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
+| Newsletter tools | 2026-08, 2026-09 | measured |
+| Password managers | 2026-08, 2026-09 | measured |
+| VPN services | 2026-07, 2026-08, 2026-09 | measured |
+| Learning platforms | 2026-08, 2026-09 | measured; **aggregate withheld for 2026-09** (coverage dropped sharply against the running median; too few providers verified) |
+| Travel eSIMs | 2026-08, 2026-09 | measured; **aggregate withheld for 2026-09** (coverage dropped sharply against the running median; too few providers verified) |
 | Recruitment software | none | curated guide prices |
+
+*This table is generated from the validation files in this repository rather than
+written by hand, so it cannot claim a status the data underneath does not support.*
+
+<!-- STATUSTABEL-EINDE -->
 
 For a measured category, `monthly-index.csv` reports how many providers were actually observed versus missing that month, so the coverage is transparent. Where the aggregate is withheld, the raw observations are still published: they are the honest record of what could and could not be read, and withholding the average is the point of the gate rather than a gap in the data.
 

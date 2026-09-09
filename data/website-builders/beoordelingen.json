@@ -18,7 +18,7 @@
   },
   {
    "provider_slug": "carrd",
-   "oordeel": "goedgekeurd",
+   "oordeel": "vervallen",
    "flags": [
     "out_of_band"
    ],
@@ -29,7 +29,9 @@
    "beoordeeld_door": "spoor meetbaarheid 1-9-2026, live gelezen van de prijspagina",
    "reden": "De meting klopt; de NICHEGRENS is te hoog voor deze categorie. Op de pagina staat 'Pro Lite $ 9 / year'. Dat is 9 USD per jaar, oftewel 0,75 USD per maand, en Pro Lite is het laagste betaalde individuele plan van Carrd - precies wat de measurand vraagt en wat vendors.csv als plan_id 'pro-lite' voorschrijft. De vlag out_of_band komt uitsluitend van NICHE_BOUNDS['website-builders'].min = 1 USD per maand in config.mjs; er is geen sprong en geen bandprobleem tegenover de vorige ronde. Carrd is een uitgesproken goedkope eenpagina-bouwer en 0,75 per maand is bij die aanbieder de werkelijke instapprijs, geen artefact.",
    "geldig_tot": "2027-03-01",
-   "hertoets_bij": "Elke andere vlag dan out_of_band, of een waarde buiten 0,68 tot 0,83 USD per maand. STRUCTUREEL: overweeg NICHE_BOUNDS['website-builders'].min te verlagen van 1 naar 0,5; zolang die grens op 1 staat blijft Carrd elke maand opnieuw op deze goedkeuring leunen."
+   "hertoets_bij": "Elke andere vlag dan out_of_band, of een waarde buiten 0,68 tot 0,83 USD per maand. STRUCTUREEL: overweeg NICHE_BOUNDS['website-builders'].min te verlagen van 1 naar 0,5; zolang die grens op 1 staat blijft Carrd elke maand opnieuw op deze goedkeuring leunen.",
+   "vervallen_op": "2026-09-08",
+   "vervallen_reden": "Structureel opgelost in plaats van per geval goedgekeurd: NICHE_BOUNDS['website-builders'].min ging op 8-9-2026 van 1,00 naar 0,50 USD/mnd, precies zoals het hertoets_bij-veld hieronder al voorstelde. Carrd Pro Lite kost werkelijk 9 USD per jaar (8-9-2026 twee keer onafhankelijk gelezen op carrd.com/pro: 'Pro Lite $ 9 / year'), dus 0,75 USD/mnd is een gewone meting en heeft geen uitzondering meer nodig. De regel blijft staan als spoor maar telt niet mee: een goedkeuring die niets meer dempt zou een volgende out_of_band-vlag op carrd stilzwijgend doorlaten tot 2027-03-01."
   }
  ]
 }
