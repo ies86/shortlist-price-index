@@ -1,6 +1,6 @@
 {
  "maand": "2026-09",
- "gemeten_op": "2026-09-23T15:23:57.012Z",
+ "gemeten_op": "2026-09-23T15:37:15.702Z",
  "geo": {
   "land": "US",
   "as": "AS8075 Microsoft Corporation"
@@ -115,28 +115,40 @@
    "plan_regio": "aliases Alerts for weak and reused passwords Passkeys supported on all devices Easy password import RECOMMENDED 40% OFF Pass Plus $4.99 $2.99/month Get Pass Plus Get everything in Free, plus: Unlimited hide-my-email aliases Built-in 2FA authenticator Secure vault sharing Secure link sharing Dark Web Monitoring File attachment Advanced account protection Emergency Access Your custom domain for alia"
   },
   {
+   "vendor": "dashlane",
+   "niche": "password-managers",
+   "url": "https://www.dashlane.com/pricing-personal",
+   "http": 200,
+   "intro": 5.42,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "essPersonal RECOMMENDED Premium Proactive password security $5.42 Per month Billed annually Buy now Try free for 14 days NEW! Stop scams in real time Access you",
+   "plan_regio": "Open menu Plans and pricing BusinessPersonal RECOMMENDED Premium Proactive password security $5.42 Per month Billed annually Buy now Try free for 14 days NEW! Stop scams in real time Access your synced data anywhere Log in instantly, without typing Securely share access Stay safe on public Wi-Fi with VPN Friends & Family 10 accounts, one subscription $8.13 Per month for 10 members Billed annually "
+  },
+  {
    "vendor": "wordpress-com",
    "niche": "website-builders",
    "url": "https://wordpress.com/pricing/",
    "http": 200,
    "intro": 9,
-   "renewal": 5,
+   "renewal": 8,
    "valuta": "USD",
    "methode": "tekst_bij_plannaam",
-   "snippet": "Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. tax",
-   "plan_regio": "arly up to 55% off Pay monthly Pay yearly up to 55% off Pay every 2 years up to 63% off Pay every 3 years up to 69% off Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. taxes. 6 GB storage Unlimited pages, posts, users, and visitors Create and collaborate freely — no caps or restrictions. Fr"
+   "snippet": "Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $8 per month. Billed every 12 months, excl. tax",
+   "plan_regio": "arly up to 55% off Pay monthly Pay yearly up to 55% off Pay every 2 years up to 63% off Pay every 3 years up to 69% off Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $8 per month. Billed every 12 months, excl. taxes. 6 GB storage Unlimited pages, posts, users, and visitors Create and collaborate freely — no caps or restrictions. Fr"
   },
   {
    "vendor": "shopify",
    "niche": "website-builders",
    "url": "https://www.shopify.com/pricing",
    "http": 200,
-   "intro": 1,
+   "intro": null,
    "renewal": null,
-   "valuta": "USD",
-   "methode": "tekst_bij_plannaam",
-   "snippet": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for",
-   "plan_regio": "n Start for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for free Sell online, in person, and in AI chats Card rates from 2.9% + 30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79/mo For small teams Start for free Everything in Basic Card rates from 2.7% + 30"
+   "valuta": null,
+   "methode": null,
+   "snippet": "",
+   "plan_regio": ""
   },
   {
    "vendor": "jimdo",
@@ -149,6 +161,30 @@
    "methode": "tekst_bij_plannaam",
    "snippet": "do plan that’s right for you Website Online Store Unlimited $49.50 per month Get Started Your toolbox for success 500 GB storage space Professional design analy",
    "plan_regio": "Website Online Store Solutions Community Blog Help Log In Start for free Choose the Jimdo plan that’s right for you Website Online Store Unlimited $49.50 per month Get Started Your toolbox for success 500 GB storage space Professional design analysis Premium support within 12 hours BESTSELLER : Grow $17 per month Get Started For your business website Search Engine Optimization (SEO) Visitor statis"
+  },
+  {
+   "vendor": "squarespace",
+   "niche": "website-builders",
+   "url": "https://www.squarespace.com/pricing",
+   "http": 200,
+   "intro": 228,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "json_ld",
+   "snippet": "\"price\":\"228.00\",\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\",\"price\":\"228.00\",\"priceCurrency\":\"USD\"",
+   "plan_regio": "RCES LOG IN GET STARTED → Beautiful websites Free for 14 days. Pay annually to save up to 36%. Pay annually Pay monthly Basic Create your own custom website and get discovered online. $19 /mo GET STARTED → Build your website Beautiful templates and powerful tools for any website Free custom domain* Built-in AI Tools Up to 2 contributors Accept payments Credit card rates starting at 2.9% + $0.30 On"
+  },
+  {
+   "vendor": "mailchimp",
+   "niche": "newsletter-tools",
+   "url": "https://mailchimp.com/pricing/",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": null,
+   "snippet": "",
+   "plan_regio": "Find out why customers see up to 27x ROI* using the Standard plan with a free 14-day trial†. Cancel or downgrade to our Essentials or basic Free plans at any time. Generative AI features Actionable insights into audience growth and conversion funnels Enhanced automations Custom-coded email templates Customizable Popup forms Personalized onboarding Find the right plan Request a demo $ AUD R$ BRL $ "
   },
   {
    "vendor": "getresponse",
@@ -196,7 +232,7 @@
    "valuta": "USD",
    "methode": "json_ld",
    "snippet": "\"price\":0,\"priceCurrency\":\"USD\"",
-   "plan_regio": "les. Sign and send documents. All with Dropbox. Choose your billing cycle Billed monthly Billed yearly For personal use Plus $9.99 / month Try for free Buy now For 1 person 2 TB of storage Stay connected across all devices 30 days to restore deleted files Transfer files up to 50 GB Integrate with leading AI tools Edit PDFs and get signatures View all features Best Value For teams and professionals"
+   "plan_regio": "les. Sign and send documents. All with Dropbox. Choose your billing cycle Billed monthly Billed yearly For personal use Plus $9.99 / month Buy now For 1 person 2 TB of storage Stay connected across all devices 30 days to restore deleted files Transfer files up to 50 GB Integrate with leading AI tools Edit PDFs and get signatures View all features Best Value For teams and professionals Standard $15"
   },
   {
    "vendor": "icloud",
@@ -221,24 +257,121 @@
    "methode": "tekst_bij_plannaam",
    "snippet": "y enjoy using. Trusted by 3000+ brands and agencies Starter $95 /mo Monthly For SEO and content managers getting started with AI Search visibility. Get started ",
    "plan_regio": "visibility across AI platforms with analytics your team will actually enjoy using. Trusted by 3000+ brands and agencies Starter $95 /mo Monthly For SEO and content managers getting started with AI Search visibility. Get started This includes: 50 prompts Choose 3 models Unlimited users Daily tracking frequency 1 project Pro $245 /mo Monthly For SEO teams that need sophisticated AI Search tracking a"
+  },
+  {
+   "vendor": "lovable",
+   "niche": "website-builders",
+   "url": "https://lovable.dev/pricing",
+   "http": 200,
+   "intro": 0,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "ee Free Discover what Lovable can do for you $0 / month Get started No credit card needed Free grants Workspace-private projects Unlimited collab",
+   "plan_regio": "ee Free Discover what Lovable can do for you $0 / month Get started No credit card needed Free grants Workspace-private projects Unlimited collaborators 5 lovable.app domains Cloud Community support Pro Designed for fast-moving teams building together in real time. $25 / month 100 monthly credits Get started Unlimited users Free grants All Free features 100 Pro credits Credit rollovers Credits rol"
+  },
+  {
+   "vendor": "ecwid",
+   "niche": "website-builders",
+   "url": "https://www.ecwid.com/pricing",
+   "http": 200,
+   "intro": 29,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "tore to any site Email support Venture For solo visionaries $ 29 /month Get started All the Starter goodies, plus: Up to 100 products + e-goods Selling on Insta",
+   "plan_regio": ": Up to 10 products 70+ site templates to choose from Default company.site domain Add a store to any site Email support Venture For solo visionaries $ 29 /month Get started All the Starter goodies, plus: Up to 100 products + e-goods Selling on Instagram & Facebook Mobile store management app Live chat support Access to App Market Automated tax calculations Discount coupons Custom checkout Buy a cu"
+  },
+  {
+   "vendor": "strikingly",
+   "niche": "website-builders",
+   "url": "https://www.strikingly.com/pricing",
+   "http": 200,
+   "intro": 288,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "4 3 YEARS Save $288 5 YEARS Save $528 FREE $0 forever Start building your site for free SIGN UP Strikingly.com Doma",
+   "plan_regio": "4 3 YEARS Save $288 5 YEARS Save $528 FREE $0 forever Start building your site for free SIGN UP Strikingly.com Domain Unlimited Free Sites 500 MB total storage per site 5 GB Monthly Bandwidth Sell a single product 5% transaction fee 24/7 Support SIGN UP MOST POPULAR! PRO $16/mo USD, Billed yearly Everything you need to launch & grow! SIGN UP 3 Pro sites Unlimited free sites Connect custom domain F"
+  },
+  {
+   "vendor": "brevo",
+   "niche": "newsletter-tools",
+   "url": "https://www.brevo.com/pricing/",
+   "http": 200,
+   "intro": 0,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "json_ld",
+   "snippet": "\"price\":\"0\",\"priceCurrency\":\"USD\"",
+   "plan_regio": "t for individuals and solopreneurs building an online presence. Sign up free See all features Monthly Yearly (-10%) USD Starter Best for single users starting with email and multi-channel marketing. $9 -10% $8 .08 per month Sign up Features included in Starter: From 5,000 emails per month Email & SMS Send email & transactional messages. SMS credit sold separately. Drag & Drop email editor Craft po"
+  },
+  {
+   "vendor": "mailerlite",
+   "niche": "newsletter-tools",
+   "url": "https://www.mailerlite.com/pricing",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": null,
+   "methode": null,
+   "snippet": "",
+   "plan_regio": ""
+  },
+  {
+   "vendor": "omnisend",
+   "niche": "newsletter-tools",
+   "url": "https://www.omnisend.com/pricing/",
+   "http": 200,
+   "intro": 11.2,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "wing and medium-sized businesses focused on email marketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months, you will be billed monthly Sign up Esse",
+   "plan_regio": "No cost. No credit card required. Sign up 500 monthly emails 250 contacts 500 Web Push notifications Show more features Standard Best for growing and medium-sized businesses focused on email marketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months, you will be billed monthly Sign up Essential AI 2 tools 6,000 emails/mo 500 contacts Unlimited Web Push notifications Show more features P"
+  },
+  {
+   "vendor": "ghost",
+   "niche": "newsletter-tools",
+   "url": "https://ghost.org/pricing/",
+   "http": 200,
+   "intro": 15,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "billing Yearly billing STARTER For solo blogs & newsletters $ 15 USD / mo Billed yearly Features Your own website Free custom domain NEW Email newsletter Simple",
+   "plan_regio": "grade, or cancel anytime. Based on an audience up to 1,000 members 1,000 0 Members 100k+ Monthly billing Yearly billing STARTER For solo blogs & newsletters $ 15 USD / mo Billed yearly Features Your own website Free custom domain NEW Email newsletter Simple design settings 1,000 members Try for free PUBLISHER For custom publications $ 29 USD / mo Billed yearly Features 3 staff users Custom themes "
+  },
+  {
+   "vendor": "activecampaign",
+   "niche": "newsletter-tools",
+   "url": "https://www.activecampaign.com/pricing",
+   "http": 200,
+   "intro": 15,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "rted with personalized email marketing campaigns. Starts at $15 /mo Billed annually Buy Now Active Intelligence (limits apply) Marketing automation Email Market",
+   "plan_regio": "Marketing Standard segmentation Unlimited automation actions Standard CRM & ecommerce integrations Landing pages 1 user Starter Get started with personalized email marketing campaigns. Starts at $15 /mo Billed annually Buy Now Active Intelligence (limits apply) Marketing automation Email Marketing Limited segmentation 5 actions per automation Standard CRM & ecommerce integrations 1 user Top featur"
+  },
+  {
+   "vendor": "beehiiv",
+   "niche": "newsletter-tools",
+   "url": "https://www.beehiiv.com/pricing",
+   "http": 200,
+   "intro": 0,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "json_ld",
+   "snippet": "\"price\":\"0\",\"priceCurrency\":\"USD\"",
+   "plan_regio": "I Website Builder API Access (excluding Send API) beehiiv MCP (Read Access) beehiiv Agent (Read Access)New Most popular Scale Save $71/year $43 per month $517 billed annually Try for free Everything on Launch + Ad Network*† Recommendations*† 0% Take Rate on Paid Subscriptions* Digital Products CommunityNew Email Automations Surveys & Polls Advanced Website Analytics Webhooks beehiiv MCP (Write Acc"
   }
  ],
  "fouten": [
   {
-   "vendor": "dashlane",
-   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.dashlane.com/pricing-personal\", waiting until \"networkidle\"\n"
-  },
-  {
-   "vendor": "squarespace",
-   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.squarespace.com/pricing\", waiting until \"networkidle\"\n"
-  },
-  {
-   "vendor": "mailchimp",
-   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://mailchimp.com/pricing/\", waiting until \"networkidle\"\n"
-  },
-  {
    "vendor": "saily",
-   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://saily.com/esim-europe/\", waiting until \"networkidle\"\n"
+   "http": 403,
+   "reden": "pagina niet leesbaar (255 tekens)"
   }
  ]
 }
