@@ -50,7 +50,14 @@ async function haalPagina(vendor) {
   const browser = await chromium.launch()
   try {
     const page = await browser.newPage()
-    const antwoord = await page.goto(vendor.url, { waitUntil: 'networkidle', timeout: 60000 })
+    /*
+     * NIET op networkidle wachten (23-9-2026). Op 23-9 liepen dashlane, squarespace, mailchimp en saily
+     * alle vier in de time-out van 60 seconden: die pagina's praten continu met hun eigen diensten en
+     * bereiken nooit een stille periode van 500 ms. De prijs staat al in de DOM lang voordat dat gebeurt.
+     * Daarom wachten tot de DOM er is en daarna kort laten uitrazen. Vier meetfouten minder, en sneller.
+     */
+    const antwoord = await page.goto(vendor.url, { waitUntil: 'domcontentloaded', timeout: 60000 })
+    await page.waitForTimeout(4000)
     const html = await page.content()
     const tekst = await page.evaluate(() => document.body.innerText.replace(/\s+/g, ' '))
     return { http: antwoord?.status() ?? 0, html, tekst }
