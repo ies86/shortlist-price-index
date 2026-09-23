@@ -1,6 +1,6 @@
 {
  "maand": "2026-09",
- "gemeten_op": "2026-09-01T09:47:44.362Z",
+ "gemeten_op": "2026-09-23T15:23:57.012Z",
  "geo": {
   "land": "US",
   "as": "AS8075 Microsoft Corporation"
@@ -39,8 +39,8 @@
    "renewal": null,
    "valuta": "USD",
    "methode": "tekst_bij_plannaam",
-   "snippet": "$ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $180 /year Users 1 10,000 URLs per audit Get small & simple SEO audits All plans get: 100+ Hints Jav",
-   "plan_regio": "depth insights, and prioritized recommendations across 300+ SEO issues. $ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $180 /year Users 1 10,000 URLs per audit Get small & simple SEO audits All plans get: 100+ Hints JavaScript Crawling GA/GSC/Sheets Integration Duplicate Content Crawl Maps Start now Pro 1 User $425 /year Total price for 1 user Users 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+   "snippet": "$ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $180 /year Users 1 10,000 URLs per audit Get small & simple SEO audits MCP Access NEW Connect your a",
+   "plan_regio": "depth insights, and prioritized recommendations across 300+ SEO issues. $ £ € Save 15% with yearly plans Monthly Yearly Lite 1 User $180 /year Users 1 10,000 URLs per audit Get small & simple SEO audits MCP Access NEW Connect your audits to Claude & other AI tools Learn more All plans get: 100+ Hints JavaScript Crawling GA/GSC/Sheets Integration Duplicate Content Crawl Maps Start now Pro 1 User $4"
   },
   {
    "vendor": "se-ranking",
@@ -88,7 +88,7 @@
    "valuta": "USD",
    "methode": "tekst_bij_plannaam",
    "snippet": "nd security Discovery 49 USD per month Billed yearly Saving $120 Draft and optimize content to establish a baseline presence in Google and AI search results. St",
-   "plan_regio": "nalysis Personalized Onboarding Dedicated Success Manager API Access Not sure yet? Start smaller — or go bigger. Choose Discovery to test Surfer, or Enterprise if you need custom scale and security Discovery 49 USD per month Billed yearly Saving $120 Draft and optimize content to establish a baseline presence in Google and AI search results. Start for Free Create or Optimize 120 Documents Track 10"
+   "plan_regio": "sis Personalized Onboarding Dedicated Success Manager API Access MCP Not sure yet? Start smaller — or go bigger. Choose Discovery to test Surfer, or Enterprise if you need custom scale and security Discovery 49 USD per month Billed yearly Saving $120 Draft and optimize content to establish a baseline presence in Google and AI search results. Start for Free Create or Optimize 120 Documents Track 10"
   },
   {
    "vendor": "screaming-frog",
@@ -101,7 +101,144 @@
    "methode": null,
    "snippet": "",
    "plan_regio": "ms Based Authentication Segmentation Looker Studio Crawl Report Free Technical Support &#036; &#036; &pound; &euro; 279 Per Year Purchase licence * The maximum number of URLs you can crawl is dependent on allocated memory and storage. Please see our FAQ. Multiple Licences USD &#036; &pound; &euro; Licences are per user. 2 users will require 2 individual licences. We offer discounts on bulk purchas"
+  },
+  {
+   "vendor": "proton-pass",
+   "niche": "password-managers",
+   "url": "https://proton.me/pass/pricing",
+   "http": 200,
+   "intro": 4.99,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": " devices Easy password import RECOMMENDED 40% OFF Pass Plus $4.99 $2.99/month Get Pass Plus Get everything in Free, plus: Unlimited hide-my-email aliases Built-",
+   "plan_regio": "aliases Alerts for weak and reused passwords Passkeys supported on all devices Easy password import RECOMMENDED 40% OFF Pass Plus $4.99 $2.99/month Get Pass Plus Get everything in Free, plus: Unlimited hide-my-email aliases Built-in 2FA authenticator Secure vault sharing Secure link sharing Dark Web Monitoring File attachment Advanced account protection Emergency Access Your custom domain for alia"
+  },
+  {
+   "vendor": "wordpress-com",
+   "niche": "website-builders",
+   "url": "https://wordpress.com/pricing/",
+   "http": 200,
+   "intro": 9,
+   "renewal": 5,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. tax",
+   "plan_regio": "arly up to 55% off Pay monthly Pay yearly up to 55% off Pay every 2 years up to 63% off Pay every 3 years up to 69% off Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. taxes. 6 GB storage Unlimited pages, posts, users, and visitors Create and collaborate freely — no caps or restrictions. Fr"
+  },
+  {
+   "vendor": "shopify",
+   "niche": "website-builders",
+   "url": "https://www.shopify.com/pricing",
+   "http": 200,
+   "intro": 1,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for",
+   "plan_regio": "n Start for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for free Sell online, in person, and in AI chats Card rates from 2.9% + 30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79/mo For small teams Start for free Everything in Basic Card rates from 2.7% + 30"
+  },
+  {
+   "vendor": "jimdo",
+   "niche": "website-builders",
+   "url": "https://www.jimdo.com/pricing/website/",
+   "http": 200,
+   "intro": 49.5,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "do plan that’s right for you Website Online Store Unlimited $49.50 per month Get Started Your toolbox for success 500 GB storage space Professional design analy",
+   "plan_regio": "Website Online Store Solutions Community Blog Help Log In Start for free Choose the Jimdo plan that’s right for you Website Online Store Unlimited $49.50 per month Get Started Your toolbox for success 500 GB storage space Professional design analysis Premium support within 12 hours BESTSELLER : Grow $17 per month Get Started For your business website Search Engine Optimization (SEO) Visitor statis"
+  },
+  {
+   "vendor": "getresponse",
+   "niche": "newsletter-tools",
+   "url": "https://www.getresponse.com/pricing",
+   "http": 200,
+   "intro": 19,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "ith AI-powered email marketing and unlimited monthly sends. $19/mo $15.58/mo Paid annually, save up to $41 a year Start free trial Includes: Unlimited monthly e",
+   "plan_regio": "ion tools you need now—in one affordable platform. Slide to change List size: 1,000 Billing period: Monthly Yearly -18% Starter Grow your list with AI-powered email marketing and unlimited monthly sends. $19/mo $15.58/mo Paid annually, save up to $41 a year Start free trial Includes: Unlimited monthly email sends AI-powered content generators Welcome email series 1 custom automation workflow Landi"
+  },
+  {
+   "vendor": "nomad",
+   "niche": "esim",
+   "url": "https://www.nomadesim.com/europe-eSIM",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": "ONBEKEND",
+   "methode": null,
+   "snippet": "",
+   "plan_regio": "tails Unlimited For 10 DAYS USD34 Plan Details 1 GB For 7 DAYS USD5.50 Plan Details 3 GB For 30 DAYS USD12 Plan Details 5 GB For 30 DAYS USD17.50 Plan Details 10 GB For 30 DAYS USD23 Plan Details 20 GB For 30 DAYS 37 USD27 ON SALE Plan Details 50 GB For 30 DAYS 48 USD35 ON SALE Coverage Austria Belgium Bulgaria Croatia Cyprus Czech Republic Denmark Estonia Finland France Germany Gibraltar Greece H"
+  },
+  {
+   "vendor": "bnesim",
+   "niche": "esim",
+   "url": "https://www.bnesim.com/plans/europe/",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": "ONBEKEND",
+   "methode": null,
+   "snippet": "",
+   "plan_regio": "ze 10 days Duration 29.00 EUR Price 1 GB Size 30 days Duration 2.49 EUR Price 3 GB Size 30 days Duration 4.49 EUR Price 5 GB Size 30 days Duration 5.99 EUR Price 10 GB Size 30 days Duration 8.99 EUR Price 20 GB Size 30 days Duration 14.99 EUR Price 50 GB Size 30 days Duration 31.99 EUR Price 100 GB Size 30 days Duration 52.99 EUR Price Checkout 0.00 EUR Plan Details Supported Devices Your eSIM wil"
+  },
+  {
+   "vendor": "dropbox",
+   "niche": "backup",
+   "url": "https://www.dropbox.com/plans",
+   "http": 200,
+   "intro": 0,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "json_ld",
+   "snippet": "\"price\":0,\"priceCurrency\":\"USD\"",
+   "plan_regio": "les. Sign and send documents. All with Dropbox. Choose your billing cycle Billed monthly Billed yearly For personal use Plus $9.99 / month Try for free Buy now For 1 person 2 TB of storage Stay connected across all devices 30 days to restore deleted files Transfer files up to 50 GB Integrate with leading AI tools Edit PDFs and get signatures View all features Best Value For teams and professionals"
+  },
+  {
+   "vendor": "icloud",
+   "niche": "backup",
+   "url": "https://www.apple.com/icloud/",
+   "http": 200,
+   "intro": null,
+   "renewal": null,
+   "valuta": null,
+   "methode": null,
+   "snippet": "",
+   "plan_regio": ""
+  },
+  {
+   "vendor": "peec-ai",
+   "niche": "seo",
+   "url": "https://peec.ai/pricing",
+   "http": 200,
+   "intro": 95,
+   "renewal": null,
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "y enjoy using. Trusted by 3000+ brands and agencies Starter $95 /mo Monthly For SEO and content managers getting started with AI Search visibility. Get started ",
+   "plan_regio": "visibility across AI platforms with analytics your team will actually enjoy using. Trusted by 3000+ brands and agencies Starter $95 /mo Monthly For SEO and content managers getting started with AI Search visibility. Get started This includes: 50 prompts Choose 3 models Unlimited users Daily tracking frequency 1 project Pro $245 /mo Monthly For SEO teams that need sophisticated AI Search tracking a"
   }
  ],
- "fouten": []
+ "fouten": [
+  {
+   "vendor": "dashlane",
+   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.dashlane.com/pricing-personal\", waiting until \"networkidle\"\n"
+  },
+  {
+   "vendor": "squarespace",
+   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.squarespace.com/pricing\", waiting until \"networkidle\"\n"
+  },
+  {
+   "vendor": "mailchimp",
+   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://mailchimp.com/pricing/\", waiting until \"networkidle\"\n"
+  },
+  {
+   "vendor": "saily",
+   "reden": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://saily.com/esim-europe/\", waiting until \"networkidle\"\n"
+  }
+ ]
 }
