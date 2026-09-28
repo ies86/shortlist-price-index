@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to PasswordShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
-  "generated": "2026-09-04",
+  "updated": "2026-09-07",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-01",
-    "month": "2026-08",
+    "date": "2026-09-07",
+    "month": "2026-09",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 6,
-    "averagePrice": 7.08,
-    "medianPrice": 3.99,
-    "cheapestPrice": 2.49,
+    "providersMeasured": 8,
+    "averagePrice": 4.18,
+    "medianPrice": 3.23,
+    "cheapestPrice": 1.65,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1485,
-      "rateDate": "2026-07-31",
+      "usdPerEur": 1.1622,
+      "rateDate": "2026-09-04",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -28,29 +28,29 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 6.16,
-      "medianPrice": 3.47,
-      "cheapestPrice": 2.17
+      "averagePrice": 3.6,
+      "medianPrice": 2.78,
+      "cheapestPrice": 1.42
     },
     "notMeasured": 1,
-    "underReview": 2
+    "underReview": 0
   },
   "providersTracked": 9,
-  "averagePrice": 2.72,
-  "medianPrice": 2.49,
+  "averagePrice": 2.95,
+  "medianPrice": 2.99,
   "cheapest": {
     "provider": "NordPass",
-    "price": 1.49
+    "price": 1.39
   },
   "mostExpensive": {
     "provider": "Dashlane",
-    "price": 4.99
+    "price": 5.42
   },
   "providers": [
     {
       "provider": "NordPass",
       "slug": "nordpass",
-      "price": 1.49,
+      "price": 1.39,
       "rating": 4.4,
       "bestFor": "Budget-conscious users",
       "url": "https://passwordshortlist.com/tools/nordpass"
@@ -64,17 +64,9 @@
       "url": "https://passwordshortlist.com/tools/bitwarden"
     },
     {
-      "provider": "Proton Pass",
-      "slug": "proton-pass",
-      "price": 1.99,
-      "rating": 4.4,
-      "bestFor": "Privacy-focused users",
-      "url": "https://passwordshortlist.com/tools/proton-pass"
-    },
-    {
       "provider": "Enpass",
       "slug": "enpass",
-      "price": 1.99,
+      "price": 2,
       "rating": 4.1,
       "bestFor": "Own-storage advocates",
       "url": "https://passwordshortlist.com/tools/enpass"
@@ -88,12 +80,12 @@
       "url": "https://passwordshortlist.com/tools/roboform"
     },
     {
-      "provider": "Keeper",
-      "slug": "keeper",
-      "price": 2.92,
-      "rating": 4.3,
-      "bestFor": "Security-first users",
-      "url": "https://passwordshortlist.com/tools/keeper"
+      "provider": "Proton Pass",
+      "slug": "proton-pass",
+      "price": 2.99,
+      "rating": 4.4,
+      "bestFor": "Privacy-focused users",
+      "url": "https://passwordshortlist.com/tools/proton-pass"
     },
     {
       "provider": "LastPass",
@@ -102,6 +94,14 @@
       "rating": 3.6,
       "bestFor": "Existing LastPass users",
       "url": "https://passwordshortlist.com/tools/lastpass"
+    },
+    {
+      "provider": "Keeper",
+      "slug": "keeper",
+      "price": 3.58,
+      "rating": 4.3,
+      "bestFor": "Security-first users",
+      "url": "https://passwordshortlist.com/tools/keeper"
     },
     {
       "provider": "1Password",
@@ -114,7 +114,7 @@
     {
       "provider": "Dashlane",
       "slug": "dashlane",
-      "price": 4.99,
+      "price": 5.42,
       "rating": 4.3,
       "bestFor": "All-in-one security",
       "url": "https://passwordshortlist.com/tools/dashlane"
@@ -153,6 +153,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1485,
         "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 4.18,
+      "median": 3.23,
+      "cheapest": 1.65,
+      "count": 8,
+      "n_missing": 1,
+      "n_under_review": 0,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1622,
+        "koersdatum": "2026-09-04",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

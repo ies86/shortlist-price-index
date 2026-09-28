@@ -1,0 +1,14 @@
+provider_slug,plan_id,vendor_url,expected_amount,expected_currency,expected_period,expected_renewal,note
+ionos,ionos-plus,https://www.ionos.com/hosting/web-hosting,1,USD,month,14,promo loss-leader; base Essential $4
+namecheap,namecheap-stellar,https://www.namecheap.com/hosting/shared/,1.91,USD,month,5.88,"Cloudflare-blok op de statische fetch (403); alleen met --render meetbaar. 1-9-2026: Stellar staat nu op $1,91/mnd bij jaarbetaling (was $2,28). De oude hint 2,28 trok de tekstuitlezer naar $2,51 = Stellar PLUS, dus een ander plan; hint bijgesteld naar 1,91. Verleng staat op de pagina als $55,88/jaar; expected_renewal 5,88 is het oude maandtarief en levert bewust GEEN verlengwaarde op (de verleng-uitlezer leest /year hier als /mo)."
+dreamhost,dreamhost-launch,https://www.dreamhost.com/hosting/,2.89,EUR,month,10.99,EU-geo
+bluehost,bluehost-starter,https://www.bluehost.com/pricing,3.99,USD,month,9.99,36-mnd intro
+hostinger,hostinger-premium,https://www.hostinger.com/web-hosting,2.99,USD,month,10.99,48-mnd intro
+siteground,siteground-startup,https://www.siteground.com/web-hosting.htm,2.99,EUR,month,15.99,EU-geo
+a2-hosting,hosting-com-startup,https://hosting.com/web-hosting/,2.99,USD,month,,A2 rebrand naar hosting.com
+digitalocean,digitalocean-basic-droplet,https://www.digitalocean.com/pricing/droplets,4,USD,month,,goedkoopste droplet
+hetzner,hetzner-level1,https://www.hetzner.com/webhosting/,1.9,EUR,month,,"NIET MEETBAAR op 2-8-2026. De planprijzen staan NIET in de pagina, ook niet na renderen met een echte browser (2x gemeten, 354kB HTML, nul Level-blokken). De enige euro-bedragen op de pagina zijn de naheffing van 1,09 per GB boven het pakket, 0,64 per extern domein en 1,00 per 10GB extra opslag. De meter pakte daardoor die 1,09 en dat leek een geloofwaardige instapprijs. De contextpoort vangt het nu, dus deze aanbieder verschijnt als ZICHTBAAR GAT en niet als getal. Laat dat zo tot er een leesbare bron is; verzin hier geen prijs bij. EU-aanbieder."
+godaddy,godaddy-economy,https://www.godaddy.com/hosting/web-hosting,5.99,USD,month,,cloudflare-block verwacht
+cloudways,cloudways-dobasic,https://www.cloudways.com/en/pricing.php,11,USD,month,,managed cloud instap
+wp-engine,wpengine-startup,https://wpengine.com/plans/,30,USD,month,,managed WP instap
+kinsta,kinsta-starter,https://kinsta.com/pricing/,35,USD,month,,geen verhoogde renewal

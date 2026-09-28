@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-08-22",
-  "generated": "2026-09-07",
+  "generated": "2026-09-23",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-08-22",
@@ -35,26 +35,18 @@
     "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 12,
-  "averagePrice": 40.65,
-  "medianPrice": 20.49,
+  "providersTracked": 11,
+  "averagePrice": 41.22,
+  "medianPrice": 18.54,
   "cheapest": {
-    "provider": "Domestika",
-    "price": 7.99
+    "provider": "MasterClass",
+    "price": 10
   },
   "mostExpensive": {
     "provider": "Udacity",
     "price": 249
   },
   "providers": [
-    {
-      "provider": "Domestika",
-      "slug": "domestika",
-      "price": 7.99,
-      "rating": 4.2,
-      "bestFor": "Creative hobbyists",
-      "url": "https://courseshortlist.com/tools/domestika"
-    },
     {
       "provider": "MasterClass",
       "slug": "masterclass",
@@ -72,28 +64,44 @@
       "url": "https://courseshortlist.com/tools/skillshare"
     },
     {
-      "provider": "DataCamp",
-      "slug": "datacamp",
-      "price": 13.25,
-      "rating": 4.4,
-      "bestFor": "Learning data and AI",
-      "url": "https://courseshortlist.com/tools/datacamp"
+      "provider": "Domestika",
+      "slug": "domestika",
+      "price": 12.46,
+      "rating": 4.2,
+      "bestFor": "Creative hobbyists",
+      "url": "https://courseshortlist.com/tools/domestika"
     },
     {
       "provider": "Brilliant",
       "slug": "brilliant",
-      "price": 13.99,
+      "price": 13.75,
       "rating": 4.3,
       "bestFor": "Daily brain training",
       "url": "https://courseshortlist.com/tools/brilliant"
     },
     {
-      "provider": "LinkedIn Learning",
-      "slug": "linkedin-learning",
-      "price": 19.99,
+      "provider": "DataCamp",
+      "slug": "datacamp",
+      "price": 14,
+      "rating": 4.4,
+      "bestFor": "Learning data and AI",
+      "url": "https://courseshortlist.com/tools/datacamp"
+    },
+    {
+      "provider": "Udemy",
+      "slug": "udemy",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Buying single courses",
+      "url": "https://courseshortlist.com/tools/udemy"
+    },
+    {
+      "provider": "Codecademy",
+      "slug": "codecademy",
+      "price": 17.99,
       "rating": 4.2,
-      "bestFor": "Business skills",
-      "url": "https://courseshortlist.com/tools/linkedin-learning"
+      "bestFor": "Learning to code",
+      "url": "https://courseshortlist.com/tools/codecademy"
     },
     {
       "provider": "Pluralsight",
@@ -104,36 +112,20 @@
       "url": "https://courseshortlist.com/tools/pluralsight"
     },
     {
-      "provider": "Udemy",
-      "slug": "udemy",
-      "price": 18.33,
-      "rating": 4.3,
-      "bestFor": "Buying single courses",
-      "url": "https://courseshortlist.com/tools/udemy"
-    },
-    {
-      "provider": "Codecademy",
-      "slug": "codecademy",
-      "price": 19.99,
-      "rating": 4.2,
-      "bestFor": "Learning to code",
-      "url": "https://courseshortlist.com/tools/codecademy"
-    },
-    {
       "provider": "Coursera",
       "slug": "coursera",
-      "price": 33.25,
+      "price": 28.83,
       "rating": 4.6,
       "bestFor": "Recognized certificates",
       "url": "https://courseshortlist.com/tools/coursera"
     },
     {
-      "provider": "Upskillist",
-      "slug": "upskillist",
-      "price": 49.99,
-      "rating": 3.8,
-      "bestFor": "Hobby-level breadth",
-      "url": "https://courseshortlist.com/tools/upskillist"
+      "provider": "LinkedIn Learning",
+      "slug": "linkedin-learning",
+      "price": 39.99,
+      "rating": 4.2,
+      "bestFor": "Business skills",
+      "url": "https://courseshortlist.com/tools/linkedin-learning"
     },
     {
       "provider": "Udacity",

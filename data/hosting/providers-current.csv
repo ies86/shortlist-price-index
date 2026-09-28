@@ -1,14 +1,15 @@
 provider,entry_price_usd_per_month,source_url
-IONOS,1,https://hostingshortlist.com/tools/ionos
-Namecheap,1.98,https://hostingshortlist.com/tools/namecheap
+Namecheap,2.28,https://hostingshortlist.com/tools/namecheap
 DreamHost,2.89,https://hostingshortlist.com/tools/dreamhost
 Hostinger,2.99,https://hostingshortlist.com/tools/hostinger
 SiteGround,2.99,https://hostingshortlist.com/tools/siteground
-A2 Hosting,2.99,https://hostingshortlist.com/tools/a2-hosting
+Hosting.com,2.99,https://hostingshortlist.com/tools/a2-hosting
 Bluehost,3.99,https://hostingshortlist.com/tools/bluehost
 DigitalOcean,4,https://hostingshortlist.com/tools/digitalocean
-Hetzner,4.59,https://hostingshortlist.com/tools/hetzner
+IONOS,4,https://hostingshortlist.com/tools/ionos
 GoDaddy,5.99,https://hostingshortlist.com/tools/godaddy
 Cloudways,11,https://hostingshortlist.com/tools/cloudways
-Kinsta,30,https://hostingshortlist.com/tools/kinsta
-WP Engine,30,https://hostingshortlist.com/tools/wp-engine
+Hetzner,13.49,https://hostingshortlist.com/tools/hetzner
+WP Engine,28,https://hostingshortlist.com/tools/wp-engine
+Kinsta,29.17,https://hostingshortlist.com/tools/kinsta
+Servebolt,114.74,https://hostingshortlist.com/tools/servebolt

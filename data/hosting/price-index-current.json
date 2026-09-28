@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-21",
-  "generated": "2026-09-04",
+  "updated": "2026-09-01",
+  "generated": "2026-09-23",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-21",
-    "month": "2026-08",
+    "date": "2026-09-01",
+    "month": "2026-09",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 8,
-    "averagePrice": 10.11,
-    "medianPrice": 3.75,
+    "providersMeasured": 9,
+    "averagePrice": 9.3,
+    "medianPrice": 3.47,
     "cheapestPrice": 1,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1699,
-      "rateDate": "2026-08-21",
+      "usdPerEur": 1.159,
+      "rateDate": "2026-09-01",
       "exactOnMeasurementDate": true,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -28,37 +28,29 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 8.64,
-      "medianPrice": 3.21,
-      "cheapestPrice": 0.85
+      "averagePrice": 8.02,
+      "medianPrice": 2.99,
+      "cheapestPrice": 0.86
     },
-    "notMeasured": 3,
+    "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 13,
-  "averagePrice": 8.03,
-  "medianPrice": 3.99,
+  "providersTracked": 14,
+  "averagePrice": 16.32,
+  "medianPrice": 4,
   "cheapest": {
-    "provider": "IONOS",
-    "price": 1
+    "provider": "Namecheap",
+    "price": 2.28
   },
   "mostExpensive": {
-    "provider": "WP Engine",
-    "price": 30
+    "provider": "Servebolt",
+    "price": 114.74
   },
   "providers": [
     {
-      "provider": "IONOS",
-      "slug": "ionos",
-      "price": 1,
-      "rating": 4,
-      "bestFor": "First-year value",
-      "url": "https://hostingshortlist.com/tools/ionos"
-    },
-    {
       "provider": "Namecheap",
       "slug": "namecheap",
-      "price": 1.98,
+      "price": 2.28,
       "rating": 4.2,
       "bestFor": "Tight budgets",
       "url": "https://hostingshortlist.com/tools/namecheap"
@@ -88,7 +80,7 @@
       "url": "https://hostingshortlist.com/tools/siteground"
     },
     {
-      "provider": "A2 Hosting",
+      "provider": "Hosting.com",
       "slug": "a2-hosting",
       "price": 2.99,
       "rating": 4.1,
@@ -112,12 +104,12 @@
       "url": "https://hostingshortlist.com/tools/digitalocean"
     },
     {
-      "provider": "Hetzner",
-      "slug": "hetzner",
-      "price": 4.59,
-      "rating": 4.5,
-      "bestFor": "Price-to-performance",
-      "url": "https://hostingshortlist.com/tools/hetzner"
+      "provider": "IONOS",
+      "slug": "ionos",
+      "price": 4,
+      "rating": 4,
+      "bestFor": "First-year value",
+      "url": "https://hostingshortlist.com/tools/ionos"
     },
     {
       "provider": "GoDaddy",
@@ -136,41 +128,57 @@
       "url": "https://hostingshortlist.com/tools/cloudways"
     },
     {
+      "provider": "Hetzner",
+      "slug": "hetzner",
+      "price": 13.49,
+      "rating": 4.5,
+      "bestFor": "Price-to-performance",
+      "url": "https://hostingshortlist.com/tools/hetzner"
+    },
+    {
+      "provider": "WP Engine",
+      "slug": "wp-engine",
+      "price": 28,
+      "rating": 4.4,
+      "bestFor": "Managed WordPress",
+      "url": "https://hostingshortlist.com/tools/wp-engine"
+    },
+    {
       "provider": "Kinsta",
       "slug": "kinsta",
-      "price": 30,
+      "price": 29.17,
       "rating": 4.6,
       "bestFor": "Managed WordPress",
       "url": "https://hostingshortlist.com/tools/kinsta"
     },
     {
-      "provider": "WP Engine",
-      "slug": "wp-engine",
-      "price": 30,
-      "rating": 4.4,
-      "bestFor": "Managed WordPress",
-      "url": "https://hostingshortlist.com/tools/wp-engine"
+      "provider": "Servebolt",
+      "slug": "servebolt",
+      "price": 114.74,
+      "rating": 4.2,
+      "bestFor": "WooCommerce under real load",
+      "url": "https://hostingshortlist.com/tools/servebolt"
     }
   ],
   "trueCost": {
     "unit": "USD per month; threeYearTotal = total USD over 36 months",
-    "avgRenewalMultiplier": 4.2,
+    "avgRenewalMultiplier": 3.3,
     "providers": [
       {
         "provider": "Namecheap",
         "slug": "namecheap",
-        "intro": 1.98,
-        "renewal": 5.88,
-        "multiplier": 3,
-        "threeYearTotal": 164.88
+        "intro": 2.28,
+        "renewal": 4.66,
+        "multiplier": 2,
+        "threeYearTotal": 139.2
       },
       {
         "provider": "IONOS",
         "slug": "ionos",
-        "intro": 1,
+        "intro": 4,
         "renewal": 8,
-        "multiplier": 8,
-        "threeYearTotal": 204
+        "multiplier": 2,
+        "threeYearTotal": 240
       },
       {
         "provider": "Bluehost",
@@ -197,20 +205,20 @@
         "threeYearTotal": 299.64
       },
       {
-        "provider": "A2 Hosting",
-        "slug": "a2-hosting",
-        "intro": 2.99,
-        "renewal": 12.99,
-        "multiplier": 4.3,
-        "threeYearTotal": 347.64
-      },
-      {
         "provider": "GoDaddy",
         "slug": "godaddy",
         "intro": 5.99,
         "renewal": 11.99,
         "multiplier": 2,
         "threeYearTotal": 359.64
+      },
+      {
+        "provider": "Hosting.com",
+        "slug": "a2-hosting",
+        "intro": 2.99,
+        "renewal": 13.99,
+        "multiplier": 4.7,
+        "threeYearTotal": 371.64
       },
       {
         "provider": "SiteGround",
@@ -274,6 +282,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1699,
         "koersdatum": "2026-08-21",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 9.3,
+      "median": 3.47,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 2,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.159,
+        "koersdatum": "2026-09-01",
         "exact": true,
         "bron": "European Central Bank via frankfurter.app"
       }

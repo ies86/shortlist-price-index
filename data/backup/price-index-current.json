@@ -3,10 +3,10 @@
   "report": "https://backupshortlist.com/data/price-index",
   "niche": "cloud storage and backup services",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to BackupShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
+  "methodology": "Lowest paid monthly price per provider, in the currency the provider charges. Free tiers excluded. Averages and ranking use euro prices converted to US dollars at the ECB rate of 2026-09-01. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-08-21",
-  "generated": "2026-09-04",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-08-21",
@@ -36,21 +36,35 @@
     "underReview": 4
   },
   "providersTracked": 18,
-  "averagePrice": 6.9,
+  "currency": "USD",
+  "currenciesMixed": true,
+  "fx": {
+    "base": "EUR",
+    "usdPerEur": 1.159,
+    "rateDate": "2026-09-01",
+    "source": "European Central Bank via frankfurter.app",
+    "appliesTo": "averagePrice, medianPrice, the ranking and every priceComparableUsd. Each provider price stays in its own currency."
+  },
+  "averagePrice": 7.06,
   "medianPrice": 7.75,
   "cheapest": {
     "provider": "Apple iCloud+",
-    "price": 0.99
+    "price": 0.99,
+    "currency": "USD",
+    "priceComparableUsd": 0.99
   },
   "mostExpensive": {
     "provider": "Tresorit",
-    "price": 11.99
+    "price": 11.99,
+    "currency": "USD",
+    "priceComparableUsd": 11.99
   },
   "providers": [
     {
       "provider": "Apple iCloud+",
       "slug": "icloud",
       "price": 0.99,
+      "currency": "USD",
       "rating": 4.2,
       "bestFor": "iPhone and Mac households",
       "url": "https://backupshortlist.com/tools/icloud"
@@ -58,7 +72,8 @@
     {
       "provider": "Microsoft OneDrive",
       "slug": "onedrive",
-      "price": 1.99,
+      "price": 1.67,
+      "currency": "USD",
       "rating": 4.3,
       "bestFor": "Windows + Office users",
       "url": "https://backupshortlist.com/tools/onedrive"
@@ -66,7 +81,8 @@
     {
       "provider": "Google One",
       "slug": "google-one",
-      "price": 1.99,
+      "price": 1.67,
+      "currency": "USD",
       "rating": 4.2,
       "bestFor": "Android and Gmail households",
       "url": "https://backupshortlist.com/tools/google-one"
@@ -75,6 +91,7 @@
       "provider": "CloudsLinker",
       "slug": "cloudslinker",
       "price": 3.33,
+      "currency": "USD",
       "rating": 3.9,
       "bestFor": "Moving data between clouds",
       "url": "https://backupshortlist.com/tools/cloudslinker"
@@ -83,22 +100,25 @@
       "provider": "pCloud",
       "slug": "pcloud",
       "price": 4.17,
+      "currency": "USD",
       "rating": 4.6,
       "bestFor": "Long-term storage, pay once",
       "url": "https://backupshortlist.com/tools/pcloud"
     },
     {
-      "provider": "Icedrive",
-      "slug": "icedrive",
-      "price": 4.99,
-      "rating": 4,
-      "bestFor": "Style-conscious switchers",
-      "url": "https://backupshortlist.com/tools/icedrive"
+      "provider": "Sync.com",
+      "slug": "sync-com",
+      "price": 6,
+      "currency": "USD",
+      "rating": 4.5,
+      "bestFor": "Private storage without friction",
+      "url": "https://backupshortlist.com/tools/sync-com"
     },
     {
       "provider": "IDrive",
       "slug": "idrive",
       "price": 6.99,
+      "currency": "USD",
       "rating": 4.5,
       "bestFor": "Backing up everything you own",
       "url": "https://backupshortlist.com/tools/idrive"
@@ -107,6 +127,7 @@
       "provider": "NordLocker",
       "slug": "nordlocker",
       "price": 6.99,
+      "currency": "USD",
       "rating": 4,
       "bestFor": "Vaulting sensitive files",
       "url": "https://backupshortlist.com/tools/nordlocker"
@@ -115,22 +136,16 @@
       "provider": "Acronis True Image",
       "slug": "acronis",
       "price": 7.5,
+      "currency": "USD",
       "rating": 4.2,
       "bestFor": "Power users, disk images",
       "url": "https://backupshortlist.com/tools/acronis"
     },
     {
-      "provider": "Sync.com",
-      "slug": "sync-com",
-      "price": 8,
-      "rating": 4.5,
-      "bestFor": "Private storage without friction",
-      "url": "https://backupshortlist.com/tools/sync-com"
-    },
-    {
       "provider": "Carbonite Safe",
       "slug": "carbonite",
       "price": 8,
+      "currency": "USD",
       "rating": 3.9,
       "bestFor": "Non-technical households",
       "url": "https://backupshortlist.com/tools/carbonite"
@@ -139,6 +154,7 @@
       "provider": "Backblaze Personal Backup",
       "slug": "backblaze",
       "price": 8.25,
+      "currency": "USD",
       "rating": 4.5,
       "bestFor": "One-computer households",
       "url": "https://backupshortlist.com/tools/backblaze"
@@ -146,15 +162,38 @@
     {
       "provider": "Filen",
       "slug": "filen",
-      "price": 8.99,
+      "price": 7.5,
+      "currency": "EUR",
+      "priceComparableUsd": 8.69,
       "rating": 4,
       "bestFor": "EU privacy enthusiasts",
       "url": "https://backupshortlist.com/tools/filen"
     },
     {
+      "provider": "Icedrive",
+      "slug": "icedrive",
+      "price": 8.25,
+      "currency": "EUR",
+      "priceComparableUsd": 9.56,
+      "rating": 4,
+      "bestFor": "Style-conscious switchers",
+      "url": "https://backupshortlist.com/tools/icedrive"
+    },
+    {
+      "provider": "MEGA",
+      "slug": "mega",
+      "price": 8.33,
+      "currency": "EUR",
+      "priceComparableUsd": 9.65,
+      "rating": 4.1,
+      "bestFor": "Free encrypted storage",
+      "url": "https://backupshortlist.com/tools/mega"
+    },
+    {
       "provider": "Proton Drive",
       "slug": "proton-drive",
       "price": 9.99,
+      "currency": "USD",
       "rating": 4.4,
       "bestFor": "Privacy-first users",
       "url": "https://backupshortlist.com/tools/proton-drive"
@@ -163,22 +202,17 @@
       "provider": "Dropbox",
       "slug": "dropbox",
       "price": 9.99,
+      "currency": "USD",
       "rating": 4.2,
       "bestFor": "Integration-heavy workflows",
       "url": "https://backupshortlist.com/tools/dropbox"
     },
     {
-      "provider": "MEGA",
-      "slug": "mega",
-      "price": 9.99,
-      "rating": 4.1,
-      "bestFor": "Free encrypted storage",
-      "url": "https://backupshortlist.com/tools/mega"
-    },
-    {
       "provider": "Koofr",
       "slug": "koofr",
-      "price": 9.99,
+      "price": 10,
+      "currency": "EUR",
+      "priceComparableUsd": 11.59,
       "rating": 4,
       "bestFor": "Multi-cloud jugglers",
       "url": "https://backupshortlist.com/tools/koofr"
@@ -187,6 +221,7 @@
       "provider": "Tresorit",
       "slug": "tresorit",
       "price": 11.99,
+      "currency": "USD",
       "rating": 4.3,
       "bestFor": "Professionals with sensitive files",
       "url": "https://backupshortlist.com/tools/tresorit"

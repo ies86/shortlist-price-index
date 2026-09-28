@@ -19,7 +19,7 @@
       "oud": null,
       "nieuw": 1.11,
       "vendor_url": "https://privadovpn.com/pricing/",
-      "archive_url": "",
+      "archive_url": "https://web.archive.org/web/20260907075406/https://privadovpn.com/pricing/",
       "alt": 1.99,
       "flags": [
         "extractor_disagreement"
@@ -31,7 +31,7 @@
       "oud": null,
       "nieuw": 100,
       "vendor_url": "https://protonvpn.com/pricing",
-      "archive_url": "",
+      "archive_url": "https://web.archive.org/web/20260907080057/https://protonvpn.com/pricing",
       "alt": null,
       "flags": [
         "out_of_band"

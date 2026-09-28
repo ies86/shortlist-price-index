@@ -1,16 +1,16 @@
 provider,entry_price_eur_per_month,source_url
-Private Internet Access,1.99,https://kiesvpn.nl/tools/private-internet-access
+Private Internet Access,1.59,https://kiesvpn.nl/tools/private-internet-access
+PureVPN,1.85,https://kiesvpn.nl/tools/purevpn
+CyberGhost,1.99,https://kiesvpn.nl/tools/cyberghost
 PrivadoVPN,1.99,https://kiesvpn.nl/tools/privadovpn
-PrivateVPN,2,https://kiesvpn.nl/tools/privatevpn
-PureVPN,2.14,https://kiesvpn.nl/tools/purevpn
-CyberGhost,2.19,https://kiesvpn.nl/tools/cyberghost
+PrivateVPN,2.08,https://kiesvpn.nl/tools/privatevpn
+IPVanish,2.24,https://kiesvpn.nl/tools/ipvanish
 Surfshark,2.49,https://kiesvpn.nl/tools/surfshark
+ExpressVPN,2.49,https://kiesvpn.nl/tools/expressvpn
 hide.me,2.69,https://kiesvpn.nl/tools/hide-me
-Proton VPN,2.99,https://kiesvpn.nl/tools/proton-vpn
-IPVanish,2.99,https://kiesvpn.nl/tools/ipvanish
-NordVPN,3.09,https://kiesvpn.nl/tools/nordvpn
 TunnelBear,3.33,https://kiesvpn.nl/tools/tunnelbear
-ExpressVPN,3.49,https://kiesvpn.nl/tools/expressvpn
+NordVPN,3.49,https://kiesvpn.nl/tools/nordvpn
+Proton VPN,3.49,https://kiesvpn.nl/tools/proton-vpn
 Mozilla VPN,4.99,https://kiesvpn.nl/tools/mozilla-vpn
 Mullvad VPN,5,https://kiesvpn.nl/tools/mullvad
 Windscribe,5.75,https://kiesvpn.nl/tools/windscribe

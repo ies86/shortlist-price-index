@@ -5,23 +5,39 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-06",
-  "generated": "2026-08-28",
+  "updated": "2026-09-07",
+  "generated": "2026-09-23",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-06",
-    "month": "2026-08",
+    "date": "2026-09-07",
+    "month": "2026-09",
     "basis": "measured",
-    "providersMeasured": 11,
-    "averagePrice": 4.34,
-    "medianPrice": 3.83,
-    "cheapestPrice": 2.02,
+    "currency": "USD",
+    "providersMeasured": 14,
+    "averagePrice": 4.06,
+    "medianPrice": 3.41,
+    "cheapestPrice": 2.03,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1622,
+      "rateDate": "2026-09-04",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 3.49,
+      "medianPrice": 2.93,
+      "cheapestPrice": 1.75
+    },
     "notMeasured": 1,
-    "underReview": 6
+    "underReview": 3
   },
   "providersTracked": 18,
-  "averagePrice": 4.68,
-  "medianPrice": 4.17,
+  "averagePrice": 5.4,
+  "medianPrice": 4.27,
   "cheapest": {
     "provider": "TotalAV",
     "price": 1.58
@@ -40,17 +56,9 @@
       "url": "https://antivirusshortlist.com/tools/totalav"
     },
     {
-      "provider": "Webroot Essentials",
-      "slug": "webroot",
-      "price": 2.5,
-      "rating": 3.9,
-      "bestFor": "Old or low-power PCs",
-      "url": "https://antivirusshortlist.com/tools/webroot"
-    },
-    {
       "provider": "Intego Mac Internet Security",
       "slug": "intego",
-      "price": 3.33,
+      "price": 2.5,
       "rating": 4.1,
       "bestFor": "Mac-only households",
       "url": "https://antivirusshortlist.com/tools/intego"
@@ -72,12 +80,12 @@
       "url": "https://antivirusshortlist.com/tools/malwarebytes"
     },
     {
-      "provider": "Kaspersky Premium",
-      "slug": "kaspersky",
-      "price": 3.75,
-      "rating": 4,
-      "bestFor": "Not available/updated in the US",
-      "url": "https://antivirusshortlist.com/tools/kaspersky"
+      "provider": "Avast One",
+      "slug": "avast",
+      "price": 4.09,
+      "rating": 4.3,
+      "bestFor": "Free users wanting extras",
+      "url": "https://antivirusshortlist.com/tools/avast"
     },
     {
       "provider": "G Data Total Security",
@@ -86,22 +94,6 @@
       "rating": 4.2,
       "bestFor": "Buyers who hate pricing tricks",
       "url": "https://antivirusshortlist.com/tools/g-data"
-    },
-    {
-      "provider": "Trend Micro Maximum Security",
-      "slug": "trend-micro",
-      "price": 4.16,
-      "rating": 4.1,
-      "bestFor": "Heavy online shoppers and bankers",
-      "url": "https://antivirusshortlist.com/tools/trend-micro"
-    },
-    {
-      "provider": "Bitdefender Total Security",
-      "slug": "bitdefender",
-      "price": 4.17,
-      "rating": 4.7,
-      "bestFor": "Most people, most devices",
-      "url": "https://antivirusshortlist.com/tools/bitdefender"
     },
     {
       "provider": "Norton 360 Deluxe",
@@ -128,12 +120,12 @@
       "url": "https://antivirusshortlist.com/tools/mcafee"
     },
     {
-      "provider": "Avast One",
-      "slug": "avast",
-      "price": 4.19,
-      "rating": 4.3,
-      "bestFor": "Free users wanting extras",
-      "url": "https://antivirusshortlist.com/tools/avast"
+      "provider": "Webroot Essentials",
+      "slug": "webroot",
+      "price": 4.37,
+      "rating": 3.9,
+      "bestFor": "Old or low-power PCs",
+      "url": "https://antivirusshortlist.com/tools/webroot"
     },
     {
       "provider": "AVG Internet Security",
@@ -144,12 +136,28 @@
       "url": "https://antivirusshortlist.com/tools/avg"
     },
     {
+      "provider": "Bitdefender Total Security",
+      "slug": "bitdefender",
+      "price": 5,
+      "rating": 4.7,
+      "bestFor": "Most people, most devices",
+      "url": "https://antivirusshortlist.com/tools/bitdefender"
+    },
+    {
       "provider": "Avira Free Security",
       "slug": "avira",
       "price": 5,
       "rating": 4,
       "bestFor": "Older or slower PCs",
       "url": "https://antivirusshortlist.com/tools/avira"
+    },
+    {
+      "provider": "Trend Micro Maximum Security",
+      "slug": "trend-micro",
+      "price": 6.25,
+      "rating": 4.1,
+      "bestFor": "Heavy online shoppers and bankers",
+      "url": "https://antivirusshortlist.com/tools/trend-micro"
     },
     {
       "provider": "F-Secure Total",
@@ -160,9 +168,17 @@
       "url": "https://antivirusshortlist.com/tools/f-secure"
     },
     {
+      "provider": "Kaspersky Premium",
+      "slug": "kaspersky",
+      "price": 10,
+      "rating": 4,
+      "bestFor": "Not available/updated in the US",
+      "url": "https://antivirusshortlist.com/tools/kaspersky"
+    },
+    {
       "provider": "LifeLock",
       "slug": "lifelock",
-      "price": 7.5,
+      "price": 10.42,
       "rating": 4,
       "bestFor": "Norton users adding identity cover",
       "url": "https://antivirusshortlist.com/tools/lifelock"
@@ -178,15 +194,23 @@
   ],
   "trueCost": {
     "unit": "USD per year; threeYearTotal = total USD over 3 years",
-    "avgRenewalMultiplier": 2.1,
+    "avgRenewalMultiplier": 1.9,
     "providers": [
       {
-        "provider": "Webroot Essentials",
-        "slug": "webroot",
+        "provider": "Intego Mac Internet Security",
+        "slug": "intego",
         "intro": 29.99,
-        "renewal": 59.99,
-        "multiplier": 2,
-        "threeYearTotal": 149.97
+        "renewal": 39.99,
+        "multiplier": 1.3,
+        "threeYearTotal": 109.97
+      },
+      {
+        "provider": "G Data Total Security",
+        "slug": "g-data",
+        "intro": 49.95,
+        "renewal": 34.95,
+        "multiplier": 0.7,
+        "threeYearTotal": 119.85
       },
       {
         "provider": "Malwarebytes Premium",
@@ -197,12 +221,12 @@
         "threeYearTotal": 164.97
       },
       {
-        "provider": "Intego Mac Internet Security",
-        "slug": "intego",
-        "intro": 39.99,
-        "renewal": 79.99,
-        "multiplier": 2,
-        "threeYearTotal": 199.97
+        "provider": "Avast One",
+        "slug": "avast",
+        "intro": 49.08,
+        "renewal": 77.99,
+        "multiplier": 1.6,
+        "threeYearTotal": 205.06
       },
       {
         "provider": "TotalAV",
@@ -213,76 +237,44 @@
         "threeYearTotal": 217
       },
       {
-        "provider": "Kaspersky Premium",
-        "slug": "kaspersky",
-        "intro": 44.99,
-        "renewal": 89.99,
-        "multiplier": 2,
-        "threeYearTotal": 224.97
-      },
-      {
-        "provider": "Trend Micro Maximum Security",
-        "slug": "trend-micro",
-        "intro": 49.95,
-        "renewal": 89.95,
-        "multiplier": 1.8,
-        "threeYearTotal": 229.85
-      },
-      {
-        "provider": "Bitdefender Total Security",
-        "slug": "bitdefender",
-        "intro": 49.99,
-        "renewal": 99.99,
-        "multiplier": 2,
-        "threeYearTotal": 249.97
-      },
-      {
-        "provider": "Avira Free Security",
-        "slug": "avira",
-        "intro": 59.99,
-        "renewal": 104.99,
-        "multiplier": 1.8,
-        "threeYearTotal": 269.97
-      },
-      {
-        "provider": "Norton 360 Deluxe",
-        "slug": "norton",
-        "intro": 49.99,
-        "renewal": 119.99,
-        "multiplier": 2.4,
-        "threeYearTotal": 289.97
-      },
-      {
-        "provider": "Avast One",
-        "slug": "avast",
-        "intro": 50.28,
-        "renewal": 119.88,
-        "multiplier": 2.4,
-        "threeYearTotal": 290.04
+        "provider": "F-Secure Total",
+        "slug": "f-secure",
+        "intro": 84.99,
+        "renewal": 84.99,
+        "multiplier": 1,
+        "threeYearTotal": 254.97
       },
       {
         "provider": "AVG Internet Security",
         "slug": "avg",
         "intro": 59.88,
-        "renewal": 119.99,
-        "multiplier": 2,
-        "threeYearTotal": 299.86
+        "renewal": 99.99,
+        "multiplier": 1.7,
+        "threeYearTotal": 259.86
       },
       {
-        "provider": "F-Secure Total",
-        "slug": "f-secure",
-        "intro": 84.99,
+        "provider": "Bitdefender Total Security",
+        "slug": "bitdefender",
+        "intro": 59.99,
         "renewal": 109.99,
-        "multiplier": 1.3,
-        "threeYearTotal": 304.97
+        "multiplier": 1.8,
+        "threeYearTotal": 279.97
       },
       {
-        "provider": "LifeLock",
-        "slug": "lifelock",
-        "intro": 89.99,
+        "provider": "Avira Free Security",
+        "slug": "avira",
+        "intro": 59.99,
+        "renewal": 109.99,
+        "multiplier": 1.8,
+        "threeYearTotal": 279.97
+      },
+      {
+        "provider": "Norton 360 Deluxe",
+        "slug": "norton",
+        "intro": 49.99,
         "renewal": 124.99,
-        "multiplier": 1.4,
-        "threeYearTotal": 339.97
+        "multiplier": 2.5,
+        "threeYearTotal": 299.97
       },
       {
         "provider": "McAfee+",
@@ -295,10 +287,18 @@
       {
         "provider": "Aura",
         "slug": "aura",
-        "intro": 144,
-        "renewal": 144,
-        "multiplier": 1,
-        "threeYearTotal": 432
+        "intro": 240,
+        "renewal": 384,
+        "multiplier": 1.6,
+        "threeYearTotal": 1008
+      },
+      {
+        "provider": "LifeLock",
+        "slug": "lifelock",
+        "intro": 299.99,
+        "renewal": 364.99,
+        "multiplier": 1.2,
+        "threeYearTotal": 1029.97
       }
     ]
   },
@@ -309,7 +309,15 @@
       "avg": 4.44,
       "median": 4.17,
       "cheapest": 2.42,
-      "count": 18
+      "count": 18,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-08-06",
@@ -320,7 +328,34 @@
       "cheapest": 2.02,
       "count": 11,
       "n_missing": 1,
-      "n_under_review": 6
+      "n_under_review": 6,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1485,
+        "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 4.06,
+      "median": 3.41,
+      "cheapest": 2.03,
+      "count": 14,
+      "n_missing": 1,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1622,
+        "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-08-22",
-  "generated": "2026-09-04",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-08-22",
@@ -36,16 +36,16 @@
     "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 11,
-  "averagePrice": 22.65,
-  "medianPrice": 18.33,
+  "providersTracked": 10,
+  "averagePrice": 17.5,
+  "medianPrice": 15,
   "cheapest": {
     "provider": "MasterClass",
     "price": 10
   },
   "mostExpensive": {
-    "provider": "LOI",
-    "price": 59
+    "provider": "LinkedIn Learning",
+    "price": 28.99
   },
   "providers": [
     {
@@ -81,20 +81,28 @@
       "url": "https://leerplatformkiezer.nl/tools/skillshare"
     },
     {
+      "provider": "DataCamp",
+      "slug": "datacamp",
+      "price": 14,
+      "rating": 4.4,
+      "bestFor": "Data en AI leren",
+      "url": "https://leerplatformkiezer.nl/tools/datacamp"
+    },
+    {
+      "provider": "Udemy",
+      "slug": "udemy",
+      "price": 16,
+      "rating": 4.3,
+      "bestFor": "Losse cursussen kopen",
+      "url": "https://leerplatformkiezer.nl/tools/udemy"
+    },
+    {
       "provider": "Codecademy",
       "slug": "codecademy",
       "price": 17.99,
       "rating": 4.2,
       "bestFor": "Leren programmeren",
       "url": "https://leerplatformkiezer.nl/tools/codecademy"
-    },
-    {
-      "provider": "Udemy",
-      "slug": "udemy",
-      "price": 18.33,
-      "rating": 4.3,
-      "bestFor": "Losse cursussen kopen",
-      "url": "https://leerplatformkiezer.nl/tools/udemy"
     },
     {
       "provider": "Pluralsight",
@@ -105,17 +113,9 @@
       "url": "https://leerplatformkiezer.nl/tools/pluralsight"
     },
     {
-      "provider": "DataCamp",
-      "slug": "datacamp",
-      "price": 27.08,
-      "rating": 4.4,
-      "bestFor": "Data en AI leren",
-      "url": "https://leerplatformkiezer.nl/tools/datacamp"
-    },
-    {
       "provider": "Coursera",
       "slug": "coursera",
-      "price": 28.58,
+      "price": 28.83,
       "rating": 4.6,
       "bestFor": "Erkende certificaten",
       "url": "https://leerplatformkiezer.nl/tools/coursera"
@@ -127,14 +127,6 @@
       "rating": 4.2,
       "bestFor": "Zakelijke vaardigheden",
       "url": "https://leerplatformkiezer.nl/tools/linkedin-learning"
-    },
-    {
-      "provider": "LOI",
-      "slug": "loi",
-      "price": 59,
-      "rating": 4.1,
-      "bestFor": "Erkende diploma's",
-      "url": "https://leerplatformkiezer.nl/tools/loi"
     }
   ],
   "history": [

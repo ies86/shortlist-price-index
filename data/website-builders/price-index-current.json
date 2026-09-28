@@ -5,30 +5,46 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to WebsiteShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-08-01",
-  "generated": "2026-09-01",
+  "updated": "2026-09-07",
+  "generated": "2026-09-23",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-01",
-    "month": "2026-08",
+    "date": "2026-09-07",
+    "month": "2026-09",
     "basis": "measured",
-    "providersMeasured": 13,
-    "averagePrice": 14.51,
-    "medianPrice": 13.78,
-    "cheapestPrice": 1.15,
-    "notMeasured": 2,
-    "underReview": 3
+    "currency": "USD",
+    "providersMeasured": 15,
+    "averagePrice": 13.02,
+    "medianPrice": 10.8,
+    "cheapestPrice": 0.75,
+    "fx": {
+      "base": "EUR",
+      "usdPerEur": 1.1622,
+      "rateDate": "2026-09-04",
+      "exactOnMeasurementDate": false,
+      "source": "European Central Bank via frankfurter.app"
+    },
+    "alsoIn": {
+      "currency": "EUR",
+      "derived": true,
+      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
+      "averagePrice": 11.2,
+      "medianPrice": 9.29,
+      "cheapestPrice": 0.65
+    },
+    "notMeasured": 3,
+    "underReview": 0
   },
   "providersTracked": 21,
-  "averagePrice": 13.24,
-  "medianPrice": 11.99,
+  "averagePrice": 14.3,
+  "medianPrice": 12.42,
   "cheapest": {
     "provider": "Carrd",
     "price": 1.58
   },
   "mostExpensive": {
     "provider": "Square Online",
-    "price": 29
+    "price": 49
   },
   "providers": [
     {
@@ -104,20 +120,20 @@
       "url": "https://websiteshortlist.com/tools/10web"
     },
     {
-      "provider": "Mobirise",
-      "slug": "mobirise",
-      "price": 10,
-      "rating": 3.8,
-      "bestFor": "Offline building, host it yourself",
-      "url": "https://websiteshortlist.com/tools/mobirise"
-    },
-    {
       "provider": "GoDaddy Website Builder",
       "slug": "godaddy",
       "price": 11.99,
       "rating": 3.7,
       "bestFor": "Existing GoDaddy customers",
       "url": "https://websiteshortlist.com/tools/godaddy"
+    },
+    {
+      "provider": "Mobirise",
+      "slug": "mobirise",
+      "price": 12.42,
+      "rating": 3.8,
+      "bestFor": "Offline building, host it yourself",
+      "url": "https://websiteshortlist.com/tools/mobirise"
     },
     {
       "provider": "SITE123",
@@ -194,7 +210,7 @@
     {
       "provider": "Square Online",
       "slug": "square-online",
-      "price": 29,
+      "price": 49,
       "rating": 4,
       "bestFor": "Local businesses starting online",
       "url": "https://websiteshortlist.com/tools/square-online"
@@ -207,7 +223,15 @@
       "avg": 13.13,
       "median": 12.4,
       "cheapest": 1.58,
-      "count": 18
+      "count": 18,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1594,
+        "koersdatum": "2026-06-16",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     },
     {
       "date": "2026-08-01",
@@ -219,7 +243,34 @@
       "cheapest": 1.15,
       "count": 13,
       "n_missing": 2,
-      "n_under_review": 3
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1485,
+        "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 13.02,
+      "median": 10.8,
+      "cheapest": 0.75,
+      "count": 15,
+      "n_missing": 3,
+      "n_under_review": 0,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1622,
+        "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
     }
   ]
 }

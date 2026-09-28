@@ -11,22 +11,22 @@
     "rateDate": "2026-09-01"
   },
   "unit": "/mnd",
-  "updated": "2026-08-21",
-  "generated": "2026-09-04",
+  "updated": "2026-09-01",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-21",
-    "month": "2026-08",
+    "date": "2026-09-01",
+    "month": "2026-09",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 8,
-    "averagePrice": 10.11,
-    "medianPrice": 3.75,
+    "providersMeasured": 9,
+    "averagePrice": 9.3,
+    "medianPrice": 3.47,
     "cheapestPrice": 1,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1699,
-      "rateDate": "2026-08-21",
+      "usdPerEur": 1.159,
+      "rateDate": "2026-09-01",
       "exactOnMeasurementDate": true,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -34,11 +34,11 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 8.64,
-      "medianPrice": 3.21,
-      "cheapestPrice": 0.85
+      "averagePrice": 8.02,
+      "medianPrice": 2.99,
+      "cheapestPrice": 0.86
     },
-    "notMeasured": 3,
+    "notMeasured": 2,
     "underReview": 2
   },
   "providersTracked": 13,
@@ -225,6 +225,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1699,
         "koersdatum": "2026-08-21",
+        "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 9.3,
+      "median": 3.47,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 2,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.159,
+        "koersdatum": "2026-09-01",
         "exact": true,
         "bron": "European Central Bank via frankfurter.app"
       }

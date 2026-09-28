@@ -6,22 +6,22 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-08-01",
-  "generated": "2026-09-04",
+  "updated": "2026-09-07",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-01",
-    "month": "2026-08",
+    "date": "2026-09-07",
+    "month": "2026-09",
     "basis": "measured",
     "currency": "USD",
     "providersMeasured": 10,
-    "averagePrice": 4.01,
-    "medianPrice": 3.67,
-    "cheapestPrice": 2.19,
+    "averagePrice": 4.88,
+    "medianPrice": 3.99,
+    "cheapestPrice": 2.15,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1485,
-      "rateDate": "2026-07-31",
+      "usdPerEur": 1.1622,
+      "rateDate": "2026-09-04",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -29,19 +29,19 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 3.49,
-      "medianPrice": 3.2,
-      "cheapestPrice": 1.91
+      "averagePrice": 4.2,
+      "medianPrice": 3.43,
+      "cheapestPrice": 1.85
     },
     "notMeasured": 2,
     "underReview": 3
   },
   "providersTracked": 15,
-  "averagePrice": 3.14,
-  "medianPrice": 2.99,
+  "averagePrice": 3.03,
+  "medianPrice": 2.49,
   "cheapest": {
     "provider": "Private Internet Access",
-    "price": 1.99
+    "price": 1.59
   },
   "mostExpensive": {
     "provider": "Windscribe",
@@ -51,10 +51,26 @@
     {
       "provider": "Private Internet Access",
       "slug": "private-internet-access",
-      "price": 1.99,
+      "price": 1.59,
       "rating": 4.2,
       "bestFor": "Onbeperkt aantal apparaten",
       "url": "https://kiesvpn.nl/tools/private-internet-access"
+    },
+    {
+      "provider": "PureVPN",
+      "slug": "purevpn",
+      "price": 1.85,
+      "rating": 3.9,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/purevpn"
+    },
+    {
+      "provider": "CyberGhost",
+      "slug": "cyberghost",
+      "price": 1.99,
+      "rating": 4.3,
+      "bestFor": "7 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/cyberghost"
     },
     {
       "provider": "PrivadoVPN",
@@ -67,26 +83,18 @@
     {
       "provider": "PrivateVPN",
       "slug": "privatevpn",
-      "price": 2,
+      "price": 2.08,
       "rating": 4,
       "bestFor": "Voordelig streamen",
       "url": "https://kiesvpn.nl/tools/privatevpn"
     },
     {
-      "provider": "PureVPN",
-      "slug": "purevpn",
-      "price": 2.14,
-      "rating": 3.9,
-      "bestFor": "10 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/purevpn"
-    },
-    {
-      "provider": "CyberGhost",
-      "slug": "cyberghost",
-      "price": 2.19,
-      "rating": 4.3,
-      "bestFor": "7 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/cyberghost"
+      "provider": "IPVanish",
+      "slug": "ipvanish",
+      "price": 2.24,
+      "rating": 4,
+      "bestFor": "Onbeperkt aantal apparaten",
+      "url": "https://kiesvpn.nl/tools/ipvanish"
     },
     {
       "provider": "Surfshark",
@@ -97,36 +105,20 @@
       "url": "https://kiesvpn.nl/tools/surfshark"
     },
     {
+      "provider": "ExpressVPN",
+      "slug": "expressvpn",
+      "price": 2.49,
+      "rating": 4.4,
+      "bestFor": "8 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/expressvpn"
+    },
+    {
       "provider": "hide.me",
       "slug": "hide-me",
       "price": 2.69,
       "rating": 4.1,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/hide-me"
-    },
-    {
-      "provider": "Proton VPN",
-      "slug": "proton-vpn",
-      "price": 2.99,
-      "rating": 4.5,
-      "bestFor": "10 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/proton-vpn"
-    },
-    {
-      "provider": "IPVanish",
-      "slug": "ipvanish",
-      "price": 2.99,
-      "rating": 4,
-      "bestFor": "Onbeperkt aantal apparaten",
-      "url": "https://kiesvpn.nl/tools/ipvanish"
-    },
-    {
-      "provider": "NordVPN",
-      "slug": "nordvpn",
-      "price": 3.09,
-      "rating": 4.7,
-      "bestFor": "10 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/nordvpn"
     },
     {
       "provider": "TunnelBear",
@@ -137,12 +129,20 @@
       "url": "https://kiesvpn.nl/tools/tunnelbear"
     },
     {
-      "provider": "ExpressVPN",
-      "slug": "expressvpn",
+      "provider": "NordVPN",
+      "slug": "nordvpn",
       "price": 3.49,
-      "rating": 4.4,
-      "bestFor": "8 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/expressvpn"
+      "rating": 4.7,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/nordvpn"
+    },
+    {
+      "provider": "Proton VPN",
+      "slug": "proton-vpn",
+      "price": 3.49,
+      "rating": 4.5,
+      "bestFor": "10 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/proton-vpn"
     },
     {
       "provider": "Mozilla VPN",
@@ -222,6 +222,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1485,
         "koersdatum": "2026-07-31",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "month": "2026-09",
+      "measured": true,
+      "avg": 4.88,
+      "median": 3.99,
+      "cheapest": 2.15,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1622,
+        "koersdatum": "2026-09-04",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

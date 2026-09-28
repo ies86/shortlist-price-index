@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-09-07",
-  "generated": "2026-09-07",
+  "generated": "2026-09-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-09-07",
@@ -36,32 +36,40 @@
     "underReview": 3
   },
   "providersTracked": 15,
-  "averagePrice": 3.17,
-  "medianPrice": 2.99,
+  "averagePrice": 3.22,
+  "medianPrice": 2.69,
   "cheapest": {
-    "provider": "Private Internet Access",
-    "price": 1.99
+    "provider": "PrivadoVPN",
+    "price": 1.11
   },
   "mostExpensive": {
-    "provider": "Windscribe",
-    "price": 5.75
+    "provider": "TunnelBear",
+    "price": 5.83
   },
   "providers": [
     {
+      "provider": "PrivadoVPN",
+      "slug": "privadovpn",
+      "price": 1.11,
+      "rating": 3.9,
+      "bestFor": "10 devices at once (Premium)",
+      "url": "https://vpnshortlist.com/tools/privadovpn"
+    },
+    {
       "provider": "Private Internet Access",
       "slug": "private-internet-access",
-      "price": 1.99,
+      "price": 1.79,
       "rating": 4.2,
       "bestFor": "Unlimited devices",
       "url": "https://vpnshortlist.com/tools/private-internet-access"
     },
     {
-      "provider": "PrivadoVPN",
-      "slug": "privadovpn",
+      "provider": "CyberGhost",
+      "slug": "cyberghost",
       "price": 1.99,
-      "rating": 3.9,
-      "bestFor": "10 devices at once (Premium)",
-      "url": "https://vpnshortlist.com/tools/privadovpn"
+      "rating": 4.3,
+      "bestFor": "7 devices at once",
+      "url": "https://vpnshortlist.com/tools/cyberghost"
     },
     {
       "provider": "PrivateVPN",
@@ -74,18 +82,10 @@
     {
       "provider": "PureVPN",
       "slug": "purevpn",
-      "price": 2.14,
+      "price": 2.15,
       "rating": 3.9,
       "bestFor": "10 devices at once",
       "url": "https://vpnshortlist.com/tools/purevpn"
-    },
-    {
-      "provider": "CyberGhost",
-      "slug": "cyberghost",
-      "price": 2.19,
-      "rating": 4.3,
-      "bestFor": "7 devices at once",
-      "url": "https://vpnshortlist.com/tools/cyberghost"
     },
     {
       "provider": "Surfshark",
@@ -96,6 +96,14 @@
       "url": "https://vpnshortlist.com/tools/surfshark"
     },
     {
+      "provider": "IPVanish",
+      "slug": "ipvanish",
+      "price": 2.49,
+      "rating": 4,
+      "bestFor": "Unlimited devices",
+      "url": "https://vpnshortlist.com/tools/ipvanish"
+    },
+    {
       "provider": "hide.me",
       "slug": "hide-me",
       "price": 2.69,
@@ -104,20 +112,12 @@
       "url": "https://vpnshortlist.com/tools/hide-me"
     },
     {
-      "provider": "Proton VPN",
-      "slug": "proton-vpn",
+      "provider": "ExpressVPN",
+      "slug": "expressvpn",
       "price": 2.99,
-      "rating": 4.5,
-      "bestFor": "10 devices at once",
-      "url": "https://vpnshortlist.com/tools/proton-vpn"
-    },
-    {
-      "provider": "IPVanish",
-      "slug": "ipvanish",
-      "price": 2.99,
-      "rating": 4,
-      "bestFor": "Unlimited devices",
-      "url": "https://vpnshortlist.com/tools/ipvanish"
+      "rating": 4.4,
+      "bestFor": "8 devices at once",
+      "url": "https://vpnshortlist.com/tools/expressvpn"
     },
     {
       "provider": "NordVPN",
@@ -128,20 +128,12 @@
       "url": "https://vpnshortlist.com/tools/nordvpn"
     },
     {
-      "provider": "TunnelBear",
-      "slug": "tunnelbear",
-      "price": 3.33,
-      "rating": 3.9,
-      "bestFor": "Beginners",
-      "url": "https://vpnshortlist.com/tools/tunnelbear"
-    },
-    {
-      "provider": "ExpressVPN",
-      "slug": "expressvpn",
+      "provider": "Proton VPN",
+      "slug": "proton-vpn",
       "price": 3.49,
-      "rating": 4.4,
-      "bestFor": "8 devices at once",
-      "url": "https://vpnshortlist.com/tools/expressvpn"
+      "rating": 4.5,
+      "bestFor": "10 devices at once",
+      "url": "https://vpnshortlist.com/tools/proton-vpn"
     },
     {
       "provider": "Mozilla VPN",
@@ -166,6 +158,14 @@
       "rating": 4.2,
       "bestFor": "Unlimited devices (Pro)",
       "url": "https://vpnshortlist.com/tools/windscribe"
+    },
+    {
+      "provider": "TunnelBear",
+      "slug": "tunnelbear",
+      "price": 5.83,
+      "rating": 3.9,
+      "bestFor": "Beginners",
+      "url": "https://vpnshortlist.com/tools/tunnelbear"
     }
   ],
   "history": [

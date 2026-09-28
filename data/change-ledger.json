@@ -214,23 +214,5 @@
     "direction": "verhoging",
     "source": null,
     "cite": "ipvanish raised the price of its ipvanish-2yr plan from $2.19 to $2.49 per month (+13.7%) between 2026-08 and 2026-09 (Shortlist Price Index, measured on the vendor's own pricing page)."
-  },
-  {
-    "id": "entry_price|website-builders|squarespace|2026-09",
-    "date": "2026-09",
-    "month": "2026-09",
-    "type": "entry_price",
-    "niche": "Website builders",
-    "nicheSlug": "website-builders",
-    "provider": "squarespace",
-    "slug": "squarespace",
-    "field": "entry_price",
-    "from": 1.34,
-    "to": 19,
-    "deltaPct": 1317.9,
-    "currency": "USD",
-    "direction": "verhoging",
-    "source": null,
-    "cite": "squarespace raised the price of its basic plan from $1.34 to $19 per month (+1317.9%) between 2026-08 and 2026-09 (Shortlist Price Index, measured on the vendor's own pricing page)."
   }
 ]

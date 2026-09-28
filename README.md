@@ -18,7 +18,7 @@ Most recent measured month in this repository: **2026-09**.
 
 | Category | Measured months | Status |
 |---|---|---|
-| Cloud backup | 2026-07, 2026-08, 2026-09 | measured; **aggregate withheld for 2026-07, 2026-09** (too few providers verified) |
+| Cloud backup | 2026-07, 2026-08, 2026-09 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
 | Web hosting | 2026-07, 2026-08, 2026-09 | measured |
 | SEO tools | 2026-07, 2026-08, 2026-09 | measured |
 | Website builders | 2026-08, 2026-09 | measured |
@@ -26,7 +26,7 @@ Most recent measured month in this repository: **2026-09**.
 | Newsletter tools | 2026-08, 2026-09 | measured |
 | Password managers | 2026-08, 2026-09 | measured |
 | VPN services | 2026-07, 2026-08, 2026-09 | measured |
-| Learning platforms | 2026-08, 2026-09 | measured; **aggregate withheld for 2026-09** (coverage dropped sharply against the running median; too few providers verified) |
+| Learning platforms | 2026-08, 2026-09 | measured |
 | Travel eSIMs | 2026-08, 2026-09 | measured; **aggregate withheld for 2026-09** (coverage dropped sharply against the running median; too few providers verified) |
 | Recruitment software | none | curated guide prices |
 
