@@ -110,10 +110,10 @@
       "niche": "website-builders",
       "url": "https://www.shopify.com/pricing",
       "render": true,
-      "plan_tekst": "Starter",
+      "plan_tekst": "Basic",
       "regio_lengte": 500,
       "verwacht_usd": null,
-      "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt. 23-9-2026: anker van Basic naar Starter, want websiteshortlist toont het Starter-plan (5 dollar) en niet Basic (29 dollar)."
+      "notitie": "Toegevoegd 1-9-2026 om de geo-muur te doorbreken: de EU-meter krijgt hier een EUR-pagina terwijl de site USD toont, dus terugschrijven was geblokkeerd. verwacht_usd is bewust null; de eerste US-run registreert de waarde als ongeijkt en er wordt niets gepubliceerd tot iemand hem bij de bron bevestigt. 23-9-2026: anker van Basic naar Starter, want websiteshortlist toonde het Starter-plan (5 dollar). 29-9-2026: terug naar Basic. Starter staat niet meer op de prijspagina en is niet meer beschikbaar voor nieuwe winkels (help.shopify.com, Starter plan: 'The Starter plan isn't available to new stores.'); websiteshortlist toont vanaf 29-9 alleen nog Basic."
     },
     {
       "slug": "jimdo",
