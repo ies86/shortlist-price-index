@@ -1,6 +1,6 @@
 {
  "maand": "2026-09",
- "gemeten_op": "2026-09-23T15:37:15.702Z",
+ "gemeten_op": "2026-09-29T08:57:48.244Z",
  "geo": {
   "land": "US",
   "as": "AS8075 Microsoft Corporation"
@@ -17,18 +17,6 @@
    "methode": "tekst_bij_plannaam",
    "snippet": "able hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visit",
    "plan_regio": "nsultation Pricing Knowledge Base News Support Login Get Started Choose Your Hosting Plan Length of Subscription Yearly Web Hosting Launch Reliable hosting for new or simple sites. On Sale First year at $2.89 /mo SAVE 75% Sign Up Now Auto-renews at $10.99 /mo after 1 year. 25 Websites 40k Monthly Visits 25 GB NVMe SSD storage Unmetered Bandwidth Daily Automated Backups On-Demand Performance Scans "
-  },
-  {
-   "vendor": "siteground",
-   "niche": "hosting",
-   "url": "https://www.siteground.com/web-hosting.htm",
-   "http": 200,
-   "intro": 2.99,
-   "renewal": 17.99,
-   "valuta": "USD",
-   "methode": "json_ld",
-   "snippet": "\"price\": \"2.99\",\n                        \"priceCurrency\": \"USD\"",
-   "plan_regio": "the right hosting plan All Plans include: Free domain name Free website transfer Free daily Backups 24/7 Expert Support StartUp For personal projects & small sites $17.99 SAVE 83% $2.99/mo. SELECT PLAN Renews at $17.99/mo. Prepaid for 12 months. Host 1 website with unlimited traffic 10 GB Premium Google storage Core Features Free domain Free SSL, CDN, Backups Free email Free AI tokens NEW Multilev"
   },
   {
    "vendor": "sitebulb",
@@ -71,12 +59,12 @@
    "niche": "seo",
    "url": "https://mangools.com/plans-and-pricing",
    "http": 200,
-   "intro": 37,
+   "intro": null,
    "renewal": null,
-   "valuta": "USD",
-   "methode": "tekst_bij_plannaam",
-   "snippet": "gools Basic For solopreneurs, freelance SEOs and marketers. $ 37 70 / mo Save $279.60 $732.00 $452.40 / yr Included in bundle + AI Search Watcher PRO Prompts mo",
-   "plan_regio": "Pricing Sign in Create a FREE account The best AIO + SEO bundle. Annually Save ~35% Monthly API & MCP included Mangools Basic For solopreneurs, freelance SEOs and marketers. $ 37 70 / mo Save $279.60 $732.00 $452.40 / yr Included in bundle + AI Search Watcher PRO Prompts monitored 500 Monitors Unlimited Multiple checks / prompt 2× LLMs +5 more ⛔ No extra seats available Keyword research 100 req. /"
+   "valuta": null,
+   "methode": null,
+   "snippet": "",
+   "plan_regio": ""
   },
   {
    "vendor": "surfer",
@@ -100,7 +88,7 @@
    "valuta": "ONBEKEND",
    "methode": null,
    "snippet": "",
-   "plan_regio": "ms Based Authentication Segmentation Looker Studio Crawl Report Free Technical Support &#036; &#036; &pound; &euro; 279 Per Year Purchase licence * The maximum number of URLs you can crawl is dependent on allocated memory and storage. Please see our FAQ. Multiple Licences USD &#036; &pound; &euro; Licences are per user. 2 users will require 2 individual licences. We offer discounts on bulk purchas"
+   "plan_regio": "ms Based Authentication Segmentation Looker Studio Crawl Report Free Technical Support &euro; &#036; &pound; &euro; 245 Per Year Purchase licence * The maximum number of URLs you can crawl is dependent on allocated memory and storage. Please see our FAQ. Multiple Licences &#036; &pound; EUR &euro; Licences are per user. 2 users will require 2 individual licences. We offer discounts on bulk purchas"
   },
   {
    "vendor": "proton-pass",
@@ -132,23 +120,23 @@
    "url": "https://wordpress.com/pricing/",
    "http": 200,
    "intro": 9,
-   "renewal": 8,
+   "renewal": 5,
    "valuta": "USD",
    "methode": "tekst_bij_plannaam",
-   "snippet": "Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $8 per month. Billed every 12 months, excl. tax",
-   "plan_regio": "arly up to 55% off Pay monthly Pay yearly up to 55% off Pay every 2 years up to 63% off Pay every 3 years up to 69% off Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $8 per month. Billed every 12 months, excl. taxes. 6 GB storage Unlimited pages, posts, users, and visitors Create and collaborate freely — no caps or restrictions. Fr"
+   "snippet": "Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. tax",
+   "plan_regio": "arly up to 55% off Pay monthly Pay yearly up to 55% off Pay every 2 years up to 63% off Pay every 3 years up to 69% off Personal Build your presence with a site you can customize. $9 $4 per month Save 55% Get Personal Auto-renews at $5 per month. Billed every 12 months, excl. taxes. 6 GB storage Unlimited pages, posts, users, and visitors Create and collaborate freely — no caps or restrictions. Fr"
   },
   {
    "vendor": "shopify",
    "niche": "website-builders",
    "url": "https://www.shopify.com/pricing",
    "http": 200,
-   "intro": null,
+   "intro": 1,
    "renewal": null,
-   "valuta": null,
-   "methode": null,
-   "snippet": "",
-   "plan_regio": ""
+   "valuta": "USD",
+   "methode": "tekst_bij_plannaam",
+   "snippet": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for",
+   "plan_regio": "n Start for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for free Sell online, in person, and in AI chats Card rates from 2.9% + 30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79/mo For small teams Start for free Everything in Basic Card rates from 2.7% + 30"
   },
   {
    "vendor": "jimdo",
@@ -167,12 +155,12 @@
    "niche": "website-builders",
    "url": "https://www.squarespace.com/pricing",
    "http": 200,
-   "intro": 228,
+   "intro": 25,
    "renewal": null,
    "valuta": "USD",
    "methode": "json_ld",
-   "snippet": "\"price\":\"228.00\",\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\",\"price\":\"228.00\",\"priceCurrency\":\"USD\"",
-   "plan_regio": "RCES LOG IN GET STARTED → Beautiful websites Free for 14 days. Pay annually to save up to 36%. Pay annually Pay monthly Basic Create your own custom website and get discovered online. $19 /mo GET STARTED → Build your website Beautiful templates and powerful tools for any website Free custom domain* Built-in AI Tools Up to 2 contributors Accept payments Credit card rates starting at 2.9% + $0.30 On"
+   "snippet": "\"price\":\"25.00\",\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\",\"price\":\"25.00\",\"priceCurrency\":\"USD\"",
+   "plan_regio": "arel LOG IN GET STARTED → Beautiful websites Free for 14 days. Pay annually to save up to 36%. Pay annually Pay monthly Basic Create your own custom website and get discovered online. $19 /mo GET STARTED → Build your website Beautiful templates and powerful tools for any website Free custom domain* Built-in AI Tools Up to 2 contributors Accept payments Credit card rates starting at 2.9% + $0.30 On"
   },
   {
    "vendor": "mailchimp",
@@ -232,7 +220,7 @@
    "valuta": "USD",
    "methode": "json_ld",
    "snippet": "\"price\":0,\"priceCurrency\":\"USD\"",
-   "plan_regio": "les. Sign and send documents. All with Dropbox. Choose your billing cycle Billed monthly Billed yearly For personal use Plus $9.99 / month Buy now For 1 person 2 TB of storage Stay connected across all devices 30 days to restore deleted files Transfer files up to 50 GB Integrate with leading AI tools Edit PDFs and get signatures View all features Best Value For teams and professionals Standard $15"
+   "plan_regio": "les. Sign and send documents. All with Dropbox. Choose your billing cycle Billed monthly Billed yearly For personal use Plus $9.99 / month Buy now For 1 person 2 TB of storage Stay connected across all devices 30 days to restore deleted files Transfer files up to 50 GB Integrate with leading AI tools Edit PDFs and get signatures View all features Best Value For teams and professionals New AI featu"
   },
   {
    "vendor": "icloud",
@@ -368,6 +356,11 @@
   }
  ],
  "fouten": [
+  {
+   "vendor": "siteground",
+   "http": 202,
+   "reden": "pagina niet leesbaar (178 tekens)"
+  },
   {
    "vendor": "saily",
    "http": 403,
