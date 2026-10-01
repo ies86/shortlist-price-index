@@ -1,42 +1,52 @@
 {
-  "uitleg": "Pagina's voor de eenmalige US-dump van 1-10-2026 (opschoning .com-sites, alleen USD). Gelezen door dump.mjs.",
+  "uitleg": "Tweede ronde US-dump 1-10-2026: pagina's die in de eerste ronde een 403 of 404 gaven, met andere adressen of een gewone fetch.",
   "paginas": [
-    { "slug": "coursera", "url": "https://www.coursera.org/courseraplus" },
-    { "slug": "udemy", "url": "https://www.udemy.com/personal-plan/" },
-    { "slug": "datacamp", "url": "https://www.datacamp.com/pricing" },
-    { "slug": "codecademy", "url": "https://www.codecademy.com/pricing" },
-    { "slug": "domestika", "url": "https://www.domestika.org/en/plus" },
-    { "slug": "brilliant", "url": "https://brilliant.org/premium/" },
-    { "slug": "internxt", "url": "https://internxt.com/pricing" },
-    { "slug": "mega", "url": "https://mega.io/pricing" },
-    { "slug": "filen", "url": "https://filen.io/pricing" },
-    { "slug": "icedrive", "url": "https://icedrive.net/plans" },
-    { "slug": "koofr", "url": "https://koofr.eu/pricing/" },
-    { "slug": "tresorit", "url": "https://tresorit.com/pricing/personal" },
-    { "slug": "dropbox", "url": "https://www.dropbox.com/plans" },
-    { "slug": "google-one", "url": "https://one.google.com/about/plans" },
-    { "slug": "google-ai-plans", "url": "https://one.google.com/about/google-ai-plans/" },
-    { "slug": "mangools", "url": "https://mangools.com/plans-and-pricing" },
-    { "slug": "ubersuggest", "url": "https://neilpatel.com/ubersuggest/" },
-    { "slug": "ubersuggest-app", "url": "https://app.neilpatel.com/en/pricing" },
-    { "slug": "peec-ai", "url": "https://peec.ai/pricing" },
-    { "slug": "seobility", "url": "https://www.seobility.net/en/pricing/" },
-    { "slug": "sistrix", "url": "https://www.sistrix.com/pricing/" },
-    { "slug": "seo-powersuite", "url": "https://www.link-assistant.com/pricing.html" },
-    { "slug": "rankscale", "url": "https://rankscale.ai/pricing" },
-    { "slug": "semrush-ai-toolkit", "url": "https://www.semrush.com/pricing/seo-ai-search/" },
-    { "slug": "surfshark-one", "url": "https://surfshark.com/pricing" },
-    { "slug": "nordvpn", "url": "https://nordvpn.com/pricing/" },
-    { "slug": "totalav", "url": "https://www.totalav.com/subscription-pricing-matrix" },
-    { "slug": "proton-pass", "url": "https://proton.me/pass/pricing" },
-    { "slug": "nordpass", "url": "https://nordpass.com/pricing/" },
-    { "slug": "dashlane", "url": "https://www.dashlane.com/pricing-personal" },
-    { "slug": "proton-mail", "url": "https://proton.me/mail/pricing" },
-    { "slug": "proton-drive", "url": "https://proton.me/drive/pricing" },
-    { "slug": "proton-lumo", "url": "https://proton.me/lumo/pricing" },
-    { "slug": "chatgpt", "url": "https://chatgpt.com/pricing" },
-    { "slug": "claude", "url": "https://claude.com/pricing" },
-    { "slug": "gemini", "url": "https://gemini.google.com/subscriptions/" },
-    { "slug": "firsty", "url": "https://firsty.app/" }
+    {
+      "slug": "udemy-fetch",
+      "url": "https://www.udemy.com/personal-plan/",
+      "fetch": true
+    },
+    {
+      "slug": "udemy-pricing",
+      "url": "https://www.udemy.com/pricing/"
+    },
+    {
+      "slug": "datacamp-fetch",
+      "url": "https://www.datacamp.com/pricing",
+      "fetch": true
+    },
+    {
+      "slug": "nordvpn-fetch",
+      "url": "https://nordvpn.com/pricing/",
+      "fetch": true
+    },
+    {
+      "slug": "nordpass-fetch",
+      "url": "https://nordpass.com/pricing/",
+      "fetch": true
+    },
+    {
+      "slug": "chatgpt-openai",
+      "url": "https://openai.com/chatgpt/pricing/"
+    },
+    {
+      "slug": "chatgpt-fetch",
+      "url": "https://chatgpt.com/pricing",
+      "fetch": true
+    },
+    {
+      "slug": "gemini-subscriptions",
+      "url": "https://gemini.google/subscriptions/"
+    },
+    {
+      "slug": "koofr-fetch",
+      "url": "https://koofr.eu/pricing/",
+      "fetch": true
+    },
+    {
+      "slug": "internxt-fetch",
+      "url": "https://internxt.com/pricing",
+      "fetch": true
+    }
   ]
 }

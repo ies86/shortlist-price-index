@@ -36,13 +36,22 @@ for (const p of cfg.paginas) {
   const page = await ctx.newPage()
   const rij = { slug: p.slug, url: p.url }
   try {
-    const antwoord = await page.goto(p.url, { waitUntil: 'domcontentloaded', timeout: 60000 })
-    await page.waitForTimeout(6000)
-    rij.http = antwoord?.status() ?? 0
-    rij.eindurl = page.url()
-    const tekst = await page.evaluate(() => document.body.innerText)
+    let tekst
+    if (p.fetch) {
+      // Gewone fetch met browser-kop, voor pagina's waarvan de headless browser een 403 kreeg.
+      const r = await fetch(p.url, { headers: { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36', 'accept-language': 'en-US,en;q=0.9' } })
+      rij.http = r.status
+      rij.eindurl = r.url
+      tekst = (await r.text()).replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&#160;/g, ' ').replace(/[ \t]+/g, ' ')
+    } else {
+      const antwoord = await page.goto(p.url, { waitUntil: 'domcontentloaded', timeout: 60000 })
+      await page.waitForTimeout(6000)
+      rij.http = antwoord?.status() ?? 0
+      rij.eindurl = page.url()
+      tekst = await page.evaluate(() => document.body.innerText)
+    }
     writeFileSync(join(UIT, `${p.slug}.txt`), `${p.url}\n${page.url()}\n${new Date().toISOString()}\n\n${tekst}`, 'utf8')
-    await page.screenshot({ path: join(UIT, `${p.slug}.png`), fullPage: true, timeout: 30000 }).catch(() => {})
+    if (!p.fetch) await page.screenshot({ path: join(UIT, `${p.slug}.png`), fullPage: true, timeout: 30000 }).catch(() => {})
     rij.dollar = (tekst.match(/\$\s?\d/g) || []).length
     rij.euro = (tekst.match(/€\s?\d|\d\s?€/g) || []).length
   } catch (e) {
