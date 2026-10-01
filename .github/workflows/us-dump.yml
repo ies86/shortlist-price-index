@@ -1,0 +1,34 @@
+# US-dump: eenmalige paginadump vanaf een Amerikaanse GitHub-runner (1-10-2026).
+# Waarom: de .com-sites tonen alleen dollarprijzen; een deel van de aanbieders toont vanaf Nederland
+# euro's. Deze dump bewaart per pagina de zichtbare tekst en een schermafdruk met geo-bewijs, zodat de
+# dollarprijs met bewijs kan worden vastgelegd. Alleen handmatig te starten.
+name: US-dump
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Playwright installeren
+        working-directory: us-meting
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Dumpen
+        working-directory: us-meting
+        run: node dump.mjs
+      - name: Resultaat committen
+        run: |
+          git config user.name 'us-meting-runner'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/us-dump/
+          git commit -m "US-dump $(date -u +%Y-%m-%d)" || echo 'niets te committen'
+          git pull --rebase
+          git push
