@@ -1,0 +1,854 @@
+https://peec.ai/pricing
+https://peec.ai/pricing
+2026-10-01T20:06:26.628Z
+
+Not sure which is right for you?
+
+Talk to us
+
+Product
+
+Pricing
+
+Resources
+
+Partnerships
+
+Careers
+
+Log in
+
+Sign up
+
+Pricing for Brands
+
+Track and improve your brand visibility across AI platforms with analytics 
+your team will actually enjoy using.
+
+Trusted by 3000+ brands and agencies
+
+Starter
+$95
+/mo
+Monthly
+
+For SEO and content managers getting started with AI Search visibility.
+
+Get started
+
+This includes:
+
+50 prompts
+
+Choose 3 models
+
+Unlimited users
+
+Daily tracking frequency
+
+1 project
+
+Pro
+$245
+/mo
+Monthly
+
+For SEO teams that need sophisticated AI Search tracking and insights.
+
+Get started
+
+This includes:
+
+150 prompts
+
+Choose 3 models
+
+Unlimited users
+
+Daily tracking frequency
+
+2 projects
+
+Advanced
+$495
+/mo
+Monthly
+
+For marketing teams managing multiple projects with deeper reporting.
+
+Get started
+
+This includes:
+
+350 prompts
+
+Choose 3 models
+
+Unlimited users
+
+Daily tracking frequency
+
+5 projects
+
+Multi country
+
+Looker Studio integration
+
+Enterprise
+Custom
+Annual
+
+For global brands who need custom coverage, integrations, and dedicated support.
+
+Talk to Sales
+
+Everything in advanced, plus:
+
+Fully customizable prompt tracking
+
+Choose from all models
+
+Daily or weekly tracking frequency
+
+Unlimited projects
+
+Custom prompt setup
+
+API access
+
+Single Sign-on (SSO)
+
+Up to 13 LLM models tracked
+
+Running a GEO agency? Track prompts across multiple brands.
+
+See agency pricing
+
+Tracking Coverage
+
+Available models
+
+Prompts
+
+Active models
+
+Frequency
+
+Monthly AI answers
+
+Calculated by multiplying tracked prompts by active models and tracking frequency.
+
+Countries
+
+Projects
+
+Languages
+
+Competitors
+
+Team users
+
+Discover
+
+Discovery
+
+Brand context
+
+Prompt volume
+
+Relative demand for the topic behind each tracked prompt, scored 1–5.
+
+Competitor suggestions
+
+Topic suggestions
+
+Prompt suggestions
+
+Prompts worth adding, drawn from your brand context and coverage gaps.
+
+Prompt management
+
+Prompts from keywords
+
+Personas
+
+Bulk import
+
+Sub-brand tracking
+
+Regions & languages
+
+Topics, tags & categories
+
+Brand classification
+
+Each prompt classified as branded or non-branded.
+
+Intent classification
+
+Each prompt classified as informational, commercial, or transactional.
+
+Measure
+
+Brand analytics
+
+Visibility overview
+
+Your visibility, position, sentiment, and share of voice, tracked daily against competitors
+
+Brand insights
+
+How your brand performs across models, topics, geographies, and competitors.
+
+Ads library
+
+Prompts where AI answers carry a sponsored placement, and which advertisers appear.
+
+Local GEO
+
+AI Shopping
+
+Product catalog upload
+
+Fetched from Shopify, or uploaded as a CSV — yours or from Google Merchant Center.
+
+SKU-level tracking
+
+Visibility, Position, and Win rate on a per-product basis, in addition to brand-level metrics.
+
+Top merchants
+
+Shopping query fanouts
+
+Shopping source visibility
+
+Domains and URLs AI retrieved when recommending a product.
+
+Source analytics
+
+Domain & URL detail view
+
+Subdomain tracking
+
+Fanout overview
+
+Retrievals
+
+Citation share
+
+Source classification
+
+Each source classified into a category, like competitor, editorial, reference, or UGC.
+
+Brand Perception
+
+Brand attribute scoring
+
+The gap between what AI says you are known for, and where you place in the market.
+
+Custom attributes
+
+Attributes you define yourself, scored alongside the ones AI answers surface on their own.
+
+Objections
+
+Recurring arguments AI raises against your brand, grouped by meaning and traced to the pages behind them.
+
+Prompts fact-checked
+
+Tracked prompts whose AI answers are checked for claims about your brand against the facts you set.
+
+Facts per brand
+
+Statements you set about your brand, used as the reference each claim is checked against.
+
+Act
+
+Gap analysis
+
+Sources that appear often and name competitors but not you, by source, domain, subdomain, URL, and host.
+
+Recommended actions
+
+Ranked opportunities to improve AI visibility, grouped by earned and owned.
+
+Agent actions
+
+Actions generated from your data, using pre-built and custom skills.
+
+Report
+
+Visibility impact
+
+Visibility lift analysis
+
+Visibility lift predictor
+
+Custom tables & views
+
+Agent analytics
+
+Crawlability audit
+
+Which AI bots your robots.txt allows, partially allows, or blocks, across 40+ bots.
+
+AI referrals
+
+Visits arriving on your site from AI assistants.
+
+Crawl insights
+
+Which AI bots hit which pages, how often, and the status code returned.
+
+Automated reporting
+
+Shareable dashboards
+
+Data Studio connector
+
+Data access
+
+API
+
+MCP
+
+Custom exports (CSV)
+
+Platform, team & support
+
+Role-based permissions
+
+Company-wide and per-project access levels, including full and read-only access.
+
+Single sign-on (SSO)
+
+Support channels
+
+Onboarding
+
+Peec agent
+
+Company context
+
+What your company does, so output comes back in your voice.
+
+Project context
+
+Per-project context so the Agent answers about the right brand and competitive set.
+
+User memory
+
+Skills
+
+Pre-built workflows for common jobs: reports, diagnostics, and more.
+
+Custom skills
+
+Integrations
+
+CDN & log providers
+
+Google Analytics
+
+Starter
+
+$
+95
+/mo
+
+ChatGPT
+
+AI Mode
+
+AI Overviews
+
+Microsoft Copilot
+
+Gemini
+
+Naver AI
+
+50
+
+3
+
+daily
+
+4500
+
+1
+
+1
+
+unlimited
+
+unlimited
+
+unlimited
+
+-
+
+-
+
+5
+
+5
+
+4M bot visits
+
+-
+
+-
+
+-
+
+Chat
+
+Self-serve
+
+Vercel
+
+Cloudflare
+
+AWS
+
+CloudFront
+
+Google Cloud CDN
+
+Wordpress
+
+Akamai
+
+Generic webhook
+
+CSV/CLF Upload
+
+Get started
+
+Pro
+
+$
+245
+/mo
+
+ChatGPT
+
+AI Mode
+
+AI Overviews
+
+Microsoft Copilot
+
+Gemini
+
+Naver AI
+
+150
+
+3
+
+daily
+
+13500
+
+3
+
+2
+
+unlimited
+
+unlimited
+
+unlimited
+
+-
+
+Monthly
+
+10
+
+20
+
+10M bot visits
+
+-
+
+-
+
+Chat + email
+
+Self-serve
+
+Vercel
+
+Cloudflare
+
+AWS
+
+CloudFront
+
+Google Cloud CDN
+
+Wordpress
+
+Akamai
+
+Generic webhook
+
+CSV/CLF Upload
+
+Get started
+
+Advanced
+
+$
+495
+/mo
+
+ChatGPT
+
+AI Mode
+
+AI Overviews
+
+Microsoft Copilot
+
+Gemini
+
+Naver AI
+
+350
+
+3
+
+daily
+
+31500
+
+3
+
+5
+
+unlimited
+
+unlimited
+
+unlimited
+
+Weekly
+
+25
+
+50
+
+25M bot visits
+
+-
+
+Chat + email
+
+Self-serve
+
+Vercel
+
+Cloudflare
+
+AWS
+
+CloudFront
+
+Google Cloud CDN
+
+Wordpress
+
+Akamai
+
+Generic webhook
+
+CSV/CLF Upload
+
+Get started
+
+Enterprise
+
+Custom
+
+ChatGPT
+
+AI Mode
+
+AI Overviews
+
+Microsoft Copilot
+
+Gemini
+
+Naver AI
+
+Claude Sonnet 4
+
+API
+
+GPT 5 Search
+
+API
+
+Grok
+
+API
+
+Deepseek
+
+API
+
+Qwen
+
+API
+
+Mistral
+
+API
+
+Meta Spark
+
+API
+
+Perplexity
+
+350
+
+unlimited
+
+daily / weekly
+
+unlimited
+
+unlimited
+
+unlimited
+
+unlimited
+
+unlimited
+
+unlimited
+
+Weekly
+
+unlimited
+
+unlimited
+
+Custom
+
+Dedicated
+
+Custom
+
+Vercel
+
+Cloudflare
+
+AWS
+
+CloudFront
+
+Google Cloud CDN
+
+Wordpress
+
+Akamai
+
+Generic webhook
+
+CSV/CLF Upload
+
+Talk to Sales
+
+Add-ons
+
+Additional Models
+
+Track more AI models without switching plans.
+
+ChatGPT
+
+AI Mode
+
+AI Overviews
+
+Microsoft Co-pilot
+
+Perplexity
+
+Gemini
+
+Add extra models anytime in your dashboard.
+
+Starter
+
+Price reflects one additional model based on the prompts included in this plan.
+
+$30
+/mo
+Annual
+Save $60
+Pro
+
+Price reflects one additional model based on the prompts included in this plan.
+
+$70
+/mo
+Annual
+Save $180
+Advanced
+
+Price reflects one additional model based on the prompts included in this plan.
+
+$140
+/mo
+Annual
+Save $300
+
+Testimonials
+
+Check what the best marketers say about Peec AI.
+
+Peec AI offers key insights on AI visibility, helping brands stay at the forefront of discovery in the age of AI and generative search. As ChatGPT, Perplexity, and Deepseek drive traffic and conversions, Peec.ai measures the growth.
+
+Crystal Carter
+
+Head of SEO Comms 
+
+Peec allows us to pinpoint the exact types of content that are surfaced in specific LLMs. With that visibility, we’ve been able to prioritize our content strategy and drive a 5x year-over-year increase in traffic and demo requests from LLMs.
+
+Jon Gitlin
+
+SEO Strategist
+
+Peec avoids the issues we see with other SEO/AEO platforms, where there’s often an overload of features and information that isn't of primary importance. It keeps things simple - set up your prompts, see your AI visibility, and act on top citations.
+
+Ethan Smith
+
+CEO
+
+Peec AI gave us a data-informed view of our LLMO strategy at Glide - virtually overnight. With its insights, our blog posts started ranking for targeted ChatGPT and Perplexity prompts within 24 hours. I am really impressed with the platform, and the exceptional support from the team.
+
+Sepy Bazzazi
+
+Head of Marketing
+
+Peec AI helps us identify what's being cited, adjust our strategy in real-time, and stay ahead of a rapidly evolving search landscape. For our team, the clarity and simplicity of the platform is invaluable when making strategic content decisions.
+
+Thomas Smeaton
+
+SEO Manager
+
+As search marketers, our decisions should always be driven by data. Peec AI provides exactly the critical insights we need to stay competitive in the ever-evolving world of search.
+
+Artur Kosch
+
+General Manager
+
+FAQs
+
+Get answers to the most common questions about AI search and Peec AI.
+
+What are AI answers?
+AI answers are the individual AI search results we track across platforms. It represents one chat result per model. Example: If you are running 25 prompts across 3 models for 30 days, we would analyze 25x3x30 = 2250 AI answers.
+Can i track multiple sub-brands?
+Yes. You can set up and monitor multiple sub-brands within your account, ensuring each gets its own visibility tracking. Agency accounts have this per default. Schedule a call with us to set it up for your brand as well.
+Can I split the amount of prompts across multiple projects or brands?
+Prompts can be shared across your account, allowing you to allocate it to different projects or brands as needed.
+Can the prompt amount be adjusted?
+Yes. You can upgrade or adjust your prompt volume at any time to match your usage and growth.
+What determines the pricing?
+Pricing is based on the number of tracked prompts and models analyzed. Higher tiers get discounts on price per prompt and a dedicated support function.
+How does pricing work for multiple countries/languages?
+You can track queries across any supported country or language with no additional cost. Pricing remains tied to usage of prompts, not the number of regions or languages.
+Is there a yearly discount?
+We offer a 15% discount for customers who choose annual billing.
+How do agency bundles work if we mange several clients?
+Agencies can manage multiple client projects under one bundle, with centralized billing and flexible prompt allocation.
+Find out what AI says about your brand
+
+Start free trial
+
+Talk to Sales
+
+AI search analytics 
+for marketing teams
+
+Company
+
+Home
+
+Careers
+
+Brand
+
+Entity Map
+
+AI Instructions
+
+Product
+
+Docs
+
+Blog
+
+Pricing
+
+Changelog
+
+Reviews
+
+Features
+
+ChatGPT Visibility Tracker
+
+Gemini Visibility Tracker
+
+AI Mode Visibility Tracker
+
+For Agencies
+
+Partnership
+
+Agencies
+
+Creators
+
+Media
+
+Comparison
+
+Peec vs Ahrefs
+
+Peec vs Profound
+
+Peec vs Semrush
+
+Follow Us
+
+x.com
+
+LinkedIn
+
+Youtube
+
+Peec AI is a top-rated AI search monitoring tool. Explore the official Peec AI platform, rated 4.9/5 on G2 and regularly recommended on Reddit.
+
+© 2026 Peec AI. All rights reserved.
+Cookie Settings
+
+Privacy Policy
+
+Terms of Services
+
+Imprint
+
+       
+
+We use cookies to personalize content, run ads, and analyze traffic.

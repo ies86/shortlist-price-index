@@ -1,0 +1,306 @@
+{
+  "datum": "2026-10-01",
+  "gemeten_op": "2026-10-01T20:03:58.105Z",
+  "geo": {
+    "land": "US",
+    "as": "AS8075 Microsoft Corporation"
+  },
+  "paginas": [
+    {
+      "slug": "coursera",
+      "url": "https://www.coursera.org/courseraplus",
+      "http": 200,
+      "eindurl": "https://www.coursera.org/courseraplus",
+      "dollar": 7,
+      "euro": 0
+    },
+    {
+      "slug": "udemy",
+      "url": "https://www.udemy.com/personal-plan/",
+      "http": 403,
+      "eindurl": "https://www.udemy.com/personal-plan/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "datacamp",
+      "url": "https://www.datacamp.com/pricing",
+      "http": 403,
+      "eindurl": "https://www.datacamp.com/pricing",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "codecademy",
+      "url": "https://www.codecademy.com/pricing",
+      "http": 200,
+      "eindurl": "https://www.codecademy.com/pricing",
+      "dollar": 10,
+      "euro": 0
+    },
+    {
+      "slug": "domestika",
+      "url": "https://www.domestika.org/en/plus",
+      "http": 200,
+      "eindurl": "https://www.domestika.org/en/plus",
+      "dollar": 8,
+      "euro": 0
+    },
+    {
+      "slug": "brilliant",
+      "url": "https://brilliant.org/premium/",
+      "http": 200,
+      "eindurl": "https://brilliant.org/subscribe/",
+      "dollar": 2,
+      "euro": 0
+    },
+    {
+      "slug": "internxt",
+      "url": "https://internxt.com/pricing",
+      "http": 200,
+      "eindurl": "https://internxt.com/pricing",
+      "dollar": 0,
+      "euro": 3
+    },
+    {
+      "slug": "mega",
+      "url": "https://mega.io/pricing",
+      "http": 200,
+      "eindurl": "https://mega.io/pricing",
+      "dollar": 18,
+      "euro": 3
+    },
+    {
+      "slug": "filen",
+      "url": "https://filen.io/pricing",
+      "http": 200,
+      "eindurl": "https://filen.io/pricing",
+      "dollar": 1,
+      "euro": 4
+    },
+    {
+      "slug": "icedrive",
+      "url": "https://icedrive.net/plans",
+      "http": 200,
+      "eindurl": "https://icedrive.net/plans",
+      "dollar": 6,
+      "euro": 0
+    },
+    {
+      "slug": "koofr",
+      "url": "https://koofr.eu/pricing/",
+      "http": 200,
+      "eindurl": "https://koofr.eu/pricing/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "tresorit",
+      "url": "https://tresorit.com/pricing/personal",
+      "http": 200,
+      "eindurl": "https://tresorit.com/pricing/personal",
+      "dollar": 3,
+      "euro": 0
+    },
+    {
+      "slug": "dropbox",
+      "url": "https://www.dropbox.com/plans",
+      "http": 200,
+      "eindurl": "https://www.dropbox.com/plans",
+      "dollar": 8,
+      "euro": 0
+    },
+    {
+      "slug": "google-one",
+      "url": "https://one.google.com/about/plans",
+      "http": 200,
+      "eindurl": "https://one.google.com/about/plans?g1_landing_page=60",
+      "dollar": 3,
+      "euro": 0
+    },
+    {
+      "slug": "google-ai-plans",
+      "url": "https://one.google.com/about/google-ai-plans/",
+      "http": 200,
+      "eindurl": "https://one.google.com/about/google-ai-plans/",
+      "dollar": 31,
+      "euro": 0
+    },
+    {
+      "slug": "mangools",
+      "url": "https://mangools.com/plans-and-pricing",
+      "http": 200,
+      "eindurl": "https://mangools.com/plans-and-pricing",
+      "dollar": 12,
+      "euro": 0
+    },
+    {
+      "slug": "ubersuggest",
+      "url": "https://neilpatel.com/ubersuggest/",
+      "http": 403,
+      "eindurl": "https://neilpatel.com/ubersuggest/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "ubersuggest-app",
+      "url": "https://app.neilpatel.com/en/pricing",
+      "http": 200,
+      "eindurl": "https://app.neilpatel.com/en/pricing",
+      "dollar": 21,
+      "euro": 0
+    },
+    {
+      "slug": "peec-ai",
+      "url": "https://peec.ai/pricing",
+      "http": 200,
+      "eindurl": "https://peec.ai/pricing",
+      "dollar": 12,
+      "euro": 0
+    },
+    {
+      "slug": "seobility",
+      "url": "https://www.seobility.net/en/pricing/",
+      "http": 200,
+      "eindurl": "https://www.seobility.net/en/pricing/",
+      "dollar": 0,
+      "euro": 15
+    },
+    {
+      "slug": "sistrix",
+      "url": "https://www.sistrix.com/pricing/",
+      "http": 200,
+      "eindurl": "https://www.sistrix.com/pricing/",
+      "dollar": 0,
+      "euro": 31
+    },
+    {
+      "slug": "seo-powersuite",
+      "url": "https://www.link-assistant.com/pricing.html",
+      "http": 200,
+      "eindurl": "https://www.link-assistant.com/pricing.html",
+      "dollar": 9,
+      "euro": 0
+    },
+    {
+      "slug": "rankscale",
+      "url": "https://rankscale.ai/pricing",
+      "http": 200,
+      "eindurl": "https://rankscale.ai/pricing",
+      "dollar": 10,
+      "euro": 0
+    },
+    {
+      "slug": "semrush-ai-toolkit",
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "http": 200,
+      "eindurl": "https://www.semrush.com/pricing/seo-ai-search/",
+      "dollar": 21,
+      "euro": 0
+    },
+    {
+      "slug": "surfshark-one",
+      "url": "https://surfshark.com/pricing",
+      "http": 200,
+      "eindurl": "https://surfshark.com/pricing",
+      "dollar": 13,
+      "euro": 0
+    },
+    {
+      "slug": "nordvpn",
+      "url": "https://nordvpn.com/pricing/",
+      "http": 403,
+      "eindurl": "https://nordvpn.com/pricing/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "totalav",
+      "url": "https://www.totalav.com/subscription-pricing-matrix",
+      "http": 200,
+      "eindurl": "https://www.totalav.com/subscription-pricing-matrix",
+      "dollar": 66,
+      "euro": 0
+    },
+    {
+      "slug": "proton-pass",
+      "url": "https://proton.me/pass/pricing",
+      "http": 200,
+      "eindurl": "https://proton.me/pass/pricing",
+      "dollar": 14,
+      "euro": 0
+    },
+    {
+      "slug": "nordpass",
+      "url": "https://nordpass.com/pricing/",
+      "http": 403,
+      "eindurl": "https://nordpass.com/pricing/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "dashlane",
+      "url": "https://www.dashlane.com/pricing-personal",
+      "http": 200,
+      "eindurl": "https://www.dashlane.com/pricing-personal",
+      "dollar": 2,
+      "euro": 0
+    },
+    {
+      "slug": "proton-mail",
+      "url": "https://proton.me/mail/pricing",
+      "http": 200,
+      "eindurl": "https://proton.me/mail/pricing",
+      "dollar": 12,
+      "euro": 0
+    },
+    {
+      "slug": "proton-drive",
+      "url": "https://proton.me/drive/pricing",
+      "http": 200,
+      "eindurl": "https://proton.me/drive/pricing",
+      "dollar": 16,
+      "euro": 0
+    },
+    {
+      "slug": "proton-lumo",
+      "url": "https://proton.me/lumo/pricing",
+      "http": 200,
+      "eindurl": "https://proton.me/lumo/pricing",
+      "dollar": 4,
+      "euro": 0
+    },
+    {
+      "slug": "chatgpt",
+      "url": "https://chatgpt.com/pricing",
+      "http": 403,
+      "eindurl": "https://chatgpt.com/pricing",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "claude",
+      "url": "https://claude.com/pricing",
+      "http": 200,
+      "eindurl": "https://claude.com/pricing",
+      "dollar": 6,
+      "euro": 0
+    },
+    {
+      "slug": "gemini",
+      "url": "https://gemini.google.com/subscriptions/",
+      "http": 404,
+      "eindurl": "https://gemini.google.com/subscriptions/",
+      "dollar": 0,
+      "euro": 0
+    },
+    {
+      "slug": "firsty",
+      "url": "https://firsty.app/",
+      "http": 200,
+      "eindurl": "https://www.firsty.app/",
+      "dollar": 0,
+      "euro": 4
+    }
+  ]
+}

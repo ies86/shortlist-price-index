@@ -1,0 +1,233 @@
+https://filen.io/pricing
+https://filen.io/pricing
+2026-10-01T20:05:12.587Z
+
+Filen
+Products
+About us
+Pricing
+Hub
+Contact
+Log in
+Sign up
+Web
+Desktop
+Mobile
+CLI
+Choose the right plan for you
+The most affordable encrypted cloud storage plans out there.
+Starter
+Monthly
+Annually
+Pro I
+200 GiB
+
+1.99€ monthly
+
+200 GiB storage
+Unlimited bandwidth
+Unlimited uploads
+Client side encryption
+Zero knowledge technology
+Syncing
+Network drive
+File sharing
+Unlimited notes
+Unlimited chats
+Get started
+Pro II
+500 GiB
+
+3.99€ monthly
+
+500 GiB storage
+Unlimited bandwidth
+Unlimited uploads
+Client side encryption
+Zero knowledge technology
+Syncing
+Network drive
+File sharing
+Unlimited notes
+Unlimited chats
+Get started
+Pro III
+2 TiB
+
+8.99€ monthly
+
+2 TiB storage
+Unlimited bandwidth
+Unlimited uploads
+Client side encryption
+Zero knowledge technology
+Syncing
+Network drive
+File sharing
+Unlimited notes
+Unlimited chats
+Get started
+Pro X
+10 TiB
+
+39.99€ monthly
+
+10 TiB storage
+Unlimited bandwidth
+Unlimited uploads
+Client side encryption
+Zero knowledge technology
+Syncing
+Network drive
+File sharing
+Unlimited notes
+Unlimited chats
+Get started
+
+Plans stack on a single account. Combine two Pro X plans for 20 TiB on one Filen account, with no upper limit.
+
+Frequently asked Questions
+How much does Filen cost?
+Is there a minimum commitment period for subscriptions?
+Can I buy a lifetime plan?
+Can I combine multiple storage plans?
+Are there any hidden fees?
+What happens if I run out of storage space?
+What happens if my plan expires while I am still storing too much data?
+Am I limited to paying only in euros?
+Does Filen delete data after a period of inactivity?
+Are Plans stackable?
+Ready to take back your privacy?
+
+Join us today and experience the power of true data privacy. Secure your files with industry-leading encryption and gain full control over your information. Your privacy is in your hands — get started now!
+
+Get started for free
+esc
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F8
+F10
+F11
+F12
+~
+`
+!
+1
+@
+2
+#
+3
+$
+4
+%
+5
+^
+6
+&
+7
+*
+8
+(
+9
+)
+0
+—
+_
++
+=
+delete
+tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+{
+[
+}
+]
+|
+\
+caps lock
+A
+S
+D
+F
+G
+H
+J
+K
+L
+:
+;
+"
+'
+return
+shift
+Z
+X
+C
+V
+B
+N
+M
+<
+,
+>
+.
+?
+/
+shift
+fn
+control
+option
+command
+command
+option
+Filen
+Copyright © 2026 Filen Cloud Dienste UG (haftungsbeschränkt)
+All rights reserved
+Pricing
+About us
+Contact
+Developers
+Web
+Desktop
+Mobile
+CLI
+Home
+Imprint
+Terms of Service
+Privacy Policy
+Refund Policy
+Warrant Canary
+DMCA
+PGP
+Status
+Security
+Hub
+Discord
+Reddit
+X
+LinkedIn
+GitHub
+Mastodon
+Press Kit
+Features
+
+This site uses cookies to measure and improve your experience.
+
+Opt out
+Only needed
+Accept

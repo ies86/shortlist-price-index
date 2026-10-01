@@ -1,0 +1,659 @@
+https://rankscale.ai/pricing
+https://rankscale.ai/pricing
+2026-10-01T20:06:55.111Z
+
+We now support Meta Muse Spark. Track your Spark prompts
+
+Features
+Testimonials
+Case Studies
+Partners
+Solutions
+Resources
+Pricing
+Log in
+Get Started
+
+We now support Meta Muse Spark. Track your Spark prompts
+
+Plans that scale with your
+ambition
+Monthly
+Yearly
+Save 15%
+
+Pro
+
+For businesses needing advanced insights and control.
+
+$99
+
+1,200 credits
+
+included each month
+
+Used to query AI engines
+
+✨ Try Pro free for 7 days
+
+Gain deep insights & share results via dashboards & Looker Studio.
+
+Track up to 4,800 answers from AI engines
+Brand dashboards: 10
+Add extra slots anytime in the app
+Page audits included: 50
+AI visibility checks for any URL
+Search terms: unlimited
+Creation unlimited · execution uses credits
+Regions:
+all
+See all features
+Not sure? Try the credit calculator
+
+Pro+
+
+For teams that need more credits and full REST API access.
+
+$229
+
+3,000 credits
+
+included each month
+
+Used to query AI engines
+
+Get Pro+
+
+REST API access + 5 prompt researches included each month.
+
+Track up to 12,000 answers from AI engines
+Brand dashboards: 25
+Add extra slots anytime in the app
+Page audits included: 100
+AI visibility checks for any URL
+Search terms: unlimited
+Creation unlimited · execution uses credits
+Regions:
+all
+See all features
+Not sure? Try the credit calculator
+Most Popular ⭐
+
+Growth
+
+For growing agencies scaling their AI visibility offering.
+
+$385
+
+5,500 credits
+
+included each month
+
+Used to query AI engines
+
+Get Growth
+
+Additional benefits, white-label options, and REST API for seamless integration.
+
+Track up to 22,000 answers from AI engines
+Brand dashboards: 50
+Add extra slots anytime in the app
+Page audits included: 200
+AI visibility checks for any URL
+Search terms: unlimited
+Creation unlimited · execution uses credits
+Regions:
+all
+Exclusive agency benefits included
+Not sure? Try the credit calculator
+
+Enterprise
+
+For enterprises requiring extensive capabilities and premium support.
+
+$780
+
+12,000 credits
+
+included each month
+
+Used to query AI engines
+
+Get Enterprise
+
+Scale your search strategy with REST API access and a dedicated partner by your side.
+
+Track up to 48,000 answers from AI engines
+Brand dashboards: 100
+Add extra slots anytime in the app
+Page audits included: 200
+AI visibility checks for any URL
+Search terms: unlimited
+Creation unlimited · execution uses credits
+Regions:
+all
+See all features
+Not sure? Try the credit calculator
+
+Custom Plan
+
+Need something tailored?
+
+We'll build a plan around your credit volume, team size, and workflow - with pricing that scales with you.
+
+Individual credits
+SSO
+Trainings
+Custom API
+Additional payment methods
+Priority feature requests
+Dedicated success manager
+Custom integrations
+SLA guarantees
+You name it
+Talk to us
+
+Rankscale GmbH contributes 1% of purchases to remove CO₂ from the atmosphere.
+
+Trusted by 1000+ active users
+
+BRANDS
+
+AGENCIES
+
+PUBLISHERS
+
+COMPARE PLANS
+Everything you get, side by side
+Features	
+Essentials
+Yearly only
+	Pro	Pro+	Growth	Enterprise
+MONITORING
+Monthly credits
+Credits power all monitoring. Each time Rankscale queries an AI engine, it uses a fraction of a credit (typically 0.25). Your allocation renews each billing cycle — top up anytime.
+	
+0
+top up anytime
+	
+0
+top up anytime
+	
+0
+top up anytime
+	
+0
+top up anytime
+	
+0
+top up anytime
+
+Credit rollover
+Unused credits roll over to the next billing cycle instead of expiring. The multiplier shows the maximum credits you can accumulate - e.g. 2× means up to twice your monthly allocation, 3× means up to three times.
+	
+	
+Up to 2×
+	
+Up to 2×
+	
+Up to 3×
+	
+Up to 3×
+
+Brand dashboard slots
+Number of separate brand dashboards you can setup and monitor simultaneously. Extra slots can be bought anytime in the app.
+	
+0
+add extra slots anytime
+	
+0
+add extra slots anytime
+	
+0
+add extra slots anytime
+	
+0
+add extra slots anytime
+	
+0
+add extra slots anytime
+
+Answers from AI engines (up to)
+How many AI engine answers you can track per month — depends on which engines you select per search term.
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+Search terms
+Create as many search terms as you need - execution is limited only by your available credits.
+	
+Unlimited
+	
+Unlimited
+	
+Unlimited
+	
+Unlimited
+	
+Unlimited
+
+AI engines
+Includes ChatGPT, Gemini, Perplexity, Claude, DeepSeek, Mistral, Grok, Copilot, and more.
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+Regions	
+All
+	
+All
+	
+All
+	
+All
+	
+All
+
+Scheduling frequency
+Choose how often your search terms are monitored: hourly, daily, weekly, or monthly with optional bi-cadence.
+	
+Hourly to monthly
+	
+Hourly to monthly
+	
+Hourly to monthly
+	
+Hourly to monthly
+	
+Hourly to monthly
+
+Page audits included / month
+AI visibility audits included with your plan — check how any URL performs for AI search.
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+ANALYTICS & INSIGHTS
+Visibility performance tracking
+Track your brand's visibility score and other metricsover time across all monitored AI engines.
+	
+	
+	
+	
+	
+
+Competitor benchmarking
+See how your brand stacks up against competitors in AI search results.
+	
+	
+	
+	
+	
+
+Citations analysis
+Discover exactly which sources AI engines cite when mentioning your brand and competitors - and which ones are most authoritative.
+	
+	
+	
+	
+	
+
+Quick trend insights
+Get a quick overview of your brand's visibility and sentiment trends over time.
+	
+	
+	
+	
+	
+
+Sentiment analysis
+Deeply analyze the tone and sentiment inside AI answers and use it to improve brand reputation.
+	
+	
+	
+	
+	
+
+Custom dashboards
+Build saved dashboard views with custom widgets, layouts, and per-cell metric settings.
+	
+	
+	
+	
+	
+
+Prompt research
+Explore which prompts and intends are used most for a given segment, region and language.
+	
+	
+	
+5 included free each month
+	
+10 included free each month
+	
+
+Query fanout
+See the internal searches AI engines run while answering your tracked prompts: coverage, appendix phrases and words, probed domains, wins and losses, and a sortable All queries table. Included on every plan. CSV and Sheets export requires Pro or above.
+	
+	
+	
+	
+	
+
+Shopping analysis
+Deeply analyze shopping card results (providers, items) in ChatGPT, Google AI Mode, and Bing Copilot Shopping.
+	
+	
+	
+	
+	
+
+Ad analytics
+Measure sponsored ads in ChatGPT, Google AI Mode, and Copilot: share of voice, advertiser leaderboards, and creative evidence.
+	
+	
+	
+	
+	
+
+Sources box analysis
+Analyze which sources appear in the AI-generated sources box alongside the actual answer.
+	
+	
+	
+	
+	
+
+Rankscale Scout recommendations
+AI-powered suggestions to summarize massive amounts of data and improve your brand's visibility and reputation in AI search.
+	
+	
+	
+	
+	
+
+Early access to new features
+Be first to try new features before they roll out to all users.
+	
+	
+	
+	
+	
+
+COLLABORATION & EXPORTS
+Shareable dashboard links
+Share your brand dashboard with clients and partners via a configurable link.
+	
+	
+	
+	
+	
+
+White-labeled dashboards links
+Remove Rankscale branding from shared dashboards.
+	
+	
+	
+	
+with API
+	
+with API
+
+Team workspaces (unlimited seats)
+Invite your entire team, no per-seat charges, extensive permissions system.
+	
+	
+	
+	
+	
+
+Data exports (CSV, Sheets)
+Export your data to CSV files or Google Sheets.
+	
+	
+	
+	
+	
+
+MCP
+Connect Claude, ChatGPT, Cursor, and other AI assistants to your Rankscale data and ask about your brand in plain language.
+	
+	
+	
+	
+	
+
+Data Studio Integration
+Connect Rankscale brand metrics to Data Studio dashboards.
+	
+	
+	
+	
+	
+
+REST API access
+Access your data via our comprehensive REST API for seamless integration with your own tools and systems.
+	
+	
+	
+	
+Metrics + Share Links
+	
+Metrics + Share Links
+
+Notifications	
+	
+	
+	
+	
+
+AGENCY PROGRAM
+Lifetime affiliate commissions & client discounts
+Earn recurring commissions on every referral for as long as your agency plan is active. Your referred clients receive an exclusive discount.
+	
+	
+	
+	
+	
+
+Configurable entry in Partner Agency Directory
+Create a branded profile in our public partner directory so businesses can discover and contact your agency directly.
+	
+	
+	
+	
+	
+
+Agency Accelerator webinar sessions
+Exclusive live webinars covering AI search strategy, client reporting, and growing your GEO service offering.
+	
+	
+	
+	
+	
+
+Exclusive resources & Slack channel
+Access agency-only playbooks, templates, and a private Slack channel for direct support and peer exchange.
+	
+	
+	
+	
+	
+
+SUPPORT
+Email support	
+	
+	
+	
+	
+
+In-app support	
+	
+	
+	
+	
+
+Slack support	
+	
+	
+	
+	
+
+Priority support
+Dedicated priority queue with faster response times.
+	
+	
+	
+	
+	
+
+Dedicated onboarding session
+A guided onboarding call to get your team up and running quickly. Available on request.
+	
+	
+	
+	
+	
+
+Starting at	
+$20$17/mo
+Yearly only
+	
+$99/mo
+	
+$229/mo
+	
+$385/mo
+	
+$780/mo
+
+	
+Get
+Essentials
+	
+✨ Try
+Pro for Free
+	
+Get
+Pro+
+	
+Get
+Growth
+	
+Get
+Enterprise
+Credit calculator
+50
+search prompts per
+day
+/
+week
+/
+month
+
+Select engines to include
+
+AI Mode
+0.25
+ChatGPT
+0.25
+Perplexity
+0.25
+Gemini
+0.25
+DeepSeek
+1
+Claude
+2
++10 more engines
+GUI engines
+AI Overview GUI, Copilot GUI
+API engines
+P Sonar, P Sonar-Pro, P Sonar-R-Pro, GPT-5, Muse Spark, Gemini 3.0F, Gemini 3.1P, Mistral Large
+162.50
+credits / month
+Get Pro
+How is this calculated?
+50 prompts × 0.75 credits/run × weekly = 162.5 credits / month
+Need more credits?Top up anytime in-app. Topped-up credits stay active throughout your subscription.
+FAQ
+Frequently asked questions
+01
+How do credits work?
+
+Credits are the currency that powers your monitoring. Each time Rankscale queries an AI engine on your behalf, it costs a fraction of a credit (typically 0.25 credits per engine per prompt). Your plan includes a monthly credit allocation that renews each billing cycle.
+
+02
+What happens if I run out of credits?
+03
+Can I add more brand dashboards?
+04
+Can I switch plans at any time?
+05
+What AI engines do you monitor?
+06
+Is there a free trial?
+07
+How does yearly billing work?
+08
+Can I cancel anytime?
+09
+What's included in the custom plan?
+
+Track, analyze, and optimize your brand's visibility across all major AI search engines.
+
+Stop Guessing. Start Measuring.
+
+PRODUCT
+Features
+Testimonials
+FAQ
+Pricing
+Blog
+Changelog
+API
+COMPANY
+Affiliate Program
+Team
+Media Kit
+Facts
+Careers
+Case Studies
+SOLUTIONS
+Enterprise AI Visibility
+For Marketing Teams
+Rankscale MCP
+Agency Directory
+Data Studio Integration
+TRUSTED BY
+Rankscale Reviews
+
+© 2026 Rankscale GmbH. All rights reserved.
+
+Privacy Policy
+Terms of Use
+Imprint
+Sitemap
+
+Made with precision in Vienna
