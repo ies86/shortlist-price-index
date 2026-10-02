@@ -1,0 +1,2154 @@
+{
+ "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
+ "gemaakt": "2026-10-02",
+ "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
+ "paginas": [
+  {
+   "sleutel": "a2e58fb5b923",
+   "url": "chrome-error://chromewebdata/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|mcafee"
+   ]
+  },
+  {
+   "sleutel": "238e911d648e",
+   "url": "https://10web.io/pricing-platform/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|10web"
+   ]
+  },
+  {
+   "sleutel": "1021b6607192",
+   "url": "https://10web.io/pricing/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|10web"
+   ]
+  },
+  {
+   "sleutel": "8026c274e054",
+   "url": "https://1password.com/pricing",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|1password"
+   ]
+  },
+  {
+   "sleutel": "d57fa4ed6c39",
+   "url": "https://1password.com/pricing/password-manager",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|1password"
+   ]
+  },
+  {
+   "sleutel": "016771b59ce4",
+   "url": "https://ahrefs.com/brand-radar",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|ahrefs"
+   ]
+  },
+  {
+   "sleutel": "61a67501288c",
+   "url": "https://ahrefs.com/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|ahrefs"
+   ]
+  },
+  {
+   "sleutel": "c593d540712b",
+   "url": "https://alosim.com/blog/buy-an-esim-online-in-canada/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|alosim"
+   ]
+  },
+  {
+   "sleutel": "2f1afba0933a",
+   "url": "https://alosim.com/europe-esim/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|alosim"
+   ]
+  },
+  {
+   "sleutel": "0907a535b2b3",
+   "url": "https://app.neilpatel.com/en/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|ubersuggest"
+   ]
+  },
+  {
+   "sleutel": "c7fca6edc7ac",
+   "url": "https://bitwarden.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|bitwarden"
+   ]
+  },
+  {
+   "sleutel": "9d83e06c58b2",
+   "url": "https://brave.com/leo/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|brave-leo"
+   ]
+  },
+  {
+   "sleutel": "07eed30aeace",
+   "url": "https://brilliant.org",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|brilliant"
+   ]
+  },
+  {
+   "sleutel": "ec2f0a91e3dc",
+   "url": "https://brilliant.org/premium/",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|brilliant"
+   ]
+  },
+  {
+   "sleutel": "087db61994a4",
+   "url": "https://buy.aura.com/antivirus-intro",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|aura"
+   ]
+  },
+  {
+   "sleutel": "6b7408e79948",
+   "url": "https://carrd.co/pro",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|carrd"
+   ]
+  },
+  {
+   "sleutel": "0549fd9c5816",
+   "url": "https://carrd.com/docs/sites/downloading",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|carrd"
+   ]
+  },
+  {
+   "sleutel": "4a87d6ad731b",
+   "url": "https://checkout.hosting.com/?pid=61e50989-73d2-4726-156c-345e610832d7&bcm=1&currency=usd",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|a2-hosting"
+   ]
+  },
+  {
+   "sleutel": "f88b2da47816",
+   "url": "https://checkout.hosting.com/?pid=61e50989-73d2-4726-156c-345e610832d7&bcm=12&currency=usd",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|a2-hosting"
+   ]
+  },
+  {
+   "sleutel": "6717e1c31db5",
+   "url": "https://claude.com/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|claude"
+   ]
+  },
+  {
+   "sleutel": "8151c649a781",
+   "url": "https://docs.lovable.dev/features/code-mode",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|lovable"
+   ]
+  },
+  {
+   "sleutel": "ccd52fea272a",
+   "url": "https://duckduckgo.com/pro",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|duck-ai"
+   ]
+  },
+  {
+   "sleutel": "980cbe8182f9",
+   "url": "https://esim.holafly.com/esim-europe/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|holafly"
+   ]
+  },
+  {
+   "sleutel": "8c03aaafd23e",
+   "url": "https://esim.holafly.com/plans/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|holafly"
+   ]
+  },
+  {
+   "sleutel": "01f1a067a907",
+   "url": "https://gemini.google/subscriptions/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|gemini"
+   ]
+  },
+  {
+   "sleutel": "d2670f295a80",
+   "url": "https://gempages.net/pages/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|gempages"
+   ]
+  },
+  {
+   "sleutel": "366b8c50172e",
+   "url": "https://ghost.org/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|ghost"
+   ]
+  },
+  {
+   "sleutel": "4ec2441c7358",
+   "url": "https://ghost.org/pricing/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|ghost"
+   ]
+  },
+  {
+   "sleutel": "8bab2eac851b",
+   "url": "https://guard.io/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|guardio"
+   ]
+  },
+  {
+   "sleutel": "c57a6fcacc2d",
+   "url": "https://help.10web.io/hc/en-us/articles/21272034030994-Can-I-Transfer-a-Domain-Purchased-from-10Web-to-Another-Registrar",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|10web"
+   ]
+  },
+  {
+   "sleutel": "1aabb2baa39e",
+   "url": "https://help.gempages.net/articles/download-backup-feature-in-gempages",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|gempages"
+   ]
+  },
+  {
+   "sleutel": "9eb2e5278ab7",
+   "url": "https://help.gempages.net/articles/export-import-templates",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|gempages"
+   ]
+  },
+  {
+   "sleutel": "7e6542520da7",
+   "url": "https://help.jimdo.com/hc/en-us/articles/115005512086-How-do-I-create-a-backup-of-my-Jimdo-Creator-website",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|jimdo"
+   ]
+  },
+  {
+   "sleutel": "3f75b776712b",
+   "url": "https://help.jimdo.com/hc/en-us/articles/115005533903-How-do-I-transfer-my-domain-to-another-host",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|jimdo"
+   ]
+  },
+  {
+   "sleutel": "636a370e1e97",
+   "url": "https://help.shopify.com/en/manual/online-store/themes/managing-themes/downloading-themes",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|shopify"
+   ]
+  },
+  {
+   "sleutel": "981a651c3cbf",
+   "url": "https://help.shopify.com/en/manual/products/import-export/export-products",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|shopify"
+   ]
+  },
+  {
+   "sleutel": "139a1d51924e",
+   "url": "https://help.webflow.com/hc/en-us/articles/33961386739347-How-do-I-export-my-Webflow-site-code",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|webflow"
+   ]
+  },
+  {
+   "sleutel": "aa8a813ea422",
+   "url": "https://hide.me/en/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|hide-me"
+   ]
+  },
+  {
+   "sleutel": "10b04701fd50",
+   "url": "https://hosting.com/web-hosting/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|a2-hosting"
+   ]
+  },
+  {
+   "sleutel": "0c42071ca93a",
+   "url": "https://icedrive.net",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|icedrive"
+   ]
+  },
+  {
+   "sleutel": "b7ee04f56eec",
+   "url": "https://icedrive.net/plans",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|icedrive"
+   ]
+  },
+  {
+   "sleutel": "04b5301ca758",
+   "url": "https://incogni.com/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|incogni"
+   ]
+  },
+  {
+   "sleutel": "5688d4ea0d2a",
+   "url": "https://joindeleteme.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|deleteme"
+   ]
+  },
+  {
+   "sleutel": "e29ae6866532",
+   "url": "https://keywordseverywhere.com/ctl/subscriptions",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|keywords-everywhere"
+   ]
+  },
+  {
+   "sleutel": "a0f42fcea74e",
+   "url": "https://keywordseverywhere.com/pricing.html",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|keywords-everywhere"
+   ]
+  },
+  {
+   "sleutel": "e956e5a63926",
+   "url": "https://kinsta.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|kinsta"
+   ]
+  },
+  {
+   "sleutel": "f9406ba4e3b7",
+   "url": "https://kit.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|kit"
+   ]
+  },
+  {
+   "sleutel": "8f24428f9ee4",
+   "url": "https://learn.showit.com/en/articles/4785318-export-wordpress",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|showit"
+   ]
+  },
+  {
+   "sleutel": "67e001d016d2",
+   "url": "https://lifelock.norton.com/products",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|lifelock"
+   ]
+  },
+  {
+   "sleutel": "1d0dbda7d479",
+   "url": "https://lovable.dev/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|lovable"
+   ]
+  },
+  {
+   "sleutel": "5faed3662377",
+   "url": "https://mailchimp.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|mailchimp"
+   ]
+  },
+  {
+   "sleutel": "6006a1c3232e",
+   "url": "https://mailchimp.com/pricing/marketing/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|mailchimp"
+   ]
+  },
+  {
+   "sleutel": "30c801bb1d3e",
+   "url": "https://mangools.com/plans-and-pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|mangools"
+   ]
+  },
+  {
+   "sleutel": "2abe7fe39a7f",
+   "url": "https://maya.net/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|maya-mobile"
+   ]
+  },
+  {
+   "sleutel": "0f0cae8016c4",
+   "url": "https://mistral.ai/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|mistral-le-chat"
+   ]
+  },
+  {
+   "sleutel": "692ac0f8de2b",
+   "url": "https://mobirise.com/extensions/kit/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|mobirise"
+   ]
+  },
+  {
+   "sleutel": "2fbf61f328ff",
+   "url": "https://mobirise.com/help/can-you-export-the-html-and-css-stylesheets-from-mobirise-203.html",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|mobirise"
+   ]
+  },
+  {
+   "sleutel": "531deb400d06",
+   "url": "https://mobirise.com/help/local-host-369.html",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|mobirise"
+   ]
+  },
+  {
+   "sleutel": "7212d0b16a4c",
+   "url": "https://moz.com/products/pro/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|moz"
+   ]
+  },
+  {
+   "sleutel": "757c91b7f6fc",
+   "url": "https://mullvad.net",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|mullvad"
+   ]
+  },
+  {
+   "sleutel": "e1d67c5c1f90",
+   "url": "https://mullvad.net/en/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|mullvad"
+   ]
+  },
+  {
+   "sleutel": "147bcb3252f3",
+   "url": "https://nordlayer.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|nordlayer"
+   ]
+  },
+  {
+   "sleutel": "548e7ec00c85",
+   "url": "https://nordlocker.com/plans/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|nordlocker"
+   ]
+  },
+  {
+   "sleutel": "4de626377426",
+   "url": "https://nordlocker.com/pricing",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|nordlocker"
+   ]
+  },
+  {
+   "sleutel": "fbed57302839",
+   "url": "https://nordpass.com",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|nordpass"
+   ]
+  },
+  {
+   "sleutel": "3ce31c79ffdc",
+   "url": "https://nordpass.com/plans/",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|nordpass"
+   ]
+  },
+  {
+   "sleutel": "217cb3fdb4e1",
+   "url": "https://nordvpn.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|nordvpn"
+   ]
+  },
+  {
+   "sleutel": "88576b521fc8",
+   "url": "https://one.google.com/about/google-ai-plans/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|gemini"
+   ]
+  },
+  {
+   "sleutel": "8ab34842fc4b",
+   "url": "https://one.google.com/about/plans",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|google-one",
+    "aisafecheck.com|gmail"
+   ]
+  },
+  {
+   "sleutel": "4dec8c9f49c6",
+   "url": "https://one.google.com/about/plans?g1_landing_page=60",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|google-one"
+   ]
+  },
+  {
+   "sleutel": "96d7d9106e8f",
+   "url": "https://peec.ai/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|peec-ai"
+   ]
+  },
+  {
+   "sleutel": "0b1565567a16",
+   "url": "https://peec.ai/pricing#jaar",
+   "kliks": [
+    "Switch to annual billing"
+   ],
+   "ids": [
+    "seoshortlist.com|peec-ai"
+   ]
+  },
+  {
+   "sleutel": "b4a053b57314",
+   "url": "https://privadovpn.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|privadovpn"
+   ]
+  },
+  {
+   "sleutel": "3029038e5004",
+   "url": "https://privatevpn.com/prices/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|privatevpn"
+   ]
+  },
+  {
+   "sleutel": "775a1711bb5e",
+   "url": "https://privatevpn.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|privatevpn"
+   ]
+  },
+  {
+   "sleutel": "baf7f9277ba3",
+   "url": "https://proton.me/drive",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "e42af16bb86d",
+   "url": "https://proton.me/drive/pricing",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|proton-drive",
+    "aisafecheck.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "e93c67572fa0",
+   "url": "https://proton.me/lumo/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|proton-lumo"
+   ]
+  },
+  {
+   "sleutel": "171454903432",
+   "url": "https://proton.me/mail/pricing",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|proton-mail"
+   ]
+  },
+  {
+   "sleutel": "b7698f74565e",
+   "url": "https://proton.me/pass/pricing",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|proton-pass",
+    "aisafecheck.com|proton-pass"
+   ]
+  },
+  {
+   "sleutel": "d47d267cfad9",
+   "url": "https://protonvpn.com",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|proton-vpn"
+   ]
+  },
+  {
+   "sleutel": "c26eb81c6ad2",
+   "url": "https://protonvpn.com/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|proton-vpn"
+   ]
+  },
+  {
+   "sleutel": "8d75b3ceb154",
+   "url": "https://roamless.com/esim-region/europe-esim",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|roamless"
+   ]
+  },
+  {
+   "sleutel": "eec052ff7672",
+   "url": "https://saily.com/esim-europe/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|saily"
+   ]
+  },
+  {
+   "sleutel": "bfb2afa388da",
+   "url": "https://seranking.com/subscription.html",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|se-ranking"
+   ]
+  },
+  {
+   "sleutel": "a962613dc13a",
+   "url": "https://serpstat.com/page/pricing-plans/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|serpstat"
+   ]
+  },
+  {
+   "sleutel": "695bd6901bf9",
+   "url": "https://shop.trendmicro.com.au/pricing/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|trend-micro"
+   ]
+  },
+  {
+   "sleutel": "65397e29b9c1",
+   "url": "https://shop.trendmicro.com/en_us/products/antivirus-plus-security.asp",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|trend-micro"
+   ]
+  },
+  {
+   "sleutel": "cbfe2e55a84c",
+   "url": "https://showit.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|showit"
+   ]
+  },
+  {
+   "sleutel": "cbb64b4cf438",
+   "url": "https://sitebulb.com/subscriptions/pricing/index/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|sitebulb"
+   ]
+  },
+  {
+   "sleutel": "7866b2d1a076",
+   "url": "https://sitebulb.com/subscriptions/pricing/index/?annual=true",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|sitebulb"
+   ]
+  },
+  {
+   "sleutel": "af48d9f06ec7",
+   "url": "https://squareup.com/help/us/en",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|square-online"
+   ]
+  },
+  {
+   "sleutel": "04520a5bd255",
+   "url": "https://squareup.com/us/en/online-store/plans",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|square-online"
+   ]
+  },
+  {
+   "sleutel": "e51e6c96c015",
+   "url": "https://support.apple.com/en-us/108047",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|icloud"
+   ]
+  },
+  {
+   "sleutel": "d5665da63c5e",
+   "url": "https://support.avast.com/article/75/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avast"
+   ]
+  },
+  {
+   "sleutel": "4c8fd6608c03",
+   "url": "https://support.avg.com/SupportArticleView?&urlName=avg-account-subscription",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "a1e354d29272",
+   "url": "https://support.avg.com/SupportArticleView?l=en&urlName=avg-account-subscription&supportType=home",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "dceacd545e34",
+   "url": "https://support.duda.co/hc/en-us/articles/26519246857495-Site-Export",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|duda"
+   ]
+  },
+  {
+   "sleutel": "8f8152fd6fa1",
+   "url": "https://support.ecwid.com/hc/en-us/articles/8677667799452-Exporting-your-store-catalog",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|ecwid"
+   ]
+  },
+  {
+   "sleutel": "a25d884bcba3",
+   "url": "https://support.squarespace.com/hc/en-us/articles/205815518-Transferring-a-domain-away-from-Squarespace",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|squarespace"
+   ]
+  },
+  {
+   "sleutel": "e10f96f358da",
+   "url": "https://support.squarespace.com/hc/en-us/articles/206566687-Exporting-your-site",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|squarespace"
+   ]
+  },
+  {
+   "sleutel": "2a365174b9af",
+   "url": "https://support.strikingly.com/hc/en-us/articles/215047067-Leaving-Strikingly-Export-Site",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|strikingly"
+   ]
+  },
+  {
+   "sleutel": "15919ec356ae",
+   "url": "https://support.wix.com/en/article/transferring-your-domain-away-from-wix",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wix"
+   ]
+  },
+  {
+   "sleutel": "11d4276625e4",
+   "url": "https://surferseo.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|surfer"
+   ]
+  },
+  {
+   "sleutel": "aad5baa3d7ad",
+   "url": "https://surfshark.com",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|surfshark"
+   ]
+  },
+  {
+   "sleutel": "b8a175fd7afc",
+   "url": "https://surfshark.com/one",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|surfshark-one"
+   ]
+  },
+  {
+   "sleutel": "b6fb5b5ea7eb",
+   "url": "https://surfshark.com/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|surfshark",
+    "antivirusshortlist.com|surfshark-one",
+    "aisafecheck.com|surfshark-one"
+   ]
+  },
+  {
+   "sleutel": "a0f57af94f71",
+   "url": "https://tresorit.com/pricing/personal",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|tresorit"
+   ]
+  },
+  {
+   "sleutel": "fc31c5d3e862",
+   "url": "https://tresorit.com/select-product",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|tresorit"
+   ]
+  },
+  {
+   "sleutel": "ff16a20a4ea0",
+   "url": "https://us.norton.com/pricing",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|norton"
+   ]
+  },
+  {
+   "sleutel": "366c681d035f",
+   "url": "https://us.norton.com/products/norton-360-deluxe",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|norton",
+    "aisafecheck.com|norton"
+   ]
+  },
+  {
+   "sleutel": "0bb3b8aebc0c",
+   "url": "https://us.norton.com/products/norton-antivirus-plus",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|norton",
+    "aisafecheck.com|norton"
+   ]
+  },
+  {
+   "sleutel": "57fdb76a1425",
+   "url": "https://webflow.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|webflow"
+   ]
+  },
+  {
+   "sleutel": "19d2a839861b",
+   "url": "https://windscribe.com/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|windscribe"
+   ]
+  },
+  {
+   "sleutel": "ccb61d85c00d",
+   "url": "https://windscribe.com/upgrade",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|windscribe"
+   ]
+  },
+  {
+   "sleutel": "fe82976dbcd3",
+   "url": "https://wordpress.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wordpress-com"
+   ]
+  },
+  {
+   "sleutel": "b7ad9c4a1b18",
+   "url": "https://wordpress.com/support/export/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wordpress-com"
+   ]
+  },
+  {
+   "sleutel": "c15090322bc1",
+   "url": "https://wordpress.com/support/move-domain/transfer-domain-to-another-registrar/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wordpress-com"
+   ]
+  },
+  {
+   "sleutel": "2da4bdd96526",
+   "url": "https://wpengine.com/nl/plans/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|wp-engine"
+   ]
+  },
+  {
+   "sleutel": "96491905c283",
+   "url": "https://wpengine.com/plans/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|wp-engine"
+   ]
+  },
+  {
+   "sleutel": "5b37aacc9206",
+   "url": "https://wpengine.com/plans/#maand",
+   "kliks": [
+    "Monthly"
+   ],
+   "ids": [
+    "hostingshortlist.com|wp-engine"
+   ]
+  },
+  {
+   "sleutel": "3044195a44b0",
+   "url": "https://www.acronis.com/en/products/true-image/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|acronis"
+   ]
+  },
+  {
+   "sleutel": "e4fe8d76e1b1",
+   "url": "https://www.acronis.com/en/products/true-image/pricing/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|acronis"
+   ]
+  },
+  {
+   "sleutel": "88a771412336",
+   "url": "https://www.acronis.com/en/products/true-image/purchasing/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|acronis"
+   ]
+  },
+  {
+   "sleutel": "3d4d2254c7c0",
+   "url": "https://www.activecampaign.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|activecampaign"
+   ]
+  },
+  {
+   "sleutel": "1c05b96142dc",
+   "url": "https://www.airalo.com/europe-esim",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|airalo"
+   ]
+  },
+  {
+   "sleutel": "fb5ef8a06449",
+   "url": "https://www.apple.com/icloud/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|icloud"
+   ]
+  },
+  {
+   "sleutel": "157c883cdf9d",
+   "url": "https://www.apple.com/nl/icloud/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|icloud"
+   ]
+  },
+  {
+   "sleutel": "c41cf4c4011e",
+   "url": "https://www.aura.com/pricing",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|aura"
+   ]
+  },
+  {
+   "sleutel": "c75965320131",
+   "url": "https://www.avast.com/en-us/store",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avast",
+    "aisafecheck.com|avast"
+   ]
+  },
+  {
+   "sleutel": "2645685330d2",
+   "url": "https://www.avast.com/en-us/store#pc",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avast"
+   ]
+  },
+  {
+   "sleutel": "826bd85e9240",
+   "url": "https://www.avg.com/en-us/store",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "25534279d232",
+   "url": "https://www.avira.com/en/antivirus-pro",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avira"
+   ]
+  },
+  {
+   "sleutel": "421a1d554e93",
+   "url": "https://www.avira.com/en/free-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avira"
+   ]
+  },
+  {
+   "sleutel": "28e15381cc92",
+   "url": "https://www.aweber.com/pricing.htm",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|aweber"
+   ]
+  },
+  {
+   "sleutel": "96db2d49ab36",
+   "url": "https://www.backblaze.com/cloud-backup/personal/landing/podcast/plans",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|backblaze"
+   ]
+  },
+  {
+   "sleutel": "4824d8aa3bdf",
+   "url": "https://www.backblaze.com/cloud-backup/pricing",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|backblaze"
+   ]
+  },
+  {
+   "sleutel": "39a1583d8cac",
+   "url": "https://www.beehiiv.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|beehiiv"
+   ]
+  },
+  {
+   "sleutel": "456b03bd6d2f",
+   "url": "https://www.bitdefender.com/en-us/consumer/antivirus",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|bitdefender"
+   ]
+  },
+  {
+   "sleutel": "ad4540340ded",
+   "url": "https://www.bitdefender.com/en-us/consumer/premium-security",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|bitdefender"
+   ]
+  },
+  {
+   "sleutel": "5d719c408125",
+   "url": "https://www.bitdefender.com/en-us/consumer/total-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|bitdefender",
+    "aisafecheck.com|bitdefender"
+   ]
+  },
+  {
+   "sleutel": "d84433e4be17",
+   "url": "https://www.bluehost.com/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|bluehost"
+   ]
+  },
+  {
+   "sleutel": "91b25449f709",
+   "url": "https://www.bluehost.com/pricing",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|bluehost"
+   ]
+  },
+  {
+   "sleutel": "0c898dfc1e21",
+   "url": "https://www.brevo.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|brevo"
+   ]
+  },
+  {
+   "sleutel": "578c307ac295",
+   "url": "https://www.carbonite.com/personal/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|carbonite"
+   ]
+  },
+  {
+   "sleutel": "c5a04809bf3d",
+   "url": "https://www.carbonite.com/personal/backup/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|carbonite"
+   ]
+  },
+  {
+   "sleutel": "6d34463b110f",
+   "url": "https://www.carbonite.com/personal/pricing/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|carbonite"
+   ]
+  },
+  {
+   "sleutel": "88ebebcf6474",
+   "url": "https://www.clearscope.io/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|clearscope"
+   ]
+  },
+  {
+   "sleutel": "0b52667d3fd4",
+   "url": "https://www.cloudslinker.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|cloudslinker"
+   ]
+  },
+  {
+   "sleutel": "e4d9ce7ebfc9",
+   "url": "https://www.cloudways.com/en/pricing.php",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|cloudways"
+   ]
+  },
+  {
+   "sleutel": "1a73371d1f11",
+   "url": "https://www.codecademy.com",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|codecademy"
+   ]
+  },
+  {
+   "sleutel": "d625f683b023",
+   "url": "https://www.codecademy.com/pricing",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|codecademy"
+   ]
+  },
+  {
+   "sleutel": "f4701c3c0269",
+   "url": "https://www.coursera.org",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|coursera"
+   ]
+  },
+  {
+   "sleutel": "4c141b6dd192",
+   "url": "https://www.coursera.org/courseraplus",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|coursera"
+   ]
+  },
+  {
+   "sleutel": "101ba3e6b11d",
+   "url": "https://www.cyberghostvpn.com/buy",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|cyberghost"
+   ]
+  },
+  {
+   "sleutel": "2faa72b02b42",
+   "url": "https://www.cyberghostvpn.com/en_US/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|cyberghost"
+   ]
+  },
+  {
+   "sleutel": "57dd8446555d",
+   "url": "https://www.dashlane.com/pricing",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|dashlane"
+   ]
+  },
+  {
+   "sleutel": "c5e87a7a47bc",
+   "url": "https://www.dashlane.com/pricing-personal",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|dashlane",
+    "aisafecheck.com|dashlane"
+   ]
+  },
+  {
+   "sleutel": "2c6a972bd32c",
+   "url": "https://www.digitalocean.com/pricing",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|digitalocean"
+   ]
+  },
+  {
+   "sleutel": "01458ab6c9e1",
+   "url": "https://www.digitalocean.com/pricing/droplets",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|digitalocean"
+   ]
+  },
+  {
+   "sleutel": "8cc5fcd0aec2",
+   "url": "https://www.domestika.org/en/plus",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|domestika"
+   ]
+  },
+  {
+   "sleutel": "a5fe6137c474",
+   "url": "https://www.domestika.org/nl/price",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|domestika"
+   ]
+  },
+  {
+   "sleutel": "42a5eb77cbab",
+   "url": "https://www.dreamhost.com/hosting/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|dreamhost"
+   ]
+  },
+  {
+   "sleutel": "d964a29433c0",
+   "url": "https://www.dreamhost.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|dreamhost"
+   ]
+  },
+  {
+   "sleutel": "d88a92189ecd",
+   "url": "https://www.dropbox.com/plans",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|dropbox"
+   ]
+  },
+  {
+   "sleutel": "e555a4965dcf",
+   "url": "https://www.duda.co/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|duda"
+   ]
+  },
+  {
+   "sleutel": "0b9ef80f6175",
+   "url": "https://www.ecwid.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|ecwid"
+   ]
+  },
+  {
+   "sleutel": "c131ec8d275a",
+   "url": "https://www.enpass.io",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|enpass"
+   ]
+  },
+  {
+   "sleutel": "8aa16eeadf54",
+   "url": "https://www.enpass.io/pricing/",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|enpass"
+   ]
+  },
+  {
+   "sleutel": "cb30e7f2337f",
+   "url": "https://www.eset.com/us/home-store/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|eset"
+   ]
+  },
+  {
+   "sleutel": "51ca6a69e4cb",
+   "url": "https://www.eset.com/us/home/protection-plans/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|eset"
+   ]
+  },
+  {
+   "sleutel": "0042dca101a7",
+   "url": "https://www.expressvpn.com/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|expressvpn"
+   ]
+  },
+  {
+   "sleutel": "f5b3c6c1cd23",
+   "url": "https://www.f-secure.com/us-en/internet-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|f-secure"
+   ]
+  },
+  {
+   "sleutel": "2e7a4e57d858",
+   "url": "https://www.f-secure.com/us-en/total",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|f-secure",
+    "aisafecheck.com|f-secure"
+   ]
+  },
+  {
+   "sleutel": "67b8728045ea",
+   "url": "https://www.f-secure.com/us-en/total/scam-protection",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|f-secure"
+   ]
+  },
+  {
+   "sleutel": "282252a9dcf1",
+   "url": "https://www.framer.com/help/articles/how-to-transfer-your-domain-away-from-framer/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|framer"
+   ]
+  },
+  {
+   "sleutel": "96b0f55bba67",
+   "url": "https://www.framer.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|framer"
+   ]
+  },
+  {
+   "sleutel": "d58addefccbc",
+   "url": "https://www.framer.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|framer"
+   ]
+  },
+  {
+   "sleutel": "dd4ea5f3489f",
+   "url": "https://www.frase.io/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|frase"
+   ]
+  },
+  {
+   "sleutel": "91cdef39dbc1",
+   "url": "https://www.frase.io/pricing/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|frase"
+   ]
+  },
+  {
+   "sleutel": "273ba23baf04",
+   "url": "https://www.gdata-software.com/antivirus-windows",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|g-data"
+   ]
+  },
+  {
+   "sleutel": "222564deb45a",
+   "url": "https://www.gdata-software.com/total-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|g-data"
+   ]
+  },
+  {
+   "sleutel": "fe61f0b8e616",
+   "url": "https://www.getresponse.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|getresponse"
+   ]
+  },
+  {
+   "sleutel": "1b0e44f19521",
+   "url": "https://www.gigsky.com/all-countries",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|gigsky"
+   ]
+  },
+  {
+   "sleutel": "8442c52dfeb0",
+   "url": "https://www.gigsky.com/region/esim-in-europe",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|gigsky"
+   ]
+  },
+  {
+   "sleutel": "847e25bbfc05",
+   "url": "https://www.godaddy.com/en-us/help/transfer-my-domain-away-from-godaddy-3560",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "9008ec09eeb7",
+   "url": "https://www.godaddy.com/help/export-my-online-store-products-into-a-csv-file-40373",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "fa65674ba47a",
+   "url": "https://www.godaddy.com/hosting/web-hosting",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "20038a50c086",
+   "url": "https://www.godaddy.com/websites/website-builder/plans-and-pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "095a74921a4f",
+   "url": "https://www.hetzner.com",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|hetzner"
+   ]
+  },
+  {
+   "sleutel": "8571fd902ecd",
+   "url": "https://www.hetzner.com/webhosting/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|hetzner"
+   ]
+  },
+  {
+   "sleutel": "378971fb0ac6",
+   "url": "https://www.hostinger.com/pricing",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|hostinger"
+   ]
+  },
+  {
+   "sleutel": "93c318ed654e",
+   "url": "https://www.hostinger.com/support/1583265/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|hostinger-builder"
+   ]
+  },
+  {
+   "sleutel": "6f2c3edd40d6",
+   "url": "https://www.hostinger.com/support/6572573-hostinger-ai-builder-manual-mode-how-to-export-content-to-wordpress/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|hostinger-builder"
+   ]
+  },
+  {
+   "sleutel": "8bdac97437ef",
+   "url": "https://www.hostinger.com/web-hosting",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|hostinger"
+   ]
+  },
+  {
+   "sleutel": "cc0c120899d2",
+   "url": "https://www.hostinger.com/website-builder",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|hostinger-builder"
+   ]
+  },
+  {
+   "sleutel": "9f2534dd7df0",
+   "url": "https://www.idrive.com/pricing",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|idrive"
+   ]
+  },
+  {
+   "sleutel": "5e30549ce192",
+   "url": "https://www.intego.com/buynow",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|intego"
+   ]
+  },
+  {
+   "sleutel": "702d08a9662f",
+   "url": "https://www.intego.com/buynow?currency=USD",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|intego"
+   ]
+  },
+  {
+   "sleutel": "2d9aae0b1bb9",
+   "url": "https://www.ionos.com/help/domains/transferring-your-domain-to-another-provider/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|ionos"
+   ]
+  },
+  {
+   "sleutel": "ba4727ebe6e6",
+   "url": "https://www.ionos.com/help/websites-stores/organize-websites-and-stores/website-builders-overview-of-export-options/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|ionos"
+   ]
+  },
+  {
+   "sleutel": "0a30ff499d64",
+   "url": "https://www.ionos.com/hosting/web-hosting",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|ionos"
+   ]
+  },
+  {
+   "sleutel": "0d8de89f6d78",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|ionos",
+    "websiteshortlist.com|ionos"
+   ]
+  },
+  {
+   "sleutel": "9f4d6f7fd4b8",
+   "url": "https://www.ipvanish.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|ipvanish"
+   ]
+  },
+  {
+   "sleutel": "6ee60b7c6bfd",
+   "url": "https://www.jetpacglobal.com/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|jetpac"
+   ]
+  },
+  {
+   "sleutel": "161e5ec7df0a",
+   "url": "https://www.jimdo.com/pricing/website/",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|jimdo"
+   ]
+  },
+  {
+   "sleutel": "5ec161a77475",
+   "url": "https://www.kaspersky.com/pricing",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|kaspersky"
+   ]
+  },
+  {
+   "sleutel": "c11e6b05b38e",
+   "url": "https://www.kaspersky.com/standard",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|kaspersky"
+   ]
+  },
+  {
+   "sleutel": "d01e62bc4fc4",
+   "url": "https://www.keepersecurity.com/pricing/business-and-enterprise.html?t=b",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|keeper"
+   ]
+  },
+  {
+   "sleutel": "680ca7cb848a",
+   "url": "https://www.keepersecurity.com/pricing/personal-and-family.html",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|keeper"
+   ]
+  },
+  {
+   "sleutel": "d3fd0e71aa66",
+   "url": "https://www.keysearch.co/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|keysearch"
+   ]
+  },
+  {
+   "sleutel": "188962f9bb6f",
+   "url": "https://www.keysearch.co/#pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|keysearch"
+   ]
+  },
+  {
+   "sleutel": "d61110bb1e92",
+   "url": "https://www.klaviyo.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|klaviyo"
+   ]
+  },
+  {
+   "sleutel": "d0e57bed7192",
+   "url": "https://www.lastpass.com/lpapi/purchase/productcatalog",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|lastpass"
+   ]
+  },
+  {
+   "sleutel": "cf301349a09e",
+   "url": "https://www.lastpass.com/pricing",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|lastpass"
+   ]
+  },
+  {
+   "sleutel": "b3c3f71459f4",
+   "url": "https://www.link-assistant.com/pricing.html",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|seo-powersuite"
+   ]
+  },
+  {
+   "sleutel": "2646be5d822b",
+   "url": "https://www.mailerlite.com/pricing",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|mailerlite"
+   ]
+  },
+  {
+   "sleutel": "a2b08c844118",
+   "url": "https://www.malwarebytes.com/pricing",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|malwarebytes",
+    "aisafecheck.com|malwarebytes"
+   ]
+  },
+  {
+   "sleutel": "a14be3f351b9",
+   "url": "https://www.masterclass.com",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|masterclass"
+   ]
+  },
+  {
+   "sleutel": "4de99e4b83d2",
+   "url": "https://www.masterclass.com/plans",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|masterclass"
+   ]
+  },
+  {
+   "sleutel": "de8a46171df7",
+   "url": "https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|mcafee"
+   ]
+  },
+  {
+   "sleutel": "fc583b88cf8a",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|onedrive"
+   ]
+  },
+  {
+   "sleutel": "9fa702e548fe",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|onedrive"
+   ]
+  },
+  {
+   "sleutel": "65e6888f89cf",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|onedrive"
+   ]
+  },
+  {
+   "sleutel": "340553baa881",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/personal",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|copilot"
+   ]
+  },
+  {
+   "sleutel": "aa1befd3e5a3",
+   "url": "https://www.mozilla.org/en-US/products/vpn/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|mozilla-vpn"
+   ]
+  },
+  {
+   "sleutel": "9ae75077cc91",
+   "url": "https://www.mozilla.org/products/vpn/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|mozilla-vpn"
+   ]
+  },
+  {
+   "sleutel": "867c22442242",
+   "url": "https://www.namecheap.com/hosting/shared/",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|namecheap"
+   ]
+  },
+  {
+   "sleutel": "bb5e56bc3105",
+   "url": "https://www.nomadesim.com/europe-eSIM",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|nomad"
+   ]
+  },
+  {
+   "sleutel": "403a9dd1e030",
+   "url": "https://www.nomadesim.com/pricing",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|nomad"
+   ]
+  },
+  {
+   "sleutel": "1b419b2e02d6",
+   "url": "https://www.omnisend.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|omnisend"
+   ]
+  },
+  {
+   "sleutel": "d5442375d5bc",
+   "url": "https://www.optery.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|optery"
+   ]
+  },
+  {
+   "sleutel": "c8970df69f64",
+   "url": "https://www.pcloud.com/cloud-storage-pricing-plans",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|pcloud"
+   ]
+  },
+  {
+   "sleutel": "3fcbf64121e6",
+   "url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|pcloud"
+   ]
+  },
+  {
+   "sleutel": "7652958ead85",
+   "url": "https://www.perplexity.ai/pro",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|perplexity"
+   ]
+  },
+  {
+   "sleutel": "2b73684de05a",
+   "url": "https://www.pluralsight.com/get-started",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|pluralsight"
+   ]
+  },
+  {
+   "sleutel": "5abf71bff717",
+   "url": "https://www.pluralsight.com/individuals/pricing",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|pluralsight"
+   ]
+  },
+  {
+   "sleutel": "7e94f81cb96c",
+   "url": "https://www.privateinternetaccess.com/buy-vpn-online",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|private-internet-access"
+   ]
+  },
+  {
+   "sleutel": "bb555520e2ea",
+   "url": "https://www.purevpn.com/order",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|purevpn"
+   ]
+  },
+  {
+   "sleutel": "2a6c24145623",
+   "url": "https://www.purevpn.com/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|purevpn"
+   ]
+  },
+  {
+   "sleutel": "5fe40f45e519",
+   "url": "https://www.roboform.com/pricing-personal",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|roboform"
+   ]
+  },
+  {
+   "sleutel": "5c38ee593076",
+   "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|screaming-frog"
+   ]
+  },
+  {
+   "sleutel": "3c28810ffc53",
+   "url": "https://www.screamingfrog.co.uk/seo-spider/pricing/?wmc-currency=USD",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|screaming-frog"
+   ]
+  },
+  {
+   "sleutel": "07e75d42a8e1",
+   "url": "https://www.semrush.com/prices/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|semrush"
+   ]
+  },
+  {
+   "sleutel": "02343b28beaa",
+   "url": "https://www.semrush.com/pricing/seo-ai-search/",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|semrush"
+   ]
+  },
+  {
+   "sleutel": "488982fa7de7",
+   "url": "https://www.shopify.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|shopify"
+   ]
+  },
+  {
+   "sleutel": "906d96377d4c",
+   "url": "https://www.site123.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|site123"
+   ]
+  },
+  {
+   "sleutel": "230ac533f661",
+   "url": "https://www.site123.com/support/cat/faq",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|site123"
+   ]
+  },
+  {
+   "sleutel": "272f35940227",
+   "url": "https://www.siteground.com/web-hosting.htm",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|siteground"
+   ]
+  },
+  {
+   "sleutel": "7bae1701407e",
+   "url": "https://www.skillshare.com/en/pricing",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|skillshare"
+   ]
+  },
+  {
+   "sleutel": "5c197af844b4",
+   "url": "https://www.squarespace.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|squarespace"
+   ]
+  },
+  {
+   "sleutel": "172ea49e7ee3",
+   "url": "https://www.strikingly.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|strikingly"
+   ]
+  },
+  {
+   "sleutel": "7fae5d5ab7c2",
+   "url": "https://www.strikingly.com/s/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|strikingly"
+   ]
+  },
+  {
+   "sleutel": "85017cc42e6d",
+   "url": "https://www.sync.com/pricing-individual/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|sync-com"
+   ]
+  },
+  {
+   "sleutel": "47b2d1446fd1",
+   "url": "https://www.sync.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|sync-com"
+   ]
+  },
+  {
+   "sleutel": "af34f90c365b",
+   "url": "https://www.totalav.com/pricing",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|totalav",
+    "aisafecheck.com|totalav"
+   ]
+  },
+  {
+   "sleutel": "6b9d2f22adc4",
+   "url": "https://www.totalav.com/product/antivirus-pro",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|totalav",
+    "aisafecheck.com|totalav"
+   ]
+  },
+  {
+   "sleutel": "9a459a458947",
+   "url": "https://www.trendmicro.com/en_us/forHome/products/maximum-security.html",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|trend-micro"
+   ]
+  },
+  {
+   "sleutel": "90c8693dce54",
+   "url": "https://www.tunnelbear.com/account/checkout",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|tunnelbear"
+   ]
+  },
+  {
+   "sleutel": "56196b70f90f",
+   "url": "https://www.tunnelbear.com/pricing/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|tunnelbear"
+   ]
+  },
+  {
+   "sleutel": "18156a1f7c62",
+   "url": "https://www.udacity.com",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|udacity"
+   ]
+  },
+  {
+   "sleutel": "c5481b27d8d2",
+   "url": "https://www.udacity.com/experience",
+   "kliks": [],
+   "ids": [
+    "courseshortlist.com|udacity"
+   ]
+  },
+  {
+   "sleutel": "e777f552d1f6",
+   "url": "https://www.webroot.com/products/essentials/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|webroot"
+   ]
+  },
+  {
+   "sleutel": "b9e8cd33924a",
+   "url": "https://www.webroot.com/products/pricing/",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|webroot"
+   ]
+  },
+  {
+   "sleutel": "25555f887d1e",
+   "url": "https://www.wix.com/plans",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wix"
+   ]
+  },
+  {
+   "sleutel": "c4cb9572cf27",
+   "url": "https://www.wix.com/pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|wix"
+   ]
+  }
+ ]
+}

@@ -5,3 +5,4 @@ data/*/vendors.csv
 # Observations van niches die nog NIET rijp zijn voor publicatie blijven intern.
 # Gemeten + gevalideerde niches (hosting, vpn, backup) publiceren hun observations wel.
 data/antivirus/observations/
+out/

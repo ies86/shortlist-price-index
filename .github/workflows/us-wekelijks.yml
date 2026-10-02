@@ -1,0 +1,36 @@
+# US-wekelijks: elke week de dollarprijzen van de .com-sites lezen vanaf een Amerikaanse GitHub-runner (2-10-2026).
+# Waarom: de .com-sites tonen alleen dollars; vanuit Nederland tonen veel aanbieders euro's, dus de prijswacht kan
+# die prijzen daar niet herbevestigen. De pagina's gaan als artifact mee (niet in de repo); het hoofdproject leest
+# ze op maandag in met scripts/prijswacht/us-bevestig.mjs (machinekamer, groep maandag).
+# Zondag 22:00 UTC = maandag 00:00 Amsterdamse zomertijd, ruim voor de maandagketen.
+name: US-wekelijks
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * 0'
+permissions:
+  contents: read
+jobs:
+  meet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Playwright installeren
+        working-directory: us-meting
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Meten
+        working-directory: us-meting
+        run: node wekelijks.mjs
+      - name: Pagina's bewaren als artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: us-wekelijks
+          path: out/
+          retention-days: 21
+          if-no-files-found: error
