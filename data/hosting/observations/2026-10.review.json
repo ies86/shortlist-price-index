@@ -1,0 +1,42 @@
+{
+  "maand": "2026-10",
+  "niche": "hosting",
+  "items": [
+    {
+      "provider_slug": "hetzner",
+      "oud": null,
+      "nieuw": 1.22,
+      "vendor_url": "https://www.hetzner.com/webhosting/",
+      "archive_url": "https://web.archive.org/web/20261005084437/https://www.hetzner.com/webhosting/",
+      "alt": null,
+      "flags": [
+        "naheffing_per_eenheid"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "cloudways",
+      "oud": null,
+      "nieuw": 14,
+      "vendor_url": "https://www.cloudways.com/en/pricing.php",
+      "archive_url": "https://web.archive.org/web/20261005084531/https://www.cloudways.com/en/pricing.php",
+      "alt": 11,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "servebolt",
+      "oud": null,
+      "nieuw": 111.13,
+      "vendor_url": "https://servebolt.com/pricing/",
+      "archive_url": "https://web.archive.org/web/20261005084841/https://servebolt.com/pricing/",
+      "alt": null,
+      "flags": [
+        "out_of_band"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to eSIMShortlist",
   "methodology": "USD per GB = price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans and free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "updated": "2026-06-16",
-  "generated": "2026-09-22",
+  "generated": "2026-10-03",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-06-16",
@@ -15,21 +15,8 @@
     "averagePrice": null,
     "medianPrice": null,
     "cheapestPrice": null,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1594,
-      "rateDate": "2026-06-16",
-      "exactOnMeasurementDate": true,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": null,
-      "medianPrice": null,
-      "cheapestPrice": null
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": null,
     "underReview": null
   },
@@ -91,14 +78,7 @@
       "medianPerGB": 3.8,
       "cheapestPerGB": 1.8,
       "count": 11,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     }
   ]
 }

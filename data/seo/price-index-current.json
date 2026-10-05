@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-09-07",
-  "generated": "2026-09-23",
+  "generated": "2026-10-03",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-09-07",
@@ -17,27 +17,14 @@
     "averagePrice": 64.2,
     "medianPrice": 50,
     "cheapestPrice": 7,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
-      "exactOnMeasurementDate": false,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 55.24,
-      "medianPrice": 43.02,
-      "cheapestPrice": 6.02
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": 1,
     "underReview": 1
   },
-  "providersTracked": 18,
-  "averagePrice": 56.84,
-  "medianPrice": 46.35,
+  "providersTracked": 16,
+  "averagePrice": 52.41,
+  "medianPrice": 38.35,
   "cheapest": {
     "provider": "Keywords Everywhere",
     "price": 7
@@ -64,6 +51,14 @@
       "url": "https://seoshortlist.com/tools/sitebulb"
     },
     {
+      "provider": "Ubersuggest",
+      "slug": "ubersuggest",
+      "price": 16,
+      "rating": 3.8,
+      "bestFor": "Hobby sites, tightest budgets",
+      "url": "https://seoshortlist.com/tools/ubersuggest"
+    },
+    {
       "provider": "KeySearch",
       "slug": "keysearch",
       "price": 20,
@@ -88,28 +83,12 @@
       "url": "https://seoshortlist.com/tools/ahrefs"
     },
     {
-      "provider": "Ubersuggest",
-      "slug": "ubersuggest",
-      "price": 29,
-      "rating": 3.8,
-      "bestFor": "Hobby sites, tightest budgets",
-      "url": "https://seoshortlist.com/tools/ubersuggest"
-    },
-    {
       "provider": "SEO PowerSuite",
       "slug": "seo-powersuite",
-      "price": 29.08,
+      "price": 29.1,
       "rating": 4,
       "bestFor": "Desktop work on a budget",
       "url": "https://seoshortlist.com/tools/seo-powersuite"
-    },
-    {
-      "provider": "Frase",
-      "slug": "frase",
-      "price": 39,
-      "rating": 4,
-      "bestFor": "Solo creators, small teams",
-      "url": "https://seoshortlist.com/tools/frase"
     },
     {
       "provider": "Mangools",
@@ -118,6 +97,14 @@
       "rating": 4.3,
       "bestFor": "Beginners and bloggers",
       "url": "https://seoshortlist.com/tools/mangools"
+    },
+    {
+      "provider": "Frase",
+      "slug": "frase",
+      "price": 39,
+      "rating": 4,
+      "bestFor": "Solo creators, small teams",
+      "url": "https://seoshortlist.com/tools/frase"
     },
     {
       "provider": "Surfer",
@@ -136,14 +123,6 @@
       "url": "https://seoshortlist.com/tools/serpstat"
     },
     {
-      "provider": "Seobility",
-      "slug": "seobility",
-      "price": 47.92,
-      "rating": 4.1,
-      "bestFor": "Budget site audits and monitoring",
-      "url": "https://seoshortlist.com/tools/seobility"
-    },
-    {
       "provider": "Moz Pro",
       "slug": "moz",
       "price": 79,
@@ -154,7 +133,7 @@
     {
       "provider": "Peec AI",
       "slug": "peec-ai",
-      "price": 70,
+      "price": 95,
       "rating": 4,
       "bestFor": "Brands tracking AI answers",
       "url": "https://seoshortlist.com/tools/peec-ai"
@@ -166,14 +145,6 @@
       "rating": 4.4,
       "bestFor": "Value-focused professionals",
       "url": "https://seoshortlist.com/tools/se-ranking"
-    },
-    {
-      "provider": "Sistrix",
-      "slug": "sistrix",
-      "price": 99,
-      "rating": 4.2,
-      "bestFor": "European agencies and professionals",
-      "url": "https://seoshortlist.com/tools/sistrix"
     },
     {
       "provider": "Semrush",
@@ -200,14 +171,7 @@
       "median": 52,
       "cheapest": 2.25,
       "count": 15,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-07-21",
@@ -220,14 +184,7 @@
       "count": 13,
       "n_missing": 0,
       "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1418,
-        "koersdatum": "2026-07-21",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-08-01",
@@ -240,14 +197,7 @@
       "count": 13,
       "n_missing": 0,
       "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1485,
-        "koersdatum": "2026-07-31",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-09-07",
@@ -259,14 +209,7 @@
       "count": 13,
       "n_missing": 1,
       "n_under_review": 1,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1622,
-        "koersdatum": "2026-09-04",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     }
   ]
 }

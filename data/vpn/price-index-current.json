@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-09-07",
-  "generated": "2026-09-22",
+  "updated": "2026-10-05",
+  "generated": "2026-10-05",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-07",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 10,
-    "averagePrice": 4.88,
-    "medianPrice": 3.99,
+    "providersMeasured": 11,
+    "averagePrice": 4.68,
+    "medianPrice": 3.92,
     "cheapestPrice": 2.15,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
+      "usdPerEur": 1.1225,
+      "rateDate": "2026-10-02",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -28,16 +28,16 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 4.2,
-      "medianPrice": 3.43,
-      "cheapestPrice": 1.85
+      "averagePrice": 4.17,
+      "medianPrice": 3.49,
+      "cheapestPrice": 1.92
     },
-    "notMeasured": 2,
+    "notMeasured": 1,
     "underReview": 3
   },
-  "providersTracked": 15,
-  "averagePrice": 3.22,
-  "medianPrice": 2.69,
+  "providersTracked": 14,
+  "averagePrice": 3.09,
+  "medianPrice": 2.59,
   "cheapest": {
     "provider": "PrivadoVPN",
     "price": 1.11
@@ -56,28 +56,20 @@
       "url": "https://vpnshortlist.com/tools/privadovpn"
     },
     {
-      "provider": "Private Internet Access",
-      "slug": "private-internet-access",
-      "price": 1.79,
-      "rating": 4.2,
-      "bestFor": "Unlimited devices",
-      "url": "https://vpnshortlist.com/tools/private-internet-access"
-    },
-    {
-      "provider": "CyberGhost",
-      "slug": "cyberghost",
-      "price": 1.99,
-      "rating": 4.3,
-      "bestFor": "7 devices at once",
-      "url": "https://vpnshortlist.com/tools/cyberghost"
-    },
-    {
       "provider": "PrivateVPN",
       "slug": "privatevpn",
       "price": 2,
       "rating": 4,
       "bestFor": "Budget streaming",
       "url": "https://vpnshortlist.com/tools/privatevpn"
+    },
+    {
+      "provider": "Private Internet Access",
+      "slug": "private-internet-access",
+      "price": 2.03,
+      "rating": 4.2,
+      "bestFor": "Unlimited devices",
+      "url": "https://vpnshortlist.com/tools/private-internet-access"
     },
     {
       "provider": "PureVPN",
@@ -88,20 +80,28 @@
       "url": "https://vpnshortlist.com/tools/purevpn"
     },
     {
+      "provider": "CyberGhost",
+      "slug": "cyberghost",
+      "price": 2.19,
+      "rating": 4.3,
+      "bestFor": "7 devices at once",
+      "url": "https://vpnshortlist.com/tools/cyberghost"
+    },
+    {
+      "provider": "IPVanish",
+      "slug": "ipvanish",
+      "price": 2.39,
+      "rating": 4,
+      "bestFor": "Unlimited devices",
+      "url": "https://vpnshortlist.com/tools/ipvanish"
+    },
+    {
       "provider": "Surfshark",
       "slug": "surfshark",
       "price": 2.49,
       "rating": 4.6,
       "bestFor": "Unlimited devices",
       "url": "https://vpnshortlist.com/tools/surfshark"
-    },
-    {
-      "provider": "IPVanish",
-      "slug": "ipvanish",
-      "price": 2.49,
-      "rating": 4,
-      "bestFor": "Unlimited devices",
-      "url": "https://vpnshortlist.com/tools/ipvanish"
     },
     {
       "provider": "hide.me",
@@ -142,14 +142,6 @@
       "rating": 4.2,
       "bestFor": "5 devices at once",
       "url": "https://vpnshortlist.com/tools/mozilla-vpn"
-    },
-    {
-      "provider": "Mullvad VPN",
-      "slug": "mullvad",
-      "price": 5.5,
-      "rating": 4.6,
-      "bestFor": "5 devices at once",
-      "url": "https://vpnshortlist.com/tools/mullvad"
     },
     {
       "provider": "Windscribe",
@@ -240,6 +232,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1622,
         "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 4.68,
+      "median": 3.92,
+      "cheapest": 2.15,
+      "count": 11,
+      "n_missing": 1,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1225,
+        "koersdatum": "2026-10-02",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

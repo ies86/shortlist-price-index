@@ -1,0 +1,30 @@
+{
+  "maand": "2026-10",
+  "niche": "seo",
+  "items": [
+    {
+      "provider_slug": "peec-ai",
+      "oud": 81.35,
+      "nieuw": 67.35,
+      "vendor_url": "https://peec.ai/pricing",
+      "archive_url": "https://web.archive.org/web/20261005092225/https://peec.ai/pricing",
+      "alt": null,
+      "flags": [
+        "kortingsbedrag"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "moz",
+      "oud": null,
+      "nieuw": 179,
+      "vendor_url": "https://moz.com/products/pro/pricing",
+      "archive_url": "https://web.archive.org/web/20261005092250/https://moz.com/products/pro/pricing",
+      "alt": 49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

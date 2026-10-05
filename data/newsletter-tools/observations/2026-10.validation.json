@@ -1,0 +1,22 @@
+{
+  "niche": "newsletter-tools",
+  "maand": "2026-10",
+  "n_total": 11,
+  "n_observed_new": 0,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 9,
+  "n_under_review": 2,
+  "n_missing": 0,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 9,
+        "veranderbaar": 9
+      }
+    }
+  ],
+  "publishable": true
+}

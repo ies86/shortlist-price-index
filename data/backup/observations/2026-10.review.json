@@ -1,0 +1,55 @@
+{
+  "maand": "2026-10",
+  "niche": "backup",
+  "items": [
+    {
+      "provider_slug": "pcloud",
+      "oud": null,
+      "nieuw": 0.47,
+      "vendor_url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
+      "archive_url": "",
+      "alt": 20.62,
+      "flags": [
+        "out_of_band",
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "sync-com",
+      "oud": 3.5,
+      "nieuw": 6,
+      "vendor_url": "https://www.sync.com/pricing-individual/",
+      "archive_url": "https://web.archive.org/web/20261005090809/https://www.sync.com/pricing-individual/",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "andere vlaggen dan beoordeeld (nu \"suspect_jump\", beoordeeld \"stuck_suspect\")"
+    },
+    {
+      "provider_slug": "proton-drive",
+      "oud": 11.42,
+      "nieuw": 4.51,
+      "vendor_url": "https://proton.me/drive/pricing",
+      "archive_url": "https://web.archive.org/web/20261005090946/https://proton.me/drive/pricing",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "mega",
+      "oud": null,
+      "nieuw": 3.95,
+      "vendor_url": "https://mega.io/pricing",
+      "archive_url": "https://web.archive.org/web/20261005091204/https://mega.io/pricing",
+      "alt": null,
+      "flags": [
+        "naheffing_per_eenheid"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

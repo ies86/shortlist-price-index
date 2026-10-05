@@ -1,0 +1,13 @@
+{
+  "niche": "website-builders",
+  "maand": "2026-10",
+  "n_total": 18,
+  "n_observed_new": 0,
+  "n_observed_changed": 3,
+  "n_observed_unchanged": 12,
+  "n_under_review": 1,
+  "n_missing": 2,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

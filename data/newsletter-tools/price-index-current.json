@@ -5,38 +5,25 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to MailShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-09-07",
-  "generated": "2026-09-23",
+  "updated": "2026-10-05",
+  "generated": "2026-10-05",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-07",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
     "providersMeasured": 9,
-    "averagePrice": 18.65,
-    "medianPrice": 15,
-    "cheapestPrice": 8.08,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
-      "exactOnMeasurementDate": false,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 16.05,
-      "medianPrice": 12.91,
-      "cheapestPrice": 6.95
-    },
-    "notMeasured": 1,
-    "underReview": 1
+    "averagePrice": 14.32,
+    "medianPrice": 12.35,
+    "cheapestPrice": 5,
+    "fx": null,
+    "alsoIn": null,
+    "notMeasured": 0,
+    "underReview": 2
   },
   "providersTracked": 11,
-  "averagePrice": 18.38,
+  "averagePrice": 18.94,
   "medianPrice": 15,
   "cheapest": {
     "provider": "Brevo",
@@ -44,7 +31,7 @@
   },
   "mostExpensive": {
     "provider": "beehiiv",
-    "price": 43.08
+    "price": 49
   },
   "providers": [
     {
@@ -58,7 +45,7 @@
     {
       "provider": "MailerLite",
       "slug": "mailerlite",
-      "price": 10,
+      "price": 10.8,
       "rating": 4.6,
       "bestFor": "Beginners",
       "url": "https://mailshortlist.com/tools/mailerlite"
@@ -80,14 +67,6 @@
       "url": "https://mailshortlist.com/tools/mailchimp"
     },
     {
-      "provider": "GetResponse",
-      "slug": "getresponse",
-      "price": 13.12,
-      "rating": 4.3,
-      "bestFor": "Funnels and webinars",
-      "url": "https://mailshortlist.com/tools/getresponse"
-    },
-    {
       "provider": "ActiveCampaign",
       "slug": "activecampaign",
       "price": 15,
@@ -96,20 +75,28 @@
       "url": "https://mailshortlist.com/tools/activecampaign"
     },
     {
+      "provider": "Ghost",
+      "slug": "ghost",
+      "price": 15,
+      "rating": 4.4,
+      "bestFor": "Independent publishers",
+      "url": "https://mailshortlist.com/tools/ghost"
+    },
+    {
+      "provider": "GetResponse",
+      "slug": "getresponse",
+      "price": 15.58,
+      "rating": 4.3,
+      "bestFor": "Funnels and webinars",
+      "url": "https://mailshortlist.com/tools/getresponse"
+    },
+    {
       "provider": "Omnisend",
       "slug": "omnisend",
       "price": 16,
       "rating": 4.3,
       "bestFor": "Small online stores",
       "url": "https://mailshortlist.com/tools/omnisend"
-    },
-    {
-      "provider": "Ghost",
-      "slug": "ghost",
-      "price": 18,
-      "rating": 4.4,
-      "bestFor": "Independent publishers",
-      "url": "https://mailshortlist.com/tools/ghost"
     },
     {
       "provider": "Klaviyo",
@@ -130,7 +117,7 @@
     {
       "provider": "beehiiv",
       "slug": "beehiiv",
-      "price": 43.08,
+      "price": 49,
       "rating": 4.6,
       "bestFor": "Newsletter-first creators",
       "url": "https://mailshortlist.com/tools/beehiiv"
@@ -144,14 +131,7 @@
       "median": 15,
       "cheapest": 9,
       "count": 11,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-08-01",
@@ -164,14 +144,7 @@
       "count": 7,
       "n_missing": 0,
       "n_under_review": 4,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1485,
-        "koersdatum": "2026-07-31",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-09-07",
@@ -183,14 +156,19 @@
       "count": 9,
       "n_missing": 1,
       "n_under_review": 1,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1622,
-        "koersdatum": "2026-09-04",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 14.32,
+      "median": 12.35,
+      "cheapest": 5,
+      "count": 9,
+      "n_missing": 0,
+      "n_under_review": 2,
+      "currency": "USD"
     }
   ]
 }

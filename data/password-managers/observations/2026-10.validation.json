@@ -1,0 +1,22 @@
+{
+  "niche": "password-managers",
+  "maand": "2026-10",
+  "n_total": 9,
+  "n_observed_new": 0,
+  "n_observed_changed": 0,
+  "n_observed_unchanged": 7,
+  "n_under_review": 1,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 7,
+        "veranderbaar": 7
+      }
+    }
+  ],
+  "publishable": true
+}

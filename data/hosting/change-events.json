@@ -1,5 +1,24 @@
 {
-  "events": [],
+  "events": [
+    {
+      "niche": "hosting",
+      "provider_slug": "namecheap",
+      "month": "2026-10",
+      "run_id": "2026-10_r1",
+      "old_usd_mo": 1.91,
+      "new_usd_mo": 2.28,
+      "delta_pct": 19.37,
+      "currency": "USD",
+      "old_own": 1.91,
+      "new_own": 2.28,
+      "delta_pct_own": 19.37,
+      "delta_pct_usd": 19.4,
+      "vendor_url": "https://www.namecheap.com/hosting/shared/",
+      "archive_url": "",
+      "detected_at": "2026-10-05T08:42:04.766Z",
+      "pitched": false
+    }
+  ],
   "ingetrokken": [
     {
       "niche": "hosting",

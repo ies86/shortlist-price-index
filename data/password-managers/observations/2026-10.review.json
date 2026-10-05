@@ -1,0 +1,20 @@
+{
+  "maand": "2026-10",
+  "niche": "password-managers",
+  "items": [
+    {
+      "provider_slug": "keeper",
+      "oud": 4.34,
+      "nieuw": 0.36,
+      "vendor_url": "https://www.keepersecurity.com/pricing/personal-and-family.html",
+      "archive_url": "http://web.archive.org/web/20260929174938/https://www.keepersecurity.com/pricing/personal-and-family.html",
+      "alt": 52.02,
+      "flags": [
+        "out_of_band",
+        "suspect_jump",
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

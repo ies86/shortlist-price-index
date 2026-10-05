@@ -17,6 +17,42 @@
       "archive_url": "",
       "detected_at": "2026-09-07T11:56:47.055Z",
       "pitched": false
+    },
+    {
+      "niche": "antivirus",
+      "provider_slug": "webroot",
+      "month": "2026-10",
+      "run_id": "2026-10_r1",
+      "old_usd_mo": 3.12,
+      "new_usd_mo": 2.92,
+      "delta_pct": -6.67,
+      "currency": "USD",
+      "old_own": 3.12,
+      "new_own": 2.92,
+      "delta_pct_own": -6.67,
+      "delta_pct_usd": -6.4,
+      "vendor_url": "https://www.webroot.com/products/essentials/",
+      "archive_url": "",
+      "detected_at": "2026-10-05T10:30:19.045Z",
+      "pitched": false
+    },
+    {
+      "niche": "antivirus",
+      "provider_slug": "kaspersky",
+      "month": "2026-10",
+      "run_id": "2026-10_r1",
+      "old_usd_mo": 3.58,
+      "new_usd_mo": 4.17,
+      "delta_pct": 16.28,
+      "currency": "USD",
+      "old_own": 3.58,
+      "new_own": 4.17,
+      "delta_pct_own": 16.28,
+      "delta_pct_usd": 16.5,
+      "vendor_url": "https://www.kaspersky.com/standard",
+      "archive_url": "",
+      "detected_at": "2026-10-05T10:30:19.049Z",
+      "pitched": false
     }
   ]
 }

@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-09-07",
-  "generated": "2026-09-23",
+  "generated": "2026-10-03",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-09-07",
@@ -17,27 +17,14 @@
     "averagePrice": 13.02,
     "medianPrice": 10.8,
     "cheapestPrice": 0.75,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
-      "exactOnMeasurementDate": false,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 11.2,
-      "medianPrice": 9.29,
-      "cheapestPrice": 0.65
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": 3,
     "underReview": 0
   },
   "providersTracked": 21,
-  "averagePrice": 14.3,
-  "medianPrice": 12.42,
+  "averagePrice": 16.06,
+  "medianPrice": 15,
   "cheapest": {
     "provider": "Carrd",
     "price": 1.58
@@ -72,36 +59,12 @@
       "url": "https://websiteshortlist.com/tools/wordpress-com"
     },
     {
-      "provider": "Shopify",
-      "slug": "shopify",
-      "price": 5,
-      "rating": 4.5,
-      "bestFor": "Serious online stores",
-      "url": "https://websiteshortlist.com/tools/shopify"
-    },
-    {
       "provider": "IONOS Website Builder",
       "slug": "ionos",
       "price": 6,
       "rating": 3.7,
       "bestFor": "Support-first small businesses",
       "url": "https://websiteshortlist.com/tools/ionos"
-    },
-    {
-      "provider": "Strikingly",
-      "slug": "strikingly",
-      "price": 8,
-      "rating": 3.8,
-      "bestFor": "Personal brands and launches",
-      "url": "https://websiteshortlist.com/tools/strikingly"
-    },
-    {
-      "provider": "Jimdo",
-      "slug": "jimdo",
-      "price": 9,
-      "rating": 3.8,
-      "bestFor": "European small businesses",
-      "url": "https://websiteshortlist.com/tools/jimdo"
     },
     {
       "provider": "Framer",
@@ -118,6 +81,14 @@
       "rating": 3.9,
       "bestFor": "AI speed + WordPress ownership",
       "url": "https://websiteshortlist.com/tools/10web"
+    },
+    {
+      "provider": "Jimdo",
+      "slug": "jimdo",
+      "price": 11,
+      "rating": 3.8,
+      "bestFor": "European small businesses",
+      "url": "https://websiteshortlist.com/tools/jimdo"
     },
     {
       "provider": "GoDaddy Website Builder",
@@ -152,12 +123,12 @@
       "url": "https://websiteshortlist.com/tools/webflow"
     },
     {
-      "provider": "Squarespace",
-      "slug": "squarespace",
+      "provider": "Strikingly",
+      "slug": "strikingly",
       "price": 16,
-      "rating": 4.4,
-      "bestFor": "Creatives and brand-conscious businesses",
-      "url": "https://websiteshortlist.com/tools/squarespace"
+      "rating": 3.8,
+      "bestFor": "Personal brands and launches",
+      "url": "https://websiteshortlist.com/tools/strikingly"
     },
     {
       "provider": "Wix",
@@ -166,6 +137,14 @@
       "rating": 4.5,
       "bestFor": "Most people, most sites",
       "url": "https://websiteshortlist.com/tools/wix"
+    },
+    {
+      "provider": "Squarespace",
+      "slug": "squarespace",
+      "price": 19,
+      "rating": 4.4,
+      "bestFor": "Creatives and brand-conscious businesses",
+      "url": "https://websiteshortlist.com/tools/squarespace"
     },
     {
       "provider": "Duda",
@@ -208,6 +187,14 @@
       "url": "https://websiteshortlist.com/tools/lovable"
     },
     {
+      "provider": "Shopify",
+      "slug": "shopify",
+      "price": 29,
+      "rating": 4.5,
+      "bestFor": "Serious online stores",
+      "url": "https://websiteshortlist.com/tools/shopify"
+    },
+    {
       "provider": "Square Online",
       "slug": "square-online",
       "price": 49,
@@ -224,14 +211,7 @@
       "median": 12.4,
       "cheapest": 1.58,
       "count": 18,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-08-01",
@@ -244,14 +224,7 @@
       "count": 13,
       "n_missing": 2,
       "n_under_review": 3,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1485,
-        "koersdatum": "2026-07-31",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-09-07",
@@ -263,14 +236,7 @@
       "count": 15,
       "n_missing": 3,
       "n_under_review": 0,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1622,
-        "koersdatum": "2026-09-04",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-08-22",
-  "generated": "2026-09-23",
+  "generated": "2026-10-03",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-08-22",
@@ -17,27 +17,14 @@
     "averagePrice": 21.25,
     "medianPrice": 17.54,
     "cheapestPrice": 13.99,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1699,
-      "rateDate": "2026-08-21",
-      "exactOnMeasurementDate": false,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 18.16,
-      "medianPrice": 14.99,
-      "cheapestPrice": 11.96
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 11,
-  "averagePrice": 41.22,
-  "medianPrice": 18.54,
+  "providersTracked": 9,
+  "averagePrice": 47.06,
+  "medianPrice": 21,
   "cheapest": {
     "provider": "MasterClass",
     "price": 10
@@ -56,6 +43,14 @@
       "url": "https://courseshortlist.com/tools/masterclass"
     },
     {
+      "provider": "Domestika",
+      "slug": "domestika",
+      "price": 13.79,
+      "rating": 4.2,
+      "bestFor": "Creative hobbyists",
+      "url": "https://courseshortlist.com/tools/domestika"
+    },
+    {
       "provider": "Skillshare",
       "slug": "skillshare",
       "price": 13.99,
@@ -64,41 +59,9 @@
       "url": "https://courseshortlist.com/tools/skillshare"
     },
     {
-      "provider": "Domestika",
-      "slug": "domestika",
-      "price": 12.46,
-      "rating": 4.2,
-      "bestFor": "Creative hobbyists",
-      "url": "https://courseshortlist.com/tools/domestika"
-    },
-    {
-      "provider": "Brilliant",
-      "slug": "brilliant",
-      "price": 13.75,
-      "rating": 4.3,
-      "bestFor": "Daily brain training",
-      "url": "https://courseshortlist.com/tools/brilliant"
-    },
-    {
-      "provider": "DataCamp",
-      "slug": "datacamp",
-      "price": 14,
-      "rating": 4.4,
-      "bestFor": "Learning data and AI",
-      "url": "https://courseshortlist.com/tools/datacamp"
-    },
-    {
-      "provider": "Udemy",
-      "slug": "udemy",
-      "price": 16,
-      "rating": 4.3,
-      "bestFor": "Buying single courses",
-      "url": "https://courseshortlist.com/tools/udemy"
-    },
-    {
       "provider": "Codecademy",
       "slug": "codecademy",
-      "price": 17.99,
+      "price": 19.99,
       "rating": 4.2,
       "bestFor": "Learning to code",
       "url": "https://courseshortlist.com/tools/codecademy"
@@ -112,9 +75,17 @@
       "url": "https://courseshortlist.com/tools/pluralsight"
     },
     {
+      "provider": "Brilliant",
+      "slug": "brilliant",
+      "price": 22.5,
+      "rating": 4.3,
+      "bestFor": "Daily brain training",
+      "url": "https://courseshortlist.com/tools/brilliant"
+    },
+    {
       "provider": "Coursera",
       "slug": "coursera",
-      "price": 28.83,
+      "price": 33.25,
       "rating": 4.6,
       "bestFor": "Recognized certificates",
       "url": "https://courseshortlist.com/tools/coursera"
@@ -144,14 +115,7 @@
       "median": 19,
       "cheapest": 7.99,
       "count": 11,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-08-22",
@@ -163,14 +127,7 @@
       "count": 7,
       "n_missing": 2,
       "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1699,
-        "koersdatum": "2026-08-21",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-09-07",
-  "generated": "2026-09-23",
+  "generated": "2026-10-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-09-07",
@@ -17,44 +17,23 @@
     "averagePrice": 4.06,
     "medianPrice": 3.41,
     "cheapestPrice": 2.03,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
-      "exactOnMeasurementDate": false,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 3.49,
-      "medianPrice": 2.93,
-      "cheapestPrice": 1.75
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": 1,
     "underReview": 3
   },
   "providersTracked": 18,
-  "averagePrice": 5.4,
-  "medianPrice": 4.27,
+  "averagePrice": 5.73,
+  "medianPrice": 4.68,
   "cheapest": {
-    "provider": "TotalAV",
-    "price": 1.58
+    "provider": "Intego Mac Internet Security",
+    "price": 2.5
   },
   "mostExpensive": {
     "provider": "Aura",
     "price": 12
   },
   "providers": [
-    {
-      "provider": "TotalAV",
-      "slug": "totalav",
-      "price": 1.58,
-      "rating": 3.8,
-      "bestFor": "Bargain hunters who set reminders",
-      "url": "https://antivirusshortlist.com/tools/totalav"
-    },
     {
       "provider": "Intego Mac Internet Security",
       "slug": "intego",
@@ -66,7 +45,7 @@
     {
       "provider": "Surfshark One",
       "slug": "surfshark-one",
-      "price": 3.49,
+      "price": 2.79,
       "rating": 4.2,
       "bestFor": "VPN-first users",
       "url": "https://antivirusshortlist.com/tools/surfshark-one"
@@ -168,6 +147,14 @@
       "url": "https://antivirusshortlist.com/tools/f-secure"
     },
     {
+      "provider": "TotalAV",
+      "slug": "totalav",
+      "price": 8.25,
+      "rating": 3.8,
+      "bestFor": "Bargain hunters who set reminders",
+      "url": "https://antivirusshortlist.com/tools/totalav"
+    },
+    {
       "provider": "Kaspersky Premium",
       "slug": "kaspersky",
       "price": 10,
@@ -194,7 +181,7 @@
   ],
   "trueCost": {
     "unit": "USD per year; threeYearTotal = total USD over 3 years",
-    "avgRenewalMultiplier": 1.9,
+    "avgRenewalMultiplier": 1.7,
     "providers": [
       {
         "provider": "Intego Mac Internet Security",
@@ -213,28 +200,12 @@
         "threeYearTotal": 119.85
       },
       {
-        "provider": "Malwarebytes Premium",
-        "slug": "malwarebytes",
-        "intro": 44.99,
-        "renewal": 59.99,
-        "multiplier": 1.3,
-        "threeYearTotal": 164.97
-      },
-      {
         "provider": "Avast One",
         "slug": "avast",
         "intro": 49.08,
         "renewal": 77.99,
         "multiplier": 1.6,
         "threeYearTotal": 205.06
-      },
-      {
-        "provider": "TotalAV",
-        "slug": "totalav",
-        "intro": 19,
-        "renewal": 99,
-        "multiplier": 5.2,
-        "threeYearTotal": 217
       },
       {
         "provider": "F-Secure Total",
@@ -283,14 +254,6 @@
         "renewal": 149.99,
         "multiplier": 3,
         "threeYearTotal": 349.97
-      },
-      {
-        "provider": "Aura",
-        "slug": "aura",
-        "intro": 240,
-        "renewal": 384,
-        "multiplier": 1.6,
-        "threeYearTotal": 1008
       },
       {
         "provider": "LifeLock",

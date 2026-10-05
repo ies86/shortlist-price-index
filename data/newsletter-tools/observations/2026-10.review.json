@@ -1,0 +1,30 @@
+{
+  "maand": "2026-10",
+  "niche": "newsletter-tools",
+  "items": [
+    {
+      "provider_slug": "aweber",
+      "oud": null,
+      "nieuw": 15,
+      "vendor_url": "https://www.aweber.com/pricing.htm",
+      "archive_url": "https://web.archive.org/web/20261005095259/https://www.aweber.com/pricing.htm",
+      "alt": 12.49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "beehiiv",
+      "oud": 43.08,
+      "nieuw": 95,
+      "vendor_url": "https://www.beehiiv.com/pricing",
+      "archive_url": "https://web.archive.org/web/20261005095729/https://www.beehiiv.com/pricing",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

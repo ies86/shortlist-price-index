@@ -1,0 +1,22 @@
+{
+  "niche": "vpn",
+  "maand": "2026-10",
+  "n_total": 15,
+  "n_observed_new": 0,
+  "n_observed_changed": 1,
+  "n_observed_unchanged": 10,
+  "n_under_review": 3,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [
+    {
+      "type": "vlakke_lijn",
+      "ernst": "onderzoek",
+      "detail": {
+        "onveranderd": 10,
+        "veranderbaar": 11
+      }
+    }
+  ],
+  "publishable": true
+}

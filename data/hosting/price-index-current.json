@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-09-01",
-  "generated": "2026-09-23",
+  "generated": "2026-10-03",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-09-01",
@@ -17,34 +17,21 @@
     "averagePrice": 9.3,
     "medianPrice": 3.47,
     "cheapestPrice": 1,
-    "fx": {
-      "base": "EUR",
-      "usdPerEur": 1.159,
-      "rateDate": "2026-09-01",
-      "exactOnMeasurementDate": true,
-      "source": "European Central Bank via frankfurter.app"
-    },
-    "alsoIn": {
-      "currency": "EUR",
-      "derived": true,
-      "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 8.02,
-      "medianPrice": 2.99,
-      "cheapestPrice": 0.86
-    },
+    "fx": null,
+    "alsoIn": null,
     "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 14,
-  "averagePrice": 16.32,
+  "providersTracked": 13,
+  "averagePrice": 8.75,
   "medianPrice": 4,
   "cheapest": {
     "provider": "Namecheap",
     "price": 2.28
   },
   "mostExpensive": {
-    "provider": "Servebolt",
-    "price": 114.74
+    "provider": "Kinsta",
+    "price": 29.17
   },
   "providers": [
     {
@@ -150,14 +137,6 @@
       "rating": 4.6,
       "bestFor": "Managed WordPress",
       "url": "https://hostingshortlist.com/tools/kinsta"
-    },
-    {
-      "provider": "Servebolt",
-      "slug": "servebolt",
-      "price": 114.74,
-      "rating": 4.2,
-      "bestFor": "WooCommerce under real load",
-      "url": "https://hostingshortlist.com/tools/servebolt"
     }
   ],
   "trueCost": {
@@ -238,14 +217,7 @@
       "median": 2.99,
       "cheapest": 1,
       "count": 13,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1594,
-        "koersdatum": "2026-06-16",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-07-17",
@@ -258,14 +230,7 @@
       "count": 10,
       "n_missing": 2,
       "n_under_review": 1,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1435,
-        "koersdatum": "2026-07-17",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-08-21",
@@ -277,14 +242,7 @@
       "count": 8,
       "n_missing": 3,
       "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1699,
-        "koersdatum": "2026-08-21",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     },
     {
       "date": "2026-09-01",
@@ -296,14 +254,7 @@
       "count": 9,
       "n_missing": 2,
       "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.159,
-        "koersdatum": "2026-09-01",
-        "exact": true,
-        "bron": "European Central Bank via frankfurter.app"
-      }
+      "currency": "USD"
     }
   ]
 }
