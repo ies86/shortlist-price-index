@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-02",
+ "gemaakt": "2026-10-05",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -465,22 +465,6 @@
    "kliks": [],
    "ids": [
     "seoshortlist.com|moz"
-   ]
-  },
-  {
-   "sleutel": "757c91b7f6fc",
-   "url": "https://mullvad.net",
-   "kliks": [],
-   "ids": [
-    "vpnshortlist.com|mullvad"
-   ]
-  },
-  {
-   "sleutel": "e1d67c5c1f90",
-   "url": "https://mullvad.net/en/pricing",
-   "kliks": [],
-   "ids": [
-    "vpnshortlist.com|mullvad"
    ]
   },
   {
@@ -1158,14 +1142,6 @@
    "kliks": [],
    "ids": [
     "mailshortlist.com|brevo"
-   ]
-  },
-  {
-   "sleutel": "578c307ac295",
-   "url": "https://www.carbonite.com/personal/",
-   "kliks": [],
-   "ids": [
-    "backupshortlist.com|carbonite"
    ]
   },
   {
