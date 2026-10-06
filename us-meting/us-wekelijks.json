@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-05",
+ "gemaakt": "2026-10-06",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -52,9 +52,11 @@
    ]
   },
   {
-   "sleutel": "61a67501288c",
+   "sleutel": "dfb354b39c79",
    "url": "https://ahrefs.com/pricing",
-   "kliks": [],
+   "kliks": [
+    "Pay annually, save up to 17%"
+   ],
    "ids": [
     "seoshortlist.com|ahrefs"
    ]
@@ -524,17 +526,34 @@
    ]
   },
   {
+   "sleutel": "980f78935fdf",
+   "url": "https://one.google.com/about/plans",
+   "kliks": [
+    "Annual"
+   ],
+   "ids": [
+    "backupshortlist.com|google-one"
+   ]
+  },
+  {
    "sleutel": "8ab34842fc4b",
    "url": "https://one.google.com/about/plans",
    "kliks": [],
    "ids": [
-    "backupshortlist.com|google-one",
     "aisafecheck.com|gmail"
    ]
   },
   {
    "sleutel": "4dec8c9f49c6",
    "url": "https://one.google.com/about/plans?g1_landing_page=60",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|google-one"
+   ]
+  },
+  {
+   "sleutel": "3923bf98bd10",
+   "url": "https://one.google.com/intl/en/about/",
    "kliks": [],
    "ids": [
     "backupshortlist.com|google-one"
@@ -651,6 +670,14 @@
   {
    "sleutel": "eec052ff7672",
    "url": "https://saily.com/esim-europe/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|saily"
+   ]
+  },
+  {
+   "sleutel": "938f5e7cca6f",
+   "url": "https://saily.com/esim-europe/?currency=USD",
    "kliks": [],
    "ids": [
     "esimshortlist.com|saily"
@@ -809,19 +836,21 @@
    ]
   },
   {
-   "sleutel": "11d4276625e4",
-   "url": "https://surferseo.com/pricing/",
-   "kliks": [],
+   "sleutel": "cb6a6369979b",
+   "url": "https://surferseo.com/pricing",
+   "kliks": [
+    "Billed yearly"
+   ],
    "ids": [
     "seoshortlist.com|surfer"
    ]
   },
   {
-   "sleutel": "aad5baa3d7ad",
-   "url": "https://surfshark.com",
+   "sleutel": "11d4276625e4",
+   "url": "https://surferseo.com/pricing/",
    "kliks": [],
    "ids": [
-    "vpnshortlist.com|surfshark"
+    "seoshortlist.com|surfer"
    ]
   },
   {
@@ -840,6 +869,16 @@
     "vpnshortlist.com|surfshark",
     "antivirusshortlist.com|surfshark-one",
     "aisafecheck.com|surfshark-one"
+   ]
+  },
+  {
+   "sleutel": "55834ea2825a",
+   "url": "https://surfshark.com/pricing#monthly",
+   "kliks": [
+    "1 month"
+   ],
+   "ids": [
+    "vpnshortlist.com|surfshark"
    ]
   },
   {
@@ -882,6 +921,14 @@
    "ids": [
     "antivirusshortlist.com|norton",
     "aisafecheck.com|norton"
+   ]
+  },
+  {
+   "sleutel": "a9df9ecad17a",
+   "url": "https://web.archive.org/web/2id_/https://www.godaddy.com/hosting/web-hosting",
+   "kliks": [],
+   "ids": [
+    "hostingshortlist.com|godaddy"
    ]
   },
   {
@@ -1322,6 +1369,15 @@
    ]
   },
   {
+   "sleutel": "dd720b0cff46",
+   "url": "https://www.ecwid.com/pricing#zichtbaar",
+   "kliks": [],
+   "zichtbaar": true,
+   "ids": [
+    "websiteshortlist.com|ecwid"
+   ]
+  },
+  {
    "sleutel": "c131ec8d275a",
    "url": "https://www.enpass.io",
    "kliks": [],
@@ -1571,9 +1627,11 @@
    ]
   },
   {
-   "sleutel": "702d08a9662f",
+   "sleutel": "5def6db3c0b5",
    "url": "https://www.intego.com/buynow?currency=USD",
-   "kliks": [],
+   "kliks": [
+    "1-year"
+   ],
    "ids": [
     "antivirusshortlist.com|intego"
    ]
@@ -1676,9 +1734,11 @@
    ]
   },
   {
-   "sleutel": "188962f9bb6f",
+   "sleutel": "75f59f730ef2",
    "url": "https://www.keysearch.co/#pricing",
-   "kliks": [],
+   "kliks": [
+    "Enable annual billing"
+   ],
    "ids": [
     "seoshortlist.com|keysearch"
    ]
@@ -1821,6 +1881,14 @@
    ]
   },
   {
+   "sleutel": "437a11fb8046",
+   "url": "https://www.omnisend.com/blog/omnisend-vs-mailchimp/",
+   "kliks": [],
+   "ids": [
+    "mailshortlist.com|omnisend"
+   ]
+  },
+  {
    "sleutel": "1b419b2e02d6",
    "url": "https://www.omnisend.com/pricing/",
    "kliks": [],
@@ -1837,9 +1905,11 @@
    ]
   },
   {
-   "sleutel": "c8970df69f64",
+   "sleutel": "98a919c22c73",
    "url": "https://www.pcloud.com/cloud-storage-pricing-plans",
-   "kliks": [],
+   "kliks": [
+    "Annual"
+   ],
    "ids": [
     "backupshortlist.com|pcloud"
    ]
