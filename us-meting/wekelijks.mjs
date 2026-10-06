@@ -116,7 +116,13 @@ for (const p of lijst.paginas) {
           }
         }
       }, [WAS_OPEN, WAS_DICHT]).catch(() => {})
-      const html = await page.content()
+      // tekst (us-bronnen.json, 6-10-2026): bewaar de zichtbare tekst (innerText) in plaats van de HTML. pCloud zet een
+      // bedrag in losse elementen (<span>49</span><span>.99</span>); uit de HTML wordt dat "49 . 99", wat de toets niet
+      // als bedrag leest. innerText laat ook alles met display:none weg. De doorstreepmarkering hierboven blijft erin.
+      const html = p.tekst
+        ? `<html><body><pre>${(await page.evaluate(() => document.body.innerText)).replace(/&/g, '&amp;').replace(/</g, '&lt;')}</pre></body></html>`
+        : await page.content()
+      if (p.tekst) rij.tekst = true
       writeFileSync(join(UIT, `${p.sleutel}.html`), html, 'utf8')
       rij.bytes = html.length
     }
