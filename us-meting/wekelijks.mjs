@@ -52,6 +52,24 @@ for (const p of lijst.paginas) {
     const wacht = (laatstePerHost.get(host) ?? 0) + PAUZE_MS - Date.now()
     if (wacht > 0) await slaap(wacht)
     laatstePerHost.set(host, Date.now())
+    // Archiefkopie (6-10-2026): web.archive.org/web/2id_/<url> wijst naar de nieuwste kopie die de Wayback Machine
+    // vanuit de VS maakte, als ruwe HTML. Statisch ophalen, zoals de statische stap van de prijswacht: in een browser
+    // zou de ruwe pagina scripts van de aanbieder laden. De datum van de kopie staat in de eindurl; us-bevestig.mjs
+    // weigert een kopie die ouder is dan een week. Voor aanbieders die de runner blokkeren (GoDaddy, Akamai-403).
+    if (host === 'web.archive.org') {
+      rij.methode = 'archief'
+      const res = await fetch(p.url, { headers: { 'user-agent': lijst.ua }, redirect: 'follow', signal: AbortSignal.timeout(90000) })
+      const html = await res.text()
+      rij.status = res.status
+      rij.eindurl = res.url || p.url
+      if (res.ok) {
+        writeFileSync(join(UIT, `${p.sleutel}.html`), html, 'utf8')
+        rij.bytes = html.length
+      }
+      index.paginas.push(rij)
+      console.log(`${String(rij.status).padEnd(4)} ${String(rij.bytes).padStart(8)} ${p.url} > ${rij.eindurl}`)
+      continue
+    }
     ctx = await browser.newContext({ userAgent: lijst.ua, locale: 'en-US', timezoneId: 'America/New_York' })
     const page = await ctx.newPage()
     const resp = await page.goto(p.url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => ((rij.fout = e.message.slice(0, 120)), null))
@@ -77,6 +95,18 @@ for (const p of lijst.paginas) {
       rij.fout = klikFout
     } else {
       await page.waitForTimeout(2000)
+      // zichtbaar (us-bronnen.json, 6-10-2026): alleen wat de bezoeker ziet. Ecwid zet de bedragen en munttekens
+      // van alle landen in de HTML en verbergt de andere; zonder dit leest de toets een verborgen "€" naast "$29".
+      if (p.zichtbaar) {
+        rij.zichtbaar = await page.evaluate(() => {
+          let n = 0
+          for (const el of [...document.querySelectorAll('body *')]) {
+            if (!el.isConnected || el.closest('script,style,noscript,template')) continue
+            if (getComputedStyle(el).display === 'none') { el.remove(); n++ }
+          }
+          return n
+        }).catch(() => null)
+      }
       await page.evaluate(([open, dicht]) => {
         for (const el of document.querySelectorAll('body *')) {
           if (el.closest('script,style,noscript,svg')) continue
