@@ -4,14 +4,6 @@
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
-   "sleutel": "a2e58fb5b923",
-   "url": "chrome-error://chromewebdata/",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|mcafee"
-   ]
-  },
-  {
    "sleutel": "238e911d648e",
    "url": "https://10web.io/pricing-platform/",
    "kliks": [],
@@ -155,6 +147,14 @@
    "kliks": [],
    "ids": [
     "aisafecheck.com|claude"
+   ]
+  },
+  {
+   "sleutel": "65fe6f6eeb7e",
+   "url": "https://copilot.microsoft.com/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|copilot"
    ]
   },
   {
@@ -764,22 +764,6 @@
    ]
   },
   {
-   "sleutel": "4c8fd6608c03",
-   "url": "https://support.avg.com/SupportArticleView?&urlName=avg-account-subscription",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avg"
-   ]
-  },
-  {
-   "sleutel": "a1e354d29272",
-   "url": "https://support.avg.com/SupportArticleView?l=en&urlName=avg-account-subscription&supportType=home",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avg"
-   ]
-  },
-  {
    "sleutel": "dceacd545e34",
    "url": "https://support.duda.co/hc/en-us/articles/26519246857495-Site-Export",
    "kliks": [],
@@ -921,6 +905,14 @@
    "kliks": [],
    "ids": [
     "hostingshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "36f2dbc93959",
+   "url": "https://web.archive.org/web/2id_/https://www.godaddy.com/websites/website-builder.md",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -1076,30 +1068,6 @@
    "kliks": [],
    "ids": [
     "antivirusshortlist.com|avast"
-   ]
-  },
-  {
-   "sleutel": "826bd85e9240",
-   "url": "https://www.avg.com/en-us/store",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avg"
-   ]
-  },
-  {
-   "sleutel": "25534279d232",
-   "url": "https://www.avira.com/en/antivirus-pro",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avira"
-   ]
-  },
-  {
-   "sleutel": "421a1d554e93",
-   "url": "https://www.avira.com/en/free-security",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avira"
    ]
   },
   {
@@ -1394,9 +1362,16 @@
    ]
   },
   {
-   "sleutel": "51ca6a69e4cb",
+   "sleutel": "3ba6e936cd91",
    "url": "https://www.eset.com/us/home/protection-plans/",
-   "kliks": [],
+   "kliks": [
+    "knop:Accept all and close",
+    "knop:Close",
+    "knop:Remove seats from selection",
+    "knop:Remove seats from selection",
+    "knop:Remove seats from selection#2",
+    "knop:Remove seats from selection#2"
+   ],
    "ids": [
     "antivirusshortlist.com|eset"
    ]
@@ -1518,11 +1493,27 @@
    ]
   },
   {
+   "sleutel": "847e25bbfc05",
+   "url": "https://www.godaddy.com/en-us/help/transfer-my-domain-away-from-godaddy-3560",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
+   ]
+  },
+  {
    "sleutel": "fa65674ba47a",
    "url": "https://www.godaddy.com/hosting/web-hosting",
    "kliks": [],
    "ids": [
     "hostingshortlist.com|godaddy"
+   ]
+  },
+  {
+   "sleutel": "20038a50c086",
+   "url": "https://www.godaddy.com/websites/website-builder/plans-and-pricing",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -1788,19 +1779,12 @@
    ]
   },
   {
-   "sleutel": "de8a46171df7",
-   "url": "https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|mcafee"
-   ]
-  },
-  {
    "sleutel": "fc583b88cf8a",
    "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
    "kliks": [],
    "ids": [
-    "backupshortlist.com|onedrive"
+    "backupshortlist.com|onedrive",
+    "aisafecheck.com|copilot"
    ]
   },
   {
