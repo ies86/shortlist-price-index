@@ -510,14 +510,6 @@
    ]
   },
   {
-   "sleutel": "217cb3fdb4e1",
-   "url": "https://nordvpn.com/pricing/",
-   "kliks": [],
-   "ids": [
-    "vpnshortlist.com|nordvpn"
-   ]
-  },
-  {
    "sleutel": "88576b521fc8",
    "url": "https://one.google.com/about/google-ai-plans/",
    "kliks": [],
@@ -1515,27 +1507,14 @@
    ]
   },
   {
-   "sleutel": "8442c52dfeb0",
+   "sleutel": "6d3e1dee2b90",
    "url": "https://www.gigsky.com/region/esim-in-europe",
-   "kliks": [],
+   "kliks": [
+    "Fixed Data",
+    "5 GB"
+   ],
    "ids": [
     "esimshortlist.com|gigsky"
-   ]
-  },
-  {
-   "sleutel": "847e25bbfc05",
-   "url": "https://www.godaddy.com/en-us/help/transfer-my-domain-away-from-godaddy-3560",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
-   ]
-  },
-  {
-   "sleutel": "9008ec09eeb7",
-   "url": "https://www.godaddy.com/help/export-my-online-store-products-into-a-csv-file-40373",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -1544,14 +1523,6 @@
    "kliks": [],
    "ids": [
     "hostingshortlist.com|godaddy"
-   ]
-  },
-  {
-   "sleutel": "20038a50c086",
-   "url": "https://www.godaddy.com/websites/website-builder/plans-and-pricing",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -1680,6 +1651,14 @@
   {
    "sleutel": "6ee60b7c6bfd",
    "url": "https://www.jetpacglobal.com/",
+   "kliks": [],
+   "ids": [
+    "esimshortlist.com|jetpac"
+   ]
+  },
+  {
+   "sleutel": "e2aff3a781db",
+   "url": "https://www.jetpacglobal.com/product-details/european-union-esim",
    "kliks": [],
    "ids": [
     "esimshortlist.com|jetpac"
@@ -1905,11 +1884,18 @@
    ]
   },
   {
-   "sleutel": "98a919c22c73",
+   "sleutel": "c8970df69f64",
    "url": "https://www.pcloud.com/cloud-storage-pricing-plans",
-   "kliks": [
-    "Annual"
-   ],
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|pcloud"
+   ]
+  },
+  {
+   "sleutel": "ab838086ca18",
+   "url": "https://www.pcloud.com/cloud-storage-pricing-plans?period=year",
+   "kliks": [],
+   "tekst": true,
    "ids": [
     "backupshortlist.com|pcloud"
    ]
