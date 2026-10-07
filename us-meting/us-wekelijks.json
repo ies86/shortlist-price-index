@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-06",
+ "gemaakt": "2026-10-07",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -33,6 +33,30 @@
    "kliks": [],
    "ids": [
     "passwordshortlist.com|1password"
+   ]
+  },
+  {
+   "sleutel": "ee5165ff21b2",
+   "url": "https://adventuremedicalkits.com/products/mountain-series-medical-kit-backpacker",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|amk-mountain-series-backpacker"
+   ]
+  },
+  {
+   "sleutel": "a41dd817fe35",
+   "url": "https://adventuremedicalkits.com/products/trauma-pak-pro-with-quikclot-trauma-tourniquet",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|amk-trauma-pak-pro"
+   ]
+  },
+  {
+   "sleutel": "82f141123f50",
+   "url": "https://adventuremedicalkits.com/products/ultralight-watertight-medical-kit-7",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|amk-ultralight-watertight-7"
    ]
   },
   {
@@ -75,6 +99,22 @@
    "kliks": [],
    "ids": [
     "seoshortlist.com|ubersuggest"
+   ]
+  },
+  {
+   "sleutel": "29b96edccd2d",
+   "url": "https://augasonfarms.com/products/45-day-1-person-emergency-food-supply-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|augason-farms-45-day"
+   ]
+  },
+  {
+   "sleutel": "390c558a5fce",
+   "url": "https://augasonfarms.com/products/72-hour-kit-18-servings",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|augason-farms-72-hour"
    ]
   },
   {
@@ -123,6 +163,54 @@
    "kliks": [],
    "ids": [
     "websiteshortlist.com|carrd"
+   ]
+  },
+  {
+   "sleutel": "0220a5f3e6c0",
+   "url": "https://cascadedesigns.com/products/aquatabs",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|aquatabs"
+   ]
+  },
+  {
+   "sleutel": "19a38a5c47b0",
+   "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|platypus-gravityworks-4l"
+   ]
+  },
+  {
+   "sleutel": "958006a6e955",
+   "url": "https://cascadedesigns.com/products/quickdraw-1l-filter-system",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|platypus-quickdraw"
+   ]
+  },
+  {
+   "sleutel": "58bdbb3a12fc",
+   "url": "https://ccrane.com/ccradio-3-am-fm-with-bluetooth-noaa-weather-2-meter-ham-band-portable-radio-black-mica",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|c-crane-ccradio-3"
+   ]
+  },
+  {
+   "sleutel": "5051b7802694",
+   "url": "https://ccrane.com/ccradio-solar-bluetooth/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|c-crane-ccradio-solar"
+   ]
+  },
+  {
+   "sleutel": "27122c3a2726",
+   "url": "https://ccrane.com/products/cc-pocket-am-fm-noaa-weather-radio-alert-with-clock-and-sleep-timer",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|c-crane-cc-pocket"
    ]
   },
   {
@@ -190,6 +278,22 @@
    ]
   },
   {
+   "sleutel": "4d22b1e50493",
+   "url": "https://everlitsurvival.com/products/advanced-trauma-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|everlit-advanced-trauma-kit"
+   ]
+  },
+  {
+   "sleutel": "3d4c2845f676",
+   "url": "https://everlitsurvival.com/products/storm-ii™-emergency-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|everlit-storm-ii"
+   ]
+  },
+  {
    "sleutel": "01f1a067a907",
    "url": "https://gemini.google/subscriptions/",
    "kliks": [],
@@ -219,6 +323,30 @@
    "kliks": [],
    "ids": [
     "mailshortlist.com|ghost"
+   ]
+  },
+  {
+   "sleutel": "0352c967dec6",
+   "url": "https://goalzero.com/products/yeti-1500-portable-power-station-lifepo4-battery",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|goal-zero-yeti-1500"
+   ]
+  },
+  {
+   "sleutel": "e7c87a9e7ace",
+   "url": "https://grayl.com/products/16-9oz-ultrapress-filter-purifier-water-bottle-covert-edition",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|grayl-ultrapress"
+   ]
+  },
+  {
+   "sleutel": "499a3b5c9bfe",
+   "url": "https://grayl.com/products/24oz-geopress-filter-purifier-bottle-covert-edition",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|grayl-geopress"
    ]
   },
   {
@@ -334,6 +462,14 @@
    ]
   },
   {
+   "sleutel": "5264fe361e5c",
+   "url": "https://iraddy.com/products/sh-906",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|raddy-sh-906"
+   ]
+  },
+  {
    "sleutel": "5688d4ea0d2a",
    "url": "https://joindeleteme.com/pricing/",
    "kliks": [],
@@ -382,6 +518,14 @@
    ]
   },
   {
+   "sleutel": "8a4f9375a52c",
+   "url": "https://legacyfoodstorage.com/products/120-serving-breakfast-lunch-and-dinner-bucket",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|legacy-120-serving-bucket"
+   ]
+  },
+  {
    "sleutel": "67e001d016d2",
    "url": "https://lifelock.norton.com/products",
    "kliks": [],
@@ -390,11 +534,67 @@
    ]
   },
   {
+   "sleutel": "9761eec0deae",
+   "url": "https://lifestraw.com/products/lifestraw",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|lifestraw-personal"
+   ]
+  },
+  {
+   "sleutel": "753a11aec78e",
+   "url": "https://lifestraw.com/products/lifestraw-family-emergency-water-filter",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|lifestraw-family"
+   ]
+  },
+  {
+   "sleutel": "2b1a36c42967",
+   "url": "https://lifestraw.com/products/lifestraw-go-series-650-ml",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|lifestraw-go-22-oz"
+   ]
+  },
+  {
+   "sleutel": "b55715cbb8c9",
+   "url": "https://lifestraw.com/products/lifestraw-peak-series-collapsible-squeeze-1l-bottle-with-filter",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|lifestraw-peak-squeeze-1l"
+   ]
+  },
+  {
+   "sleutel": "5d90f501c961",
+   "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-3l",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|lifestraw-peak-gravity-3l"
+   ]
+  },
+  {
    "sleutel": "1d0dbda7d479",
    "url": "https://lovable.dev/pricing",
    "kliks": [],
    "ids": [
     "websiteshortlist.com|lovable"
+   ]
+  },
+  {
+   "sleutel": "3a4f06eea4ef",
+   "url": "https://luminaid.com/products/packlite-max-phone-charger",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|luminaid-packlite-max"
+   ]
+  },
+  {
+   "sleutel": "56acfe3ca95c",
+   "url": "https://luminaid.com/products/titan-2-in-1-phone-charger",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|luminaid-packlite-titan"
    ]
   },
   {
@@ -430,6 +630,150 @@
    ]
   },
   {
+   "sleutel": "437f7dfa4897",
+   "url": "https://midlandusa.com/products/avp10-desktop-charger-gxt-desktop-charger",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-avp10"
+   ]
+  },
+  {
+   "sleutel": "1b5bbe7a97b8",
+   "url": "https://midlandusa.com/products/avp13-t71-t75-t77-x-talker-rechargeable-battery-pack",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-avp13"
+   ]
+  },
+  {
+   "sleutel": "cc4c3bc9685a",
+   "url": "https://midlandusa.com/products/avp17-gxt-series-rechargeable-batteries-gxt-x-talker",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-avp17"
+   ]
+  },
+  {
+   "sleutel": "bd7cd6471236",
+   "url": "https://midlandusa.com/products/er10vp-eready-compact-emergency-alert-am-fm-weather-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-er10vp"
+   ]
+  },
+  {
+   "sleutel": "a18a1b0695cb",
+   "url": "https://midlandusa.com/products/er210-portable-emergency-crank-weather-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-er210"
+   ]
+  },
+  {
+   "sleutel": "c6f885029d2c",
+   "url": "https://midlandusa.com/products/er310pro-portable-emergency-crank-radio-with-power-bank",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-er310pro"
+   ]
+  },
+  {
+   "sleutel": "0b0305984258",
+   "url": "https://midlandusa.com/products/er40-portable-emergency-weather-alert-crank-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-er40"
+   ]
+  },
+  {
+   "sleutel": "869c7d160e99",
+   "url": "https://midlandusa.com/products/gxt3000vp4-gmrs-walkie-talkie-2-pack",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-gxt3000vp4"
+   ]
+  },
+  {
+   "sleutel": "2d7ebfb93e25",
+   "url": "https://midlandusa.com/products/gxt67-pro-gmrs-5-watt-walkie-talkie",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-gxt67-pro"
+   ]
+  },
+  {
+   "sleutel": "593d5ca5c44b",
+   "url": "https://midlandusa.com/products/mxt275-micromobile-gmrs-two-way-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-mxt275"
+   ]
+  },
+  {
+   "sleutel": "b3c39c94749f",
+   "url": "https://midlandusa.com/products/mxt575-micromobile-gmrs-two-way-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-mxt575"
+   ]
+  },
+  {
+   "sleutel": "00d49a0d5c45",
+   "url": "https://midlandusa.com/products/mxta25-ghost-3db-gain-nmo-antenna",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-mxta25"
+   ]
+  },
+  {
+   "sleutel": "4421b3017367",
+   "url": "https://midlandusa.com/products/mxta26-6db-gain-whip-nmo-antenna",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-mxta26"
+   ]
+  },
+  {
+   "sleutel": "1120c7309578",
+   "url": "https://midlandusa.com/products/t10x3m-x-talker-frs-walkie-talkie-3-pack-multi-color",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-t10x3m"
+   ]
+  },
+  {
+   "sleutel": "3d8b5460f2b4",
+   "url": "https://midlandusa.com/products/t290vp4-x-talker-gmrs-walkie-talkie-2-pack",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-t290vp4"
+   ]
+  },
+  {
+   "sleutel": "cc2d2ab26c0f",
+   "url": "https://midlandusa.com/products/t71vp3-x-talker-frs-walkie-talkie-2-pack",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-t71vp3"
+   ]
+  },
+  {
+   "sleutel": "8e689b82750f",
+   "url": "https://midlandusa.com/products/wr120-noaa-weather-and-emergency-alert-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-wr120b"
+   ]
+  },
+  {
+   "sleutel": "9d0e50c1c6ba",
+   "url": "https://midlandusa.com/products/wr400-deluxe-noaa-weather-alert-radio",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|midland-wr400"
+   ]
+  },
+  {
    "sleutel": "0f0cae8016c4",
    "url": "https://mistral.ai/pricing",
    "kliks": [],
@@ -462,11 +806,75 @@
    ]
   },
   {
+   "sleutel": "c7fdaacf503b",
+   "url": "https://mountainhouse.com/products/30-day-emergency-food-supply-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mountain-house-30-day"
+   ]
+  },
+  {
+   "sleutel": "0a460066460d",
+   "url": "https://mountainhouse.com/products/classic-assortment-bucket",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mountain-house-classic-bucket"
+   ]
+  },
+  {
+   "sleutel": "a12dd94dd98a",
+   "url": "https://mountainhouse.com/products/just-in-case-14-day-emergency-food-supply",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mountain-house-14-day"
+   ]
+  },
+  {
+   "sleutel": "ae3d6a4991d7",
+   "url": "https://mountainhouse.com/products/just-in-case-3-day-emergency-food-supply",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mountain-house-just-in-case-3-day"
+   ]
+  },
+  {
    "sleutel": "7212d0b16a4c",
    "url": "https://moz.com/products/pro/pricing",
    "kliks": [],
    "ids": [
     "seoshortlist.com|moz"
+   ]
+  },
+  {
+   "sleutel": "d84f8006538d",
+   "url": "https://mymedic.com/products/myfak-firstaidkit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mymedic-myfak"
+   ]
+  },
+  {
+   "sleutel": "281125f7bf1b",
+   "url": "https://mymedic.com/products/myfak-large-medical-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mymedic-myfak-large"
+   ]
+  },
+  {
+   "sleutel": "6faa8b53ac1c",
+   "url": "https://mymedic.com/products/myfak-mini-waterproof-first-aid-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mymedic-myfak-mini-pro"
+   ]
+  },
+  {
+   "sleutel": "a7b0baf85053",
+   "url": "https://mymedic.com/products/recon-first-aid-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|mymedic-recon"
    ]
   },
   {
@@ -549,6 +957,14 @@
    "kliks": [],
    "ids": [
     "backupshortlist.com|google-one"
+   ]
+  },
+  {
+   "sleutel": "5913b15e005f",
+   "url": "https://peakrefuel.com/products/30-day-pack",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|peak-refuel-reserve-pack"
    ]
   },
   {
@@ -649,6 +1065,38 @@
    "kliks": [],
    "ids": [
     "vpnshortlist.com|proton-vpn"
+   ]
+  },
+  {
+   "sleutel": "02e91ecfcd8d",
+   "url": "https://readywise.com/products/14-day-emergency-food-bucket",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|readywise-2-week"
+   ]
+  },
+  {
+   "sleutel": "05d3c93a9a2e",
+   "url": "https://readywise.com/products/72-hour-emergency-food-and-drink-supply",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|readywise-72-hour"
+   ]
+  },
+  {
+   "sleutel": "0131ad0dfd36",
+   "url": "https://readywise.com/products/emergency-food-supply-ready-grab-bag",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|readywise-one-week"
+   ]
+  },
+  {
+   "sleutel": "57478a01ec4d",
+   "url": "https://readywise.com/products/readywise-5-day-bug-out-bag",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|readywise-64-piece-survival-backpack"
    ]
   },
   {
@@ -874,6 +1322,78 @@
    ]
   },
   {
+   "sleutel": "b0bcc5ff6c6b",
+   "url": "https://unchartedsupplyco.com/products/first-aid-plus",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uncharted-first-aid-plus"
+   ]
+  },
+  {
+   "sleutel": "86d8e6859f90",
+   "url": "https://unchartedsupplyco.com/products/seventy2-core",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uncharted-seventy2-core"
+   ]
+  },
+  {
+   "sleutel": "bccf044b8915",
+   "url": "https://unchartedsupplyco.com/products/the-seventy2-pro",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uncharted-seventy2-pro"
+   ]
+  },
+  {
+   "sleutel": "1f835ad484ae",
+   "url": "https://unchartedsupplyco.com/products/the-seventy2-survival-system",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uncharted-seventy2"
+   ]
+  },
+  {
+   "sleutel": "4dac1399987a",
+   "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-delta-3-plus"
+   ]
+  },
+  {
+   "sleutel": "a620e1b0b02c",
+   "url": "https://us.ecoflow.com/products/delta-3-portable-power-station",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-delta-3"
+   ]
+  },
+  {
+   "sleutel": "04cfc06011e6",
+   "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-delta-pro-3"
+   ]
+  },
+  {
+   "sleutel": "146155a9039c",
+   "url": "https://us.ecoflow.com/products/ecoflow-delta-3-max-portable-power-station-2048wh",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-delta-3-max"
+   ]
+  },
+  {
+   "sleutel": "54b9ba5b6878",
+   "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-river-3-plus"
+   ]
+  },
+  {
    "sleutel": "ff16a20a4ea0",
    "url": "https://us.norton.com/pricing",
    "kliks": [],
@@ -897,6 +1417,22 @@
    "ids": [
     "antivirusshortlist.com|norton",
     "aisafecheck.com|norton"
+   ]
+  },
+  {
+   "sleutel": "22393daa0b54",
+   "url": "https://valleyfoodstorage.com/products/350-serving-long-term-food-kit",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|valley-food-storage-30-day"
+   ]
+  },
+  {
+   "sleutel": "f151136bda8e",
+   "url": "https://vtoman.com/products/vtoman-flashspeed-1500-power-station",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|vtoman-flashspeed-1500"
    ]
   },
   {
@@ -1030,6 +1566,22 @@
    ]
   },
   {
+   "sleutel": "1583f4df53ff",
+   "url": "https://www.ankersolix.com/products/c1000-gen2",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|anker-solix-c1000-gen-2"
+   ]
+  },
+  {
+   "sleutel": "36a0379cf67a",
+   "url": "https://www.ankersolix.com/products/c2000-gen2",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|anker-solix-c2000-gen-2"
+   ]
+  },
+  {
    "sleutel": "fb5ef8a06449",
    "url": "https://www.apple.com/icloud/",
    "kliks": [],
@@ -1103,6 +1655,14 @@
    ]
   },
   {
+   "sleutel": "304be8e6a1e8",
+   "url": "https://www.bioliteenergy.com/products/alpenglow-500",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|biolite-alpenglow-500"
+   ]
+  },
+  {
    "sleutel": "456b03bd6d2f",
    "url": "https://www.bitdefender.com/en-us/consumer/antivirus",
    "kliks": [],
@@ -1128,6 +1688,14 @@
    ]
   },
   {
+   "sleutel": "b1c79fc80128",
+   "url": "https://www.blackdiamondequipment.com/products/spot-headlamp",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|black-diamond-spot"
+   ]
+  },
+  {
    "sleutel": "d84433e4be17",
    "url": "https://www.bluehost.com/",
    "kliks": [],
@@ -1141,6 +1709,14 @@
    "kliks": [],
    "ids": [
     "hostingshortlist.com|bluehost"
+   ]
+  },
+  {
+   "sleutel": "e614438613e0",
+   "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|bluetti-elite-200-v2"
    ]
   },
   {
@@ -1410,6 +1986,22 @@
    ]
   },
   {
+   "sleutel": "0e09a5120b12",
+   "url": "https://www.fenixlighting.com/products/fenix-hm65r-v2-rechargeable-headlamp",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|fenix-hm65r-v2"
+   ]
+  },
+  {
+   "sleutel": "5c935ca52d69",
+   "url": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|fenix-pd36r-pro"
+   ]
+  },
+  {
    "sleutel": "282252a9dcf1",
    "url": "https://www.framer.com/help/articles/how-to-transfer-your-domain-away-from-framer/",
    "kliks": [],
@@ -1466,6 +2058,14 @@
    ]
   },
   {
+   "sleutel": "490695eca2a2",
+   "url": "https://www.gerbergear.com/products/suspension-nxt-30-001364n",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|gerber-suspension-nxt"
+   ]
+  },
+  {
    "sleutel": "fe61f0b8e616",
    "url": "https://www.getresponse.com/pricing",
    "kliks": [],
@@ -1493,6 +2093,14 @@
    ]
   },
   {
+   "sleutel": "ebbeee5cc258",
+   "url": "https://www.goalzero.com/products/lighthouse-600-lantern-usb-power-hub",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|goal-zero-lighthouse-600"
+   ]
+  },
+  {
    "sleutel": "847e25bbfc05",
    "url": "https://www.godaddy.com/en-us/help/transfer-my-domain-away-from-godaddy-3560",
    "kliks": [],
@@ -1517,8 +2125,8 @@
    ]
   },
   {
-   "sleutel": "095a74921a4f",
-   "url": "https://www.hetzner.com",
+   "sleutel": "eee170a35ffd",
+   "url": "https://www.hetzner.com/cloud/regular-performance/?currency=USD&country=us",
    "kliks": [],
    "ids": [
     "hostingshortlist.com|hetzner"
@@ -1640,6 +2248,38 @@
    ]
   },
   {
+   "sleutel": "4ba5020bd956",
+   "url": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|jackery-explorer-1000-v2"
+   ]
+  },
+  {
+   "sleutel": "c9cebc0121f2",
+   "url": "https://www.jackery.com/products/jackery-homepower-1000-v2",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|jackery-homepower-1000-v2"
+   ]
+  },
+  {
+   "sleutel": "bdb614713a93",
+   "url": "https://www.jackery.com/products/jackery-homepower-2000-plus-v2",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|jackery-homepower-2000-plus-v2"
+   ]
+  },
+  {
+   "sleutel": "3ec44078aebb",
+   "url": "https://www.jackery.com/products/jackery-homepower-3600-plus",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|jackery-homepower-3600-plus"
+   ]
+  },
+  {
    "sleutel": "6ee60b7c6bfd",
    "url": "https://www.jetpacglobal.com/",
    "kliks": [],
@@ -1735,6 +2375,22 @@
    "kliks": [],
    "ids": [
     "passwordshortlist.com|lastpass"
+   ]
+  },
+  {
+   "sleutel": "ab3d079b03d0",
+   "url": "https://www.leatherman.com/products/signal",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|leatherman-signal"
+   ]
+  },
+  {
+   "sleutel": "f07a6e078d88",
+   "url": "https://www.leatherman.com/products/wave",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|leatherman-wave-plus"
    ]
   },
   {
@@ -1868,6 +2524,14 @@
    ]
   },
   {
+   "sleutel": "f59f50f386ea",
+   "url": "https://www.oupes.com/products/oupes-mega-1-home-backup-portable-power-station-2000w-1024wh",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|oupes-mega-1"
+   ]
+  },
+  {
    "sleutel": "c8970df69f64",
    "url": "https://www.pcloud.com/cloud-storage-pricing-plans",
    "kliks": [],
@@ -1890,6 +2554,14 @@
    "kliks": [],
    "ids": [
     "backupshortlist.com|pcloud"
+   ]
+  },
+  {
+   "sleutel": "02d4627a1cfa",
+   "url": "https://www.pecron.com/products/pecron-e1500lfp-expandable-power-station-2200w-1536wh",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|pecron-e1500lfp"
    ]
   },
   {
@@ -2045,6 +2717,38 @@
    ]
   },
   {
+   "sleutel": "3d5f39fe7610",
+   "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|sol-emergency-bivvy"
+   ]
+  },
+  {
+   "sleutel": "f9bd7d48918a",
+   "url": "https://www.surviveoutdoorslonger.com/products/emergency-blanket",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|sol-emergency-blanket"
+   ]
+  },
+  {
+   "sleutel": "92220ad4ca84",
+   "url": "https://www.surviveoutdoorslonger.com/products/escape-bivvy",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|sol-escape-bivvy"
+   ]
+  },
+  {
+   "sleutel": "cfe1b0528e72",
+   "url": "https://www.surviveoutdoorslonger.com/products/heavy-duty-emergency-blanket",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|sol-heavy-duty-emergency-blanket"
+   ]
+  },
+  {
    "sleutel": "85017cc42e6d",
    "url": "https://www.sync.com/pricing-individual/",
    "kliks": [],
@@ -2058,6 +2762,14 @@
    "kliks": [],
    "ids": [
     "backupshortlist.com|sync-com"
+   ]
+  },
+  {
+   "sleutel": "cb88ed14c519",
+   "url": "https://www.thrunite.com/archer-2a-c/",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|thrunite-archer-2a-c"
    ]
   },
   {
@@ -2103,6 +2815,22 @@
    ]
   },
   {
+   "sleutel": "8627f45fcb6d",
+   "url": "https://www.ucogear.com/products/original-candle-lantern-painted-classic-series",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uco-original-candle-lantern"
+   ]
+  },
+  {
+   "sleutel": "1c1f84cc91d6",
+   "url": "https://www.ucogear.com/products/stormproof-match-container-w-25-matches",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|uco-stormproof-match-kit"
+   ]
+  },
+  {
    "sleutel": "18156a1f7c62",
    "url": "https://www.udacity.com",
    "kliks": [],
@@ -2116,6 +2844,14 @@
    "kliks": [],
    "ids": [
     "courseshortlist.com|udacity"
+   ]
+  },
+  {
+   "sleutel": "eef70780f9b8",
+   "url": "https://www.ustgear.com/lighting/60-day-duro-led-lantern/1146779.html",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ust-60-day-duro-lantern"
    ]
   },
   {
