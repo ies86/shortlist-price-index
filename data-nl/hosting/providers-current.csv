@@ -1,14 +1,13 @@
 provider,entry_price_eur_per_month,source_url
 Vimexx,0.45,https://kieshosting.nl/tools/vimexx
-IONOS,1,https://kieshosting.nl/tools/ionos
 Strato,1,https://kieshosting.nl/tools/strato
 mijn.host,1.99,https://kieshosting.nl/tools/mijn-host
 Hostinger,2.99,https://kieshosting.nl/tools/hostinger
 SiteGround,2.99,https://kieshosting.nl/tools/siteground
 DigitalOcean,4,https://kieshosting.nl/tools/digitalocean
-Hetzner,5.49,https://kieshosting.nl/tools/hetzner
 Antagonist,5.55,https://kieshosting.nl/tools/antagonist
 Cloudways,11,https://kieshosting.nl/tools/cloudways
 TransIP,9.99,https://kieshosting.nl/tools/transip
+Hetzner,11.99,https://kieshosting.nl/tools/hetzner
 Kinsta,29.17,https://kieshosting.nl/tools/kinsta
-WP Engine,27,https://kieshosting.nl/tools/wp-engine
+WP Engine,25.6,https://kieshosting.nl/tools/wp-engine

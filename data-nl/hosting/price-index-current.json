@@ -11,39 +11,39 @@
     "rateDate": "2026-09-01"
   },
   "unit": "/mnd",
-  "updated": "2026-09-01",
-  "generated": "2026-10-02",
+  "updated": "2026-10-05",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-01",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
     "providersMeasured": 9,
-    "averagePrice": 9.3,
-    "medianPrice": 3.47,
+    "averagePrice": 9.32,
+    "medianPrice": 3.36,
     "cheapestPrice": 1,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.159,
-      "rateDate": "2026-09-01",
-      "exactOnMeasurementDate": true,
+      "usdPerEur": 1.1225,
+      "rateDate": "2026-10-02",
+      "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
     "alsoIn": {
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 8.02,
+      "averagePrice": 8.3,
       "medianPrice": 2.99,
-      "cheapestPrice": 0.86
+      "cheapestPrice": 0.89
     },
     "notMeasured": 2,
-    "underReview": 2
+    "underReview": 3
   },
-  "providersTracked": 13,
-  "averagePrice": 7.43,
-  "medianPrice": 3.45,
+  "providersTracked": 12,
+  "averagePrice": 8.39,
+  "medianPrice": 4.5,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
@@ -51,7 +51,7 @@
   },
   "mostExpensive": {
     "provider": "WP Engine",
-    "price": 27,
+    "price": 25.6,
     "currency": "EUR"
   },
   "providers": [
@@ -63,15 +63,6 @@
       "rating": 4.2,
       "bestFor": "Servers in Nederland",
       "url": "https://kieshosting.nl/tools/vimexx"
-    },
-    {
-      "provider": "IONOS",
-      "slug": "ionos",
-      "price": 1,
-      "currency": "EUR",
-      "rating": 4,
-      "bestFor": "Eerstejaarsvoordeel",
-      "url": "https://kieshosting.nl/tools/ionos"
     },
     {
       "provider": "Strato",
@@ -119,15 +110,6 @@
       "url": "https://kieshosting.nl/tools/digitalocean"
     },
     {
-      "provider": "Hetzner",
-      "slug": "hetzner",
-      "price": 5.49,
-      "currency": "EUR",
-      "rating": 4.5,
-      "bestFor": "Prijs per prestatie",
-      "url": "https://kieshosting.nl/tools/hetzner"
-    },
-    {
       "provider": "Antagonist",
       "slug": "antagonist",
       "price": 5.55,
@@ -155,6 +137,15 @@
       "url": "https://kieshosting.nl/tools/transip"
     },
     {
+      "provider": "Hetzner",
+      "slug": "hetzner",
+      "price": 11.99,
+      "currency": "EUR",
+      "rating": 4.5,
+      "bestFor": "Prijs per prestatie",
+      "url": "https://kieshosting.nl/tools/hetzner"
+    },
+    {
       "provider": "Kinsta",
       "slug": "kinsta",
       "price": 29.17,
@@ -166,7 +157,7 @@
     {
       "provider": "WP Engine",
       "slug": "wp-engine",
-      "price": 27,
+      "price": 25.6,
       "currency": "EUR",
       "rating": 4.4,
       "bestFor": "Managed WordPress",
@@ -245,6 +236,25 @@
         "usd_per_eur": 1.159,
         "koersdatum": "2026-09-01",
         "exact": true,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 9.32,
+      "median": 3.36,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 2,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1225,
+        "koersdatum": "2026-10-02",
+        "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }
     }

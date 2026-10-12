@@ -5,25 +5,25 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to WebsiteShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-09-07",
-  "generated": "2026-10-03",
+  "updated": "2026-10-05",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-07",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
     "providersMeasured": 15,
-    "averagePrice": 13.02,
+    "averagePrice": 13.46,
     "medianPrice": 10.8,
     "cheapestPrice": 0.75,
     "fx": null,
     "alsoIn": null,
-    "notMeasured": 3,
-    "underReview": 0
+    "notMeasured": 2,
+    "underReview": 1
   },
   "providersTracked": 21,
-  "averagePrice": 16.06,
+  "averagePrice": 16.35,
   "medianPrice": 15,
   "cheapest": {
     "provider": "Carrd",
@@ -67,6 +67,14 @@
       "url": "https://websiteshortlist.com/tools/ionos"
     },
     {
+      "provider": "GoDaddy Website Builder",
+      "slug": "godaddy",
+      "price": 9.99,
+      "rating": 3.7,
+      "bestFor": "Existing GoDaddy customers",
+      "url": "https://websiteshortlist.com/tools/godaddy"
+    },
+    {
       "provider": "Framer",
       "slug": "framer",
       "price": 10,
@@ -89,14 +97,6 @@
       "rating": 3.8,
       "bestFor": "European small businesses",
       "url": "https://websiteshortlist.com/tools/jimdo"
-    },
-    {
-      "provider": "GoDaddy Website Builder",
-      "slug": "godaddy",
-      "price": 11.99,
-      "rating": 3.7,
-      "bestFor": "Existing GoDaddy customers",
-      "url": "https://websiteshortlist.com/tools/godaddy"
     },
     {
       "provider": "Mobirise",
@@ -155,14 +155,6 @@
       "url": "https://websiteshortlist.com/tools/duda"
     },
     {
-      "provider": "Ecwid by Lightspeed",
-      "slug": "ecwid",
-      "price": 21,
-      "rating": 3.9,
-      "bestFor": "Adding a store to an existing site",
-      "url": "https://websiteshortlist.com/tools/ecwid"
-    },
-    {
       "provider": "Showit",
       "slug": "showit",
       "price": 21.58,
@@ -193,6 +185,14 @@
       "rating": 4.5,
       "bestFor": "Serious online stores",
       "url": "https://websiteshortlist.com/tools/shopify"
+    },
+    {
+      "provider": "Ecwid by Lightspeed",
+      "slug": "ecwid",
+      "price": 29,
+      "rating": 3.9,
+      "bestFor": "Adding a store to an existing site",
+      "url": "https://websiteshortlist.com/tools/ecwid"
     },
     {
       "provider": "Square Online",
@@ -236,6 +236,18 @@
       "count": 15,
       "n_missing": 3,
       "n_under_review": 0,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 13.46,
+      "median": 10.8,
+      "cheapest": 0.75,
+      "count": 15,
+      "n_missing": 2,
+      "n_under_review": 1,
       "currency": "USD"
     }
   ]

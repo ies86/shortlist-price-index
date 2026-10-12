@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider, in US dollars as shown on the provider's own pricing page. Free tiers excluded, and so are providers without a US dollar price that they charge. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-02",
-  "generated": "2026-10-03",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-02",
@@ -24,8 +24,8 @@
   },
   "providersTracked": 15,
   "currency": "USD",
-  "averagePrice": 6.16,
-  "medianPrice": 6.99,
+  "averagePrice": 5.6,
+  "medianPrice": 6,
   "cheapest": {
     "provider": "Apple iCloud+",
     "price": 0.99,
@@ -65,6 +65,15 @@
       "url": "https://backupshortlist.com/tools/google-one"
     },
     {
+      "provider": "Proton Drive",
+      "slug": "proton-drive",
+      "price": 2.99,
+      "currency": "USD",
+      "rating": 4.4,
+      "bestFor": "Privacy-first users",
+      "url": "https://backupshortlist.com/tools/proton-drive"
+    },
+    {
       "provider": "CloudsLinker",
       "slug": "cloudslinker",
       "price": 3.33,
@@ -101,6 +110,15 @@
       "url": "https://backupshortlist.com/tools/sync-com"
     },
     {
+      "provider": "Acronis True Image",
+      "slug": "acronis",
+      "price": 6.08,
+      "currency": "USD",
+      "rating": 4.2,
+      "bestFor": "Power users, disk images",
+      "url": "https://backupshortlist.com/tools/acronis"
+    },
+    {
       "provider": "IDrive",
       "slug": "idrive",
       "price": 6.99,
@@ -119,15 +137,6 @@
       "url": "https://backupshortlist.com/tools/nordlocker"
     },
     {
-      "provider": "Acronis True Image",
-      "slug": "acronis",
-      "price": 7.5,
-      "currency": "USD",
-      "rating": 4.2,
-      "bestFor": "Power users, disk images",
-      "url": "https://backupshortlist.com/tools/acronis"
-    },
-    {
       "provider": "Carbonite Safe",
       "slug": "carbonite",
       "price": 8,
@@ -144,15 +153,6 @@
       "rating": 4.5,
       "bestFor": "One-computer households",
       "url": "https://backupshortlist.com/tools/backblaze"
-    },
-    {
-      "provider": "Proton Drive",
-      "slug": "proton-drive",
-      "price": 9.99,
-      "currency": "USD",
-      "rating": 4.4,
-      "bestFor": "Privacy-first users",
-      "url": "https://backupshortlist.com/tools/proton-drive"
     },
     {
       "provider": "Dropbox",
@@ -217,7 +217,8 @@
       "cheapest": 0.56,
       "count": 12,
       "n_missing": 1,
-      "n_under_review": 4
+      "n_under_review": 4,
+      "currency": "USD"
     }
   ]
 }

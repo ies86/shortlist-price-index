@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-08-22",
-  "generated": "2026-10-02",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-08-22",
@@ -37,7 +37,7 @@
     "underReview": 2
   },
   "providersTracked": 10,
-  "averagePrice": 17.5,
+  "averagePrice": 17.48,
   "medianPrice": 15,
   "cheapest": {
     "provider": "MasterClass",
@@ -115,7 +115,7 @@
     {
       "provider": "Coursera",
       "slug": "coursera",
-      "price": 28.83,
+      "price": 28.58,
       "rating": 4.6,
       "bestFor": "Erkende certificaten",
       "url": "https://leerplatformkiezer.nl/tools/coursera"

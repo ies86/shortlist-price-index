@@ -5,25 +5,25 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to HostingShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-09-01",
-  "generated": "2026-10-03",
+  "updated": "2026-10-05",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-01",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
     "providersMeasured": 9,
-    "averagePrice": 9.3,
-    "medianPrice": 3.47,
+    "averagePrice": 9.32,
+    "medianPrice": 3.36,
     "cheapestPrice": 1,
     "fx": null,
     "alsoIn": null,
     "notMeasured": 2,
-    "underReview": 2
+    "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 8.75,
+  "averagePrice": 8.8,
   "medianPrice": 4,
   "cheapest": {
     "provider": "Namecheap",
@@ -117,7 +117,7 @@
     {
       "provider": "Hetzner",
       "slug": "hetzner",
-      "price": 13.49,
+      "price": 14.09,
       "rating": 4.5,
       "bestFor": "Price-to-performance",
       "url": "https://hostingshortlist.com/tools/hetzner"
@@ -254,6 +254,18 @@
       "count": 9,
       "n_missing": 2,
       "n_under_review": 2,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 9.32,
+      "median": 3.36,
+      "cheapest": 1,
+      "count": 9,
+      "n_missing": 2,
+      "n_under_review": 3,
       "currency": "USD"
     }
   ]

@@ -6,22 +6,22 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-09-07",
-  "generated": "2026-10-01",
+  "updated": "2026-10-05",
+  "generated": "2026-10-12",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-07",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 10,
-    "averagePrice": 4.88,
-    "medianPrice": 3.99,
+    "providersMeasured": 11,
+    "averagePrice": 4.68,
+    "medianPrice": 3.92,
     "cheapestPrice": 2.15,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1622,
-      "rateDate": "2026-09-04",
+      "usdPerEur": 1.1225,
+      "rateDate": "2026-10-02",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -29,29 +29,41 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 4.2,
-      "medianPrice": 3.43,
-      "cheapestPrice": 1.85
+      "averagePrice": 4.17,
+      "medianPrice": 3.49,
+      "cheapestPrice": 1.92
     },
-    "notMeasured": 2,
+    "notMeasured": 1,
     "underReview": 3
   },
-  "providersTracked": 15,
-  "averagePrice": 3.03,
+  "providersTracked": 13,
+  "averagePrice": 2.73,
   "medianPrice": 2.49,
   "cheapest": {
-    "provider": "Private Internet Access",
-    "price": 1.59
+    "provider": "PrivadoVPN",
+    "price": 1.11,
+    "currency": "EUR"
   },
   "mostExpensive": {
-    "provider": "Windscribe",
-    "price": 5.75
+    "provider": "Mullvad VPN",
+    "price": 5,
+    "currency": "EUR"
   },
   "providers": [
+    {
+      "provider": "PrivadoVPN",
+      "slug": "privadovpn",
+      "price": 1.11,
+      "currency": "EUR",
+      "rating": 3.9,
+      "bestFor": "10 apparaten tegelijk (Premium)",
+      "url": "https://kiesvpn.nl/tools/privadovpn"
+    },
     {
       "provider": "Private Internet Access",
       "slug": "private-internet-access",
       "price": 1.59,
+      "currency": "EUR",
       "rating": 4.2,
       "bestFor": "Onbeperkt aantal apparaten",
       "url": "https://kiesvpn.nl/tools/private-internet-access"
@@ -60,6 +72,7 @@
       "provider": "PureVPN",
       "slug": "purevpn",
       "price": 1.85,
+      "currency": "EUR",
       "rating": 3.9,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/purevpn"
@@ -68,22 +81,16 @@
       "provider": "CyberGhost",
       "slug": "cyberghost",
       "price": 1.99,
+      "currency": "EUR",
       "rating": 4.3,
       "bestFor": "7 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/cyberghost"
     },
     {
-      "provider": "PrivadoVPN",
-      "slug": "privadovpn",
-      "price": 1.99,
-      "rating": 3.9,
-      "bestFor": "10 apparaten tegelijk (Premium)",
-      "url": "https://kiesvpn.nl/tools/privadovpn"
-    },
-    {
       "provider": "PrivateVPN",
       "slug": "privatevpn",
       "price": 2.08,
+      "currency": "EUR",
       "rating": 4,
       "bestFor": "Voordelig streamen",
       "url": "https://kiesvpn.nl/tools/privatevpn"
@@ -92,6 +99,7 @@
       "provider": "IPVanish",
       "slug": "ipvanish",
       "price": 2.24,
+      "currency": "EUR",
       "rating": 4,
       "bestFor": "Onbeperkt aantal apparaten",
       "url": "https://kiesvpn.nl/tools/ipvanish"
@@ -100,6 +108,7 @@
       "provider": "Surfshark",
       "slug": "surfshark",
       "price": 2.49,
+      "currency": "EUR",
       "rating": 4.6,
       "bestFor": "Onbeperkt aantal apparaten",
       "url": "https://kiesvpn.nl/tools/surfshark"
@@ -108,6 +117,7 @@
       "provider": "ExpressVPN",
       "slug": "expressvpn",
       "price": 2.49,
+      "currency": "EUR",
       "rating": 4.4,
       "bestFor": "8 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/expressvpn"
@@ -116,22 +126,16 @@
       "provider": "hide.me",
       "slug": "hide-me",
       "price": 2.69,
+      "currency": "EUR",
       "rating": 4.1,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/hide-me"
     },
     {
-      "provider": "TunnelBear",
-      "slug": "tunnelbear",
-      "price": 3.33,
-      "rating": 3.9,
-      "bestFor": "Beginners",
-      "url": "https://kiesvpn.nl/tools/tunnelbear"
-    },
-    {
       "provider": "NordVPN",
       "slug": "nordvpn",
       "price": 3.49,
+      "currency": "EUR",
       "rating": 4.7,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/nordvpn"
@@ -140,6 +144,7 @@
       "provider": "Proton VPN",
       "slug": "proton-vpn",
       "price": 3.49,
+      "currency": "EUR",
       "rating": 4.5,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/proton-vpn"
@@ -148,6 +153,7 @@
       "provider": "Mozilla VPN",
       "slug": "mozilla-vpn",
       "price": 4.99,
+      "currency": "EUR",
       "rating": 4.2,
       "bestFor": "5 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/mozilla-vpn"
@@ -156,17 +162,26 @@
       "provider": "Mullvad VPN",
       "slug": "mullvad",
       "price": 5,
+      "currency": "EUR",
       "rating": 4.6,
       "bestFor": "5 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/mullvad"
-    },
+    }
+  ],
+  "dollarProviders": [
     {
       "provider": "Windscribe",
       "slug": "windscribe",
       "price": 5.75,
-      "rating": 4.2,
-      "bestFor": "Onbeperkt aantal apparaten (Pro)",
+      "currency": "USD",
       "url": "https://kiesvpn.nl/tools/windscribe"
+    },
+    {
+      "provider": "TunnelBear",
+      "slug": "tunnelbear",
+      "price": 5.83,
+      "currency": "USD",
+      "url": "https://kiesvpn.nl/tools/tunnelbear"
     }
   ],
   "history": [
@@ -241,6 +256,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1622,
         "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 4.68,
+      "median": 3.92,
+      "cheapest": 2.15,
+      "count": 11,
+      "n_missing": 1,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1225,
+        "koersdatum": "2026-10-02",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

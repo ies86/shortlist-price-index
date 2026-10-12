@@ -5,26 +5,26 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to AntivirusShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-09-07",
-  "generated": "2026-10-02",
+  "updated": "2026-10-05",
+  "generated": "2026-10-11",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-09-07",
-    "month": "2026-09",
+    "date": "2026-10-05",
+    "month": "2026-10",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 14,
-    "averagePrice": 4.06,
-    "medianPrice": 3.41,
-    "cheapestPrice": 2.03,
+    "providersMeasured": 12,
+    "averagePrice": 4.15,
+    "medianPrice": 3.61,
+    "cheapestPrice": 2.08,
     "fx": null,
     "alsoIn": null,
-    "notMeasured": 1,
+    "notMeasured": 3,
     "underReview": 3
   },
-  "providersTracked": 18,
-  "averagePrice": 5.73,
-  "medianPrice": 4.68,
+  "providersTracked": 15,
+  "averagePrice": 5.88,
+  "medianPrice": 4.17,
   "cheapest": {
     "provider": "Intego Mac Internet Security",
     "price": 2.5
@@ -49,6 +49,14 @@
       "rating": 4.2,
       "bestFor": "VPN-first users",
       "url": "https://antivirusshortlist.com/tools/surfshark-one"
+    },
+    {
+      "provider": "Webroot Essentials",
+      "slug": "webroot",
+      "price": 3.5,
+      "rating": 3.9,
+      "bestFor": "Old or low-power PCs",
+      "url": "https://antivirusshortlist.com/tools/webroot"
     },
     {
       "provider": "Malwarebytes Premium",
@@ -91,44 +99,12 @@
       "url": "https://antivirusshortlist.com/tools/eset"
     },
     {
-      "provider": "McAfee+",
-      "slug": "mcafee",
-      "price": 4.17,
-      "rating": 4,
-      "bestFor": "Big households, many devices",
-      "url": "https://antivirusshortlist.com/tools/mcafee"
-    },
-    {
-      "provider": "Webroot Essentials",
-      "slug": "webroot",
-      "price": 4.37,
-      "rating": 3.9,
-      "bestFor": "Old or low-power PCs",
-      "url": "https://antivirusshortlist.com/tools/webroot"
-    },
-    {
-      "provider": "AVG Internet Security",
-      "slug": "avg",
-      "price": 4.99,
-      "rating": 4.1,
-      "bestFor": "Free users, simple needs",
-      "url": "https://antivirusshortlist.com/tools/avg"
-    },
-    {
       "provider": "Bitdefender Total Security",
       "slug": "bitdefender",
       "price": 5,
       "rating": 4.7,
       "bestFor": "Most people, most devices",
       "url": "https://antivirusshortlist.com/tools/bitdefender"
-    },
-    {
-      "provider": "Avira Free Security",
-      "slug": "avira",
-      "price": 5,
-      "rating": 4,
-      "bestFor": "Older or slower PCs",
-      "url": "https://antivirusshortlist.com/tools/avira"
     },
     {
       "provider": "Trend Micro Maximum Security",
@@ -181,7 +157,7 @@
   ],
   "trueCost": {
     "unit": "USD per year; threeYearTotal = total USD over 3 years",
-    "avgRenewalMultiplier": 1.7,
+    "avgRenewalMultiplier": 1.4,
     "providers": [
       {
         "provider": "Intego Mac Internet Security",
@@ -216,24 +192,8 @@
         "threeYearTotal": 254.97
       },
       {
-        "provider": "AVG Internet Security",
-        "slug": "avg",
-        "intro": 59.88,
-        "renewal": 99.99,
-        "multiplier": 1.7,
-        "threeYearTotal": 259.86
-      },
-      {
         "provider": "Bitdefender Total Security",
         "slug": "bitdefender",
-        "intro": 59.99,
-        "renewal": 109.99,
-        "multiplier": 1.8,
-        "threeYearTotal": 279.97
-      },
-      {
-        "provider": "Avira Free Security",
-        "slug": "avira",
         "intro": 59.99,
         "renewal": 109.99,
         "multiplier": 1.8,
@@ -246,14 +206,6 @@
         "renewal": 124.99,
         "multiplier": 2.5,
         "threeYearTotal": 299.97
-      },
-      {
-        "provider": "McAfee+",
-        "slug": "mcafee",
-        "intro": 49.99,
-        "renewal": 149.99,
-        "multiplier": 3,
-        "threeYearTotal": 349.97
       },
       {
         "provider": "LifeLock",
@@ -316,6 +268,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1622,
         "koersdatum": "2026-09-04",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "month": "2026-10",
+      "measured": true,
+      "avg": 4.15,
+      "median": 3.61,
+      "cheapest": 2.08,
+      "count": 12,
+      "n_missing": 3,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1225,
+        "koersdatum": "2026-10-02",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }
