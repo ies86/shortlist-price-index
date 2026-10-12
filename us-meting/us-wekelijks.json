@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-07",
+ "gemaakt": "2026-10-12",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -1024,6 +1024,14 @@
    "ids": [
     "backupshortlist.com|proton-drive",
     "aisafecheck.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "524da574ee26",
+   "url": "https://proton.me/l/private-cloud-storage-aff-bigtech-alternative",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|proton-drive"
    ]
   },
   {
