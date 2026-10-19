@@ -3,11 +3,11 @@
   "report": "https://wachtwoordkiezer.nl/data/price-index",
   "niche": "wachtwoordmanagers",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Wachtwoordkiezer",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen uit de redactionele catalogus, gelezen op de prijspagina van elke aanbieder. Een wekelijkse prijswacht leest ze opnieuw. Elke maand wordt een meting gearchiveerd in history.",
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-10-05",
-  "generated": "2026-10-11",
+  "generated": "2026-10-14",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",

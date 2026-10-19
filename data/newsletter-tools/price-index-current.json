@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-05",
-  "generated": "2026-10-11",
+  "generated": "2026-10-17",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -142,6 +142,15 @@
       "median": 12.63,
       "cheapest": 5,
       "count": 7,
+      "providers": [
+        "ghost",
+        "mailerlite",
+        "mailchimp",
+        "activecampaign",
+        "omnisend",
+        "getresponse",
+        "klaviyo"
+      ],
       "n_missing": 0,
       "n_under_review": 4,
       "currency": "USD"
@@ -154,6 +163,17 @@
       "median": 15,
       "cheapest": 8.08,
       "count": 9,
+      "providers": [
+        "brevo",
+        "ghost",
+        "mailerlite",
+        "mailchimp",
+        "activecampaign",
+        "omnisend",
+        "getresponse",
+        "kit",
+        "beehiiv"
+      ],
       "n_missing": 1,
       "n_under_review": 1,
       "currency": "USD"
@@ -166,6 +186,17 @@
       "median": 12.35,
       "cheapest": 5,
       "count": 9,
+      "providers": [
+        "brevo",
+        "ghost",
+        "mailerlite",
+        "mailchimp",
+        "activecampaign",
+        "omnisend",
+        "getresponse",
+        "klaviyo",
+        "kit"
+      ],
       "n_missing": 0,
       "n_under_review": 2,
       "currency": "USD"

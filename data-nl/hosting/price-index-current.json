@@ -3,7 +3,7 @@
   "report": "https://kieshosting.nl/data/price-index",
   "niche": "hostingproviders",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar KiesHosting",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Elke prijs komt van de prijspagina van de aanbieder zelf. Een wekelijkse prijswacht leest de prijzen opnieuw. Eens per maand wordt een meting bewaard in history.",
   "currency": "EUR",
   "catalogueFx": {
     "base": "EUR",
@@ -12,7 +12,7 @@
   },
   "unit": "/mnd",
   "updated": "2026-10-05",
-  "generated": "2026-10-11",
+  "generated": "2026-10-14",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -42,8 +42,8 @@
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.39,
-  "medianPrice": 4.5,
+  "averagePrice": 8.34,
+  "medianPrice": 4.22,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
@@ -112,7 +112,7 @@
     {
       "provider": "Antagonist",
       "slug": "antagonist",
-      "price": 5.55,
+      "price": 4.99,
       "currency": "EUR",
       "rating": 4.5,
       "bestFor": "Betrouwbaarheid voorop",

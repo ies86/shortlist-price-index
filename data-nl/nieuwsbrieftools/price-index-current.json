@@ -3,11 +3,11 @@
   "report": "https://nieuwsbriefkiezer.nl/data/price-index",
   "niche": "nieuwsbrieftools",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar Nieuwsbriefkiezer",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen van de prijspagina van de aanbieder. Een wekelijkse prijswacht leest ze opnieuw. Elke maand wordt een meting bewaard in history.",
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-10-05",
-  "generated": "2026-10-11",
+  "generated": "2026-10-16",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",

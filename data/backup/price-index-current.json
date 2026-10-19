@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider, in US dollars as shown on the provider's own pricing page. Free tiers excluded, and so are providers without a US dollar price that they charge. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-02",
-  "generated": "2026-10-11",
+  "generated": "2026-10-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-02",

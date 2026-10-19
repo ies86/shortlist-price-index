@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-05",
-  "generated": "2026-10-11",
+  "generated": "2026-10-17",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -152,6 +152,22 @@
         "threeYearTotal": 139.2
       },
       {
+        "provider": "Hostinger",
+        "slug": "hostinger",
+        "intro": 2.99,
+        "renewal": 10.99,
+        "multiplier": 3.7,
+        "threeYearTotal": 143.52
+      },
+      {
+        "provider": "Bluehost",
+        "slug": "bluehost",
+        "intro": 3.99,
+        "renewal": 9.99,
+        "multiplier": 2.5,
+        "threeYearTotal": 143.64
+      },
+      {
         "provider": "IONOS",
         "slug": "ionos",
         "intro": 4,
@@ -160,28 +176,12 @@
         "threeYearTotal": 240
       },
       {
-        "provider": "Bluehost",
-        "slug": "bluehost",
-        "intro": 3.99,
-        "renewal": 9.99,
-        "multiplier": 2.5,
-        "threeYearTotal": 287.64
-      },
-      {
         "provider": "DreamHost",
         "slug": "dreamhost",
         "intro": 2.89,
         "renewal": 10.99,
         "multiplier": 3.8,
         "threeYearTotal": 298.44
-      },
-      {
-        "provider": "Hostinger",
-        "slug": "hostinger",
-        "intro": 2.99,
-        "renewal": 10.99,
-        "multiplier": 3.7,
-        "threeYearTotal": 299.64
       },
       {
         "provider": "GoDaddy",
