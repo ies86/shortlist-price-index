@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-12",
+ "gemaakt": "2026-10-19",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -102,22 +102,6 @@
    ]
   },
   {
-   "sleutel": "29b96edccd2d",
-   "url": "https://augasonfarms.com/products/45-day-1-person-emergency-food-supply-kit",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|augason-farms-45-day"
-   ]
-  },
-  {
-   "sleutel": "390c558a5fce",
-   "url": "https://augasonfarms.com/products/72-hour-kit-18-servings",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|augason-farms-72-hour"
-   ]
-  },
-  {
    "sleutel": "c7fca6edc7ac",
    "url": "https://bitwarden.com/pricing/",
    "kliks": [],
@@ -171,14 +155,6 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|aquatabs"
-   ]
-  },
-  {
-   "sleutel": "19a38a5c47b0",
-   "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|platypus-gravityworks-4l"
    ]
   },
   {
@@ -542,14 +518,6 @@
    ]
   },
   {
-   "sleutel": "753a11aec78e",
-   "url": "https://lifestraw.com/products/lifestraw-family-emergency-water-filter",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|lifestraw-family"
-   ]
-  },
-  {
    "sleutel": "2b1a36c42967",
    "url": "https://lifestraw.com/products/lifestraw-go-series-650-ml",
    "kliks": [],
@@ -806,30 +774,6 @@
    ]
   },
   {
-   "sleutel": "c7fdaacf503b",
-   "url": "https://mountainhouse.com/products/30-day-emergency-food-supply-kit",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|mountain-house-30-day"
-   ]
-  },
-  {
-   "sleutel": "0a460066460d",
-   "url": "https://mountainhouse.com/products/classic-assortment-bucket",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|mountain-house-classic-bucket"
-   ]
-  },
-  {
-   "sleutel": "a12dd94dd98a",
-   "url": "https://mountainhouse.com/products/just-in-case-14-day-emergency-food-supply",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|mountain-house-14-day"
-   ]
-  },
-  {
    "sleutel": "ae3d6a4991d7",
    "url": "https://mountainhouse.com/products/just-in-case-3-day-emergency-food-supply",
    "kliks": [],
@@ -1010,14 +954,6 @@
    ]
   },
   {
-   "sleutel": "baf7f9277ba3",
-   "url": "https://proton.me/drive",
-   "kliks": [],
-   "ids": [
-    "backupshortlist.com|proton-drive"
-   ]
-  },
-  {
    "sleutel": "e42af16bb86d",
    "url": "https://proton.me/drive/pricing",
    "kliks": [],
@@ -1027,9 +963,22 @@
    ]
   },
   {
-   "sleutel": "524da574ee26",
+   "sleutel": "236033a1497f",
    "url": "https://proton.me/l/private-cloud-storage-aff-bigtech-alternative",
-   "kliks": [],
+   "kliks": [
+    "kies:#plan-currency=USD"
+   ],
+   "ids": [
+    "backupshortlist.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "917cc8ca76e8",
+   "url": "https://proton.me/l/private-cloud-storage-aff-bigtech-alternative#unlimited",
+   "kliks": [
+    "kies:#plan-currency=USD",
+    "tab:Proton Unlimited DEAL"
+   ],
    "ids": [
     "backupshortlist.com|proton-drive"
    ]
@@ -1683,6 +1632,7 @@
    "url": "https://www.bitdefender.com/en-us/consumer/premium-security",
    "kliks": [],
    "ids": [
+    "antivirusshortlist.com|bitdefender",
     "aisafecheck.com|bitdefender"
    ]
   },
@@ -1704,16 +1654,16 @@
    ]
   },
   {
-   "sleutel": "d84433e4be17",
-   "url": "https://www.bluehost.com/",
+   "sleutel": "91b25449f709",
+   "url": "https://www.bluehost.com/pricing",
    "kliks": [],
    "ids": [
     "hostingshortlist.com|bluehost"
    ]
   },
   {
-   "sleutel": "91b25449f709",
-   "url": "https://www.bluehost.com/pricing",
+   "sleutel": "adcb2226c70e",
+   "url": "https://www.bluehost.com/web-hosting",
    "kliks": [],
    "ids": [
     "hostingshortlist.com|bluehost"
@@ -1768,9 +1718,11 @@
    ]
   },
   {
-   "sleutel": "e4d9ce7ebfc9",
+   "sleutel": "5d46ca4f7329",
    "url": "https://www.cloudways.com/en/pricing.php",
-   "kliks": [],
+   "kliks": [
+    "zichtbaar:Standard"
+   ],
    "ids": [
     "hostingshortlist.com|cloudways"
    ]
@@ -1886,6 +1838,14 @@
    "kliks": [],
    "ids": [
     "hostingshortlist.com|dreamhost"
+   ]
+  },
+  {
+   "sleutel": "52f41307e7ea",
+   "url": "https://www.dropbox.com/basic",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|dropbox"
    ]
   },
   {
@@ -2077,6 +2037,16 @@
    "sleutel": "fe61f0b8e616",
    "url": "https://www.getresponse.com/pricing",
    "kliks": [],
+   "ids": [
+    "mailshortlist.com|getresponse"
+   ]
+  },
+  {
+   "sleutel": "43051139e69b",
+   "url": "https://www.getresponse.com/pricing?billing=monthly",
+   "kliks": [
+    "zichtbaar:Monthly"
+   ],
    "ids": [
     "mailshortlist.com|getresponse"
    ]
@@ -2415,6 +2385,14 @@
    "kliks": [],
    "ids": [
     "mailshortlist.com|mailerlite"
+   ]
+  },
+  {
+   "sleutel": "828331a2bace",
+   "url": "https://www.malwarebytes.com/mwb-download",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|malwarebytes"
    ]
   },
   {
