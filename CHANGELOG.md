@@ -2,6 +2,15 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-10-20: recruitment software removed
+
+- **The category is discontinued.** `data/recruitment-software/` had no comparison site behind it and was last
+  verified on 8 July 2026, so its figures were more than three months old. A dataset that is republished
+  monthly should not carry a category that is not. The index now covers ten categories plus the Dutch mirror.
+- **Nothing is lost.** The last published files remain in the git history of this repository (up to commit
+  88e8db5) and in earlier Kaggle and Zenodo versions.
+- **Also changed.** The Zenodo metadata names the publisher, Orai Media, as creator.
+
 ## 2026-09-09: a withdrawn claim is now actually removed, not just blocked
 
 - **The Squarespace event was still published.** The publication gate added on 2026-09-08 stopped
