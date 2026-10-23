@@ -2,6 +2,10 @@ KLAARZETTEN.md
 
 # Prijsmeter: vendor-config blijft intern (bevat interne notities/verwachtingen).
 data/*/vendors.csv
+# Reservekopieen blijven lokaal (23-10-2026): een kopie van vendors.csv draagt dezelfde interne
+# notities, en de wekelijkse routine commit deze map met git add -A.
+*.bak
+*.bak-*
 # Observations van niches die nog NIET rijp zijn voor publicatie blijven intern.
 # Gemeten + gevalideerde niches (hosting, vpn, backup) publiceren hun observations wel.
 data/antivirus/observations/

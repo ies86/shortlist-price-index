@@ -2,6 +2,53 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-10-23: travel eSIMs are measured over a fixed set of six providers (method `esim-v3-2026-11`)
+
+- **Why.** The travel eSIM aggregate was withheld for September and October 2026. Both runs read
+  the 5 GB / 30-day reference plan for 5 of the 15 listed providers, and a citable average needs at
+  least 60 percent of the tracked set. The other ten either sell no such plan or show it only after
+  a click, which a reader that does not interact with the page cannot see. Keeping them on the list
+  would withhold every month for a reason that has nothing to do with prices.
+- **What changes.** From the November 2026 run the category is measured over a fixed set: aloSIM,
+  BNESIM, Jetpac, Nomad, Roamless and Saily. The first five were read in both September and October.
+  Jetpac joins from November: its product page had moved and was found again on 23 October 2026, and
+  our separate price check has read the reference plan there since early October. Observations from
+  this run carry `scraper_version` `prijsmeter-1.0.0/esim-v3-2026-11`. The reference unit itself is
+  unchanged: 5 GB, 30 days, Europe, and price per GB is the plan price divided by 5.
+- **Not in the measured set, and why.** These providers stay in the comparison on esimshortlist.com;
+  they are only left out of the measured average.
+  - Airalo and GigSky: the reference plan appears only after selecting a tab. The September and
+    October runs found no price for it, also after rendering the page.
+  - Instabridge and Flexiroam: the regional page carries no bundle price, also after rendering.
+  - Ubigi: sells 5 GB for Europe only with 15 days of validity or as a monthly subscription, not as
+    a 30-day plan.
+  - Holafly: unlimited data per day, so there is no price per GB.
+  - Firsty: a free service with a daily speed cap, not a paid plan.
+  - Yesim: its robots.txt disallows the page, so it is not read.
+  - Maya Mobile: the site refused automated requests on 1 September 2026, and the later runs found
+    no price for the reference plan.
+- **What this means for the figures.** In a measured eSIM row, `providers_tracked` counts the
+  providers observed within this set and `n_missing` the set members that could not be read.
+  Providers outside the set are not counted as missing. An average from November 2026 onward covers
+  a different population than the June 2026 curated baseline of 11 providers. **Do not read a
+  difference between them as a price movement.**
+- **Coverage gates.** The floor is unchanged: at least 60 percent of the tracked set must be
+  verified. The check against the running median now compares only months measured under the same
+  method version, because coverage under a different unit or a different provider list says nothing
+  about this one. The first month under `esim-v3-2026-11` therefore has no earlier month to compare
+  with, and only the floor applies. The rule holds for every category, but so far only travel eSIMs
+  have months under more than one method version.
+- **Back into the set.** A provider returns to the measured set once its reference plan can be read
+  from its own page without interaction. That change will be recorded here.
+- **Two pipeline faults fixed on the way.** The promotion step could not fill the per-GB columns of
+  `data/esim/monthly-index.csv` and refused every eSIM month, which is why no measured eSIM row has
+  appeared in that file so far. The export step would also have written a measured eSIM month with
+  empty price columns. Promotion now derives the per-GB figures from the measured reference-plan
+  prices, and the export carries them over.
+  August 2026 stays without a measured row: it was measured with the earlier method (the lowest paid
+  plan rather than the reference plan), and dividing those amounts by five would give a figure in
+  the wrong unit.
+
 ## 2026-10-20: recruitment software removed
 
 - **The category is discontinued.** `data/recruitment-software/` had no comparison site behind it and was last

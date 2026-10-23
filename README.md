@@ -143,6 +143,8 @@ The figures in a `measured` row come from `observations/`, not from the comparis
 
 The travel eSIM category replaces the three price columns with `average_price_per_gb_usd`, `median_price_per_gb_usd` and `cheapest_price_per_gb_usd`: the price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans are excluded. Dutch mirror categories use `_eur` columns.
 
+**From the November 2026 run (method `esim-v3-2026-11`) the travel eSIM measurement covers a fixed set of six providers** whose reference plan can be read from their own page: aloSIM, BNESIM, Jetpac, Nomad, Roamless and Saily. The other nine providers on the comparison site are outside the measured set, each for a stated reason listed in the CHANGELOG entry of 23 October 2026. In a measured eSIM row, `providers_tracked` and `n_missing` refer to that set only.
+
 ### Correction, 1 September 2026: the Dutch mirror was publishing dollars in a column named `_eur`
 
 Until this date the `data-nl/` files carried the column heading `average_price_eur` while the value
