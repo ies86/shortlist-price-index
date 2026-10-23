@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-19",
+ "gemaakt": "2026-10-23",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -102,6 +102,14 @@
    ]
   },
   {
+   "sleutel": "639bc25b5c9b",
+   "url": "https://apps.apple.com/us/app/enpass-password-manager/id455566716",
+   "kliks": [],
+   "ids": [
+    "passwordshortlist.com|enpass"
+   ]
+  },
+  {
    "sleutel": "c7fca6edc7ac",
    "url": "https://bitwarden.com/pricing/",
    "kliks": [],
@@ -110,8 +118,8 @@
    ]
   },
   {
-   "sleutel": "07eed30aeace",
-   "url": "https://brilliant.org",
+   "sleutel": "945a043ada62",
+   "url": "https://brilliant.org/help/pricing-and-plans/what-is-brilliant-premium-and-how-do-i-subscribe/",
    "kliks": [],
    "ids": [
     "courseshortlist.com|brilliant"
@@ -136,6 +144,14 @@
   {
    "sleutel": "6b7408e79948",
    "url": "https://carrd.co/pro",
+   "kliks": [],
+   "ids": [
+    "websiteshortlist.com|carrd"
+   ]
+  },
+  {
+   "sleutel": "990d1202dade",
+   "url": "https://carrd.com/",
    "kliks": [],
    "ids": [
     "websiteshortlist.com|carrd"
@@ -414,8 +430,8 @@
    ]
   },
   {
-   "sleutel": "0c42071ca93a",
-   "url": "https://icedrive.net",
+   "sleutel": "a1ef3403c502",
+   "url": "https://icedrive.net/",
    "kliks": [],
    "ids": [
     "backupshortlist.com|icedrive"
@@ -938,9 +954,11 @@
    ]
   },
   {
-   "sleutel": "3029038e5004",
+   "sleutel": "c5b7340886e2",
    "url": "https://privatevpn.com/prices/",
-   "kliks": [],
+   "kliks": [
+    "kies:select:not(#language):not(#country)=USD"
+   ],
    "ids": [
     "vpnshortlist.com|privatevpn"
    ]
@@ -1057,8 +1075,8 @@
    ]
   },
   {
-   "sleutel": "8d75b3ceb154",
-   "url": "https://roamless.com/esim-region/europe-esim",
+   "sleutel": "5279278943f3",
+   "url": "https://roamless.com/esim-region/europe-esim?tab=plans",
    "kliks": [],
    "ids": [
     "esimshortlist.com|roamless"
@@ -1563,20 +1581,20 @@
    ]
   },
   {
+   "sleutel": "3628ed218074",
+   "url": "https://www.avast.com/en-us/avast-one",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avast"
+   ]
+  },
+  {
    "sleutel": "c75965320131",
    "url": "https://www.avast.com/en-us/store",
    "kliks": [],
    "ids": [
     "antivirusshortlist.com|avast",
     "aisafecheck.com|avast"
-   ]
-  },
-  {
-   "sleutel": "2645685330d2",
-   "url": "https://www.avast.com/en-us/store#pc",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|avast"
    ]
   },
   {
@@ -1882,14 +1900,6 @@
    ]
   },
   {
-   "sleutel": "c131ec8d275a",
-   "url": "https://www.enpass.io",
-   "kliks": [],
-   "ids": [
-    "passwordshortlist.com|enpass"
-   ]
-  },
-  {
    "sleutel": "8aa16eeadf54",
    "url": "https://www.enpass.io/pricing/",
    "kliks": [],
@@ -1924,6 +1934,28 @@
    "sleutel": "0042dca101a7",
    "url": "https://www.expressvpn.com/pricing",
    "kliks": [],
+   "ids": [
+    "vpnshortlist.com|expressvpn"
+   ]
+  },
+  {
+   "sleutel": "2d167777b640",
+   "url": "https://www.expressvpn.com/pricing#1-month",
+   "kliks": [
+    "2-year plans",
+    "1-month plans"
+   ],
+   "ids": [
+    "vpnshortlist.com|expressvpn"
+   ]
+  },
+  {
+   "sleutel": "82692b3167a3",
+   "url": "https://www.expressvpn.com/pricing#1-month-from-12",
+   "kliks": [
+    "12-month plans",
+    "1-month plans"
+   ],
    "ids": [
     "vpnshortlist.com|expressvpn"
    ]
@@ -2060,11 +2092,10 @@
    ]
   },
   {
-   "sleutel": "6d3e1dee2b90",
+   "sleutel": "60793ef42f44",
    "url": "https://www.gigsky.com/region/esim-in-europe",
    "kliks": [
-    "Fixed Data",
-    "5 GB"
+    "Fixed Data"
    ],
    "ids": [
     "esimshortlist.com|gigsky"
@@ -2255,14 +2286,6 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|jackery-homepower-3600-plus"
-   ]
-  },
-  {
-   "sleutel": "6ee60b7c6bfd",
-   "url": "https://www.jetpacglobal.com/",
-   "kliks": [],
-   "ids": [
-    "esimshortlist.com|jetpac"
    ]
   },
   {
@@ -2732,6 +2755,14 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|sol-heavy-duty-emergency-blanket"
+   ]
+  },
+  {
+   "sleutel": "3331a7ad3952",
+   "url": "https://www.sync.com/free-cloud-storage/",
+   "kliks": [],
+   "ids": [
+    "backupshortlist.com|sync-com"
    ]
   },
   {
