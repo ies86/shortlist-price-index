@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-23",
+ "gemaakt": "2026-10-26",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -107,6 +107,30 @@
    "kliks": [],
    "ids": [
     "passwordshortlist.com|enpass"
+   ]
+  },
+  {
+   "sleutel": "a7d8e1191f26",
+   "url": "https://baofengtech.com/product/frs-b1/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|btech-frs-b1"
+   ]
+  },
+  {
+   "sleutel": "19ba8db589a3",
+   "url": "https://baofengtech.com/product/gmrs-v2/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|btech-gmrs-v2"
+   ]
+  },
+  {
+   "sleutel": "a3b3d8a4d70b",
+   "url": "https://baofengtech.com/product/murs-v2/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|btech-murs-v2"
    ]
   },
   {
