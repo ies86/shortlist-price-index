@@ -3,10 +3,10 @@
   "report": "https://vpnshortlist.com/data/price-index",
   "niche": "VPN services",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
-  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
+  "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Prices are read from each provider's own pricing page by a weekly price watch. A monthly measurement is archived in history.",
   "unit": "/mo",
   "updated": "2026-10-05",
-  "generated": "2026-10-19",
+  "generated": "2026-10-25",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -36,7 +36,7 @@
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 3.08,
+  "averagePrice": 3.07,
   "medianPrice": 2.49,
   "cheapest": {
     "provider": "PrivadoVPN",
@@ -90,7 +90,7 @@
     {
       "provider": "IPVanish",
       "slug": "ipvanish",
-      "price": 2.39,
+      "price": 2.19,
       "rating": 4,
       "bestFor": "Unlimited devices",
       "url": "https://vpnshortlist.com/tools/ipvanish"

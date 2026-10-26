@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider, in US dollars as shown on the provider's own pricing page. Free tiers excluded, and so are providers without a US dollar price that they charge. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-02",
-  "generated": "2026-10-18",
+  "generated": "2026-10-25",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-02",
@@ -24,8 +24,8 @@
   },
   "providersTracked": 15,
   "currency": "USD",
-  "averagePrice": 5.6,
-  "medianPrice": 6,
+  "averagePrice": 5.8,
+  "medianPrice": 6.08,
   "cheapest": {
     "provider": "Apple iCloud+",
     "price": 0.99,
@@ -101,15 +101,6 @@
       "url": "https://backupshortlist.com/tools/icedrive"
     },
     {
-      "provider": "Sync.com",
-      "slug": "sync-com",
-      "price": 6,
-      "currency": "USD",
-      "rating": 4.5,
-      "bestFor": "Private storage without friction",
-      "url": "https://backupshortlist.com/tools/sync-com"
-    },
-    {
       "provider": "Acronis True Image",
       "slug": "acronis",
       "price": 6.08,
@@ -153,6 +144,15 @@
       "rating": 4.5,
       "bestFor": "One-computer households",
       "url": "https://backupshortlist.com/tools/backblaze"
+    },
+    {
+      "provider": "Sync.com",
+      "slug": "sync-com",
+      "price": 9,
+      "currency": "USD",
+      "rating": 4.5,
+      "bestFor": "Private storage without friction",
+      "url": "https://backupshortlist.com/tools/sync-com"
     },
     {
       "provider": "Dropbox",

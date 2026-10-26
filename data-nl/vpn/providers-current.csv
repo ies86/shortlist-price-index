@@ -1,13 +1,13 @@
 provider,entry_price_eur_per_month,source_url
 PrivadoVPN,1.11,https://kiesvpn.nl/tools/privadovpn
-Private Internet Access,1.59,https://kiesvpn.nl/tools/private-internet-access
+Private Internet Access,1.79,https://kiesvpn.nl/tools/private-internet-access
 PureVPN,1.85,https://kiesvpn.nl/tools/purevpn
+IPVanish,1.97,https://kiesvpn.nl/tools/ipvanish
 CyberGhost,1.99,https://kiesvpn.nl/tools/cyberghost
 PrivateVPN,2.08,https://kiesvpn.nl/tools/privatevpn
-IPVanish,2.24,https://kiesvpn.nl/tools/ipvanish
 Surfshark,2.49,https://kiesvpn.nl/tools/surfshark
-ExpressVPN,2.49,https://kiesvpn.nl/tools/expressvpn
-hide.me,2.69,https://kiesvpn.nl/tools/hide-me
+hide.me,2.5,https://kiesvpn.nl/tools/hide-me
+ExpressVPN,2.99,https://kiesvpn.nl/tools/expressvpn
 NordVPN,3.49,https://kiesvpn.nl/tools/nordvpn
 Proton VPN,3.49,https://kiesvpn.nl/tools/proton-vpn
 Mozilla VPN,4.99,https://kiesvpn.nl/tools/mozilla-vpn

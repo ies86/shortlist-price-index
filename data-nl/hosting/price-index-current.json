@@ -7,12 +7,12 @@
   "currency": "EUR",
   "catalogueFx": {
     "base": "EUR",
-    "usdPerEur": 1.159,
-    "rateDate": "2026-09-01"
+    "usdPerEur": 1.1205,
+    "rateDate": "2026-10-22"
   },
   "unit": "/mnd",
   "updated": "2026-10-05",
-  "generated": "2026-10-14",
+  "generated": "2026-10-22",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -42,17 +42,17 @@
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.34,
-  "medianPrice": 4.22,
+  "averagePrice": 8.45,
+  "medianPrice": 4.28,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
     "currency": "EUR"
   },
   "mostExpensive": {
-    "provider": "WP Engine",
-    "price": 25.6,
-    "currency": "EUR"
+    "provider": "Kinsta",
+    "price": 29.17,
+    "currency": "USD"
   },
   "providers": [
     {
@@ -146,15 +146,6 @@
       "url": "https://kieshosting.nl/tools/hetzner"
     },
     {
-      "provider": "Kinsta",
-      "slug": "kinsta",
-      "price": 29.17,
-      "currency": "USD",
-      "rating": 4.6,
-      "bestFor": "Managed WordPress",
-      "url": "https://kieshosting.nl/tools/kinsta"
-    },
-    {
       "provider": "WP Engine",
       "slug": "wp-engine",
       "price": 25.6,
@@ -162,6 +153,15 @@
       "rating": 4.4,
       "bestFor": "Managed WordPress",
       "url": "https://kieshosting.nl/tools/wp-engine"
+    },
+    {
+      "provider": "Kinsta",
+      "slug": "kinsta",
+      "price": 29.17,
+      "currency": "USD",
+      "rating": 4.6,
+      "bestFor": "Managed WordPress",
+      "url": "https://kieshosting.nl/tools/kinsta"
     }
   ],
   "history": [

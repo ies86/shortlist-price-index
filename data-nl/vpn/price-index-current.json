@@ -3,11 +3,11 @@
   "report": "https://kiesvpn.nl/data/price-index",
   "niche": "VPN-diensten",
   "license": "CC BY 4.0 - vrij te hergebruiken met bronvermelding en een link naar KiesVPN",
-  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen, met de hand samengesteld; automatische maandmeting in uitrol.",
+  "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Elke prijs komt van de pagina van de aanbieder en wordt wekelijks opnieuw gecontroleerd. Eens per maand wordt een meting bewaard in history.",
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-10-05",
-  "generated": "2026-10-19",
+  "generated": "2026-10-24",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -37,7 +37,7 @@
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 2.73,
+  "averagePrice": 2.75,
   "medianPrice": 2.49,
   "cheapest": {
     "provider": "PrivadoVPN",
@@ -62,7 +62,7 @@
     {
       "provider": "Private Internet Access",
       "slug": "private-internet-access",
-      "price": 1.59,
+      "price": 1.79,
       "currency": "EUR",
       "rating": 4.2,
       "bestFor": "Onbeperkt aantal apparaten",
@@ -76,6 +76,15 @@
       "rating": 3.9,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/purevpn"
+    },
+    {
+      "provider": "IPVanish",
+      "slug": "ipvanish",
+      "price": 1.97,
+      "currency": "EUR",
+      "rating": 4,
+      "bestFor": "Onbeperkt aantal apparaten",
+      "url": "https://kiesvpn.nl/tools/ipvanish"
     },
     {
       "provider": "CyberGhost",
@@ -96,15 +105,6 @@
       "url": "https://kiesvpn.nl/tools/privatevpn"
     },
     {
-      "provider": "IPVanish",
-      "slug": "ipvanish",
-      "price": 2.24,
-      "currency": "EUR",
-      "rating": 4,
-      "bestFor": "Onbeperkt aantal apparaten",
-      "url": "https://kiesvpn.nl/tools/ipvanish"
-    },
-    {
       "provider": "Surfshark",
       "slug": "surfshark",
       "price": 2.49,
@@ -114,22 +114,22 @@
       "url": "https://kiesvpn.nl/tools/surfshark"
     },
     {
-      "provider": "ExpressVPN",
-      "slug": "expressvpn",
-      "price": 2.49,
-      "currency": "EUR",
-      "rating": 4.4,
-      "bestFor": "8 apparaten tegelijk",
-      "url": "https://kiesvpn.nl/tools/expressvpn"
-    },
-    {
       "provider": "hide.me",
       "slug": "hide-me",
-      "price": 2.69,
+      "price": 2.5,
       "currency": "EUR",
       "rating": 4.1,
       "bestFor": "10 apparaten tegelijk",
       "url": "https://kiesvpn.nl/tools/hide-me"
+    },
+    {
+      "provider": "ExpressVPN",
+      "slug": "expressvpn",
+      "price": 2.99,
+      "currency": "EUR",
+      "rating": 4.4,
+      "bestFor": "8 apparaten tegelijk",
+      "url": "https://kiesvpn.nl/tools/expressvpn"
     },
     {
       "provider": "NordVPN",

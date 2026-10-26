@@ -4,7 +4,7 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to eSIMShortlist",
   "methodology": "USD per GB = price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans and free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "updated": "2026-06-16",
-  "generated": "2026-10-14",
+  "generated": "2026-10-25",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-06-16",
@@ -22,11 +22,11 @@
   },
   "basisGb": 5,
   "providersTracked": 6,
-  "averagePricePerGB": 3.7,
+  "averagePricePerGB": 3.64,
   "medianPricePerGB": 3.75,
   "cheapest": {
     "provider": "GigSky",
-    "pricePerGB": 3.4
+    "pricePerGB": 3.06
   },
   "mostExpensive": {
     "provider": "aloSIM",
@@ -36,8 +36,8 @@
     {
       "provider": "GigSky",
       "slug": "gigsky",
-      "referencePlanUSD": 16.99,
-      "pricePerGB": 3.4
+      "referencePlanUSD": 15.29,
+      "pricePerGB": 3.06
     },
     {
       "provider": "Nomad",

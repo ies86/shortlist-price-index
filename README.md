@@ -26,7 +26,7 @@ Most recent measured month in this repository: **2026-10**.
 | Newsletter tools | 2026-08, 2026-09, 2026-10 | measured |
 | Password managers | 2026-08, 2026-09, 2026-10 | measured |
 | VPN services | 2026-07, 2026-08, 2026-09, 2026-10 | measured |
-| Learning platforms | 2026-08, 2026-09, 2026-10 | measured; **aggregate withheld for 2026-10** (too few providers verified) |
+| Learning platforms | 2026-08, 2026-09, 2026-10 | measured |
 | Travel eSIMs | 2026-08, 2026-09, 2026-10 | measured; **aggregate withheld for 2026-09, 2026-10** (coverage dropped sharply against the running median; too few providers verified) |
 
 *This table is generated from the validation files in this repository rather than

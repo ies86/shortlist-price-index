@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-05",
-  "generated": "2026-10-18",
+  "generated": "2026-10-25",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-05",
@@ -23,11 +23,11 @@
     "underReview": 3
   },
   "providersTracked": 15,
-  "averagePrice": 5.88,
+  "averagePrice": 5.86,
   "medianPrice": 4.17,
   "cheapest": {
-    "provider": "Intego Mac Internet Security",
-    "price": 2.5
+    "provider": "Surfshark One",
+    "price": 2.49
   },
   "mostExpensive": {
     "provider": "Aura",
@@ -35,20 +35,20 @@
   },
   "providers": [
     {
+      "provider": "Surfshark One",
+      "slug": "surfshark-one",
+      "price": 2.49,
+      "rating": 4.2,
+      "bestFor": "VPN-first users",
+      "url": "https://antivirusshortlist.com/tools/surfshark-one"
+    },
+    {
       "provider": "Intego Mac Internet Security",
       "slug": "intego",
       "price": 2.5,
       "rating": 4.1,
       "bestFor": "Mac-only households",
       "url": "https://antivirusshortlist.com/tools/intego"
-    },
-    {
-      "provider": "Surfshark One",
-      "slug": "surfshark-one",
-      "price": 2.79,
-      "rating": 4.2,
-      "bestFor": "VPN-first users",
-      "url": "https://antivirusshortlist.com/tools/surfshark-one"
     },
     {
       "provider": "Webroot Essentials",
