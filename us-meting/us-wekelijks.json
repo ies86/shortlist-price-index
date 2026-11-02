@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-10-26",
+ "gemaakt": "2026-11-02",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -110,11 +110,27 @@
    ]
   },
   {
+   "sleutel": "b857c3657562",
+   "url": "https://baofengtech.com/product/frs-a1/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|btech-frs-a1"
+   ]
+  },
+  {
    "sleutel": "a7d8e1191f26",
    "url": "https://baofengtech.com/product/frs-b1/",
    "kliks": [],
    "ids": [
     "radioshortlist.com|btech-frs-b1"
+   ]
+  },
+  {
+   "sleutel": "d0c78154aad5",
+   "url": "https://baofengtech.com/product/gmrs-pro/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|btech-gmrs-pro"
    ]
   },
   {
@@ -134,27 +150,19 @@
    ]
   },
   {
+   "sleutel": "c9a0e8ec886f",
+   "url": "https://baofengtech.com/product/nagoya-na-771g/",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|nagoya-na-771g"
+   ]
+  },
+  {
    "sleutel": "c7fca6edc7ac",
    "url": "https://bitwarden.com/pricing/",
    "kliks": [],
    "ids": [
     "passwordshortlist.com|bitwarden"
-   ]
-  },
-  {
-   "sleutel": "945a043ada62",
-   "url": "https://brilliant.org/help/pricing-and-plans/what-is-brilliant-premium-and-how-do-i-subscribe/",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|brilliant"
-   ]
-  },
-  {
-   "sleutel": "ec2f0a91e3dc",
-   "url": "https://brilliant.org/premium/",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|brilliant"
    ]
   },
   {
@@ -470,6 +478,14 @@
    ]
   },
   {
+   "sleutel": "8a06a66bdb7f",
+   "url": "https://incogni.com",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|incogni"
+   ]
+  },
+  {
    "sleutel": "04b5301ca758",
    "url": "https://incogni.com/pricing",
    "kliks": [],
@@ -478,11 +494,35 @@
    ]
   },
   {
+   "sleutel": "8bcd9bf3315a",
+   "url": "https://iraddy.com/products/re40",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|raddy-re40"
+   ]
+  },
+  {
+   "sleutel": "25347113cc21",
+   "url": "https://iraddy.com/products/rf780",
+   "kliks": [],
+   "ids": [
+    "radioshortlist.com|raddy-rf780"
+   ]
+  },
+  {
    "sleutel": "5264fe361e5c",
    "url": "https://iraddy.com/products/sh-906",
    "kliks": [],
    "ids": [
     "radioshortlist.com|raddy-sh-906"
+   ]
+  },
+  {
+   "sleutel": "144cf819ce93",
+   "url": "https://joindeleteme.com/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|deleteme"
    ]
   },
   {
@@ -790,6 +830,14 @@
    ]
   },
   {
+   "sleutel": "2f4a67123cdd",
+   "url": "https://mistral.ai/products/le-chat",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|mistral-le-chat"
+   ]
+  },
+  {
    "sleutel": "692ac0f8de2b",
    "url": "https://mobirise.com/extensions/kit/",
    "kliks": [],
@@ -902,14 +950,6 @@
    ]
   },
   {
-   "sleutel": "88576b521fc8",
-   "url": "https://one.google.com/about/google-ai-plans/",
-   "kliks": [],
-   "ids": [
-    "aisafecheck.com|gemini"
-   ]
-  },
-  {
    "sleutel": "980f78935fdf",
    "url": "https://one.google.com/about/plans",
    "kliks": [
@@ -924,7 +964,8 @@
    "url": "https://one.google.com/about/plans",
    "kliks": [],
    "ids": [
-    "aisafecheck.com|gmail"
+    "aisafecheck.com|gmail",
+    "aisafecheck.com|gemini"
    ]
   },
   {
@@ -933,6 +974,14 @@
    "kliks": [],
    "ids": [
     "backupshortlist.com|google-one"
+   ]
+  },
+  {
+   "sleutel": "59b787f22ae8",
+   "url": "https://one.google.com/ai",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|gemini"
    ]
   },
   {
@@ -1131,8 +1180,18 @@
    ]
   },
   {
-   "sleutel": "a962613dc13a",
+   "sleutel": "9d5aca722f56",
    "url": "https://serpstat.com/page/pricing-plans/",
+   "kliks": [
+    "css:label[for=discountToggle]"
+   ],
+   "ids": [
+    "seoshortlist.com|serpstat"
+   ]
+  },
+  {
+   "sleutel": "113f4b5b5df9",
+   "url": "https://serpstat.com/page/pricing-plans/#jaar",
    "kliks": [],
    "ids": [
     "seoshortlist.com|serpstat"
@@ -1353,6 +1412,14 @@
    ]
   },
   {
+   "sleutel": "aad139a31cd7",
+   "url": "https://us.ecoflow.com/collections/portable-power-stations",
+   "kliks": [],
+   "ids": [
+    "prepshortlist.com|ecoflow-delta-3"
+   ]
+  },
+  {
    "sleutel": "4dac1399987a",
    "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station",
    "kliks": [],
@@ -1515,10 +1582,11 @@
    ]
   },
   {
-   "sleutel": "5b37aacc9206",
+   "sleutel": "1252e89171d6",
    "url": "https://wpengine.com/plans/#maand",
    "kliks": [
-    "Monthly"
+    "knop:Build your plan for Essential",
+    "css:label[for=product-modal-billing-managed-hosting-platform-start]"
    ],
    "ids": [
     "hostingshortlist.com|wp-engine"
@@ -1662,6 +1730,14 @@
    ]
   },
   {
+   "sleutel": "826803d3f88b",
+   "url": "https://www.bitdefender.com/en-us/consumer/",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|bitdefender"
+   ]
+  },
+  {
    "sleutel": "456b03bd6d2f",
    "url": "https://www.bitdefender.com/en-us/consumer/antivirus",
    "kliks": [],
@@ -1783,22 +1859,6 @@
    "kliks": [],
    "ids": [
     "courseshortlist.com|codecademy"
-   ]
-  },
-  {
-   "sleutel": "f4701c3c0269",
-   "url": "https://www.coursera.org",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|coursera"
-   ]
-  },
-  {
-   "sleutel": "4c141b6dd192",
-   "url": "https://www.coursera.org/courseraplus",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|coursera"
    ]
   },
   {
@@ -2379,9 +2439,11 @@
    ]
   },
   {
-   "sleutel": "d61110bb1e92",
+   "sleutel": "963f7525f338",
    "url": "https://www.klaviyo.com/pricing",
-   "kliks": [],
+   "kliks": [
+    "knop:Marketing"
+   ],
    "ids": [
     "mailshortlist.com|klaviyo"
    ]
@@ -2439,7 +2501,8 @@
    "url": "https://www.malwarebytes.com/mwb-download",
    "kliks": [],
    "ids": [
-    "antivirusshortlist.com|malwarebytes"
+    "antivirusshortlist.com|malwarebytes",
+    "aisafecheck.com|malwarebytes"
    ]
   },
   {
@@ -2449,22 +2512,6 @@
    "ids": [
     "antivirusshortlist.com|malwarebytes",
     "aisafecheck.com|malwarebytes"
-   ]
-  },
-  {
-   "sleutel": "a14be3f351b9",
-   "url": "https://www.masterclass.com",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|masterclass"
-   ]
-  },
-  {
-   "sleutel": "4de99e4b83d2",
-   "url": "https://www.masterclass.com/plans",
-   "kliks": [],
-   "ids": [
-    "courseshortlist.com|masterclass"
    ]
   },
   {
@@ -2541,9 +2588,11 @@
    ]
   },
   {
-   "sleutel": "1b419b2e02d6",
+   "sleutel": "b291722e38a7",
    "url": "https://www.omnisend.com/pricing/",
-   "kliks": [],
+   "kliks": [
+    "css:#us-slider"
+   ],
    "ids": [
     "mailshortlist.com|omnisend"
    ]
@@ -2595,6 +2644,14 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|pecron-e1500lfp"
+   ]
+  },
+  {
+   "sleutel": "4177dc2089f5",
+   "url": "https://www.perplexity.ai",
+   "kliks": [],
+   "ids": [
+    "aisafecheck.com|perplexity"
    ]
   },
   {
