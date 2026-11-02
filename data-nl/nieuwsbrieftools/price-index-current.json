@@ -6,22 +6,22 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen van de prijspagina van de aanbieder. Een wekelijkse prijswacht leest ze opnieuw. Elke maand wordt een meting bewaard in history.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-10-05",
-  "generated": "2026-10-22",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-10-05",
-    "month": "2026-10",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 9,
-    "averagePrice": 14.32,
-    "medianPrice": 12.35,
+    "providersMeasured": 8,
+    "averagePrice": 12.03,
+    "medianPrice": 12.15,
     "cheapestPrice": 5,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1225,
-      "rateDate": "2026-10-02",
+      "usdPerEur": 1.1172,
+      "rateDate": "2026-10-30",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -29,16 +29,16 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 12.76,
-      "medianPrice": 11,
-      "cheapestPrice": 4.45
+      "averagePrice": 10.77,
+      "medianPrice": 10.88,
+      "cheapestPrice": 4.48
     },
-    "notMeasured": 0,
+    "notMeasured": 1,
     "underReview": 2
   },
   "providersTracked": 10,
-  "averagePrice": 14.3,
-  "medianPrice": 13.47,
+  "averagePrice": 14.6,
+  "medianPrice": 13.72,
   "cheapest": {
     "provider": "Brevo",
     "price": 6.33,
@@ -114,15 +114,6 @@
       "url": "https://nieuwsbriefkiezer.nl/tools/activecampaign"
     },
     {
-      "provider": "Klaviyo",
-      "slug": "klaviyo",
-      "price": 20,
-      "currency": "USD",
-      "rating": 4.5,
-      "bestFor": "Webshops",
-      "url": "https://nieuwsbriefkiezer.nl/tools/klaviyo"
-    },
-    {
       "provider": "Laposta",
       "slug": "laposta",
       "price": 17.5,
@@ -130,6 +121,15 @@
       "rating": 4.3,
       "bestFor": "Nederlandse organisaties",
       "url": "https://nieuwsbriefkiezer.nl/tools/laposta"
+    },
+    {
+      "provider": "Klaviyo",
+      "slug": "klaviyo",
+      "price": 20,
+      "currency": "USD",
+      "rating": 4.5,
+      "bestFor": "Webshops",
+      "url": "https://nieuwsbriefkiezer.nl/tools/klaviyo"
     },
     {
       "provider": "Kit (ConvertKit)",
@@ -212,6 +212,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1225,
         "koersdatum": "2026-10-02",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 12.03,
+      "median": 12.15,
+      "cheapest": 5,
+      "count": 8,
+      "n_missing": 1,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1172,
+        "koersdatum": "2026-10-30",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

@@ -7,26 +7,26 @@
   "currency": "EUR",
   "catalogueFx": {
     "base": "EUR",
-    "usdPerEur": 1.1205,
-    "rateDate": "2026-10-22"
+    "usdPerEur": 1.1172,
+    "rateDate": "2026-10-30"
   },
   "unit": "/mnd",
-  "updated": "2026-10-05",
-  "generated": "2026-10-22",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-10-05",
-    "month": "2026-10",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 9,
-    "averagePrice": 9.32,
-    "medianPrice": 3.36,
+    "providersMeasured": 10,
+    "averagePrice": 8.36,
+    "medianPrice": 2.86,
     "cheapestPrice": 1,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1225,
-      "rateDate": "2026-10-02",
+      "usdPerEur": 1.1172,
+      "rateDate": "2026-10-30",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -34,16 +34,16 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 8.3,
-      "medianPrice": 2.99,
-      "cheapestPrice": 0.89
+      "averagePrice": 7.48,
+      "medianPrice": 2.56,
+      "cheapestPrice": 0.9
     },
-    "notMeasured": 2,
+    "notMeasured": 1,
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.45,
-  "medianPrice": 4.28,
+  "averagePrice": 8.42,
+  "medianPrice": 4.56,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
@@ -85,7 +85,7 @@
     {
       "provider": "Hostinger",
       "slug": "hostinger",
-      "price": 2.99,
+      "price": 1.99,
       "currency": "EUR",
       "rating": 4.4,
       "bestFor": "Eerste website",
@@ -112,7 +112,7 @@
     {
       "provider": "Antagonist",
       "slug": "antagonist",
-      "price": 4.99,
+      "price": 5.55,
       "currency": "EUR",
       "rating": 4.5,
       "bestFor": "Betrouwbaarheid voorop",
@@ -254,6 +254,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1225,
         "koersdatum": "2026-10-02",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 8.36,
+      "median": 2.86,
+      "cheapest": 1,
+      "count": 10,
+      "n_missing": 1,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1172,
+        "koersdatum": "2026-10-30",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

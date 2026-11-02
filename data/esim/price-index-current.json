@@ -3,22 +3,22 @@
   "report": "https://esimshortlist.com/data/esim-price-index",
   "license": "CC BY 4.0 - free to reuse with attribution and a link to eSIMShortlist",
   "methodology": "USD per GB = price of each provider's 5 GB / 30-day reference plan divided by 5. Unlimited plans and free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
-  "updated": "2026-06-16",
-  "generated": "2026-10-25",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-06-16",
-    "month": "2026-06",
-    "basis": "curated",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 11,
-    "averagePrice": null,
-    "medianPrice": null,
-    "cheapestPrice": null,
+    "providersMeasured": 5,
+    "averagePrice": 3.17,
+    "medianPrice": 3.5,
+    "cheapestPrice": 1.34,
     "fx": null,
     "alsoIn": null,
-    "notMeasured": null,
-    "underReview": null
+    "notMeasured": 1,
+    "underReview": 0
   },
   "basisGb": 5,
   "providersTracked": 6,
@@ -78,6 +78,18 @@
       "medianPerGB": 3.8,
       "cheapestPerGB": 1.8,
       "count": 11,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 3.17,
+      "median": 3.5,
+      "cheapest": 1.34,
+      "count": 5,
+      "n_missing": 1,
+      "n_under_review": 0,
       "currency": "USD"
     }
   ]

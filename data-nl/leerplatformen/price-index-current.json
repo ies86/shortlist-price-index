@@ -6,22 +6,22 @@
   "methodology": "Laagste betaalde maandprijs per aanbieder. Gratis versies tellen niet mee. Richtprijzen uit onze redactionele catalogus, elk gelezen op de pagina van de aanbieder of winkel zelf. Een wekelijkse prijswacht leest ze opnieuw. Eerdere metingen staan in history.",
   "currency": "EUR",
   "unit": "/mnd",
-  "updated": "2026-08-22",
-  "generated": "2026-10-25",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-08-22",
-    "month": "2026-08",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 7,
-    "averagePrice": 21.25,
-    "medianPrice": 17.54,
-    "cheapestPrice": 13.99,
+    "providersMeasured": 8,
+    "averagePrice": 20.55,
+    "medianPrice": 18.88,
+    "cheapestPrice": 11.17,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1699,
-      "rateDate": "2026-08-21",
+      "usdPerEur": 1.1172,
+      "rateDate": "2026-10-30",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -29,11 +29,11 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 18.16,
-      "medianPrice": 14.99,
-      "cheapestPrice": 11.96
+      "averagePrice": 18.39,
+      "medianPrice": 16.9,
+      "cheapestPrice": 10
     },
-    "notMeasured": 2,
+    "notMeasured": 1,
     "underReview": 2
   },
   "providersTracked": 10,
@@ -161,6 +161,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1699,
         "koersdatum": "2026-08-21",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 20.55,
+      "median": 18.88,
+      "cheapest": 11.17,
+      "count": 8,
+      "n_missing": 1,
+      "n_under_review": 2,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1172,
+        "koersdatum": "2026-10-30",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

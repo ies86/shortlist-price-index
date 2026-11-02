@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "niche": "learning-platforms",
+      "provider_slug": "brilliant",
+      "month": "2026-11",
+      "run_id": "2026-11_r1",
+      "old_usd_mo": 17.77,
+      "new_usd_mo": 23.27,
+      "delta_pct": 31.59,
+      "currency": "EUR",
+      "old_own": 15.83,
+      "new_own": 20.83,
+      "delta_pct_own": 31.59,
+      "delta_pct_usd": 31,
+      "vendor_url": "https://brilliant.org/premium/",
+      "archive_url": "",
+      "detected_at": "2026-11-02T08:34:10.473Z",
+      "pitched": false
+    },
+    {
+      "niche": "learning-platforms",
+      "provider_slug": "coursera",
+      "month": "2026-11",
+      "run_id": "2026-11_r1",
+      "old_usd_mo": 32.08,
+      "new_usd_mo": 33.05,
+      "delta_pct": 3.5,
+      "currency": "EUR",
+      "old_own": 28.58,
+      "new_own": 29.58,
+      "delta_pct_own": 3.5,
+      "delta_pct_usd": 3,
+      "vendor_url": "https://www.coursera.org/courseraplus",
+      "archive_url": "",
+      "detected_at": "2026-11-02T08:34:10.477Z",
+      "pitched": false
+    }
+  ]
+}

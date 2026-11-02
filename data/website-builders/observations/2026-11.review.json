@@ -1,0 +1,30 @@
+{
+  "maand": "2026-11",
+  "niche": "website-builders",
+  "items": [
+    {
+      "provider_slug": "hostinger-builder",
+      "oud": 2.99,
+      "nieuw": 2.49,
+      "vendor_url": "https://www.hostinger.com/website-builder",
+      "archive_url": "",
+      "alt": 3.49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "squarespace",
+      "oud": 19,
+      "nieuw": 13.41,
+      "vendor_url": "https://www.squarespace.com/pricing",
+      "archive_url": "",
+      "alt": 0.09,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "andere vlaggen dan beoordeeld (nu \"extractor_disagreement\", beoordeeld \"out_of_band|suspect_jump\")"
+    }
+  ]
+}

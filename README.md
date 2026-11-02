@@ -14,20 +14,20 @@ A category is listed as measured only when its monthly run passed the validation
      a hand-kept row falls behind the moment the monthly measurement moves on, and
      on 7 September 2026 it had, in ten of the eleven categories at once. -->
 
-Most recent measured month in this repository: **2026-10**.
+Most recent measured month in this repository: **2026-11**.
 
 | Category | Measured months | Status |
 |---|---|---|
-| Cloud backup | 2026-07, 2026-08, 2026-09, 2026-10 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
-| Web hosting | 2026-07, 2026-08, 2026-09, 2026-10 | measured |
-| SEO tools | 2026-07, 2026-08, 2026-09, 2026-10 | measured |
-| Website builders | 2026-08, 2026-09, 2026-10 | measured |
-| Antivirus software | 2026-07, 2026-08, 2026-09, 2026-10 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
-| Newsletter tools | 2026-08, 2026-09, 2026-10 | measured |
-| Password managers | 2026-08, 2026-09, 2026-10 | measured |
-| VPN services | 2026-07, 2026-08, 2026-09, 2026-10 | measured |
-| Learning platforms | 2026-08, 2026-09, 2026-10 | measured |
-| Travel eSIMs | 2026-08, 2026-09, 2026-10 | measured; **aggregate withheld for 2026-09, 2026-10** (coverage dropped sharply against the running median; too few providers verified) |
+| Cloud backup | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-07, 2026-11** (too few providers verified; coverage dropped sharply against the running median) |
+| Web hosting | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| SEO tools | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Website builders | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Antivirus software | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
+| Newsletter tools | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Password managers | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| VPN services | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Learning platforms | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Travel eSIMs | 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-09, 2026-10** (coverage dropped sharply against the running median; too few providers verified) |
 
 *This table is generated from the validation files in this repository rather than
 written by hand, so it cannot claim a status the data underneath does not support.*

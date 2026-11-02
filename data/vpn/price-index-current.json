@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to VPNShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Prices are read from each provider's own pricing page by a weekly price watch. A monthly measurement is archived in history.",
   "unit": "/mo",
-  "updated": "2026-10-05",
-  "generated": "2026-10-25",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-10-05",
-    "month": "2026-10",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 11,
-    "averagePrice": 4.68,
-    "medianPrice": 3.92,
-    "cheapestPrice": 2.15,
+    "providersMeasured": 10,
+    "averagePrice": 4.96,
+    "medianPrice": 3.98,
+    "cheapestPrice": 2.19,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1225,
-      "rateDate": "2026-10-02",
+      "usdPerEur": 1.1172,
+      "rateDate": "2026-10-30",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -28,15 +28,15 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 4.17,
-      "medianPrice": 3.49,
-      "cheapestPrice": 1.92
+      "averagePrice": 4.44,
+      "medianPrice": 3.56,
+      "cheapestPrice": 1.96
     },
-    "notMeasured": 1,
+    "notMeasured": 2,
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 3.07,
+  "averagePrice": 3.05,
   "medianPrice": 2.49,
   "cheapest": {
     "provider": "PrivadoVPN",
@@ -106,7 +106,7 @@
     {
       "provider": "hide.me",
       "slug": "hide-me",
-      "price": 2.69,
+      "price": 2.5,
       "rating": 4.1,
       "bestFor": "10 devices at once",
       "url": "https://vpnshortlist.com/tools/hide-me"
@@ -116,7 +116,7 @@
       "slug": "expressvpn",
       "price": 2.99,
       "rating": 4.4,
-      "bestFor": "8 devices at once",
+      "bestFor": "10 devices at once",
       "url": "https://vpnshortlist.com/tools/expressvpn"
     },
     {
@@ -243,6 +243,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1225,
         "koersdatum": "2026-10-02",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 4.96,
+      "median": 3.98,
+      "cheapest": 2.19,
+      "count": 10,
+      "n_missing": 2,
+      "n_under_review": 3,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1172,
+        "koersdatum": "2026-10-30",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

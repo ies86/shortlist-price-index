@@ -1,0 +1,42 @@
+{
+  "maand": "2026-11",
+  "niche": "vpn",
+  "items": [
+    {
+      "provider_slug": "private-internet-access",
+      "oud": 2.75,
+      "nieuw": 2.75,
+      "vendor_url": "https://www.privateinternetaccess.com/buy-vpn-online",
+      "archive_url": "",
+      "alt": 2.03,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "privadovpn",
+      "oud": null,
+      "nieuw": 1.11,
+      "vendor_url": "https://privadovpn.com/pricing/",
+      "archive_url": "",
+      "alt": 1.99,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "purevpn",
+      "oud": 2.15,
+      "nieuw": 2.15,
+      "vendor_url": "https://www.purevpn.com/order",
+      "archive_url": "",
+      "alt": 1.49,
+      "flags": [
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

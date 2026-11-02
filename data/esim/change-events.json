@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "niche": "esim",
+      "provider_slug": "nomad",
+      "month": "2026-11",
+      "run_id": "2026-11_r1",
+      "old_usd_mo": 17.45,
+      "new_usd_mo": 17.51,
+      "delta_pct": 0.77,
+      "currency": "EUR",
+      "old_own": 15.55,
+      "new_own": 15.67,
+      "delta_pct_own": 0.77,
+      "delta_pct_usd": 0.3,
+      "vendor_url": "https://www.nomadesim.com/europe-eSIM",
+      "archive_url": "",
+      "detected_at": "2026-11-02T08:27:32.229Z",
+      "pitched": false
+    }
+  ]
+}

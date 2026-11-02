@@ -403,5 +403,299 @@
     },
     "archief_getoetst": false,
     "citeer": "coursera lowered the price of its coursera-plus-annual plan from €346 to €343 per year (-0.9%) between 2026-09 and 2026-10 (Shortlist Price Index, measured on the vendor's own pricing page; coursera prices in EUR, so the change is stated in EUR and carries no exchange-rate movement; billed annually)."
+  },
+  {
+    "id": "hosting|bluehost|bluehost-starter|2026-11",
+    "datum": "2026-11",
+    "categorie": "Web hosting",
+    "provider": "bluehost",
+    "plan_id": "bluehost-starter",
+    "oud": 3.99,
+    "nieuw": 3.82,
+    "deltaPct": -4.3,
+    "valuta": "USD",
+    "oud_usd": 3.99,
+    "nieuw_usd": 3.82,
+    "usd_delta_pct": -4.3,
+    "fx_naar_usd": {
+      "2026-10": 1,
+      "2026-11": 1
+    },
+    "lijstprijs": {
+      "oud": 3.99,
+      "nieuw": 3.82,
+      "per": "month"
+    },
+    "richting": "verlaging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://www.bluehost.com/pricing",
+    "archief_url": null,
+    "onafhankelijk_na_te_lopen": false,
+    "archief_urls": {
+      "2026-10": null,
+      "2026-11": null
+    },
+    "archief_getoetst": false,
+    "citeer": "bluehost lowered the price of its bluehost-starter plan from $3.99 to $3.82 per month (-4.3%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "hosting|hostinger|hostinger-premium|2026-11",
+    "datum": "2026-11",
+    "categorie": "Web hosting",
+    "provider": "hostinger",
+    "plan_id": "hostinger-premium",
+    "oud": 2.99,
+    "nieuw": 2.49,
+    "deltaPct": -16.7,
+    "valuta": "USD",
+    "oud_usd": 2.99,
+    "nieuw_usd": 2.49,
+    "usd_delta_pct": -16.7,
+    "fx_naar_usd": {
+      "2026-10": 1,
+      "2026-11": 1
+    },
+    "lijstprijs": {
+      "oud": 2.99,
+      "nieuw": 2.49,
+      "per": "month"
+    },
+    "richting": "verlaging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://www.hostinger.com/web-hosting",
+    "archief_url": "https://web.archive.org/web/20261102070527/https://www.hostinger.com/web-hosting",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "https://web.archive.org/web/20261012074549/https://www.hostinger.com/web-hosting#refresh",
+      "2026-11": "https://web.archive.org/web/20261102070527/https://www.hostinger.com/web-hosting"
+    },
+    "archief_getoetst": false,
+    "citeer": "hostinger lowered the price of its hostinger-premium plan from $2.99 to $2.49 per month (-16.7%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "vpn|hide-me|hideme|2026-11",
+    "datum": "2026-11",
+    "categorie": "VPN services",
+    "provider": "hide-me",
+    "plan_id": "hideme",
+    "oud": 11,
+    "nieuw": 11.99,
+    "deltaPct": 9,
+    "valuta": "EUR",
+    "oud_usd": 12.35,
+    "nieuw_usd": 13.4,
+    "usd_delta_pct": 8.5,
+    "fx_naar_usd": {
+      "2026-10": 1.1225,
+      "2026-11": 1.1172
+    },
+    "lijstprijs": {
+      "oud": 11,
+      "nieuw": 11.99,
+      "per": "month"
+    },
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://hide.me/en/pricing",
+    "archief_url": "https://web.archive.org/web/20261102071756/https://hide.me/en/pricing",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "http://web.archive.org/web/20261004064258/https://hide.me/en/pricing",
+      "2026-11": "https://web.archive.org/web/20261102071756/https://hide.me/en/pricing"
+    },
+    "archief_getoetst": false,
+    "citeer": "hide-me raised the price of its hideme plan from €11 to €11.99 per month (+9.0%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page; hide-me prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
+  },
+  {
+    "id": "vpn|ipvanish|ipvanish-2yr|2026-11",
+    "datum": "2026-11",
+    "categorie": "VPN services",
+    "provider": "ipvanish",
+    "plan_id": "ipvanish-2yr",
+    "oud": 2.39,
+    "nieuw": 2.19,
+    "deltaPct": -8.4,
+    "valuta": "USD",
+    "oud_usd": 2.39,
+    "nieuw_usd": 2.19,
+    "usd_delta_pct": -8.4,
+    "fx_naar_usd": {
+      "2026-10": 1,
+      "2026-11": 1
+    },
+    "lijstprijs": {
+      "oud": 2.39,
+      "nieuw": 2.19,
+      "per": "month"
+    },
+    "richting": "verlaging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://www.ipvanish.com/pricing/",
+    "archief_url": "https://web.archive.org/web/20261102071820/https://www.ipvanish.com/pricing/",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "https://web.archive.org/web/20261005085712/https://www.ipvanish.com/pricing/",
+      "2026-11": "https://web.archive.org/web/20261102071820/https://www.ipvanish.com/pricing/"
+    },
+    "archief_getoetst": false,
+    "citeer": "ipvanish lowered the price of its ipvanish-2yr plan from $2.39 to $2.19 per month (-8.4%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page)."
+  },
+  {
+    "id": "antivirus|surfshark-one|surfshark-one|2026-11",
+    "datum": "2026-11",
+    "categorie": "Antivirus software",
+    "provider": "surfshark-one",
+    "plan_id": "surfshark-one",
+    "oud": 2.79,
+    "nieuw": 2.49,
+    "deltaPct": -10.8,
+    "valuta": "EUR",
+    "oud_usd": 3.13,
+    "nieuw_usd": 2.78,
+    "usd_delta_pct": -11.2,
+    "fx_naar_usd": {
+      "2026-10": 1.1225,
+      "2026-11": 1.1172
+    },
+    "lijstprijs": {
+      "oud": 2.79,
+      "nieuw": 2.49,
+      "per": "month"
+    },
+    "richting": "verlaging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://surfshark.com/pricing",
+    "archief_url": "https://web.archive.org/web/20261102071732/https://surfshark.com/pricing",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "https://web.archive.org/web/20261012082702/https://surfshark.com/pricing",
+      "2026-11": "https://web.archive.org/web/20261102071732/https://surfshark.com/pricing"
+    },
+    "archief_getoetst": false,
+    "citeer": "surfshark-one lowered the price of its surfshark-one plan from €2.79 to €2.49 per month (-10.8%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page; surfshark-one prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
+  },
+  {
+    "id": "learning-platforms|brilliant|annual|2026-11",
+    "datum": "2026-11",
+    "categorie": "Learning platforms",
+    "provider": "brilliant",
+    "plan_id": "annual",
+    "oud": 15.83,
+    "nieuw": 20.83,
+    "deltaPct": 31.6,
+    "valuta": "EUR",
+    "oud_usd": 17.77,
+    "nieuw_usd": 23.27,
+    "usd_delta_pct": 31,
+    "fx_naar_usd": {
+      "2026-10": 1.1225,
+      "2026-11": 1.1172
+    },
+    "lijstprijs": {
+      "oud": 15.83,
+      "nieuw": 20.83,
+      "per": "month"
+    },
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://brilliant.org/premium/",
+    "archief_url": "https://web.archive.org/web/20261102083608/https://brilliant.org/subscribe/",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "https://web.archive.org/web/20261005102055/https://brilliant.org/subscribe/",
+      "2026-11": "https://web.archive.org/web/20261102083608/https://brilliant.org/subscribe/"
+    },
+    "archief_getoetst": false,
+    "citeer": "brilliant raised the price of its annual plan from €15.83 to €20.83 per month (+31.6%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page; brilliant prices in EUR, so the change is stated in EUR and carries no exchange-rate movement)."
+  },
+  {
+    "id": "learning-platforms|coursera|coursera-plus-annual|2026-11",
+    "datum": "2026-11",
+    "categorie": "Learning platforms",
+    "provider": "coursera",
+    "plan_id": "coursera-plus-annual",
+    "oud": 28.58,
+    "nieuw": 29.58,
+    "deltaPct": 3.5,
+    "valuta": "EUR",
+    "oud_usd": 32.08,
+    "nieuw_usd": 33.05,
+    "usd_delta_pct": 3,
+    "fx_naar_usd": {
+      "2026-10": 1.1225,
+      "2026-11": 1.1172
+    },
+    "lijstprijs": {
+      "oud": 343,
+      "nieuw": 355,
+      "per": "year"
+    },
+    "richting": "verhoging",
+    "basis": "meting-op-meting",
+    "gemeten_maanden": [
+      "2026-10",
+      "2026-11"
+    ],
+    "run_ids": [
+      "2026-10_r1",
+      "2026-11_r1"
+    ],
+    "bron_url": "https://www.coursera.org/courseraplus",
+    "archief_url": "https://web.archive.org/web/20261102083931/https://www.coursera.org/courseraplus",
+    "onafhankelijk_na_te_lopen": true,
+    "archief_urls": {
+      "2026-10": "http://web.archive.org/web/20260928104608/https://www.coursera.org/courseraplus",
+      "2026-11": "https://web.archive.org/web/20261102083931/https://www.coursera.org/courseraplus"
+    },
+    "archief_getoetst": false,
+    "citeer": "coursera raised the price of its coursera-plus-annual plan from €343 to €355 per year (+3.5%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page; coursera prices in EUR, so the change is stated in EUR and carries no exchange-rate movement; billed annually)."
   }
 ]

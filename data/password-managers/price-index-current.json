@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to PasswordShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-10-05",
-  "generated": "2026-10-25",
+  "updated": "2026-11-02",
+  "generated": "2026-11-02",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-10-05",
-    "month": "2026-10",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 7,
-    "averagePrice": 4.06,
-    "medianPrice": 2.99,
+    "providersMeasured": 6,
+    "averagePrice": 2.79,
+    "medianPrice": 2.74,
     "cheapestPrice": 1.65,
     "fx": {
       "base": "EUR",
-      "usdPerEur": 1.1225,
-      "rateDate": "2026-10-02",
+      "usdPerEur": 1.1172,
+      "rateDate": "2026-10-30",
       "exactOnMeasurementDate": false,
       "source": "European Central Bank via frankfurter.app"
     },
@@ -28,11 +28,11 @@
       "currency": "EUR",
       "derived": true,
       "note": "Omgerekend uit de gemeten bedragen met de ECB-referentiekoers van rateDate hierboven. Niet zelf gemeten.",
-      "averagePrice": 3.62,
-      "medianPrice": 2.66,
-      "cheapestPrice": 1.47
+      "averagePrice": 2.5,
+      "medianPrice": 2.45,
+      "cheapestPrice": 1.48
     },
-    "notMeasured": 1,
+    "notMeasured": 2,
     "underReview": 1
   },
   "providersTracked": 9,
@@ -191,6 +191,25 @@
         "basis": "EUR",
         "usd_per_eur": 1.1225,
         "koersdatum": "2026-10-02",
+        "exact": false,
+        "bron": "European Central Bank via frankfurter.app"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 2.79,
+      "median": 2.74,
+      "cheapest": 1.65,
+      "count": 6,
+      "n_missing": 2,
+      "n_under_review": 1,
+      "currency": "USD",
+      "fx": {
+        "basis": "EUR",
+        "usd_per_eur": 1.1172,
+        "koersdatum": "2026-10-30",
         "exact": false,
         "bron": "European Central Bank via frankfurter.app"
       }

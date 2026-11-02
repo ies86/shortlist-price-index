@@ -1,0 +1,92 @@
+{
+  "maand": "2026-11",
+  "niche": "backup",
+  "items": [
+    {
+      "provider_slug": "pcloud",
+      "oud": null,
+      "nieuw": 0.46,
+      "vendor_url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
+      "archive_url": "",
+      "alt": 20.39,
+      "flags": [
+        "out_of_band",
+        "extractor_disagreement"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "icedrive",
+      "oud": 5.55,
+      "nieuw": 74.99,
+      "vendor_url": "https://icedrive.net/plans",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "out_of_band",
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "sync-com",
+      "oud": 3.5,
+      "nieuw": 9,
+      "vendor_url": "https://www.sync.com/pricing-individual/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "beoordeling verlopen op 2026-10-31"
+    },
+    {
+      "provider_slug": "filen",
+      "oud": 2.25,
+      "nieuw": 2.22,
+      "vendor_url": "https://filen.io/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "stuck_suspect"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "proton-drive",
+      "oud": 11.42,
+      "nieuw": 4.99,
+      "vendor_url": "https://proton.me/drive/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "suspect_jump"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "mega",
+      "oud": null,
+      "nieuw": 3.91,
+      "vendor_url": "https://mega.io/pricing",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "naheffing_per_eenheid"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    },
+    {
+      "provider_slug": "koofr",
+      "oud": 0.56,
+      "nieuw": 0.56,
+      "vendor_url": "https://koofr.eu/pricing/",
+      "archive_url": "",
+      "alt": null,
+      "flags": [
+        "stuck_suspect"
+      ],
+      "beoordeling": "geen beoordeling aanwezig"
+    }
+  ]
+}

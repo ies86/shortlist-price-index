@@ -1,0 +1,13 @@
+{
+  "niche": "learning-platforms",
+  "maand": "2026-11",
+  "n_total": 11,
+  "n_observed_new": 0,
+  "n_observed_changed": 2,
+  "n_observed_unchanged": 6,
+  "n_under_review": 2,
+  "n_missing": 1,
+  "canary_ok": true,
+  "alarms": [],
+  "publishable": true
+}

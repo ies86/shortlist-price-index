@@ -1,10 +1,6 @@
 provider,entry_price_usd_per_month,source_url
-MasterClass,10,https://courseshortlist.com/tools/masterclass
 Domestika,13.79,https://courseshortlist.com/tools/domestika
 Skillshare,13.99,https://courseshortlist.com/tools/skillshare
 Codecademy,19.99,https://courseshortlist.com/tools/codecademy
 Pluralsight,21,https://courseshortlist.com/tools/pluralsight
-Brilliant,22.5,https://courseshortlist.com/tools/brilliant
-Coursera,33.25,https://courseshortlist.com/tools/coursera
-LinkedIn Learning,39.99,https://courseshortlist.com/tools/linkedin-learning
 Udacity,249,https://courseshortlist.com/tools/udacity

@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider, in US dollars as shown on the provider's own pricing page. Free tiers excluded, and so are providers without a US dollar price that they charge. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-02",
-  "generated": "2026-10-25",
+  "generated": "2026-11-01",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-02",
@@ -24,8 +24,8 @@
   },
   "providersTracked": 15,
   "currency": "USD",
-  "averagePrice": 5.8,
-  "medianPrice": 6.08,
+  "averagePrice": 5.94,
+  "medianPrice": 6.99,
   "cheapest": {
     "provider": "Apple iCloud+",
     "price": 0.99,
@@ -92,15 +92,6 @@
       "url": "https://backupshortlist.com/tools/pcloud"
     },
     {
-      "provider": "Icedrive",
-      "slug": "icedrive",
-      "price": 4.92,
-      "currency": "USD",
-      "rating": 4,
-      "bestFor": "Style-conscious switchers",
-      "url": "https://backupshortlist.com/tools/icedrive"
-    },
-    {
       "provider": "Acronis True Image",
       "slug": "acronis",
       "price": 6.08,
@@ -126,6 +117,15 @@
       "rating": 4,
       "bestFor": "Vaulting sensitive files",
       "url": "https://backupshortlist.com/tools/nordlocker"
+    },
+    {
+      "provider": "Icedrive",
+      "slug": "icedrive",
+      "price": 6.99,
+      "currency": "USD",
+      "rating": 4,
+      "bestFor": "Style-conscious switchers",
+      "url": "https://backupshortlist.com/tools/icedrive"
     },
     {
       "provider": "Carbonite Safe",
