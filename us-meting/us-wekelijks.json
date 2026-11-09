@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-11-02",
+ "gemaakt": "2026-11-09",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -2429,11 +2429,9 @@
    ]
   },
   {
-   "sleutel": "75f59f730ef2",
+   "sleutel": "188962f9bb6f",
    "url": "https://www.keysearch.co/#pricing",
-   "kliks": [
-    "Enable annual billing"
-   ],
+   "kliks": [],
    "ids": [
     "seoshortlist.com|keysearch"
    ]
