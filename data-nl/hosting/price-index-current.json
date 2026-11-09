@@ -12,7 +12,7 @@
   },
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-02",
+  "generated": "2026-11-07",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -42,8 +42,8 @@
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.42,
-  "medianPrice": 4.56,
+  "averagePrice": 8.38,
+  "medianPrice": 4.29,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
@@ -112,7 +112,7 @@
     {
       "provider": "Antagonist",
       "slug": "antagonist",
-      "price": 5.55,
+      "price": 4.99,
       "currency": "EUR",
       "rating": 4.5,
       "bestFor": "Betrouwbaarheid voorop",

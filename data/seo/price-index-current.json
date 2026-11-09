@@ -5,22 +5,22 @@
   "license": "CC BY 4.0 - free to reuse with attribution and a link to SEOShortlist",
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
-  "updated": "2026-10-05",
-  "generated": "2026-10-28",
+  "updated": "2026-11-02",
+  "generated": "2026-11-06",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
-    "date": "2026-10-05",
-    "month": "2026-10",
+    "date": "2026-11-02",
+    "month": "2026-11",
     "basis": "measured",
     "currency": "USD",
-    "providersMeasured": 13,
-    "averagePrice": 59.56,
-    "medianPrice": 42.32,
+    "providersMeasured": 14,
+    "averagePrice": 62.03,
+    "medianPrice": 46.06,
     "cheapestPrice": 7,
     "fx": null,
     "alsoIn": null,
     "notMeasured": 0,
-    "underReview": 2
+    "underReview": 1
   },
   "providersTracked": 16,
   "averagePrice": 52.41,
@@ -221,6 +221,18 @@
       "count": 13,
       "n_missing": 0,
       "n_under_review": 2,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-11-02",
+      "month": "2026-11",
+      "measured": true,
+      "avg": 62.03,
+      "median": 46.06,
+      "cheapest": 7,
+      "count": 14,
+      "n_missing": 0,
+      "n_under_review": 1,
       "currency": "USD"
     }
   ]

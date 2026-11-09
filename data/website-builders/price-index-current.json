@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-02",
+  "generated": "2026-11-06",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -23,7 +23,7 @@
     "underReview": 2
   },
   "providersTracked": 21,
-  "averagePrice": 16.35,
+  "averagePrice": 16.3,
   "medianPrice": 15,
   "cheapest": {
     "provider": "Carrd",
@@ -45,7 +45,7 @@
     {
       "provider": "Hostinger Website Builder",
       "slug": "hostinger-builder",
-      "price": 2.99,
+      "price": 1.99,
       "rating": 4.2,
       "bestFor": "Tight budgets, simple sites",
       "url": "https://websiteshortlist.com/tools/hostinger-builder"

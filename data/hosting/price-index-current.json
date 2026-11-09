@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-02",
+  "generated": "2026-11-06",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -23,17 +23,25 @@
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 8.8,
+  "averagePrice": 8.72,
   "medianPrice": 4,
   "cheapest": {
-    "provider": "Namecheap",
-    "price": 2.28
+    "provider": "Hostinger",
+    "price": 1.99
   },
   "mostExpensive": {
     "provider": "Kinsta",
     "price": 29.17
   },
   "providers": [
+    {
+      "provider": "Hostinger",
+      "slug": "hostinger",
+      "price": 1.99,
+      "rating": 4.4,
+      "bestFor": "First website",
+      "url": "https://hostingshortlist.com/tools/hostinger"
+    },
     {
       "provider": "Namecheap",
       "slug": "namecheap",
@@ -49,14 +57,6 @@
       "rating": 4.1,
       "bestFor": "First-year value",
       "url": "https://hostingshortlist.com/tools/dreamhost"
-    },
-    {
-      "provider": "Hostinger",
-      "slug": "hostinger",
-      "price": 2.99,
-      "rating": 4.4,
-      "bestFor": "First website",
-      "url": "https://hostingshortlist.com/tools/hostinger"
     },
     {
       "provider": "SiteGround",
@@ -141,8 +141,16 @@
   ],
   "trueCost": {
     "unit": "USD per month; threeYearTotal = total USD over 36 months",
-    "avgRenewalMultiplier": 3.3,
+    "avgRenewalMultiplier": 3.6,
     "providers": [
+      {
+        "provider": "Hostinger",
+        "slug": "hostinger",
+        "intro": 1.99,
+        "renewal": 10.99,
+        "multiplier": 5.5,
+        "threeYearTotal": 95.52
+      },
       {
         "provider": "Namecheap",
         "slug": "namecheap",
@@ -150,14 +158,6 @@
         "renewal": 4.66,
         "multiplier": 2,
         "threeYearTotal": 139.2
-      },
-      {
-        "provider": "Hostinger",
-        "slug": "hostinger",
-        "intro": 2.99,
-        "renewal": 10.99,
-        "multiplier": 3.7,
-        "threeYearTotal": 143.52
       },
       {
         "provider": "Bluehost",

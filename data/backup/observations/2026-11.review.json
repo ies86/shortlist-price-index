@@ -8,7 +8,7 @@
       "nieuw": 0.46,
       "vendor_url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
       "archive_url": "",
-      "alt": 20.39,
+      "alt": 14.79,
       "flags": [
         "out_of_band",
         "extractor_disagreement"
@@ -18,7 +18,7 @@
     {
       "provider_slug": "icedrive",
       "oud": 5.55,
-      "nieuw": 74.99,
+      "nieuw": 74.94,
       "vendor_url": "https://icedrive.net/plans",
       "archive_url": "",
       "alt": null,
