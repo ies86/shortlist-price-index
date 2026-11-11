@@ -78,6 +78,14 @@
    ]
   },
   {
+   "sleutel": "61a67501288c",
+   "url": "https://ahrefs.com/pricing",
+   "kliks": [],
+   "ids": [
+    "seoshortlist.com|ahrefs"
+   ]
+  },
+  {
    "sleutel": "c593d540712b",
    "url": "https://alosim.com/blog/buy-an-esim-online-in-canada/",
    "kliks": [],
@@ -489,6 +497,16 @@
    "sleutel": "04b5301ca758",
    "url": "https://incogni.com/pricing",
    "kliks": [],
+   "ids": [
+    "aisafecheck.com|incogni"
+   ]
+  },
+  {
+   "sleutel": "7556c44ce723",
+   "url": "https://incogni.com/pricing#monthly",
+   "kliks": [
+    "Monthly"
+   ],
    "ids": [
     "aisafecheck.com|incogni"
    ]
@@ -1037,6 +1055,14 @@
    ]
   },
   {
+   "sleutel": "3029038e5004",
+   "url": "https://privatevpn.com/prices/",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|privatevpn"
+   ]
+  },
+  {
    "sleutel": "775a1711bb5e",
    "url": "https://privatevpn.com/pricing/",
    "kliks": [],
@@ -1049,7 +1075,16 @@
    "url": "https://proton.me/drive/pricing",
    "kliks": [],
    "ids": [
-    "backupshortlist.com|proton-drive",
+    "aisafecheck.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "9ddd9678608f",
+   "url": "https://proton.me/drive/pricing",
+   "kliks": [
+    "Monthly"
+   ],
+   "ids": [
     "aisafecheck.com|proton-drive"
    ]
   },
@@ -1059,6 +1094,14 @@
    "kliks": [
     "kies:#plan-currency=USD"
    ],
+   "ids": [
+    "backupshortlist.com|proton-drive"
+   ]
+  },
+  {
+   "sleutel": "524da574ee26",
+   "url": "https://proton.me/l/private-cloud-storage-aff-bigtech-alternative",
+   "kliks": [],
    "ids": [
     "backupshortlist.com|proton-drive"
    ]
@@ -1083,9 +1126,29 @@
    ]
   },
   {
+   "sleutel": "03aec009ce69",
+   "url": "https://proton.me/lumo/pricing",
+   "kliks": [
+    "Monthly"
+   ],
+   "ids": [
+    "aisafecheck.com|proton-lumo"
+   ]
+  },
+  {
    "sleutel": "171454903432",
    "url": "https://proton.me/mail/pricing",
    "kliks": [],
+   "ids": [
+    "aisafecheck.com|proton-mail"
+   ]
+  },
+  {
+   "sleutel": "6d321a0511d1",
+   "url": "https://proton.me/mail/pricing",
+   "kliks": [
+    "Monthly"
+   ],
    "ids": [
     "aisafecheck.com|proton-mail"
    ]
@@ -1096,6 +1159,16 @@
    "kliks": [],
    "ids": [
     "passwordshortlist.com|proton-pass",
+    "aisafecheck.com|proton-pass"
+   ]
+  },
+  {
+   "sleutel": "016d78e8a388",
+   "url": "https://proton.me/pass/pricing",
+   "kliks": [
+    "Monthly"
+   ],
+   "ids": [
     "aisafecheck.com|proton-pass"
    ]
   },
@@ -1185,6 +1258,14 @@
    "kliks": [
     "css:label[for=discountToggle]"
    ],
+   "ids": [
+    "seoshortlist.com|serpstat"
+   ]
+  },
+  {
+   "sleutel": "a962613dc13a",
+   "url": "https://serpstat.com/page/pricing-plans/",
+   "kliks": [],
    "ids": [
     "seoshortlist.com|serpstat"
    ]
@@ -1350,6 +1431,16 @@
    "ids": [
     "vpnshortlist.com|surfshark",
     "antivirusshortlist.com|surfshark-one",
+    "aisafecheck.com|surfshark-one"
+   ]
+  },
+  {
+   "sleutel": "da1f3bd4d9bb",
+   "url": "https://surfshark.com/pricing",
+   "kliks": [
+    "24 months"
+   ],
+   "ids": [
     "aisafecheck.com|surfshark-one"
    ]
   },
@@ -1792,7 +1883,14 @@
    "url": "https://www.bitdefender.com/en-us/consumer/premium-security",
    "kliks": [],
    "ids": [
-    "antivirusshortlist.com|bitdefender",
+    "antivirusshortlist.com|bitdefender"
+   ]
+  },
+  {
+   "sleutel": "0107b8684151",
+   "url": "https://www.bitdefender.com/en-us/consumer/scamio",
+   "kliks": [],
+   "ids": [
     "aisafecheck.com|bitdefender"
    ]
   },
@@ -1883,6 +1981,14 @@
    "kliks": [
     "zichtbaar:Standard"
    ],
+   "ids": [
+    "hostingshortlist.com|cloudways"
+   ]
+  },
+  {
+   "sleutel": "e4d9ce7ebfc9",
+   "url": "https://www.cloudways.com/en/pricing.php",
+   "kliks": [],
    "ids": [
     "hostingshortlist.com|cloudways"
    ]
@@ -2057,6 +2163,20 @@
    ]
   },
   {
+   "sleutel": "71cef2cafcfd",
+   "url": "https://www.eset.com/us/home/protection-plans/",
+   "kliks": [
+    "knop:Accept all and close",
+    "knop:Remove seats from selection",
+    "knop:Remove seats from selection",
+    "knop:Remove seats from selection#2",
+    "knop:Remove seats from selection#2"
+   ],
+   "ids": [
+    "antivirusshortlist.com|eset"
+   ]
+  },
+  {
    "sleutel": "0042dca101a7",
    "url": "https://www.expressvpn.com/pricing",
    "kliks": [],
@@ -2168,6 +2288,16 @@
    ]
   },
   {
+   "sleutel": "a556c6aecf1e",
+   "url": "https://www.frase.io/pricing/#monthly",
+   "kliks": [
+    "Monthly"
+   ],
+   "ids": [
+    "seoshortlist.com|frase"
+   ]
+  },
+  {
    "sleutel": "273ba23baf04",
    "url": "https://www.gdata-software.com/antivirus-windows",
    "kliks": [],
@@ -2223,6 +2353,14 @@
    "kliks": [
     "Fixed Data"
    ],
+   "ids": [
+    "esimshortlist.com|gigsky"
+   ]
+  },
+  {
+   "sleutel": "8442c52dfeb0",
+   "url": "https://www.gigsky.com/region/esim-in-europe",
+   "kliks": [],
    "ids": [
     "esimshortlist.com|gigsky"
    ]
@@ -2337,6 +2475,14 @@
    "kliks": [
     "1-year"
    ],
+   "ids": [
+    "antivirusshortlist.com|intego"
+   ]
+  },
+  {
+   "sleutel": "702d08a9662f",
+   "url": "https://www.intego.com/buynow?currency=USD",
+   "kliks": [],
    "ids": [
     "antivirusshortlist.com|intego"
    ]
@@ -2471,6 +2617,16 @@
    ]
   },
   {
+   "sleutel": "a99b78e4ef2e",
+   "url": "https://www.keysearch.co/",
+   "kliks": [
+    "Annual"
+   ],
+   "ids": [
+    "seoshortlist.com|keysearch"
+   ]
+  },
+  {
    "sleutel": "188962f9bb6f",
    "url": "https://www.keysearch.co/#pricing",
    "kliks": [],
@@ -2484,6 +2640,14 @@
    "kliks": [
     "knop:Marketing"
    ],
+   "ids": [
+    "mailshortlist.com|klaviyo"
+   ]
+  },
+  {
+   "sleutel": "d61110bb1e92",
+   "url": "https://www.klaviyo.com/pricing",
+   "kliks": [],
    "ids": [
     "mailshortlist.com|klaviyo"
    ]
@@ -2641,6 +2805,14 @@
    "kliks": [
     "css:#us-slider"
    ],
+   "ids": [
+    "mailshortlist.com|omnisend"
+   ]
+  },
+  {
+   "sleutel": "1b419b2e02d6",
+   "url": "https://www.omnisend.com/pricing/",
+   "kliks": [],
    "ids": [
     "mailshortlist.com|omnisend"
    ]
