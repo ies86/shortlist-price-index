@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-11-09",
+ "gemaakt": "2026-11-11",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -1690,6 +1690,48 @@
    ]
   },
   {
+   "sleutel": "8a18f1f1082c",
+   "url": "https://www.avg.com/en-us/free-antivirus-download",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "dce88d02651f",
+   "url": "https://www.avg.com/en-us/internet-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "826bd85e9240",
+   "url": "https://www.avg.com/en-us/store",
+   "kliks": [],
+   "tekst": true,
+   "ids": [
+    "antivirusshortlist.com|avg"
+   ]
+  },
+  {
+   "sleutel": "25534279d232",
+   "url": "https://www.avira.com/en/antivirus-pro",
+   "kliks": [],
+   "tekst": true,
+   "ids": [
+    "antivirusshortlist.com|avira"
+   ]
+  },
+  {
+   "sleutel": "421a1d554e93",
+   "url": "https://www.avira.com/en/free-security",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|avira"
+   ]
+  },
+  {
    "sleutel": "28e15381cc92",
    "url": "https://www.aweber.com/pricing.htm",
    "kliks": [],
@@ -2510,6 +2552,14 @@
    "ids": [
     "antivirusshortlist.com|malwarebytes",
     "aisafecheck.com|malwarebytes"
+   ]
+  },
+  {
+   "sleutel": "de8a46171df7",
+   "url": "https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html",
+   "kliks": [],
+   "ids": [
+    "antivirusshortlist.com|mcafee"
    ]
   },
   {
