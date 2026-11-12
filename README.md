@@ -365,6 +365,10 @@ This index is also available as an MCP server, so AI agents can query current pr
 
 ## Cite this data
 
+The dataset has a DOI on Zenodo: [10.5281/zenodo.21723133](https://doi.org/10.5281/zenodo.21723133) (always resolves to the latest version). Cite it as:
+
+> Orai Media. Shortlist Price Index: monthly entry prices for software and online services. Zenodo. https://doi.org/10.5281/zenodo.21723133
+
 When you reuse a figure, please attribute the source site of that category and link to it, for example:
 
 > Source: [BackupShortlist Price Index](https://backupshortlist.com/data/price-index), July 2026, CC BY 4.0.
