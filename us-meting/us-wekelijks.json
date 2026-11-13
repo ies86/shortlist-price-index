@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-11-11",
+ "gemaakt": "2026-11-13",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -99,14 +99,6 @@
    "kliks": [],
    "ids": [
     "esimshortlist.com|alosim"
-   ]
-  },
-  {
-   "sleutel": "0907a535b2b3",
-   "url": "https://app.neilpatel.com/en/pricing",
-   "kliks": [],
-   "ids": [
-    "seoshortlist.com|ubersuggest"
    ]
   },
   {
@@ -480,6 +472,14 @@
   {
    "sleutel": "aa8a813ea422",
    "url": "https://hide.me/en/pricing",
+   "kliks": [],
+   "ids": [
+    "vpnshortlist.com|hide-me"
+   ]
+  },
+  {
+   "sleutel": "4f29c6a57453",
+   "url": "https://hide.me/en/pricing?currency=USD",
    "kliks": [],
    "ids": [
     "vpnshortlist.com|hide-me"
@@ -1099,6 +1099,7 @@
    "url": "https://proton.me/drive/pricing",
    "kliks": [],
    "ids": [
+    "backupshortlist.com|proton-drive",
     "aisafecheck.com|proton-drive"
    ]
   },
@@ -1118,14 +1119,6 @@
    "kliks": [
     "kies:#plan-currency=USD"
    ],
-   "ids": [
-    "backupshortlist.com|proton-drive"
-   ]
-  },
-  {
-   "sleutel": "524da574ee26",
-   "url": "https://proton.me/l/private-cloud-storage-aff-bigtech-alternative",
-   "kliks": [],
    "ids": [
     "backupshortlist.com|proton-drive"
    ]
@@ -1622,14 +1615,6 @@
    "kliks": [],
    "ids": [
     "hostingshortlist.com|godaddy"
-   ]
-  },
-  {
-   "sleutel": "36f2dbc93959",
-   "url": "https://web.archive.org/web/2id_/https://www.godaddy.com/websites/website-builder.md",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -2398,27 +2383,11 @@
    ]
   },
   {
-   "sleutel": "847e25bbfc05",
-   "url": "https://www.godaddy.com/en-us/help/transfer-my-domain-away-from-godaddy-3560",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
-   ]
-  },
-  {
    "sleutel": "fa65674ba47a",
    "url": "https://www.godaddy.com/hosting/web-hosting",
    "kliks": [],
    "ids": [
     "hostingshortlist.com|godaddy"
-   ]
-  },
-  {
-   "sleutel": "20038a50c086",
-   "url": "https://www.godaddy.com/websites/website-builder/plans-and-pricing",
-   "kliks": [],
-   "ids": [
-    "websiteshortlist.com|godaddy"
    ]
   },
   {
@@ -3194,22 +3163,6 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|ust-60-day-duro-lantern"
-   ]
-  },
-  {
-   "sleutel": "e777f552d1f6",
-   "url": "https://www.webroot.com/products/essentials/",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|webroot"
-   ]
-  },
-  {
-   "sleutel": "b9e8cd33924a",
-   "url": "https://www.webroot.com/products/pricing/",
-   "kliks": [],
-   "ids": [
-    "antivirusshortlist.com|webroot"
    ]
   },
   {
