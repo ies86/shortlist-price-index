@@ -1,6 +1,6 @@
 {
  "uitleg": "Pagina's voor de wekelijkse US-meting, gemaakt door scripts/prijswacht/us-lijst.mjs in het hoofdproject uit het prijsregister. ids = de producten (domein|slug) die de pagina bevestigt.",
- "gemaakt": "2026-11-13",
+ "gemaakt": "2026-11-16",
  "ua": "OraiMediaPriceBot/1.0 (+https://antivirusshortlist.com/methodology; prijsmeting, respecteert robots.txt)",
  "paginas": [
   {
@@ -1560,14 +1560,6 @@
    ]
   },
   {
-   "sleutel": "54b9ba5b6878",
-   "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|ecoflow-river-3-plus"
-   ]
-  },
-  {
    "sleutel": "ff16a20a4ea0",
    "url": "https://us.norton.com/pricing",
    "kliks": [],
@@ -1599,14 +1591,6 @@
    "kliks": [],
    "ids": [
     "prepshortlist.com|valley-food-storage-30-day"
-   ]
-  },
-  {
-   "sleutel": "f151136bda8e",
-   "url": "https://vtoman.com/products/vtoman-flashspeed-1500-power-station",
-   "kliks": [],
-   "ids": [
-    "prepshortlist.com|vtoman-flashspeed-1500"
    ]
   },
   {
