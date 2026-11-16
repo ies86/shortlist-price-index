@@ -7,12 +7,12 @@
   "currency": "EUR",
   "catalogueFx": {
     "base": "EUR",
-    "usdPerEur": 1.1172,
-    "rateDate": "2026-10-30"
+    "usdPerEur": 1.1165,
+    "rateDate": "2026-11-06"
   },
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-07",
+  "generated": "2026-11-13",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -42,7 +42,7 @@
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.38,
+  "averagePrice": 8.3,
   "medianPrice": 4.29,
   "cheapest": {
     "provider": "Vimexx",
@@ -94,7 +94,7 @@
     {
       "provider": "SiteGround",
       "slug": "siteground",
-      "price": 2.99,
+      "price": 1.99,
       "currency": "EUR",
       "rating": 4.3,
       "bestFor": "Serieuze WordPress-sites",

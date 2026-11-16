@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-06",
+  "generated": "2026-11-14",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -22,9 +22,9 @@
     "notMeasured": 0,
     "underReview": 1
   },
-  "providersTracked": 16,
-  "averagePrice": 52.41,
-  "medianPrice": 38.35,
+  "providersTracked": 15,
+  "averagePrice": 54.84,
+  "medianPrice": 39,
   "cheapest": {
     "provider": "Keywords Everywhere",
     "price": 7
@@ -49,14 +49,6 @@
       "rating": 4.2,
       "bestFor": "Consultants presenting audits",
       "url": "https://seoshortlist.com/tools/sitebulb"
-    },
-    {
-      "provider": "Ubersuggest",
-      "slug": "ubersuggest",
-      "price": 16,
-      "rating": 3.8,
-      "bestFor": "Hobby sites, tightest budgets",
-      "url": "https://seoshortlist.com/tools/ubersuggest"
     },
     {
       "provider": "KeySearch",

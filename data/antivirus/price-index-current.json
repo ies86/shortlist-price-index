@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-08",
+  "generated": "2026-11-14",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -22,9 +22,9 @@
     "notMeasured": 3,
     "underReview": 3
   },
-  "providersTracked": 15,
-  "averagePrice": 5.86,
-  "medianPrice": 4.17,
+  "providersTracked": 14,
+  "averagePrice": 6.02,
+  "medianPrice": 4.59,
   "cheapest": {
     "provider": "Surfshark One",
     "price": 2.49
@@ -49,14 +49,6 @@
       "rating": 4.1,
       "bestFor": "Mac-only households",
       "url": "https://antivirusshortlist.com/tools/intego"
-    },
-    {
-      "provider": "Webroot Essentials",
-      "slug": "webroot",
-      "price": 3.5,
-      "rating": 3.9,
-      "bestFor": "Old or low-power PCs",
-      "url": "https://antivirusshortlist.com/tools/webroot"
     },
     {
       "provider": "Malwarebytes Premium",
@@ -165,7 +157,8 @@
         "intro": 29.99,
         "renewal": 39.99,
         "multiplier": 1.3,
-        "threeYearTotal": 109.97
+        "threeYearTotal": 109.97,
+        "checkedAt": "2026-10-06"
       },
       {
         "provider": "G Data Total Security",
@@ -173,7 +166,8 @@
         "intro": 49.95,
         "renewal": 34.95,
         "multiplier": 0.7,
-        "threeYearTotal": 119.85
+        "threeYearTotal": 119.85,
+        "checkedAt": "2026-09-08"
       },
       {
         "provider": "Avast One",
@@ -181,7 +175,8 @@
         "intro": 49.08,
         "renewal": 77.99,
         "multiplier": 1.6,
-        "threeYearTotal": 205.06
+        "threeYearTotal": 205.06,
+        "checkedAt": "2026-11-09"
       },
       {
         "provider": "F-Secure Total",
@@ -189,7 +184,8 @@
         "intro": 84.99,
         "renewal": 84.99,
         "multiplier": 1,
-        "threeYearTotal": 254.97
+        "threeYearTotal": 254.97,
+        "checkedAt": "2026-11-09"
       },
       {
         "provider": "Bitdefender Total Security",
@@ -197,7 +193,8 @@
         "intro": 59.99,
         "renewal": 109.99,
         "multiplier": 1.8,
-        "threeYearTotal": 279.97
+        "threeYearTotal": 279.97,
+        "checkedAt": "2026-11-09"
       },
       {
         "provider": "Norton 360 Deluxe",
@@ -205,15 +202,17 @@
         "intro": 49.99,
         "renewal": 124.99,
         "multiplier": 2.5,
-        "threeYearTotal": 299.97
+        "threeYearTotal": 299.97,
+        "checkedAt": "2026-11-09"
       },
       {
         "provider": "LifeLock",
         "slug": "lifelock",
-        "intro": 299.99,
-        "renewal": 364.99,
-        "multiplier": 1.2,
-        "threeYearTotal": 1029.97
+        "intro": 124.99,
+        "renewal": 124.99,
+        "multiplier": 1,
+        "threeYearTotal": 374.97,
+        "checkedAt": "2026-11-09"
       }
     ]
   },

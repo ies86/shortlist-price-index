@@ -8,7 +8,7 @@
       "nieuw": 0.46,
       "vendor_url": "https://www.pcloud.com/cloud-storage-pricing-plans.html",
       "archive_url": "",
-      "alt": 14.79,
+      "alt": 14.64,
       "flags": [
         "out_of_band",
         "extractor_disagreement"
@@ -18,7 +18,7 @@
     {
       "provider_slug": "icedrive",
       "oud": 5.55,
-      "nieuw": 74.94,
+      "nieuw": 74.18,
       "vendor_url": "https://icedrive.net/plans",
       "archive_url": "",
       "alt": null,
@@ -43,7 +43,7 @@
     {
       "provider_slug": "filen",
       "oud": 2.25,
-      "nieuw": 2.22,
+      "nieuw": 2.2,
       "vendor_url": "https://filen.io/pricing",
       "archive_url": "",
       "alt": null,
@@ -67,24 +67,12 @@
     {
       "provider_slug": "mega",
       "oud": null,
-      "nieuw": 3.91,
+      "nieuw": 3.87,
       "vendor_url": "https://mega.io/pricing",
       "archive_url": "",
       "alt": null,
       "flags": [
         "naheffing_per_eenheid"
-      ],
-      "beoordeling": "geen beoordeling aanwezig"
-    },
-    {
-      "provider_slug": "koofr",
-      "oud": 0.56,
-      "nieuw": 0.56,
-      "vendor_url": "https://koofr.eu/pricing/",
-      "archive_url": "",
-      "alt": null,
-      "flags": [
-        "stuck_suspect"
       ],
       "beoordeling": "geen beoordeling aanwezig"
     }

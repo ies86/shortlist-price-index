@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-05",
+  "generated": "2026-11-12",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -37,15 +37,15 @@
     "underReview": 2
   },
   "providersTracked": 10,
-  "averagePrice": 17.48,
+  "averagePrice": 17.58,
   "medianPrice": 15,
   "cheapest": {
     "provider": "MasterClass",
     "price": 10
   },
   "mostExpensive": {
-    "provider": "LinkedIn Learning",
-    "price": 28.99
+    "provider": "Coursera",
+    "price": 29.58
   },
   "providers": [
     {
@@ -113,20 +113,20 @@
       "url": "https://leerplatformkiezer.nl/tools/pluralsight"
     },
     {
-      "provider": "Coursera",
-      "slug": "coursera",
-      "price": 28.58,
-      "rating": 4.6,
-      "bestFor": "Erkende certificaten",
-      "url": "https://leerplatformkiezer.nl/tools/coursera"
-    },
-    {
       "provider": "LinkedIn Learning",
       "slug": "linkedin-learning",
       "price": 28.99,
       "rating": 4.2,
       "bestFor": "Zakelijke vaardigheden",
       "url": "https://leerplatformkiezer.nl/tools/linkedin-learning"
+    },
+    {
+      "provider": "Coursera",
+      "slug": "coursera",
+      "price": 29.58,
+      "rating": 4.6,
+      "bestFor": "Erkende certificaten",
+      "url": "https://leerplatformkiezer.nl/tools/coursera"
     }
   ],
   "history": [

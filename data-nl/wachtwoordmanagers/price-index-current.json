@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-04",
+  "generated": "2026-11-12",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -37,11 +37,11 @@
     "underReview": 1
   },
   "providersTracked": 9,
-  "averagePrice": 2.66,
+  "averagePrice": 2.74,
   "medianPrice": 2.74,
   "cheapest": {
-    "provider": "Enpass",
-    "price": 1.07
+    "provider": "Bitwarden",
+    "price": 1.65
   },
   "mostExpensive": {
     "provider": "Keeper",
@@ -49,20 +49,20 @@
   },
   "providers": [
     {
-      "provider": "Enpass",
-      "slug": "enpass",
-      "price": 1.07,
-      "rating": 4.1,
-      "bestFor": "Eigen opslag voorop",
-      "url": "https://wachtwoordkiezer.nl/tools/enpass"
-    },
-    {
       "provider": "Bitwarden",
       "slug": "bitwarden",
       "price": 1.65,
       "rating": 4.7,
       "bestFor": "Vrijwel iedereen",
       "url": "https://wachtwoordkiezer.nl/tools/bitwarden"
+    },
+    {
+      "provider": "Enpass",
+      "slug": "enpass",
+      "price": 1.79,
+      "rating": 4.1,
+      "bestFor": "Eigen opslag voorop",
+      "url": "https://wachtwoordkiezer.nl/tools/enpass"
     },
     {
       "provider": "NordPass",

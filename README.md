@@ -18,7 +18,7 @@ Most recent measured month in this repository: **2026-11**.
 
 | Category | Measured months | Status |
 |---|---|---|
-| Cloud backup | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-07, 2026-11** (too few providers verified; coverage dropped sharply against the running median) |
+| Cloud backup | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-07, 2026-11** (too few providers verified) |
 | Web hosting | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
 | SEO tools | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
 | Website builders | 2026-08, 2026-09, 2026-10, 2026-11 | measured |

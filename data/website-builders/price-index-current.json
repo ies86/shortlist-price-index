@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-06",
+  "generated": "2026-11-13",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -22,9 +22,9 @@
     "notMeasured": 2,
     "underReview": 2
   },
-  "providersTracked": 21,
-  "averagePrice": 16.3,
-  "medianPrice": 15,
+  "providersTracked": 20,
+  "averagePrice": 16.62,
+  "medianPrice": 15.5,
   "cheapest": {
     "provider": "Carrd",
     "price": 1.58
@@ -65,14 +65,6 @@
       "rating": 3.7,
       "bestFor": "Support-first small businesses",
       "url": "https://websiteshortlist.com/tools/ionos"
-    },
-    {
-      "provider": "GoDaddy Website Builder",
-      "slug": "godaddy",
-      "price": 9.99,
-      "rating": 3.7,
-      "bestFor": "Existing GoDaddy customers",
-      "url": "https://websiteshortlist.com/tools/godaddy"
     },
     {
       "provider": "Framer",

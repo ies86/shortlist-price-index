@@ -437,11 +437,11 @@
       "2026-11_r1"
     ],
     "bron_url": "https://www.bluehost.com/pricing",
-    "archief_url": null,
+    "archief_url": "http://web.archive.org/web/20261005064528/https://www.bluehost.com/pricing",
     "onafhankelijk_na_te_lopen": false,
     "archief_urls": {
       "2026-10": null,
-      "2026-11": null
+      "2026-11": "http://web.archive.org/web/20261005064528/https://www.bluehost.com/pricing"
     },
     "archief_getoetst": false,
     "citeer": "bluehost lowered the price of its bluehost-starter plan from $3.99 to $3.82 per month (-4.3%) between 2026-10 and 2026-11 (Shortlist Price Index, measured on the vendor's own pricing page)."

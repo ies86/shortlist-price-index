@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Prices are read from each provider's own pricing page by a weekly price watch. A monthly measurement is archived in history.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-06",
+  "generated": "2026-11-14",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -36,8 +36,8 @@
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 3.05,
-  "medianPrice": 2.49,
+  "averagePrice": 3.04,
+  "medianPrice": 2.33,
   "cheapest": {
     "provider": "PrivadoVPN",
     "price": 1.11
@@ -96,20 +96,20 @@
       "url": "https://vpnshortlist.com/tools/ipvanish"
     },
     {
+      "provider": "hide.me",
+      "slug": "hide-me",
+      "price": 2.33,
+      "rating": 4.1,
+      "bestFor": "10 devices at once",
+      "url": "https://vpnshortlist.com/tools/hide-me"
+    },
+    {
       "provider": "Surfshark",
       "slug": "surfshark",
       "price": 2.49,
       "rating": 4.6,
       "bestFor": "Unlimited devices",
       "url": "https://vpnshortlist.com/tools/surfshark"
-    },
-    {
-      "provider": "hide.me",
-      "slug": "hide-me",
-      "price": 2.5,
-      "rating": 4.1,
-      "bestFor": "10 devices at once",
-      "url": "https://vpnshortlist.com/tools/hide-me"
     },
     {
       "provider": "ExpressVPN",
