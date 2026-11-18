@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider, in US dollars as shown on the provider's own pricing page. Free tiers excluded, and so are providers without a US dollar price that they charge. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-10-02",
-  "generated": "2026-11-12",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-10-02",
@@ -24,8 +24,8 @@
   },
   "providersTracked": 15,
   "currency": "USD",
-  "averagePrice": 6.01,
-  "medianPrice": 6.99,
+  "averagePrice": 6.07,
+  "medianPrice": 6.29,
   "cheapest": {
     "provider": "Apple iCloud+",
     "price": 0.99,
@@ -33,7 +33,7 @@
   },
   "mostExpensive": {
     "provider": "Tresorit",
-    "price": 11.99,
+    "price": 13.59,
     "currency": "USD"
   },
   "providers": [
@@ -101,6 +101,15 @@
       "url": "https://backupshortlist.com/tools/acronis"
     },
     {
+      "provider": "Icedrive",
+      "slug": "icedrive",
+      "price": 6.29,
+      "currency": "USD",
+      "rating": 4,
+      "bestFor": "Style-conscious switchers",
+      "url": "https://backupshortlist.com/tools/icedrive"
+    },
+    {
       "provider": "IDrive",
       "slug": "idrive",
       "price": 6.99,
@@ -117,15 +126,6 @@
       "rating": 4,
       "bestFor": "Vaulting sensitive files",
       "url": "https://backupshortlist.com/tools/nordlocker"
-    },
-    {
-      "provider": "Icedrive",
-      "slug": "icedrive",
-      "price": 6.99,
-      "currency": "USD",
-      "rating": 4,
-      "bestFor": "Style-conscious switchers",
-      "url": "https://backupshortlist.com/tools/icedrive"
     },
     {
       "provider": "Carbonite Safe",
@@ -166,7 +166,7 @@
     {
       "provider": "Tresorit",
       "slug": "tresorit",
-      "price": 11.99,
+      "price": 13.59,
       "currency": "USD",
       "rating": 4.3,
       "bestFor": "Professionals with sensitive files",
@@ -181,19 +181,6 @@
       "median": 8.99,
       "cheapest": 4.17,
       "count": 17,
-      "currency": "USD"
-    },
-    {
-      "date": "2026-07-17",
-      "month": "2026-07",
-      "measured": true,
-      "run_id": "2026-07_r1",
-      "avg": 6.63,
-      "median": 4.56,
-      "cheapest": 1.13,
-      "count": 13,
-      "n_missing": 2,
-      "n_under_review": 2,
       "currency": "USD"
     },
     {

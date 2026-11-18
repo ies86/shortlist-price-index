@@ -55,6 +55,10 @@ All notable changes to the Shortlist Price Index dataset. Snapshots are taken mo
     `change-events.json` stated the misread as fact ("LastPass did go up", "the price in EUR stayed
     120"). Both are corrected. The old text is kept in a field ending in `_oud`, with
     `gecorrigeerd_op`.
+- **Two July 2026 corrections reach `monthly-index.csv` only now.** The README has described both
+  since 2 August 2026, but the file still carried the old rows. Web hosting July 2026 now reads 9.11
+  (median 3.30) over 9 providers, was 8.32 (3.15) over 10. The cloud backup July 2026 row is removed,
+  because that aggregate is withheld. The Dutch hosting mirror follows: 7.97 EUR, was 7.28.
 - **Still under review.** These readings in published rows are known or suspected to be wrong and
   are not corrected yet. They are listed so that nobody reads these series as fully clean:
   - Screaming Frog (SEO tools) looks misread in every month, by tier or currency. The +5.03 percent

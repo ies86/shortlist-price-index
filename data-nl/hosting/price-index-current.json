@@ -7,12 +7,12 @@
   "currency": "EUR",
   "catalogueFx": {
     "base": "EUR",
-    "usdPerEur": 1.1165,
-    "rateDate": "2026-11-06"
+    "usdPerEur": 1.1052,
+    "rateDate": "2026-11-13"
   },
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-13",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -42,8 +42,8 @@
     "underReview": 3
   },
   "providersTracked": 12,
-  "averagePrice": 8.3,
-  "medianPrice": 4.29,
+  "averagePrice": 8.33,
+  "medianPrice": 4.31,
   "cheapest": {
     "provider": "Vimexx",
     "price": 0.45,
@@ -186,12 +186,12 @@
       "month": "2026-07",
       "measured": true,
       "run_id": "2026-07_r1",
-      "avg": 8.32,
-      "median": 3.15,
+      "avg": 9.11,
+      "median": 3.3,
       "cheapest": 1,
-      "count": 10,
+      "count": 9,
       "n_missing": 2,
-      "n_under_review": 1,
+      "n_under_review": 2,
       "currency": "USD",
       "fx": {
         "basis": "EUR",

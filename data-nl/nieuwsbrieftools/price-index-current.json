@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-13",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -37,8 +37,8 @@
     "underReview": 2
   },
   "providersTracked": 10,
-  "averagePrice": 14.6,
-  "medianPrice": 13.73,
+  "averagePrice": 14.69,
+  "medianPrice": 13.8,
   "cheapest": {
     "provider": "Brevo",
     "price": 6.33,

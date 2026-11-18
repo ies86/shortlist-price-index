@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-12",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -36,9 +36,9 @@
     "notMeasured": 1,
     "underReview": 2
   },
-  "providersTracked": 10,
-  "averagePrice": 17.58,
-  "medianPrice": 15,
+  "providersTracked": 9,
+  "averagePrice": 17.97,
+  "medianPrice": 16,
   "cheapest": {
     "provider": "MasterClass",
     "price": 10
@@ -71,14 +71,6 @@
       "rating": 4.3,
       "bestFor": "Dagelijkse hersentraining",
       "url": "https://leerplatformkiezer.nl/tools/brilliant"
-    },
-    {
-      "provider": "Skillshare",
-      "slug": "skillshare",
-      "price": 13.99,
-      "rating": 4.3,
-      "bestFor": "Creatieve projecten",
-      "url": "https://leerplatformkiezer.nl/tools/skillshare"
     },
     {
       "provider": "DataCamp",

@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices from the providers' pricing pages; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-13",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -23,11 +23,11 @@
     "underReview": 3
   },
   "providersTracked": 13,
-  "averagePrice": 8.72,
+  "averagePrice": 8.53,
   "medianPrice": 4,
   "cheapest": {
-    "provider": "Hostinger",
-    "price": 1.99
+    "provider": "Hosting.com",
+    "price": 1.49
   },
   "mostExpensive": {
     "provider": "Kinsta",
@@ -35,12 +35,28 @@
   },
   "providers": [
     {
+      "provider": "Hosting.com",
+      "slug": "a2-hosting",
+      "price": 1.49,
+      "rating": 4.1,
+      "bestFor": "Fast WordPress on a budget",
+      "url": "https://hostingshortlist.com/tools/a2-hosting"
+    },
+    {
       "provider": "Hostinger",
       "slug": "hostinger",
       "price": 1.99,
       "rating": 4.4,
       "bestFor": "First website",
       "url": "https://hostingshortlist.com/tools/hostinger"
+    },
+    {
+      "provider": "SiteGround",
+      "slug": "siteground",
+      "price": 1.99,
+      "rating": 4.3,
+      "bestFor": "Serious WordPress sites",
+      "url": "https://hostingshortlist.com/tools/siteground"
     },
     {
       "provider": "Namecheap",
@@ -57,22 +73,6 @@
       "rating": 4.1,
       "bestFor": "First-year value",
       "url": "https://hostingshortlist.com/tools/dreamhost"
-    },
-    {
-      "provider": "SiteGround",
-      "slug": "siteground",
-      "price": 2.99,
-      "rating": 4.3,
-      "bestFor": "Serious WordPress sites",
-      "url": "https://hostingshortlist.com/tools/siteground"
-    },
-    {
-      "provider": "Hosting.com",
-      "slug": "a2-hosting",
-      "price": 2.99,
-      "rating": 4.1,
-      "bestFor": "Fast WordPress on a budget",
-      "url": "https://hostingshortlist.com/tools/a2-hosting"
     },
     {
       "provider": "Bluehost",
@@ -141,7 +141,7 @@
   ],
   "trueCost": {
     "unit": "USD per month; threeYearTotal = total USD over 36 months",
-    "avgRenewalMultiplier": 3.6,
+    "avgRenewalMultiplier": 4.5,
     "providers": [
       {
         "provider": "Hostinger",
@@ -184,6 +184,14 @@
         "threeYearTotal": 298.44
       },
       {
+        "provider": "Hosting.com",
+        "slug": "a2-hosting",
+        "intro": 1.49,
+        "renewal": 13.99,
+        "multiplier": 9.4,
+        "threeYearTotal": 353.64
+      },
+      {
         "provider": "GoDaddy",
         "slug": "godaddy",
         "intro": 5.99,
@@ -192,20 +200,12 @@
         "threeYearTotal": 359.64
       },
       {
-        "provider": "Hosting.com",
-        "slug": "a2-hosting",
-        "intro": 2.99,
-        "renewal": 13.99,
-        "multiplier": 4.7,
-        "threeYearTotal": 371.64
-      },
-      {
         "provider": "SiteGround",
         "slug": "siteground",
-        "intro": 2.99,
+        "intro": 1.99,
         "renewal": 17.99,
-        "multiplier": 6,
-        "threeYearTotal": 467.64
+        "multiplier": 9,
+        "threeYearTotal": 455.64
       }
     ]
   },
@@ -224,12 +224,12 @@
       "month": "2026-07",
       "measured": true,
       "run_id": "2026-07_r1",
-      "avg": 8.32,
-      "median": 3.15,
+      "avg": 9.11,
+      "median": 3.3,
       "cheapest": 1,
-      "count": 10,
+      "count": 9,
       "n_missing": 2,
-      "n_under_review": 1,
+      "n_under_review": 2,
       "currency": "USD"
     },
     {
