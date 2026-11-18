@@ -63,7 +63,9 @@
       "detected_at": "2026-08-01T08:30:49.478Z",
       "pitched": false,
       "ingetrokken_op": "2026-08-02",
-      "reden": "de prijs in EUR bleef 120 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier"
+      "reden": "Leesfout, geen prijswijziging. 120 EUR was het kortingsbedrag uit Save €120 bij jaarbetaling, niet de prijs van Discovery (49 EUR per maand). De waarnemingen van juli en augustus zijn op 18-11-2026 ingetrokken.",
+      "reden_oud": "de prijs in EUR bleef 120 en veranderde niet; de 0.6% was de EUR/USD-koers, niet de leverancier",
+      "gecorrigeerd_op": "2026-11-18"
     },
     {
       "niche": "seo",

@@ -2,24 +2,6 @@
   "events": [
     {
       "niche": "antivirus",
-      "provider_slug": "norton",
-      "month": "2026-09",
-      "run_id": "2026-09_r1",
-      "old_usd_mo": 10,
-      "new_usd_mo": 2.5,
-      "delta_pct": -50.01,
-      "currency": "USD",
-      "old_own": 5,
-      "new_own": 2.5,
-      "delta_pct_own": -50.01,
-      "delta_pct_usd": -75,
-      "vendor_url": "https://us.norton.com/products/norton-antivirus-plus",
-      "archive_url": "",
-      "detected_at": "2026-09-07T11:56:47.055Z",
-      "pitched": false
-    },
-    {
-      "niche": "antivirus",
       "provider_slug": "webroot",
       "month": "2026-10",
       "run_id": "2026-10_r1",
@@ -71,6 +53,28 @@
       "archive_url": "",
       "detected_at": "2026-11-02T08:46:02.254Z",
       "pitched": false
+    }
+  ],
+  "ingetrokken": [
+    {
+      "niche": "antivirus",
+      "provider_slug": "norton",
+      "month": "2026-09",
+      "run_id": "2026-09_r1",
+      "old_usd_mo": 10,
+      "new_usd_mo": 2.5,
+      "delta_pct": -50.01,
+      "currency": "USD",
+      "old_own": 5,
+      "new_own": 2.5,
+      "delta_pct_own": -50.01,
+      "delta_pct_usd": -75,
+      "vendor_url": "https://us.norton.com/products/norton-antivirus-plus",
+      "archive_url": "",
+      "detected_at": "2026-09-07T11:56:47.055Z",
+      "pitched": false,
+      "ingetrokken_op": "2026-11-18",
+      "reden": "publicatiepoort: beoordeelde sprong - vlag out_of_band+suspect_jump is door een mens goedgekeurd; dat keurt de WAARDE goed, niet de bewering dat de aanbieder zijn prijs veranderde (meestal een correctie van onze eigen lezing of een tijdelijke actie). Geen automatische prijsclaim Oorzaak (CHANGELOG 2026-09-08): de vergelijking nam als basis de doorgestreepte lijstprijs 59.99 naast de echte 29.99 voor het eerste jaar, en een dollarbasis uit juli van een ander product (Norton 360 Deluxe, 119.99 per jaar). Een prijswijziging door Norton is daarmee niet aangetoond. De septembermeting zelf (2.50 USD per maand) klopt en blijft staan."
     }
   ]
 }

@@ -2,6 +2,74 @@
 
 All notable changes to the Shortlist Price Index dataset. Snapshots are taken monthly; each entry lists the snapshot date and what changed.
 
+## 2026-11-18: seven misread observations withdrawn; corrected averages for password managers, website builders and SEO tools
+
+- **What was wrong.** Seven observations had read the wrong number from the vendor's page and were
+  published as clean, so they were part of the monthly averages:
+  - Password managers, August 2026: Bitwarden's yearly amount ("Billed annually at $19.80") was read
+    as a monthly price. LastPass was read from the Business Max tile (a business plan priced per
+    user) instead of Premium, the plan this index follows ($36 per year).
+  - Password managers, September and October 2026: LastPass was again read from the Business Max
+    tile (€10.00 per user per month). This was noted internally on
+    17 September 2026, but the rows were never withdrawn.
+  - Website builders, August 2026: Squarespace `EUR 14` from the page's JSON-LD is a monthly eurozone
+    price and was read as yearly, giving $1.34 per month (see the entry of 8 September 2026).
+  - SEO tools, July and August 2026: Surfer's "Save €120" was read as the price of the Discovery
+    plan, which costs 49 EUR per month. That gave $137.02 and $137.82 per month.
+- **What changed.** The seven rows stay in `observations/` as a record, with their raw text and
+  values untouched. Their `status` is now `under_review`, their `flags` read `ingetrokken_meetfout`
+  (withdrawn as a misread) and the cause is added to `reason`. The six `validation.json` files were
+  updated by hand to match and carry a `handmatig_bijgewerkt` field that says so. The averages were
+  recomputed over the remaining observed rows with the same formula as before, and checked again
+  independently for `data/` and `data-nl/`. All amounts are USD per month:
+
+| Category | Month | Published (average / median / providers) | Corrected |
+|---|---|---|---|
+| Password managers | 2026-08 | 7.08 / 3.99 / 6 | withheld: 4 of 9 providers verified, below the 60 percent floor |
+| Password managers | 2026-09 | 4.18 / 3.23 / 8 | 3.12 / 2.99 / 7 |
+| Password managers | 2026-10 | 4.06 / 2.99 / 7 | 2.86 / 2.74 / 6 |
+| Website builders | 2026-08 | 14.51 / 13.78 / 13 | 15.61 / 14.39 / 12 |
+| SEO tools | 2026-07 | 68.35 / 50.00 / 13 | 62.63 / 44.50 / 12 |
+| SEO tools | 2026-08 | 68.61 / 50.00 / 13 | 62.84 / 44.50 / 12 |
+
+- The cheapest price in each month is unchanged. The Dutch mirror `data-nl/wachtwoordmanagers/`
+  follows: August withheld, September 2.68 EUR (median 2.57), October 2.55 EUR (median 2.44). The
+  monthly history in the feeds of passwordshortlist.com, wachtwoordkiezer.nl, websiteshortlist.com
+  and seoshortlist.com carries the same corrected figures, and so do the `price-index-current.json`
+  copies here.
+- **`n_under_review` in these six months** also counts the withdrawn rows. For them it means
+  "withdrawn after review", not "waiting for a check".
+- **Two price-change claims withdrawn in the category files.** The entry of 8 September 2026
+  announced both withdrawals, but until today the events still stood in `events`. They now sit in
+  the `ingetrokken` list of `data/antivirus/change-events.json` (Norton, 2026-09) and
+  `data/website-builders/change-events.json` (Squarespace, 2026-09), with the documented cause in
+  `reden`. Both September measurements themselves stand.
+- **Corrections to earlier entries in this file.**
+  - 8 September 2026, "What is NOT affected": "The monthly aggregates are unchanged" was not true for
+    website builders in August 2026, which contained the misread Squarespace row. Corrected above.
+  - 8 September 2026: the Squarespace event is in the `ingetrokken` list of
+    `data/website-builders/change-events.json` only from today.
+  - 1 August 2026 (later the same day): "Surfer (EUR 120.00 in both months)" was the discount
+    amount, not the price. Dropping that event was right, but no price was measured at all.
+  - The withdrawal reasons for LastPass 2026-09 (`password-managers`) and Surfer 2026-08 (`seo`) in
+    `change-events.json` stated the misread as fact ("LastPass did go up", "the price in EUR stayed
+    120"). Both are corrected. The old text is kept in a field ending in `_oud`, with
+    `gecorrigeerd_op`.
+- **Still under review.** These readings in published rows are known or suspected to be wrong and
+  are not corrected yet. They are listed so that nobody reads these series as fully clean:
+  - Screaming Frog (SEO tools) looks misread in every month, by tier or currency. The +5.03 percent
+    event for 2026-08 (EUR 199 to EUR 209 per year, listed as real in the entry of 1 August 2026) is
+    part of this review. Do not cite it until it is resolved.
+  - Shopify (website builders): the "€1/month for 3 months" offer is the configured amount, while
+    the validator treats such a figure as a promotional price. This touches every month and the
+    cheapest price of August 2026 (1.15).
+  - Split decimals: Jimdo 12.20 read as 12, Wix "$ 17 .77" read as 17 (and probably not a USD
+    price), Semrush 117.33 and €112.52 read as 117 and 112. Each moves an average by about 0.1 at
+    most.
+  - `data/us/` 2026-08 to 2026-11: Surfer carries `intro: 120`, the same "Saving $120" amount.
+  - Surfer from September 2026 is read from the page as served in the Netherlands (49 EUR) and
+    converted to USD, while the US page shows 49 USD. That is a method question, not a misread.
+
 ## 2026-10-23: travel eSIMs are measured over a fixed set of six providers (method `esim-v3-2026-11`)
 
 - **Why.** The travel eSIM aggregate was withheld for September and October 2026. Both runs read

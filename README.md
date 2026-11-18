@@ -83,6 +83,19 @@ What changed:
 
 **Note on antivirus software.** The set of plans tracked in this category changed between the July and August runs. Until 21 July the list pointed at each vendor's premium suite (for example Bitdefender Total Security, Norton 360 Deluxe, Kaspersky Premium); it was then corrected to the entry-level plan, because the measurand for this index is the lowest paid individual plan. The correction was necessary, but it means the July and August observations for this category describe different products and must not be compared with each other as a price movement. Comparable series for antivirus start with the September 2026 run.
 
+**Correction, 18 November 2026: seven misread observations withdrawn from password managers, website builders and SEO tools.** Seven published observations had read the wrong number from the vendor's page: a yearly amount taken as monthly (Bitwarden, August), a business plan priced per user instead of the plan this index follows (LastPass, August to October), a monthly eurozone price taken as yearly (Squarespace, August) and a discount amount taken as the price (Surfer, July and August). They stay in `observations/` with their raw text, now with status `under_review`, flag `ingetrokken_meetfout` and the cause in `reason`. The averages were recomputed over the remaining observations, in USD per month:
+
+| Category | Month | Published average | Corrected average |
+|---|---|---|---|
+| Password managers | 2026-08 | 7.08 | withheld (4 of 9 providers verified, below the 60 percent floor) |
+| Password managers | 2026-09 | 4.18 | 3.12 |
+| Password managers | 2026-10 | 4.06 | 2.86 |
+| Website builders | 2026-08 | 14.51 | 15.61 |
+| SEO tools | 2026-07 | 68.35 | 62.63 |
+| SEO tools | 2026-08 | 68.61 | 62.84 |
+
+A figure taken from these rows before 18 November 2026 should be replaced with the corrected one. Medians, provider counts and the Dutch mirror are in the CHANGELOG entry of the same date. That entry also lists readings that are still under review (Screaming Frog in SEO tools, the Shopify offer in website builders and a few amounts with split decimals), so these three series are not yet fully clean.
+
 ## What is in this repository
 
 | Category | Providers tracked | Unit | Files |
@@ -137,7 +150,7 @@ Each category folder contains:
 
 `basis` also disambiguates `providers_tracked`, which does not mean the same thing in every row. For a `curated` month it is the number of providers in the index. For a `measured` month it is the number whose price was actually observed, which is lower, because providers that could not be read are reported as gaps rather than guessed. Web hosting shows 13 for June (curated), then 10 and 9 for July and August (measured). A drop in that column is therefore not evidence that a category shrank.
 
-`n_missing` and `n_under_review` are filled for measured rows only: how many providers could not be read that month, and how many were held back for a manual check. The averages are computed over the observed set alone.
+`n_missing` and `n_under_review` are filled for measured rows only: how many providers could not be read that month, and how many were held back for a manual check or withdrawn after one (see the correction of 18 November 2026). The averages are computed over the observed set alone.
 
 The figures in a `measured` row come from `observations/`, not from the comparison site: this was verified on 1 August 2026 by recomputing all ten published measured rows from the raw observations, and every one matched. An earlier version of this README described an extended column set (`n_observed`, renewal columns) that no category actually used; that claim has been removed and replaced by the three columns above, which are really there.
 

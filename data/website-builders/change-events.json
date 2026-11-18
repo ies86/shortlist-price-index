@@ -1,5 +1,6 @@
 {
-  "events": [
+  "events": [],
+  "ingetrokken": [
     {
       "niche": "website-builders",
       "provider_slug": "squarespace",
@@ -16,7 +17,9 @@
       "vendor_url": "https://www.squarespace.com/pricing",
       "archive_url": "",
       "detected_at": "2026-09-07T10:33:32.184Z",
-      "pitched": false
+      "pitched": false,
+      "ingetrokken_op": "2026-11-18",
+      "reden": "publicatiepoort: beoordeelde sprong - vlag out_of_band+suspect_jump is door een mens goedgekeurd; dat keurt de WAARDE goed, niet de bewering dat de aanbieder zijn prijs veranderde (meestal een correctie van onze eigen lezing of een tijdelijke actie). Geen automatische prijsclaim Oorzaak: leesfout in augustus. EUR 14 uit de JSON-LD is een maandprijs voor de eurozone en werd als jaarprijs gelezen (1.34 USD per maand). Squarespace veranderde zijn prijs niet. De septembermeting (19.00 USD per maand) klopt en blijft staan. Zie data/INGETROKKEN-2026-09-08-squarespace.json."
     }
   ]
 }

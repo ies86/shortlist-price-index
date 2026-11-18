@@ -19,8 +19,10 @@
       "detected_at": "2026-09-01T10:36:42.850Z",
       "pitched": false,
       "ingetrokken_op": "2026-09-01",
-      "ingetrokken_reden": "augustus las \"€8 .50 user/month\" als 8,00 door hetzelfde split-decimaal-defect. LastPass ging wel omhoog (8,50 -> 10,00 = +17,6%), maar het gepubliceerde +25% klopt niet en de basis is niet betrouwbaar gemeten.",
-      "poort": "methodepoort - gesplitste decimaal (scripts/prijsmeter/methodepoort.mjs)"
+      "ingetrokken_reden": "Leesfout, geen prijswijziging van het gevolgde plan. Augustus (€8 .50, gelezen als 8) en september (€10.00) kwamen allebei uit de tegel van het zakelijke plan Business Max (prijs per gebruiker), niet uit Premium (36 USD per jaar). Beide waarnemingen zijn op 18-11-2026 ingetrokken.",
+      "poort": "methodepoort - gesplitste decimaal (scripts/prijsmeter/methodepoort.mjs)",
+      "ingetrokken_reden_oud": "augustus las \"€8 .50 user/month\" als 8,00 door hetzelfde split-decimaal-defect. LastPass ging wel omhoog (8,50 -> 10,00 = +17,6%), maar het gepubliceerde +25% klopt niet en de basis is niet betrouwbaar gemeten.",
+      "gecorrigeerd_op": "2026-11-18"
     }
   ]
 }

@@ -2,12 +2,16 @@
   "niche": "website-builders",
   "maand": "2026-08",
   "n_total": 18,
-  "n_observed_new": 13,
+  "n_observed_new": 12,
   "n_observed_changed": 0,
   "n_observed_unchanged": 0,
-  "n_under_review": 3,
+  "n_under_review": 4,
   "n_missing": 2,
   "canary_ok": true,
   "alarms": [],
-  "publishable": true
+  "publishable": true,
+  "handmatig_bijgewerkt": {
+    "op": "2026-11-18",
+    "reden": "Met de hand bijgewerkt na het intrekken van waarnemingen met een bekende leesfout (status under_review, vlag ingetrokken_meetfout). Tellingen en alarmen zijn opnieuw bepaald met de regels van validate.mjs, zonder validate opnieuw te draaien. Zie CHANGELOG 2026-11-18."
+  }
 }

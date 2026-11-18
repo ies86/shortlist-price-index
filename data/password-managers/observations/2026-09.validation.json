@@ -3,11 +3,15 @@
   "maand": "2026-09",
   "n_total": 9,
   "n_observed_new": 2,
-  "n_observed_changed": 2,
+  "n_observed_changed": 1,
   "n_observed_unchanged": 4,
-  "n_under_review": 0,
+  "n_under_review": 1,
   "n_missing": 1,
   "canary_ok": true,
   "alarms": [],
-  "publishable": true
+  "publishable": true,
+  "handmatig_bijgewerkt": {
+    "op": "2026-11-18",
+    "reden": "Met de hand bijgewerkt na het intrekken van waarnemingen met een bekende leesfout (status under_review, vlag ingetrokken_meetfout). Tellingen en alarmen zijn opnieuw bepaald met de regels van validate.mjs, zonder validate opnieuw te draaien. Zie CHANGELOG 2026-11-18."
+  }
 }

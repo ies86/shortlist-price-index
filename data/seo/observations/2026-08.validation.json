@@ -4,8 +4,8 @@
   "n_total": 15,
   "n_observed_new": 0,
   "n_observed_changed": 1,
-  "n_observed_unchanged": 12,
-  "n_under_review": 2,
+  "n_observed_unchanged": 11,
+  "n_under_review": 3,
   "n_missing": 0,
   "canary_ok": true,
   "alarms": [
@@ -13,10 +13,14 @@
       "type": "vlakke_lijn",
       "ernst": "onderzoek",
       "detail": {
-        "onveranderd": 12,
-        "veranderbaar": 13
+        "onveranderd": 11,
+        "veranderbaar": 12
       }
     }
   ],
-  "publishable": true
+  "publishable": true,
+  "handmatig_bijgewerkt": {
+    "op": "2026-11-18",
+    "reden": "Met de hand bijgewerkt na het intrekken van waarnemingen met een bekende leesfout (status under_review, vlag ingetrokken_meetfout). Tellingen en alarmen zijn opnieuw bepaald met de regels van validate.mjs, zonder validate opnieuw te draaien. Zie CHANGELOG 2026-11-18."
+  }
 }

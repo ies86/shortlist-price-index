@@ -2,12 +2,26 @@
   "niche": "password-managers",
   "maand": "2026-08",
   "n_total": 9,
-  "n_observed_new": 6,
+  "n_observed_new": 4,
   "n_observed_changed": 0,
   "n_observed_unchanged": 0,
-  "n_under_review": 2,
+  "n_under_review": 4,
   "n_missing": 1,
   "canary_ok": true,
-  "alarms": [],
-  "publishable": true
+  "alarms": [
+    {
+      "type": "onvoldoende_dekking",
+      "ernst": "verwerp_aggregaat",
+      "detail": {
+        "verified": 4,
+        "tracked": 9,
+        "note": "te weinig geverifieerde aanbieders om een citeerbare index te publiceren"
+      }
+    }
+  ],
+  "publishable": false,
+  "handmatig_bijgewerkt": {
+    "op": "2026-11-18",
+    "reden": "Met de hand bijgewerkt na het intrekken van waarnemingen met een bekende leesfout (status under_review, vlag ingetrokken_meetfout). Tellingen en alarmen zijn opnieuw bepaald met de regels van validate.mjs, zonder validate opnieuw te draaien. Zie CHANGELOG 2026-11-18."
+  }
 }
