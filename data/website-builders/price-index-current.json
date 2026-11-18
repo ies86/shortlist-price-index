@@ -6,7 +6,7 @@
   "methodology": "Lowest paid monthly price per provider. Free tiers excluded. Hand-curated guide prices; automated monthly measurement in rollout.",
   "unit": "/mo",
   "updated": "2026-11-02",
-  "generated": "2026-11-13",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -210,12 +210,12 @@
       "month": "2026-08",
       "measured": true,
       "run_id": "2026-08_r1",
-      "avg": 14.51,
-      "median": 13.78,
+      "avg": 15.61,
+      "median": 14.39,
       "cheapest": 1.15,
-      "count": 13,
+      "count": 12,
       "n_missing": 2,
-      "n_under_review": 3,
+      "n_under_review": 4,
       "currency": "USD"
     },
     {

@@ -7,7 +7,7 @@
   "currency": "EUR",
   "unit": "/mnd",
   "updated": "2026-11-02",
-  "generated": "2026-11-12",
+  "generated": "2026-11-18",
   "figuresFrom": "editorial catalogue",
   "verifiedMeasurement": {
     "date": "2026-11-02",
@@ -41,17 +41,20 @@
   "medianPrice": 2.74,
   "cheapest": {
     "provider": "Bitwarden",
-    "price": 1.65
+    "price": 1.65,
+    "currency": "USD"
   },
   "mostExpensive": {
     "provider": "Keeper",
-    "price": 4.34
+    "price": 4.34,
+    "currency": "EUR"
   },
   "providers": [
     {
       "provider": "Bitwarden",
       "slug": "bitwarden",
       "price": 1.65,
+      "currency": "USD",
       "rating": 4.7,
       "bestFor": "Vrijwel iedereen",
       "url": "https://wachtwoordkiezer.nl/tools/bitwarden"
@@ -60,6 +63,7 @@
       "provider": "Enpass",
       "slug": "enpass",
       "price": 1.79,
+      "currency": "EUR",
       "rating": 4.1,
       "bestFor": "Eigen opslag voorop",
       "url": "https://wachtwoordkiezer.nl/tools/enpass"
@@ -68,6 +72,7 @@
       "provider": "NordPass",
       "slug": "nordpass",
       "price": 1.99,
+      "currency": "EUR",
       "rating": 4.4,
       "bestFor": "Prijsbewuste gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/nordpass"
@@ -76,6 +81,7 @@
       "provider": "RoboForm",
       "slug": "roboform",
       "price": 2.49,
+      "currency": "EUR",
       "rating": 4,
       "bestFor": "Wie veel formulieren invult",
       "url": "https://wachtwoordkiezer.nl/tools/roboform"
@@ -84,6 +90,7 @@
       "provider": "1Password",
       "slug": "1password",
       "price": 2.74,
+      "currency": "EUR",
       "rating": 4.7,
       "bestFor": "Gezinnen en veeleisende gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/1password"
@@ -92,6 +99,7 @@
       "provider": "LastPass",
       "slug": "lastpass",
       "price": 2.9,
+      "currency": "EUR",
       "rating": 3.6,
       "bestFor": "Bestaande LastPass-gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/lastpass"
@@ -100,6 +108,7 @@
       "provider": "Proton Pass",
       "slug": "proton-pass",
       "price": 2.99,
+      "currency": "EUR",
       "rating": 4.4,
       "bestFor": "Privacybewuste gebruikers",
       "url": "https://wachtwoordkiezer.nl/tools/proton-pass"
@@ -108,6 +117,7 @@
       "provider": "Dashlane",
       "slug": "dashlane",
       "price": 3.96,
+      "currency": "EUR",
       "rating": 4.3,
       "bestFor": "Wie alles in één pakket wil",
       "url": "https://wachtwoordkiezer.nl/tools/dashlane"
@@ -116,6 +126,7 @@
       "provider": "Keeper",
       "slug": "keeper",
       "price": 4.34,
+      "currency": "EUR",
       "rating": 4.3,
       "bestFor": "Beveiliging voorop",
       "url": "https://wachtwoordkiezer.nl/tools/keeper"
@@ -139,35 +150,15 @@
       }
     },
     {
-      "date": "2026-08-01",
-      "month": "2026-08",
-      "measured": true,
-      "run_id": "2026-08_r1",
-      "avg": 7.08,
-      "median": 3.99,
-      "cheapest": 2.49,
-      "count": 6,
-      "n_missing": 1,
-      "n_under_review": 2,
-      "currency": "USD",
-      "fx": {
-        "basis": "EUR",
-        "usd_per_eur": 1.1485,
-        "koersdatum": "2026-07-31",
-        "exact": false,
-        "bron": "European Central Bank via frankfurter.app"
-      }
-    },
-    {
       "date": "2026-09-07",
       "month": "2026-09",
       "measured": true,
-      "avg": 4.18,
-      "median": 3.23,
+      "avg": 3.12,
+      "median": 2.99,
       "cheapest": 1.65,
-      "count": 8,
+      "count": 7,
       "n_missing": 1,
-      "n_under_review": 0,
+      "n_under_review": 1,
       "currency": "USD",
       "fx": {
         "basis": "EUR",
@@ -181,12 +172,12 @@
       "date": "2026-10-05",
       "month": "2026-10",
       "measured": true,
-      "avg": 4.06,
-      "median": 2.99,
+      "avg": 2.86,
+      "median": 2.74,
       "cheapest": 1.65,
-      "count": 7,
+      "count": 6,
       "n_missing": 1,
-      "n_under_review": 1,
+      "n_under_review": 2,
       "currency": "USD",
       "fx": {
         "basis": "EUR",

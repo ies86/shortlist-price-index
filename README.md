@@ -24,7 +24,7 @@ Most recent measured month in this repository: **2026-11**.
 | Website builders | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
 | Antivirus software | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-07** (too few providers verified) |
 | Newsletter tools | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
-| Password managers | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
+| Password managers | 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-08** (too few providers verified) |
 | VPN services | 2026-07, 2026-08, 2026-09, 2026-10, 2026-11 | measured |
 | Learning platforms | 2026-08, 2026-09, 2026-10, 2026-11 | measured |
 | Travel eSIMs | 2026-08, 2026-09, 2026-10, 2026-11 | measured; **aggregate withheld for 2026-09, 2026-10** (coverage dropped sharply against the running median; too few providers verified) |
